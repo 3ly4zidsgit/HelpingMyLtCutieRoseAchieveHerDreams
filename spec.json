@@ -1,0 +1,75 @@
+{
+  "specialty": "Génie Industriel / Lean Six Sigma / Amélioration Continue / Excellence Opérationnelle",
+  "outdir": "C:/Users/pc/Desktop/Emploi",
+  "excel_path": "C:/Users/pc/Desktop/Emploi/Offres_Emploi_Genie_Industriel_Lean_2026.xlsx",
+
+  "queries_fr": [
+    "lean", "amelioration continue", "six sigma", "genie industriel", "kaizen",
+    "excellence operationnelle", "ingenieur methodes", "industrialisation",
+    "supply chain", "ingenieur qualite", "ingenieur process", "ingenieur production",
+    "kanban", "black belt", "performance industrielle", "ingenieur industriel",
+    "lean manufacturing", "ordonnancement", "planification industrielle", "qhse",
+    "productivite", "ishikawa", "5S", "SMED", "TPM", "VSM", "optimisation des process"
+  ],
+  "queries_en": [
+    "continuous improvement", "operational excellence", "operations excellence",
+    "industrial engineer", "manufacturing engineer", "process engineer",
+    "methods engineer", "production engineer", "quality engineer",
+    "process improvement", "business process improvement", "process excellence",
+    "manufacturing excellence", "lean management", "lean transformation",
+    "lean consultant", "kaizen consultant", "value stream", "plant manager",
+    "supply chain", "productivity", "green belt"
+  ],
+
+  "strong": [
+    "\\blean\\b", "\\bsix ?sigma\\b", "\\bkaizen\\b", "\\bkanban\\b", "\\bishikawa\\b",
+    "\\bamelioration continue\\b", "\\bcontinuous improvement\\b",
+    "\\bexcellence operationnelle\\b", "\\boperational excellence\\b",
+    "\\bgenie industriel\\b", "\\bindustrial engineer", "\\bingenieur industriel\\b",
+    "\\bblack belt\\b", "\\bgreen belt\\b", "\\byellow belt\\b",
+    "\\bdmaic\\b", "\\bsmed\\b", "\\bvsm\\b", "\\bvalue stream\\b", "\\btpm\\b",
+    "\\b5s\\b", "\\bmuda\\b", "\\bpoka.?yoke\\b", "\\bgemba\\b", "\\bheijunka\\b",
+    "\\bprocess improvement\\b", "\\bamelioration des process",
+    "\\bperformance industrielle\\b", "\\bexcellence industrielle\\b",
+    "\\bproductivite industrielle\\b", "\\bwcm\\b", "\\bworld class manufacturing\\b",
+    "\\bopex\\b", "\\bops excellence\\b", "\\bmanufacturing excellence\\b",
+    "\\bbusiness process improvement\\b"
+  ],
+  "medium": [
+    "\\bingenieur methodes?\\b", "\\bmethods engineer\\b", "\\bresponsable methodes?\\b",
+    "\\bindustrialisation\\b", "\\bindustrialization\\b", "\\bprocess engineer\\b",
+    "\\bingenieur process\\b", "\\bmanufacturing engineer\\b", "\\bproduction engineer\\b",
+    "\\bingenieur production\\b", "\\bingenieur qualite\\b", "\\bquality engineer\\b",
+    "\\bsupply chain\\b", "\\bingenieur logistique\\b", "\\bplanification industrielle\\b",
+    "\\bordonnancement\\b", "\\bqhse\\b", "\\bqse\\b", "\\bingenieur maintenance\\b",
+    "\\bresponsable production\\b", "\\bproduction manager\\b",
+    "\\bresponsable qualite\\b", "\\bquality manager\\b", "\\bplant manager\\b",
+    "\\bconsultant en organisation\\b", "\\bproject engineer\\b"
+  ],
+  "context": [
+    "\\blean\\b", "\\bsigma\\b", "\\bkaizen\\b", "\\bkanban\\b", "\\bamelioration\\b",
+    "\\bimprovement\\b", "\\bexcellence\\b", "\\bproductivit", "\\bperformance\\b",
+    "\\bindustri", "\\bmanufactur", "\\busine\\b", "\\bplant\\b", "\\bproduction\\b",
+    "\\bqualite\\b", "\\bquality\\b", "\\bprocess", "\\bautomobile\\b",
+    "\\baeronautique\\b", "\\bsupply chain\\b", "\\blogistique\\b", "\\boperations\\b",
+    "\\bmethodes\\b", "\\batelier\\b", "\\bagroaliment", "\\btextile\\b", "\\bcablage\\b"
+  ],
+  "offdomain": [
+    "\\bd[ée]veloppeur\\b", "\\bdeveloper\\b", "\\bfull ?stack\\b", "\\bback ?end\\b",
+    "\\bfront ?end\\b", "\\bnode\\.?js\\b", "\\breact\\b", "\\bangular\\b", "\\bjava\\b",
+    "\\bpython\\b", "\\b\\.net\\b", "\\bphp\\b", "\\bdevops\\b", "\\bdata scientist\\b",
+    "\\bdata engineer\\b", "\\bcybers[ée]curit", "\\badministrateur (r[ée]seau|syst[eè]me)",
+    "\\bui/?ux\\b", "\\bwebmaster\\b", "\\bcomptab", "\\bcontr[oô]leur de gestion\\b",
+    "\\btr[ée]sorerie\\b", "\\bfiscal", "\\bjuridique\\b", "\\bavocat\\b", "\\bjuriste\\b",
+    "\\bcommercial\\b", "\\bvendeur\\b", "\\bvente\\b", "\\bsales\\b", "\\bmarketing\\b",
+    "\\bcommunity manager\\b", "\\bgraphiste\\b", "\\bdesigner\\b", "\\bcommunication\\b",
+    "\\bressources humaines\\b", "\\brecruteur\\b", "\\bpaie\\b", "\\bt[ée]l[ée]conseil",
+    "\\bcall ?cent", "\\bcentre d.?appel", "\\bbanque\\b", "\\bassurance\\b",
+    "\\bimmobilier\\b", "\\bh[oô]tell", "\\bcuisin", "\\brestaura", "\\bm[ée]decin\\b",
+    "\\binfirmi", "\\bpharmaci", "\\bprofesseur\\b", "\\benseignant\\b",
+    "\\bchauffeur\\b", "\\blivreur\\b", "\\bagent de s[ée]curit", "\\bm[ée]nage\\b",
+    "\\bsecr[ée]taire\\b", "\\bassistant[e]? de direction\\b", "\\bcaissier\\b",
+    "\\bscrum master\\b", "\\bproduct owner\\b"
+  ],
+  "exclude_titles": ["\\btechnicien\\b", "\\btechnician\\b"]
+}

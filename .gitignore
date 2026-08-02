@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+~$*.xlsx
+*.tmp
+chromedriver*
+uc_driver*
+downloaded_files/
+latest_logs/
+assets/
