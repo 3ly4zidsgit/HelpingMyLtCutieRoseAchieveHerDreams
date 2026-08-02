@@ -12,7 +12,7 @@ import sys, io, os, json, traceback
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from core import Run
+from core import Run, jid
 import scrape
 import build as B
 
@@ -61,12 +61,37 @@ def all_rows(run):
     return rows
 
 
+def curated(run):
+    """The row set `build` will actually ship: automated filters, then the
+    model's own relevance ruling if it has already been made."""
+    rows = [r for r in B.finalize(all_rows(run)) if run.strict_keep(r)]
+    cp = os.path.join(run.datadir, "curation_verdicts.json")
+    if os.path.exists(cp):
+        with open(cp, encoding="utf-8") as f:
+            keep = _by_key(json.load(f), rows)
+        rows = [r for i, r in enumerate(rows)
+                if keep.get(jid(r["url"]), keep.get(i, {})).get("keep", True)]
+    return rows
+
+
+def _by_key(verdicts, rows):
+    """Verdict files are keyed by url hash; fall back to positional ids for
+    files written before the key existed."""
+    out = {}
+    for v in verdicts:
+        if v.get("key"):
+            out[v["key"]] = v
+        elif "id" in v:
+            out[v["id"]] = v
+    return out
+
+
 def do_stage(run):
     """Everything outside Morocco needs a human/LLM ruling on 'really remote,
     really no visa'. Emit exactly what is needed to decide."""
-    rows = B.finalize(all_rows(run))
-    cand = [r for r in rows if r["country"] != "Maroc"]
-    out = [{"id": i, "job_title": r["job_title"], "company": r["company"],
+    cand = [r for r in curated(run) if r["country"] != "Maroc"]
+    out = [{"id": i, "key": jid(r["url"]),
+            "job_title": r["job_title"], "company": r["company"],
             "location": r["location_city"], "country": r["country"],
             "url": r["url"], "evidence": r["description_snippet"][:800]}
            for i, r in enumerate(cand)]
@@ -82,7 +107,8 @@ def do_curate(run):
     """Regexes get you a shortlist, not a match. Emit every surviving offer so
     the model can read it and drop the ones that are not really this job."""
     rows = [r for r in B.finalize(all_rows(run)) if run.strict_keep(r)]
-    out = [{"id": i, "job_title": r["job_title"], "company": r["company"],
+    out = [{"id": i, "key": jid(r["url"]),
+            "job_title": r["job_title"], "company": r["company"],
             "sector": r.get("sector", ""), "function": r.get("function", ""),
             "country": r["country"], "url": r["url"],
             "description": r["description_snippet"][:700]}
@@ -97,17 +123,10 @@ def do_curate(run):
 
 
 def do_build(run):
-    rows = B.finalize(all_rows(run))
-    rows = [r for r in rows if run.strict_keep(r)]
-
-    # final relevance ruling by the model, if it has been produced
+    before = len([r for r in B.finalize(all_rows(run)) if run.strict_keep(r)])
+    rows = curated(run)
     cp = os.path.join(run.datadir, "curation_verdicts.json")
     if os.path.exists(cp):
-        with open(cp, encoding="utf-8") as f:
-            keep = {v["id"]: v for v in json.load(f)}
-        before = len(rows)
-        rows = [r for i, r in enumerate(rows)
-                if keep.get(i, {}).get("keep", True)]
         print(f"relevance curation: {before} -> {len(rows)} "
               f"({before - len(rows)} judged off-topic)")
     else:
@@ -118,16 +137,35 @@ def do_build(run):
     vp = os.path.join(run.datadir, "remote_verdicts.json")
     if os.path.exists(vp):
         with open(vp, encoding="utf-8") as f:
-            verdicts = {v["id"]: v for v in json.load(f)}
+            verdicts = _by_key(json.load(f), rows)
     intl = [r for r in rows if r["country"] != "Maroc"]
     for i, r in enumerate(intl):
-        v = verdicts.get(i)
+        v = verdicts.get(jid(r["url"]), verdicts.get(i))
         if v:
             r["remote_verdict"] = "OK" if v["verdict"].upper().startswith("OK") else "REJET"
             r["remote_reason"] = v.get("reason", "")
     kept = sum(1 for r in intl if r.get("remote_verdict") == "OK")
     print(f"international: {len(intl)} reviewed -> {kept} confirmed fully remote / visa-free")
-    B.build(rows, run.spec["excel_path"], previous=B.read_existing(run.spec["excel_path"]))
+
+    # Rows already in the workbook were written before these gates existed, and
+    # read_existing re-approves every remote one on sight. Hold them to the same
+    # ruling, or a row the model has judged off-topic survives forever.
+    previous = B.read_existing(run.spec["excel_path"])
+    rejected = set()
+    if os.path.exists(cp):
+        with open(cp, encoding="utf-8") as f:
+            rejected |= {v["key"] for v in json.load(f)
+                         if v.get("key") and not v.get("keep", True)}
+    if os.path.exists(vp):
+        with open(vp, encoding="utf-8") as f:
+            rejected |= {v["key"] for v in json.load(f)
+                         if v.get("key") and not v["verdict"].upper().startswith("OK")}
+    if rejected:
+        n = len(previous)
+        previous = [r for r in previous if jid(r.get("url", "")) not in rejected]
+        print(f"existing rows re-checked against both gates: {n} -> {len(previous)} "
+              f"({n - len(previous)} dropped)")
+    B.build(rows, run.spec["excel_path"], previous=previous)
 
 
 if __name__ == "__main__":

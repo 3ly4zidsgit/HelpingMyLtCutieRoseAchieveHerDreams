@@ -10,3 +10,13 @@ uc_driver*
 downloaded_files/
 latest_logs/
 assets/
+
+# LaTeX build artefacts (the .tex and the .pdf are tracked, the rest is noise)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+page-*.png

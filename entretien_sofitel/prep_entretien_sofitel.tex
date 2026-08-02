@@ -1,0 +1,319 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[margin=1.6cm,top=1.6cm,bottom=1.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{amsmath,amssymb}
+\usepackage[most]{tcolorbox}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[colorlinks=true,linkcolor=bleusof,urlcolor=bleusof]{hyperref}
+
+\definecolor{bleusof}{HTML}{1F3864}
+\definecolor{orsof}{HTML}{B08D57}
+\definecolor{grisdoux}{HTML}{EEF3FA}
+\definecolor{grisfonce}{HTML}{4A4A4A}
+
+\setlist[itemize]{nosep, leftmargin=*, topsep=2pt, partopsep=0pt}
+\setlist[enumerate]{nosep, leftmargin=*, topsep=2pt, partopsep=0pt}
+\widowpenalty=10000
+\clubpenalty=10000
+
+\titleformat{\section}{\color{bleusof}\bfseries\large}{\thesection.}{0.6em}{}
+\titlespacing*{\section}{0pt}{0.7em}{0.3em}
+\titleformat{\subsection}{\color{grisfonce}\bfseries\normalsize}{\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{0.5em}{0.2em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\footnotesize\color{bleusof}Business Analyst --- Revenue Management \textbullet{} Sofitel Marrakech}
+\fancyfoot[C]{\footnotesize\color{grisfonce}\thepage}
+
+\newcommand{\terme}[1]{\textcolor{bleusof}{\textbf{#1}}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\color{bleusof} A little help to my cutie little rose\\[2pt] to achieve her dreams}\\[10pt]
+{\color{orsof}\rule{0.55\textwidth}{1.2pt}}\\[5pt]
+{\large\bfseries Préparation à l'entretien --- Business Analyst}\\[3pt]
+{\normalsize Sofitel Marrakech Palais Impérial \& Spa \textbullet{} groupe Accor \textbullet{} Marrakech}\\[2pt]
+{\footnotesize\color{grisfonce} Décodage du métier, des termes techniques et des abréviations de l'annonce}
+\end{center}
+
+\vspace{-0.3em}
+
+\section{Ce que le poste est réellement}
+
+L'intitulé annoncé est \terme{Business Analyst}, mais la lecture des missions ne laisse aucun doute : il s'agit d'un poste d'\terme{analyste Revenue Management}, rattaché directement à la Directrice RM, avec la charge d'assurer son intérim en son absence. Le mot «~analyste~» ne renvoie donc pas ici à l'informatique décisionnelle ni au développement, mais à l'analyse de la demande, des prix et de la performance commerciale d'un hôtel cinq étoiles. C'est un métier de chiffres au service d'une décision quotidienne : \emph{à quel prix vendre quelle chambre, à qui, et par quel canal}.
+
+Trois blocs de responsabilité se superposent dans l'annonce, et il est utile de les distinguer clairement en entretien, parce qu'ils correspondent à trois interlocuteurs différents.
+
+\begin{tcolorbox}[colback=grisdoux,colframe=bleusof,boxrule=0.7pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt]
+\terme{1. Analyse et pilotage (le c\oe ur du poste).} Suivre l'occupation, le prix moyen et le RevPAR, produire les reportings quotidiens, hebdomadaires et mensuels, construire le budget et les prévisions, surveiller la concurrence.
+
+\terme{2. Distribution et tarification.} Élaborer la grille tarifaire et les contrats de distribution, gérer le PMS, TARS et les extranets, surveiller la visibilité des deux hôtels chez les distributeurs en ligne.
+
+\terme{3. Relation client et opérations.} Prendre des réservations, suivre les comptes stratégiques et les clients VIP, traiter les réclamations, contribuer au score de satisfaction de l'hôtel.
+\end{tcolorbox}
+
+\section{La logique du métier : pourquoi le Revenue Management existe}
+
+Un hôtel possède une capacité fixe et un produit périssable. Une chambre non vendue ce soir n'est pas stockable : sa valeur tombe définitivement à zéro à minuit. Face à cela, la demande est variable, incertaine et segmentée --- un touriste de loisir, un client d'affaires et un groupe MICE n'ont ni la même sensibilité au prix, ni le même délai de réservation, ni la même valeur totale pour l'hôtel.
+
+Le \terme{Revenue Management} (RM), aussi appelé \terme{yield management}, est la discipline qui répond à ce problème : vendre la bonne chambre, au bon client, au bon moment, au bon prix et par le bon canal. C'est, formellement, un problème d'optimisation sous contrainte de capacité --- exactement la famille de problèmes que le génie industriel traite en gestion de production. La différence est que le stock est du temps, non de la matière.
+
+\section{Les trois indicateurs qui gouvernent tout}
+
+Ces trois chiffres reviendront dans l'entretien. Il faut pouvoir les définir, les calculer et surtout expliquer leur arbitrage.
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}L{2.1cm} L{4.3cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Sigle} & \textbf{Nom complet} & \textbf{Définition et calcul} \\
+\midrule
+\terme{TO} \newline (ou OCC) & Taux d'occupation \newline \emph{Occupancy} & Chambres vendues / chambres disponibles. Mesure le remplissage. \\
+\terme{PM} \newline (ou ADR) & Prix moyen \newline \emph{Average Daily Rate} & Chiffre d'affaires hébergement / chambres \textbf{vendues}. Mesure le prix obtenu. \\
+\terme{RevPAR} & \emph{Revenue Per Available Room} & CA hébergement / chambres \textbf{disponibles}, soit $\mathrm{TO} \times \mathrm{PM}$. L'indicateur roi : il réconcilie remplissage et prix. \\
+\terme{TRevPAR} & \emph{Total Revenue Per Available Room} & Comme le RevPAR mais avec tous les revenus (hébergement, F\&B, spa). \\
+\terme{GOPPAR} & \emph{Gross Operating Profit Per Available Room} & Résultat brut d'exploitation par chambre disponible : le RevPAR après les coûts. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{L'arbitrage, expliqué par un exemple chiffré}
+
+C'est la question piège classique : \emph{«~vaut-il mieux remplir ou vendre cher~?~»}. La réponse est : ni l'un ni l'autre, il faut maximiser le RevPAR. Sur un hôtel de 100 chambres :
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{@{}lcccl@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Scénario} & \textbf{TO} & \textbf{PM} & \textbf{RevPAR} & \textbf{Lecture} \\
+\midrule
+A --- remplir à tout prix & 95\,\% & 1\,200 MAD & \textbf{1\,140 MAD} & Hôtel plein, mais prix bradé \\
+B --- tenir le prix & 65\,\% & 1\,900 MAD & \textbf{1\,235 MAD} & Moins de monde, plus de revenu \\
+C --- équilibre & 80\,\% & 1\,600 MAD & \textbf{1\,280 MAD} & \textcolor{bleusof}{\textbf{Optimum}} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent Le scénario B bat le scénario A malgré 30 points d'occupation en moins. Et le scénario C bat les deux. À citer en entretien : remplir coûte aussi de l'argent (ménage, petit-déjeuner, usure), donc le TO n'est jamais un objectif en soi. C'est d'ailleurs pourquoi le \terme{GOPPAR} complète le RevPAR.
+
+\section{La chaîne de distribution : où va une réservation}
+
+L'annonce cite le \terme{PMS}, \terme{TARS} et les \terme{extranets}. Ce sont trois maillons d'une même chaîne, et confondre les trois est l'erreur la plus fréquente.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+  node distance=6mm,
+  every node/.style={font=\footnotesize},
+  bloc/.style={draw=bleusof,fill=grisdoux,rounded corners=2pt,minimum height=9mm,text width=2.45cm,align=center,inner sep=3pt},
+  fl/.style={-{Stealth[length=2mm]},draw=orsof,thick}
+]
+\node[bloc] (ota) {\textbf{OTA} \\ Booking, Expedia};
+\node[bloc,below=of ota] (gds) {\textbf{GDS} \\ Amadeus, Sabre};
+\node[bloc,above=of ota] (site) {\textbf{Site direct} \\ all.accor.com};
+\node[bloc,right=16mm of ota,fill=orsof!18,draw=orsof] (crs) {\textbf{TARS} \\ CRS du groupe Accor};
+\node[bloc,right=16mm of crs,fill=bleusof!14] (pms) {\textbf{PMS} \\ Opera --- l'hôtel};
+\draw[fl] (site) -- (crs); \draw[fl] (ota) -- (crs); \draw[fl] (gds) -- (crs);
+\draw[fl] (crs) -- (pms);
+\end{tikzpicture}
+\caption{\footnotesize Les canaux alimentent le système central de réservation, qui alimente l'hôtel.}
+\end{figure}
+
+\noindent\terme{PMS} (\emph{Property Management System}) : le logiciel de l'hôtel lui-même --- planning des chambres, arrivées, départs, facturation. Chez Accor, c'est Opera. \terme{CRS} (\emph{Central Reservation System}) : le système central du groupe, qui centralise disponibilités et tarifs et les diffuse ; chez Accor il s'appelle \terme{TARS}. \terme{Extranet} : l'interface d'administration que chaque distributeur met à disposition de l'hôtel (l'extranet Booking.com, par exemple) pour y gérer tarifs, stocks, photos et contenus.
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}L{3.5cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Terme de l'annonce} & \textbf{Ce que cela désigne} \\
+\midrule
+\terme{Distributeurs virtuels} & Les \terme{OTA} (\emph{Online Travel Agencies}) : Booking.com, Expedia, Agoda. Ils vendent la chambre contre une commission de 15 à 25\,\%. «~Prospecter les sites distributeurs~» = ouvrir de nouveaux canaux de vente en ligne. \\
+\terme{Double exposition} & Apparaître deux fois dans une même page de résultats d'un distributeur (les deux hôtels du complexe, ou deux offres tarifaires distinctes). On double la surface d'affichage, donc la probabilité de clic. \\
+\terme{Nouvelle exposition} & Gagner une visibilité sur un marché ou un distributeur où l'hôtel n'était pas présent. \\
+\terme{Mise en avant} & Les emplacements sponsorisés et programmes de visibilité des distributeurs (\emph{Preferred Partner}, \emph{Genius}). \\
+\terme{Parité tarifaire} & L'engagement d'afficher le même prix sur tous les canaux. Une rupture de parité déclasse l'hôtel dans les moteurs de recherche des OTA. \\
+\terme{Contrat de distribution} & L'accord commercial signé avec un distributeur ou une agence : commission, conditions, allotement. \\
+\terme{Ventes directes} & Les réservations captées sans intermédiaire (site de la marque, téléphone, e-mail). Les plus rentables : pas de commission. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Le vocabulaire des réservations et de la tarification}
+
+\begin{center}
+\footnotesize\renewcommand{\arraystretch}{1.06}
+\begin{tabularx}{\textwidth}{@{}L{3.5cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Terme} & \textbf{Signification} \\
+\midrule
+\terme{Rate check} & Contrôle systématique que le tarif appliqué à une réservation est bien le bon : bon segment, bonnes conditions, bonne parité entre canaux. Cité explicitement dans l'annonce. \\
+\terme{Surclassement} & \emph{Upgrade} : attribuer une catégorie supérieure sans surcoût. Outil de fidélisation, mais coût d'opportunité s'il est mal maîtrisé. \\
+\terme{No-show} & Client qui ne se présente pas sans avoir annulé. Génère une chambre vide payée ou non selon les conditions. \\
+\terme{Overbooking} & Vendre volontairement plus de chambres que la capacité, pour compenser statistiquement annulations et no-shows. Décision de RM, calibrée sur l'historique. \\
+\terme{Pick-up} & Le rythme de prise de réservations entre deux dates. On l'analyse pour savoir si l'on est en avance ou en retard par rapport à l'an dernier. \\
+\terme{BAR} & \emph{Best Available Rate} : le meilleur tarif public disponible, socle de la grille tarifaire. \\
+\terme{LOS} & \emph{Length of Stay} : durée de séjour. Un \emph{MinLOS} impose un séjour minimum sur les dates de forte demande. \\
+\terme{Stop-sell / CTA} & Fermeture des ventes ; \emph{Closed To Arrival} interdit les arrivées un jour donné sans bloquer les séjours en cours. \\
+\terme{Allotement} & Un stock de chambres réservé contractuellement à un partenaire, avec une date limite de rétrocession. \\
+\terme{Segmentation} & La ventilation de la clientèle : loisir, corporate, groupes, MICE, équipages. Chaque segment a son prix et son délai de réservation. \\
+\terme{Comptes stratégiques} & \emph{Key accounts} : les entreprises et agences qui pèsent le plus dans le chiffre d'affaires, suivies individuellement. \\
+\terme{Forecast} & La prévision d'activité glissante, réactualisée en continu --- à distinguer du \terme{budget}, fixé une fois par an et qui sert de référence. \\
+\terme{Comp set} & \emph{Competitive set} : l'échantillon d'hôtels concurrents auquel on se compare. Le \terme{RGI} (\emph{Revenue Generation Index}) mesure le RevPAR de l'hôtel rapporté à celui du comp set : au-dessus de 100, l'hôtel surperforme son marché. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{L'univers Accor : les sigles maison}
+
+\begin{center}
+\footnotesize\renewcommand{\arraystretch}{1.06}
+\begin{tabularx}{\textwidth}{@{}L{2.6cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Sigle} & \textbf{Signification} \\
+\midrule
+\terme{ALL} & \emph{Accor Live Limitless}, le programme de fidélité du groupe. «~Participer au recrutement des clients ALL~» signifie faire adhérer les clients au programme --- un objectif chiffré et suivi. \\
+\terme{RPS} & \emph{Reputation Performance Score}, l'indice Accor de satisfaction et de e-réputation, agrégeant les avis en ligne et les enquêtes post-séjour. «~Contribuer à l'amélioration du score RPS~» est une mission explicite du poste. \\
+\terme{Heartist} & La culture de service d'Accor (contraction de \emph{heart} et \emph{artist}). La «~carte Heartist~» citée dans les avantages donne des tarifs collaborateurs dans le réseau. \\
+\terme{F\&B} & \emph{Food \& Beverage} : restauration, bars, banquets. Le poste doit leur apporter un soutien stratégique et tactique. \\
+\terme{MICE} & \emph{Meetings, Incentives, Conferences, Exhibitions} : le segment séminaires et événements, rattaché au banquet. \\
+\terme{Sunshine} & Vocabulaire Accor pour les clients ayant subi un incident et que l'on reconquiert par un suivi personnalisé après réclamation. \\
+\terme{TARS} & Le système central de réservation et de distribution du groupe Accor. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Le rythme réel du poste}
+
+Un poste de RM se lit à travers ses cycles. Le savoir montre que l'on comprend le métier au-delà des mots.
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}L{2.9cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Fréquence} & \textbf{Ce qui se passe} \\
+\midrule
+\textbf{Quotidien} & Lecture du pick-up de la veille, contrôle des tarifs et de la parité, arbitrages d'ouverture et de fermeture de canaux, traitement des réservations VIP, rate check. \\
+\textbf{Hebdomadaire} & Réunion RevMax avec la direction générale et le commercial : revue des 90 prochains jours, décisions tarifaires, actions sur les segments en retard. \\
+\textbf{Mensuel} & Reporting de performance, analyse des écarts au budget, RGI face au comp set, mise à jour du forecast. \\
+\textbf{Annuel} & Construction du budget hébergement et du budget commercial et marketing, en lien avec le directeur commercial et validé par la direction générale. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Ce que le génie industriel apporte --- l'argument à faire valoir}
+
+C'est le point fort à défendre. Le Revenue Management \emph{est} du génie industriel appliqué à un stock périssable. Chaque outil de la formation a un équivalent direct dans le métier ; il suffit d'en faire la traduction à voix haute.
+
+\begin{center}
+\small\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}L{5.2cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Outil de génie industriel} & \textbf{Son équivalent en Revenue Management} \\
+\midrule
+Prévision de la demande (séries temporelles, saisonnalité) & Le \emph{forecast} d'occupation et l'analyse du pick-up \\
+Gestion de capacité et planification & L'ouverture et la fermeture des stocks par catégorie, les allotements, l'overbooking \\
+Optimisation sous contrainte & Le yield : maximiser le RevPAR sous contrainte de capacité fixe \\
+Analyse ABC / loi de Pareto & La segmentation clientèle et le suivi des comptes stratégiques \\
+Tableaux de bord et KPI & Le reporting quotidien, le RevMax, le RGI \\
+Amélioration continue, traitement des non-conformités & Le traitement des réclamations et l'amélioration du score RPS \\
+Gestion de projet & Le déploiement d'une nouvelle grille tarifaire ou l'ouverture d'un canal de distribution \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{tcolorbox}[colback=orsof!10,colframe=orsof,boxrule=0.7pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt]
+\textbf{Formulation possible en entretien :} «~Le Revenue Management traite un stock périssable et une capacité fixe. C'est le problème d'optimisation que j'ai appris à poser en génie industriel : prévoir la demande, arbitrer l'allocation d'une capacité contrainte, et piloter par indicateurs. Ce qui change, c'est que l'unité de stock est une nuitée, et qu'elle disparaît à minuit.~»
+\end{tcolorbox}
+
+\section{Questions probables et angle de réponse}
+
+\textbf{«~Que feriez-vous si l'occupation est basse à quinze jours de l'échéance~?~»} Ne pas répondre «~baisser les prix~». Il faut d'abord diagnostiquer : le retard est-il sur tous les segments ou sur un seul, le pick-up est-il en retard par rapport à l'an dernier, le marché entier est-il en baisse (auquel cas le RGI reste bon). Ensuite seulement agir, en privilégiant les leviers qui ne détruisent pas le prix moyen --- ouvrir un canal, lever un MinLOS, activer une promotion ciblée sur un segment précis.
+
+\textbf{«~Comment mesurez-vous votre performance~?~»} Par le RevPAR et, en relatif, par le RGI face au comp set, parce qu'un RevPAR en baisse dans un marché qui baisse deux fois plus reste une bonne performance.
+
+\textbf{«~Direct ou OTA~?~»} Les deux. L'OTA achète de la visibilité et capte une clientèle inaccessible autrement, mais coûte 15 à 25\,\% de commission. Le direct est plus rentable et alimente la base de préférences clients. L'équilibre se pilote, il ne se tranche pas.
+
+\section{Trois questions à poser en fin d'entretien}
+
+Poser une question précise vaut mieux qu'un long discours : cela prouve que le vocabulaire est acquis. Trois suffisent, choisies parce qu'aucune ne peut se préparer d'avance côté recruteur.
+
+\begin{tcolorbox}[colback=grisdoux,colframe=bleusof,boxrule=0.7pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt]
+\terme{Sur la performance.} «~Quel est le comp set retenu pour l'hôtel, et où se situe le RGI aujourd'hui par rapport à ce panel~?~»
+
+\terme{Sur la distribution.} «~Quelle est la répartition actuelle entre ventes directes et OTA, et existe-t-il un objectif de bascule vers le direct~?~»
+
+\terme{Sur le périmètre.} «~Le poste couvre les deux hôtels : partagent-ils une grille tarifaire commune, ou pilotez-vous deux stratégies distinctes~?~»
+\end{tcolorbox}
+
+\section{Les erreurs à éviter}
+
+\textbf{Confondre le RevPAR et le prix moyen.} Le premier se divise par les chambres \emph{disponibles}, le second par les chambres \emph{vendues}. C'est la vérification la plus rapide qu'un recruteur puisse faire.
+
+\textbf{Présenter le taux d'occupation comme un objectif.} Un hôtel plein à prix bradé détruit de la valeur. L'objectif est le RevPAR, et à terme le GOPPAR.
+
+\textbf{Dire que les OTA coûtent trop cher et qu'il faut les quitter.} Elles coûtent effectivement 15 à 25\,\% de commission, mais elles apportent une visibilité et une clientèle que le direct ne capte pas. Le sujet est un arbitrage, pas un choix binaire.
+
+\textbf{Confondre budget et forecast.} Le budget est fixé une fois par an et sert de référence ; le forecast est réactualisé en permanence.
+
+\textbf{Réciter les sigles sans les relier à une décision.} Un sigle n'a de valeur que rattaché à une action : le pick-up déclenche un arbitrage tarifaire, le RPS déclenche un plan d'action qualité.
+
+\section{Glossaire récapitulatif}
+
+\begin{center}
+\footnotesize
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{@{}L{1.9cm} L{5.4cm} X@{}}
+\toprule
+\rowcolor{grisdoux}\textbf{Sigle} & \textbf{Développé} & \textbf{En un mot} \\
+\midrule
+ADR & \emph{Average Daily Rate} & Prix moyen par chambre vendue \\
+ALL & \emph{Accor Live Limitless} & Programme de fidélité Accor \\
+BAR & \emph{Best Available Rate} & Meilleur tarif public \\
+CRS & \emph{Central Reservation System} & Système central de réservation \\
+CTA & \emph{Closed To Arrival} & Arrivées fermées ce jour \\
+F\&B & \emph{Food \& Beverage} & Restauration et bars \\
+GDS & \emph{Global Distribution System} & Réseau des agences (Amadeus, Sabre) \\
+GOPPAR & \emph{Gross Operating Profit Per Available Room} & Résultat brut par chambre disponible \\
+LOS & \emph{Length of Stay} & Durée de séjour \\
+MICE & \emph{Meetings, Incentives, Conferences, Exhibitions} & Séminaires et événements \\
+OTA & \emph{Online Travel Agency} & Distributeur en ligne \\
+PM & Prix moyen & Équivalent français de l'ADR \\
+PMS & \emph{Property Management System} & Logiciel de gestion de l'hôtel \\
+RevPAR & \emph{Revenue Per Available Room} & Revenu par chambre disponible \\
+RGI & \emph{Revenue Generation Index} & Performance face aux concurrents \\
+RM & \emph{Revenue Management} & Le métier lui-même \\
+RPS & \emph{Reputation Performance Score} & Indice de satisfaction Accor \\
+TARS & Système central de réservation Accor & Le CRS du groupe \\
+TO / OCC & Taux d'occupation & Remplissage \\
+TRevPAR & \emph{Total Revenue Per Available Room} & RevPAR tous revenus confondus \\
+VIP & \emph{Very Important Person} & Client à traitement personnalisé \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\vspace{0.6em}
+\begin{center}
+{\color{orsof}\rule{0.35\textwidth}{0.8pt}}\\[5pt]
+{\footnotesize\itshape\color{grisfonce} Bonne chance. Tu connais déjà le raisonnement --- il ne restait que le vocabulaire.}
+\end{center}
+
+\end{document}
