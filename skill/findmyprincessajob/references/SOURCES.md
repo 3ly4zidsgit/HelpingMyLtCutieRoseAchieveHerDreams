@@ -73,9 +73,10 @@ with SB(uc=True, headless=False, locale="fr", ad_block=True) as sb:
 
 `headless=False` is required — the visible window is what clears the challenge.
 
-**Setup gotcha:** SeleniumBase downloads its own chromedriver from
-`chromedriver.storage.googleapis.com`, which may time out. Selenium Manager has
-usually already cached a matching driver; copy it in:
+**Setup gotcha:** SeleniumBase fetches its own `uc_driver.exe` on first use from
+`storage.googleapis.com/chrome-for-testing-public`. That worked on 2026-08-03
+(driver 150.0.7871.124, ~15 s). It has also timed out before — if it does,
+Selenium Manager has usually already cached a matching driver; copy it in:
 
 ```powershell
 Copy-Item "$env:USERPROFILE\.cache\selenium\chromedriver\win64\<ver>\chromedriver.exe" `
@@ -88,6 +89,37 @@ Also set `page_load_strategy="eager"` on ordinary Selenium drivers: these
 ad-heavy pages never fire `load`, so the default strategy burns the whole
 timeout on every page (~10x slowdown).
 
+## Detail pages under UC mode (verified 2026-08-03)
+
+Fetching one **detail page per offer** is a different problem from scraping the
+listing. 168 offers were re-fetched this way; 151 came back with a real body:
+
+| Source | Detail pages | Result |
+|---|---|---|
+| Bayt.com | 14/14 | clean |
+| Optioncarriere.ma | 53/55 | clean — **it does not block by IP reputation**, UC clears it. The 2 misses are expired ads |
+| MarocAnnonces | 22/22 | clean, but the ad body sometimes carries a neighbouring ad's footer — do not read `Entreprise :` blindly |
+| Dreamjob.ma | 59/59 | clean |
+| Emploi.ma | 3/3 | clean |
+| **ma.jooble.org** | **0/14** | stuck on the Cloudflare interstitial ("Just a moment...") |
+| ma.indeed.com | 0/1 | same |
+
+**Why the captcha click misses on a scaled display.** `uc_gui_click_captcha()`
+computes the checkbox position from Selenium (logical pixels) and clicks it with
+PyAutoGUI (physical pixels). At 150 % Windows scaling the screen is 2560x1440
+logical / 3840x2160 physical, so every click lands at two thirds of the right
+spot. `uc_gui_handle_captcha()` uses TAB + SPACE instead and is immune to this —
+try it first. Check the machine with:
+
+```powershell
+Add-Type -AssemblyName System.Windows.Forms
+[System.Windows.Forms.Screen]::PrimaryScreen.Bounds     # logical
+python -c "import pyautogui;print(pyautogui.size())"    # physical
+```
+
+An offer whose body cannot be read keeps its link and its listing-card values.
+Leave the other columns empty — a guessed cell is worse than a blank one.
+
 ## Reachable but awkward
 
 - **ANAPEC** — serves a broken TLS chain; needs `verify=False`.
@@ -97,9 +129,12 @@ timeout on every page (~10x slowdown).
 - **Welcome to the Jungle** — `api.welcometothejungle.com/api/v1/organizations?country=MA`
   returns Moroccan companies unauthenticated, but the per-organization jobs
   endpoint 404s. Site itself is behind a cookie wall.
-- **Optioncarriere.ma** — needs a browser (`article.job`); listing pages work,
-  detail pages serve a captcha.
-- **Jooble.org** — needs a browser (`div[data-test-name='_jobCard']`).
+- **Optioncarriere.ma** — needs a browser (`article.job`). Detail pages open fine
+  under UC mode; an expired ad answers *"Cette offre d'emploi a expiré"* with the
+  site's generic "Dernières offres" list, which is easy to mistake for content —
+  check for that sentence before parsing.
+- **Jooble.org** — listing works under UC (`div[data-test-name='_jobCard']`), but
+  **detail pages sit behind a Cloudflare interstitial that UC does not clear**.
 
 ## Dead or unreachable (verified, do not retry blindly)
 

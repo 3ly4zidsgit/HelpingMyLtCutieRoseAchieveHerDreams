@@ -9,7 +9,7 @@ Takes one input — **the specialty** (e.g. "Génie Industriel / Lean Six Sigma"
 "Data Engineering", "Supply Chain") — and produces a verified, deduplicated
 Excel of currently-open offers.
 
-Three things make this more than a scraper, and you must actually do all three:
+Four things make this more than a scraper, and you must actually do all four:
 
 1. **You expand the specialty into a real keyword set** (FR + EN, job titles as
    employers actually word them), and you write the relevance regexes.
@@ -21,6 +21,11 @@ Three things make this more than a scraper, and you must actually do all three:
    read each surviving offer and drop everything that is not really this job.
    A workbook of 200 offers where 60 are off-topic is worse than 140 that all
    fit — every bad row costs a real application.
+4. **You fill the columns by reading the ad**, not by trusting the board's own
+   metadata. LinkedIn writes "Non pertinent" where the body says "Minimum 5
+   years"; Rekrute shows "Confirmé (5 à 10 ans)" on a post open to new
+   graduates; the employer column often holds the name of the job board. A
+   column filled from the listing card is wrong often enough to mislead.
 
 ## Step 1 — Build the spec
 
@@ -38,7 +43,8 @@ Ask the user for the specialty if it was not given. Then write
   "medium":  ["\\bingenieur methodes?\\b", "\\bsupply chain\\b"],
   "context": ["\\bindustri", "\\busine\\b", "\\bproduction\\b", "\\bqualite\\b"],
   "offdomain": ["\\bd[ée]veloppeur\\b", "\\bcomptab", "\\bcommercial\\b"],
-  "exclude_titles": ["\\btechnicien\\b", "\\btechnician\\b"]
+  "exclude_titles": ["\\btechniciens?\\b", "\\btechnicians?\\b", "\\bstagiaires?\\b"],
+  "publish_dir": "G:/My Drive/Emploi Rose"
 }
 ```
 
@@ -51,7 +57,14 @@ Rules that matter:
 - **`offdomain`** = other trades (IT, finance, sales, HR, health…). A body-only
   keyword hit on such a title gets dropped. Without this the list fills with
   developers whose ads happen to say "amélioration continue".
-- **`exclude_titles`** = whatever the user never wants to see.
+- **`exclude_titles`** = whatever the user never wants to see. This is a standing
+  rule, so `build` applies it to rows already in the workbook too, not only to
+  the fresh scrape. **Write the plural**: `\bstagiaire\b` leaves every
+  "Stagiaires Génie Industriel" in place.
+- **`publish_dir`** (optional) = a synced folder (Google Drive Desktop, OneDrive)
+  the workbook is copied to after every build. An emailed attachment is frozen at
+  the moment it was sent; a link into a synced folder shows the current file. Use
+  this when the user shares the workbook with someone.
 - Regexes run against accent-stripped lowercase text: write `amelioration`, not
   `amélioration`. **Always use `\b` boundaries** — without them "professional"
   matches "fes" and "sales" matches "sale".
@@ -71,7 +84,30 @@ Sources and their access route are listed in `references/SOURCES.md`. Read that
 file before adding or debugging a source — it records which sites need which
 technique and which are dead, so you do not re-derive it.
 
-## Step 3 — Rule on the remote offers (the part only you can do)
+## Step 3 — Fetch the full ad text
+
+```bash
+python run.py fulltext <outdir>/spec.json
+```
+
+The scrapers keep only what the listing card showed (~700 characters). The
+experience requirement, the contract type and often the real employer are in the
+body of the ad. Skip this and the `enrich` step has nothing to read, so those
+columns come out empty or carry a value the board invented — LinkedIn stamps
+"Non pertinent" on ads that never stated a level, Rekrute shows its own bucket
+("Confirmé 5 à 10 ans") on ads whose text asks for 1 to 3 years.
+
+Two passes, both resumable: plain HTTP for LinkedIn / Rekrute / SmartRecruiters
+and the ATS hosts, then UC mode for the walled boards. **The UC pass opens a
+visible Chrome window** — Dreamjob and Emploi.ma sit behind Cloudflare,
+Optioncarriere blocks on IP reputation, Bayt / Jooble / Indeed / MarocAnnonces
+refuse scripted clients. Headless does not clear any of them. Leave the window
+alone; it takes ~10 s per offer.
+
+Rows already in the workbook are included, not just the fresh scrape — they came
+back through `read_existing` and were never in `raw_*.json`.
+
+## Step 4 — Rule on the remote offers (the part only you can do)
 
 ```bash
 python run.py stage <outdir>/spec.json
@@ -105,7 +141,7 @@ Expect very few to pass in field-based specialties: Lean, industrial and
 manufacturing work happens on a shop floor. A single-digit result is the honest
 answer, not a failure — say so plainly rather than loosening the bar.
 
-## Step 4 — Rule on relevance (the second thing only you can do)
+## Step 5 — Rule on relevance (the second thing only you can do)
 
 ```bash
 python run.py curate <outdir>/spec.json
@@ -143,7 +179,48 @@ Ids are the positions in `curation_candidates.json`. Any id you omit defaults to
 kept, so cover them all. If `curation_verdicts.json` is missing, `build` warns
 and ships the unreviewed keyword shortlist — do not let that be the outcome.
 
-## Step 5 — Build the Excel
+## Step 6 — Fill the columns by reading (the third thing only you can do)
+
+```bash
+python run.py enrich <outdir>/spec.json
+```
+
+Writes `data/field_candidates.json`: for every shipping offer, the columns as
+they currently stand, the full ad body, and the sentences that carry an
+experience or contract statement. **Read the body and fill the columns from what
+the ad actually says**, not from what the board's own metadata claims.
+
+What only reading catches:
+
+- LinkedIn's "Niveau hiérarchique : Non pertinent" on an ad whose text says
+  *"Minimum 5 years"* — the level was never absent, only unread;
+- a Rekrute card showing *"Confirmé (5 à 10 ans)"* on an ad whose body opens the
+  post *"de la sortie d'études à 6 ans"*, i.e. accessible to a new graduate;
+- "Rekrute", "Dreamjob" or "LinkedIn" sitting in the employer column — that is
+  the board, not the company. The real name is in the body or the logo alt text;
+- an ad reproducing another group's corporate boilerplate word for word, posted
+  under a client's name;
+- *"Les candidatures ne sont plus acceptées"* — the offer is closed, mark it in
+  `deadline` instead of letting the user apply to nothing.
+
+Write `data/field_verdicts.json`, keyed by `key` (never by position):
+
+```json
+[{"key": "457cc51f74df", "company": "STMicroelectronics",
+  "experience_required": "5 ans", "seniority_bucket": "Experimente",
+  "contract_type": "CDI", "sector": "Semi-conducteurs", "city": "Casablanca",
+  "reason": "'Vous justifiez d'une expérience de 5 ans dans un poste similaire'"}]
+```
+
+A field that is **present overwrites**, even when its value is empty — that is
+how a wrong value gets cleared. A field that is **absent** leaves the column
+untouched. Leave a field empty rather than guessing: an empty cell is the correct
+answer when the ad published nothing.
+
+`build` applies these rulings to the rows recovered from the existing workbook as
+well, so a correction sticks across runs.
+
+## Step 7 — Build the Excel
 
 ```bash
 python run.py build <outdir>/spec.json
@@ -162,7 +239,7 @@ deduplicates on URL then title+company, and rewrites the four sheets:
 **The list only grows.** Back up the workbook to `<outdir>/backup/` with a
 timestamp before running build.
 
-## Step 6 — Report
+## Step 8 — Report
 
 Give numbers: rows added, new total per sheet, sources that contributed, and
 sources that failed this run. State how many offers you judged off-topic and how

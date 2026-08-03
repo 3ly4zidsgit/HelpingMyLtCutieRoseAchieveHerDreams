@@ -302,7 +302,10 @@ def publish(dest, publish_dir):
     if not publish_dir:
         return
     try:
-        os.makedirs(publish_dir, exist_ok=True)
+        # Never makedirs blindly: on Google Drive's virtual filesystem it walks up
+        # to the drive root and raises WinError 3 even though the folder is there.
+        if not os.path.isdir(publish_dir):
+            os.makedirs(publish_dir, exist_ok=True)
         target = os.path.join(publish_dir, os.path.basename(dest))
         shutil.copy2(dest, target)
         print(f"  publie -> {target}", flush=True)

@@ -278,8 +278,8 @@
  {
   "id": 46,
   "key": "251c8d88cb65",
-  "keep": true,
-  "reason": "Manager, Business Operational Excellence, AbbVie"
+  "keep": false,
+  "reason": "AbbVie 'Manager, Business Operational Excellence' - le corps situe le poste 'AbbVie Bioresearch Center Inc., Worcester, MA (5 days a week on site)'. Poste americain en presentiel: ni Maroc, ni remote sans visa. La fiche Bayt Maroc induisait en erreur"
  },
  {
   "id": 47,
@@ -566,8 +566,8 @@
  {
   "id": 94,
   "key": "412fdff73ea4",
-  "keep": true,
-  "reason": "Annonce groupee Hirschmann incluant des postes Lean Management"
+  "keep": false,
+  "reason": "Annonce groupee Hirschmann: 'Infirmier/Infirmiere (Stage)', 'Talent Acquisition & HR Development Specialist' et 'Lean Management Technician'. Le seul poste industriel est un technicien, exclu par la regle de l utilisateur; les deux autres sont hors specialite"
  },
  {
   "id": 95,
@@ -1442,8 +1442,8 @@
  {
   "id": 240,
   "key": "9de2346c71b6",
-  "keep": true,
-  "reason": "Chef d'equipe production Safran - planification des charges et standards qualite"
+  "keep": false,
+  "reason": "Safran 'Chef d equipe F/H' - l annonce se classe elle-meme 'CDI Technicien Temps complet' et le perimetre est le management d atelier d un ilot. Poste de technicien, exclu par la regle de l utilisateur"
  },
  {
   "id": 241,
@@ -1556,8 +1556,8 @@
  {
   "id": 259,
   "key": "79064f86e747",
-  "keep": true,
-  "reason": "Assistante Supply Chain, Casablanca"
+  "keep": false,
+  "reason": "'Assistante Supply Chain' Manpower/Nouaceur - l annonce se classe 'Domaine : Autre, Fonction : Assistant(e) / Secretaire de direction', Bac+2 a Bac+3, contrat d interim. Poste administratif, pas un poste de genie industriel"
  },
  {
   "id": 260,
@@ -2114,8 +2114,8 @@
  {
   "id": 352,
   "key": "2b93463edf41",
-  "keep": true,
-  "reason": "Associate Quality Engineer - fonction Controle qualite"
+  "keep": false,
+  "reason": "Capgemini 'Associate Quality Engineer' - le corps est du test logiciel, pas de la qualite industrielle: 'Bac+5 en informatique, systemes d information', 'tests fonctionnels avec une forte orientation tests API', 'tests de services REST a l aide d outils tels que Postman', 'JIRA', 'environnements Agile / Scrum'"
  },
  {
   "id": 353,
@@ -3230,8 +3230,8 @@
  {
   "id": 538,
   "key": "7360d40d393d",
-  "keep": true,
-  "reason": "Chefs d'equipes en operations logistiques, Tanger Med"
+  "keep": false,
+  "reason": "SNTL Supply Chain 'recrute des chefs d equipes sur Tanger Med' - 'Bac + 2 et plus', missions d entrepot (organiser les arrivages, gerer les emplacements de stocks, preparation des commandes). Poste de chef d equipe logistique, pas un poste d ingenieur genie industriel"
  },
  {
   "id": 539,

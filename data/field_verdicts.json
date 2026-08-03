@@ -1424,5 +1424,1227 @@
   "sector": "Courrier / Messagerie / Poste numérique",
   "function": "Exploitation industrielle / Tri automatisé",
   "reason": "L annonce dit 'Nous recrutons pour l un de nos clients, une entreprise acteur majeur operant dans les metiers : le courrier, la messagerie et la poste numerique' - Africawork est le cabinet, pas l employeur"
+ },
+ {
+  "key": "1a40914f25e9",
+  "experience_required": "",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Emballage plastique",
+  "function": "Excellence opérationnelle",
+  "reason": "'Bachelor s degree in industrial engineering or equivalent experience. Proven experience in leading and implementing continuous improvement projects' - aucune duree chiffree"
+ },
+ {
+  "key": "52bfe667e0b4",
+  "experience_required": "",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Tanger",
+  "sector": "Terminal portuaire / Logistique",
+  "function": "Lean / Excellence opérationnelle",
+  "reason": "'Head of Lean - APM Terminals Tangier TM2', rattache au Managing Director et au COO; aucune duree chiffree"
+ },
+ {
+  "key": "54d6f58353f0",
+  "experience_required": "3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "sector": "Aéronautique",
+  "function": "Amélioration continue",
+  "reason": "'Une experience De 3 ans dans un secteur industriel'; 'CDI Ingenieur & Cadre Temps complet'"
+ },
+ {
+  "key": "2f8957764150",
+  "experience_required": "5 à 6 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Tanger",
+  "sector": "Équipements électriques",
+  "function": "Production",
+  "reason": "'Experience de 5 a 6 ans minimum en management de production dans un environnement industriel structure'; site de Tanger. 'Non pertinent' efface"
+ },
+ {
+  "key": "58cd877f1b98",
+  "company": "CRIT Maroc",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Intérim",
+  "city": "Casablanca",
+  "sector": "Industrie / Ingénierie",
+  "function": "Production",
+  "reason": "'Contrat : Interim, Entreprise : CRIT MAROC'; recrute pour un client non nomme; 'de preference une experience dans un poste similaire' sans duree"
+ },
+ {
+  "key": "f9d1e381a418",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Casablanca",
+  "function": "Méthodes / Amélioration continue",
+  "reason": "Annonce sans bloc entreprise ni contrat; aucune duree citee - cellules laissees vides plutot que devinees"
+ },
+ {
+  "key": "d0820662ccce",
+  "company": "CRIT Maroc",
+  "experience_required": "Première expérience",
+  "seniority_bucket": "Junior",
+  "contract_type": "Intérim",
+  "city": "Nouaceur",
+  "sector": "Aéronautique",
+  "function": "Logistique / Kanban",
+  "reason": "'CRIT a la recherche pour l un de ses clients base a NOUACEUR dans le domaine aeronautique'; 'Premiere experience dans un poste similaire'; 'Contrat : Interim'"
+ },
+ {
+  "key": "a729fec1bfe4",
+  "city": "Nouaceur",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "7dcd1988b18c",
+  "company": "BCP Consulting (Groupe Banque Populaire)",
+  "experience_required": "Au moins 4 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Casablanca",
+  "sector": "Banque / Conseil",
+  "function": "Excellence opérationnelle",
+  "reason": "'Filiale du Groupe Banque Centrale Populaire, BCP Consulting recherche des Consultant(e)s seniors'; 'vous justifiez d une experience professionnelle d au moins 4 ans'; missions 'sur Casablanca'"
+ },
+ {
+  "key": "527b344a73f1",
+  "company": "Circor Aerospace (Circor Tanger)",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Tanger",
+  "sector": "Aéronautique",
+  "function": "Amélioration continue",
+  "reason": "'vous justifiez d une solide experience dans la mise en oeuvre des chantiers d amelioration continue, minimum 5 ans dans une entreprise industrielle'; 'Circor Tanger est une filiale marocaine de Circor Aerospace'"
+ },
+ {
+  "key": "01453e868edb",
+  "experience_required": "Première expérience",
+  "seniority_bucket": "Junior",
+  "contract_type": "Temps plein",
+  "city": "Sale",
+  "sector": "Agroalimentaire",
+  "function": "Lean / Amélioration continue",
+  "reason": "'Vous possedez une 1ere experience dans le domaine de la production industrielle'; 'Ingenieur Lean sur Sale'"
+ },
+ {
+  "key": "39d4671cd689",
+  "experience_required": "Au moins 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Casablanca",
+  "sector": "Conseil industriel / HSE",
+  "function": "Excellence opérationnelle",
+  "reason": "'Au moins 5 ans d experience averee dans le domaine de l Excellence Operationnelle'; 'recrute des Consultants Excellence Operationnelle sur Casablanca'"
+ },
+ {
+  "key": "d449f10b0c83",
+  "city": "Bouskoura",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "3370b1ffef52",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "sector": "Câblage automobile",
+  "function": "Génie industriel",
+  "reason": "'Bachelor s degree (2 or 3 years) in Mechanical Engineering or Industrialization/Methods' - c est le niveau d etudes, pas une duree d experience; l annonce n en cite aucune"
+ },
+ {
+  "key": "8901f5959ae1",
+  "experience_required": "5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Berrechid",
+  "sector": "Câblage automobile",
+  "function": "Nomenclature / Kaizen",
+  "reason": "'Vous justifiez d une experience de 5 ans dans un poste similaire'; 'Lieu de travail : Site de Berrechid'. 'Non pertinent' efface"
+ },
+ {
+  "key": "8f863ca87013",
+  "company": "CRIT Maroc",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Textile",
+  "function": "Contrôle qualité",
+  "reason": "Annonce courte, aucune duree d experience citee"
+ },
+ {
+  "key": "92671791dc83",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "city": "Tanger",
+  "sector": "Câblage automobile",
+  "function": "Génie industriel / Préparation production",
+  "reason": "'Country : Morocco (MA), City : Tangier, Worksite : Tanger Plant'; les qualifications ne citent qu un diplome, aucune duree"
+ },
+ {
+  "key": "4421091f9273",
+  "experience_required": "3 à 10 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "BTP / Chimie",
+  "function": "Méthodes / Process / Industrialisation",
+  "deadline": "10/08/2026",
+  "reason": "Fiche Rekrute 'Intermediaire (3 a 5 ans) - Confirme (5 a 10 ans)', 'CDI - Teletravail : Non', 'Postulez avant le 10/08/2026'"
+ },
+ {
+  "key": "049ea992c7fc",
+  "company": "ALTEN Maroc",
+  "experience_required": "3 à 8 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Rabat",
+  "sector": "Services d'ingénierie",
+  "function": "Méthodes / Industrialisation",
+  "reason": "'Entreprise : ALTEN MAROC'; 'Experience : 3 a 8 ans d experience reussie en Methodes, Industrialisation ou R&D'"
+ },
+ {
+  "key": "0e504b327326",
+  "experience_required": "Plus de 5 ans (dont 3 ans en Manufacturing Supply Chain)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Freelance ou CDD 6 mois renouvelable",
+  "sector": "ESN / Conseil",
+  "function": "Business Analyst Supply Chain / ERP",
+  "reason": "'Plus de 5 ans d experience professionnelle en tant que Business Analyst sur des projets d ERP. Plus de 3 ans d experience en Manufacturing Supply Chain'; 'Contrat Freelance: 2 500 Dh / jour TTC. Contrat CDD: 23-27K Dh / mois... CDD de 6 mois renouvelable'"
+ },
+ {
+  "key": "530281b14cce",
+  "company": "Motherson Aerospace (ADIMA Aerospace)",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Aéronautique",
+  "function": "Méthodes / Industrialisation",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "'Les candidatures ne sont plus acceptees'; 'Le site de ADIMA AEROSPACE, base a Casablanca'; 'Lieu de travail : Casablanca MIDPARC'; aucune duree d experience citee, 'Non pertinent' efface"
+ },
+ {
+  "key": "693d3d1a7d4a",
+  "company": "SNTL Supply Chain",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Rabat / Tanger Med",
+  "sector": "Transport et logistique",
+  "function": "QHSE",
+  "reason": "'recrute des Responsables Qualite Hygiene Securite Environnement sur Rabat et Tanger Med'; aucune duree d experience citee"
+ },
+ {
+  "key": "9de3d512919e",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "sector": "Santé / Cliniques",
+  "function": "Transformation / Excellence opérationnelle",
+  "reason": "'Experience confirmee (minimum 3 ans) en gestion de projets de transformation'; 'Contrat: CDI, Mobilite: Regionale requise' - donc pas de ville fixe"
+ },
+ {
+  "key": "f605f849f8ca",
+  "experience_required": "5 à 10 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Agadir",
+  "sector": "Agroalimentaire",
+  "function": "Production",
+  "deadline": "12/08/2026",
+  "reason": "'Une experience confirmee de 5 a 10 ans dans un poste similaire'; 'Postulez avant le 12/08/2026'"
+ },
+ {
+  "key": "1cdcff23b690",
+  "company": "Aeolon Renewable Energy Morocco",
+  "experience_required": "2 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Nador",
+  "sector": "Énergie éolienne",
+  "function": "Qualité / Lean / Production",
+  "reason": "'Aeolon Renewable Energy Morocco recrute trois profils a Nador: un Quality Engineer - Customer & Process en CDI, un Lean Engineer et un Superviseur de Production'; 'Justifier de deux a cinq annees'; 'Zone d Acceleration Industrielle de Betoya a Nador'"
+ },
+ {
+  "key": "09c4e1ef3771",
+  "company": "Alpha Excellence",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Freelance",
+  "sector": "Conseil / Automobile",
+  "function": "Qualité fournisseurs",
+  "reason": "'Minimum 5 ans d experience en qualite (client/fournisseur) dans l industrie automobile'; l entreprise est 'Alpha Excellence', 'en Freelance' etait un morceau du titre d annonce"
+ },
+ {
+  "key": "cb7045d9c928",
+  "experience_required": "5 à 7 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Casablanca",
+  "sector": "Transport et logistique",
+  "function": "QHSE",
+  "reason": "'Minimum of 5-7 years of experience in Health, Safety, Environment, and Quality (HSEQ) roles, preferably in a managerial capacity'"
+ },
+ {
+  "key": "7b5298f32b44",
+  "company": "BCP Consulting (Groupe Banque Populaire)",
+  "experience_required": "2 à 4 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Banque / Conseil",
+  "function": "Excellence opérationnelle",
+  "reason": "'BCP Consulting recrute plusieurs profils transverses en IT & Digital et Excellence Operationnelle a Casablanca, en CDI'; 'Experience de 2 a 4 ans en cabinet de conseil ou au sein d une institution bancaire'. Le nom d entreprise etait un morceau de titre"
+ },
+ {
+  "key": "aa476b7a7d3a",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "CDI",
+  "city": "Mohammedia",
+  "sector": "Matériaux de construction",
+  "function": "Maintenance",
+  "reason": "Le poste est intitule 'Responsable Maintenance - Mohammedia', la ville affichee etait Casablanca; aucune duree d experience citee"
+ },
+ {
+  "key": "d324c48a36a8",
+  "company": "Les Eaux Minérales d'Oulmès",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Bouskoura",
+  "sector": "Boissons / Eaux minérales",
+  "function": "Excellence opérationnelle / S&OP",
+  "reason": "'Nouveaux Profils Recherches a Bouskoura'; 'Experience minimale de 5 ans dans un poste similaire, de preference dans le secteur industriel'. 'Carriere chez Oulmes' etait un morceau de titre, pas un nom d entreprise"
+ },
+ {
+  "key": "ea833484c73d",
+  "company": "Grupo Bimbo (Adghal Group)",
+  "experience_required": "Jeune diplômé jusqu'à 3 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "Temps plein",
+  "sector": "Agroalimentaire",
+  "function": "Manufacturing / Excellence opérationnelle",
+  "reason": "'Recent graduates or professionals with up to three years of experience'; 'Grupo Bimbo entered Morocco in 2017 through the acquisition of Adghal Group'. 'Cia de Talentos' est la plateforme de recrutement, pas l employeur"
+ },
+ {
+  "key": "72af6dd87616",
+  "experience_required": "Débutant accepté (première expérience appréciée)",
+  "seniority_bucket": "Junior",
+  "contract_type": "CDI",
+  "sector": "Automobile",
+  "function": "Amélioration continue",
+  "reason": "'Forvia recrute plusieurs profils Ingenieur(e)s Amelioration Continue Junior en CDI... jeunes diplomes'; 'Une premiere experience ou un stage en amelioration continue constitue un atout'. Attention: 'Ingenieur FES Junior' designe le Faurecia Excellence System, pas la ville de Fes"
+ },
+ {
+  "key": "fbe816812562",
+  "experience_required": "3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Meknes",
+  "sector": "Câblage automobile",
+  "function": "Process / Équipements",
+  "reason": "'Experience Requirements 3 years of professional experience in Automotive/wiring industry'"
+ },
+ {
+  "key": "916e9b26d465",
+  "company": "Les Eaux Minérales d'Oulmès",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Bouskoura",
+  "sector": "Boissons / Eaux minérales",
+  "function": "Excellence opérationnelle",
+  "reason": "'Basee a Bouskoura, pres de Casablanca'; 'Minimum 5 ans d experience dans un poste similaire dans le secteur industriel'"
+ },
+ {
+  "key": "d2747b30c5e0",
+  "company": "SEWS Cabind Maroc",
+  "experience_required": "2 à 5 ans selon le poste",
+  "seniority_bucket": "Experimente",
+  "sector": "Câblage automobile",
+  "function": "Planification / Kaizen",
+  "reason": "Annonce groupee de 4 postes: Responsable Planification Coupe & Preparation (5 ans), Responsable Magasin (5 ans), Technicien KAIZEN (3 ans), Technicien Planification (2 ans). Les deux postes de Responsable justifient la ligne; les deux autres sont des postes de technicien"
+ },
+ {
+  "key": "4d92fed7de4f",
+  "company": "Xiezhong International",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Kenitra",
+  "sector": "Climatisation automobile",
+  "function": "Process / Amélioration continue / Qualité",
+  "reason": "'Xiezhong International recrute plusieurs ingenieurs pour renforcer son site industriel de Kenitra'; 'Experience d au moins 2 ans dans un role similaire'"
+ },
+ {
+  "key": "d5694d28f21d",
+  "company": "HOTIN",
+  "experience_required": "Expérience confirmée (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI ou CDD selon profil",
+  "city": "Tanger",
+  "sector": "Industrie",
+  "function": "Production",
+  "reason": "'Experience confirmee en management industriel'; 'Contrat : CDI / CDD selon profil - Lieu : Tanger'; 'Entreprise : HOTIN'"
+ },
+ {
+  "key": "6ea14f1f04bd",
+  "company": "Best Profil",
+  "experience_required": "Première expérience obligatoire",
+  "seniority_bucket": "Junior",
+  "contract_type": "Intérim",
+  "city": "Fes",
+  "sector": "Industrie",
+  "function": "Contrôle qualité",
+  "reason": "'Entreprise Best Profil recrute pour le compte de son client base a Fes'; 'Bac +5 Premiere experience obligatoire'; 'Contrat : Interim'"
+ },
+ {
+  "key": "d3e8de582e96",
+  "experience_required": "2 ans et plus",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Industrie / Production",
+  "function": "Production",
+  "reason": "'Region : Casablanca-Mohammedia Ville : Casablanca' - la ville affichee etait Zagora, erreur de la fiche MarocAnnonces; 'Type de contrat : CDI'; 'Niveau d experience : Experience entre 2 ans et 5 ans - entre 5 et 10 ans - > 10 ans'. Le bloc 'Entreprise : Marocannonces' en fin de page appartient a une annonce voisine, l employeur n est pas nomme"
+ },
+ {
+  "key": "b3cfe169c95e",
+  "company": "HOTIN",
+  "experience_required": "2 ans et plus",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI ou CDD selon profil",
+  "city": "Casablanca",
+  "sector": "Industrie",
+  "function": "Production",
+  "reason": "'Experience en industrie de 2+ ans'; 'Contrat : CDI / CDD selon profil - Lieu : Casablanca'; 'Entreprise : HOTIN'"
+ },
+ {
+  "key": "5cafaaa1bb61",
+  "company": "Best Profil",
+  "experience_required": "",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Industrie",
+  "function": "Supply Chain",
+  "reason": "'Best Profil recrute pour son client industrie en CDI sur Casa : Un (e) Supply Chain Manager'; aucune duree d experience citee"
+ },
+ {
+  "key": "c6df71954b56",
+  "company": "Africa Staffing",
+  "experience_required": "2 à 5 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Had Soualem",
+  "sector": "Ameublement",
+  "function": "Qualité",
+  "reason": "'Pour le compte de notre client, une entreprise specialisee dans la fabrication d articles d ameublement haut de gamme, basee a Had Soualem'; 'Experience de 2 a 5 ans minimum'; 'Contrat : CDI, Entreprise : AFRICA STAFFING'"
+ },
+ {
+  "key": "ba13a97bec1f",
+  "company": "SEFACAR",
+  "experience_required": "3 à 5 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Automobile / Poids lourds",
+  "function": "Contrôle qualité",
+  "reason": "'Experience : 3 a 5 ans minimum dans l industrie automobile, le poids lourds ou le secteur metallurgique'; 'Poste base a Ain Sebaa, Casablanca'; 'Entreprise : SEFACAR'"
+ },
+ {
+  "key": "0c812547ae26",
+  "company": "FILMOD",
+  "experience_required": "Plus de 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Industrie",
+  "function": "Qualité",
+  "reason": "'Vous justifiez d une experience de plus de 5 ans dans un poste similaire'; 'Contrat : CDI, Entreprise : FILMOD'"
+ },
+ {
+  "key": "e3a54145607e",
+  "company": "Ingelec",
+  "experience_required": "2 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Équipements électriques",
+  "function": "Production",
+  "reason": "'Experience entre 2 ans et 5 ans dans la gestion de la production'; 'Contrat : CDI, Entreprise : Ingelec'"
+ },
+ {
+  "key": "8bc8d2cba586",
+  "company": "Manpower",
+  "experience_required": "Débutant accepté",
+  "seniority_bucket": "Junior",
+  "contract_type": "Intérim",
+  "city": "Casablanca",
+  "sector": "Logistique",
+  "function": "Supply Chain",
+  "reason": "'nous recherchons un(e) Assistant(e) Supply Chain Debutant(e)'; 'Debutant(e) accepte(e)'; 'Bac+2 en Logistique'; 'Contrat : Interim, Entreprise : Manpower, Salaire : 3 000 - 4 000 DH' - poste d assistant, niveau bien inferieur a un profil ingenieur"
+ },
+ {
+  "key": "0721ae438a1e",
+  "company": "HOTIN",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "CDI ou CDD selon profil",
+  "city": "Casablanca",
+  "sector": "Logistique",
+  "function": "Supply Chain",
+  "reason": "'Bac+3/5 en supply chain'; 'Contrat : CDI / CDD selon profil - Lieu : Casablanca'; aucune duree d experience citee"
+ },
+ {
+  "key": "b52a523da9f7",
+  "company": "RHS Emploi",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Nouaceur",
+  "sector": "Aéronautique / Automobile",
+  "function": "Ordonnancement / Planification",
+  "reason": "'RHS Emploi recherche des Gestionnaires de Production pour le compte de l un de ses clients base a Nouaceur'; 'Experience professionnelle minimum 2 ans autant que planificateur'"
+ },
+ {
+  "key": "200b2d378ead",
+  "company": "Africa Staffing",
+  "experience_required": "Expérience confirmée (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Tanger",
+  "sector": "Industrie",
+  "function": "Supply Chain",
+  "reason": "'nous recrutons un(e) Responsable Supply Chain base(e) a Tanger'; 'Experience confirmee dans un poste similaire'; 'Contrat : CDI'. Le champ 'Entreprise : Interim' n est pas un nom d employeur; la boutique de l annonceur est Africa Staffing"
+ },
+ {
+  "key": "9383ccd461a3",
+  "company": "DAMA",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Intérim",
+  "city": "Casablanca",
+  "sector": "Électroménager",
+  "function": "Supply Chain",
+  "reason": "'Nous recrutons pour le compte de notre client qui opere dans le secteur d electromenager'; 'Minimum 2 ans d experience en supply chain ou logistique'; 'Contrat : Interim, Entreprise : DAMA'"
+ },
+ {
+  "key": "3300b9f26a59",
+  "company": "DEKRA Services",
+  "experience_required": "Solide expérience (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Tanger",
+  "sector": "Rubans adhésifs / Automobile",
+  "function": "Direction de production",
+  "reason": "'Notre client, un fabricant allemand de rubans adhesifs... l entreprise lance l ouverture d un nouveau site de production a Tanger'; 'Solide experience en management de production'; 'Contrat : CDI, Entreprise : DEKRA Services'"
+ },
+ {
+  "key": "18ff1193c52c",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Meknes",
+  "sector": "Industrie",
+  "function": "Production",
+  "reason": "'Experience de 2 ans minimum en environnement industriel'. L employeur n est pas nomme: 'Groupe industriel et commercial d envergure nationale'"
+ },
+ {
+  "key": "f702d849a0ab",
+  "company": "Centrale Automobile Chérifienne (CAC)",
+  "experience_required": "2 à 5 ans minimum",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Distribution automobile",
+  "function": "Qualité / Logistique",
+  "reason": "'La Centrale Automobile Cherifienne (CAC) est l importateur exclusif au Maroc des marques Volkswagen, Audi, Skoda, Porsche...'; '2 a 5 ans d experience minimum dans la logistique automobile'"
+ },
+ {
+  "key": "d0c02d71285b",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Câblage / Assemblage",
+  "function": "R&D / Manufacturing Engineering",
+  "reason": "'Engineering Degree Min 2 years of experience in Cable Assembly'. L employeur n est pas nomme dans l annonce"
+ },
+ {
+  "key": "cecb40017b07",
+  "company": "Akkodis",
+  "experience_required": "3 à 6 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie / Aéronautique",
+  "function": "Industrialisation / Méthodes",
+  "reason": "'Entreprise : Akkodis'; 'Experience de 3 a 6 ans en industrialisation, methodes ou support production en environnement aeronautique'"
+ },
+ {
+  "key": "a07fbf9303b8",
+  "company": "Hôpital Universitaire International de Rabat (HUIR)",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Rabat",
+  "sector": "Santé / Hôpital universitaire",
+  "function": "Méthodes",
+  "reason": "'L Hopital Universitaire International de Rabat (HUIR), affilie a l Universite Internationale de Rabat'; aucune duree d experience citee"
+ },
+ {
+  "key": "8a147c52157e",
+  "company": "Danosa Maroc",
+  "experience_required": "3 à 10 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "BTP / Chimie",
+  "function": "Process / Industrialisation",
+  "reason": "'le Groupe DANOSA recherche un Ingenieur Process Senior'; cette page ne chiffre pas la duree, mais la meme offre publiee sur Rekrute affiche 'Intermediaire (3 a 5 ans) - Confirme (5 a 10 ans)'"
+ },
+ {
+  "key": "ed88d4979a23",
+  "company": "Domino RH",
+  "experience_required": "Expérience impérative en ovoproduits (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Nouaceur",
+  "sector": "Agroalimentaire (ovoproduits)",
+  "function": "Production",
+  "reason": "'notre client, acteur de l industrie agroalimentaire, recrute un Responsable Production. Lieu de travail : Sapino, Nouaceur'; 'Une experience dans le meme secteur d activite (ovoproduits / transformation des oeufs) est obligatoire' sans duree chiffree"
+ },
+ {
+  "key": "fa125214822c",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Agroalimentaire (biscuiterie / chocolaterie)",
+  "function": "Qualité",
+  "reason": "'Experience de 5 ans minimum dans une fonction similaire en industrie agroalimentaire'. L employeur n est pas nomme: 'Notre societe est une entreprise industrielle specialisee dans la fabrication de biscuits et chocolat'"
+ },
+ {
+  "key": "9af94a13c4a3",
+  "company": "Relats",
+  "experience_required": "1 à 3 ans minimum",
+  "seniority_bucket": "Junior",
+  "city": "Tanger",
+  "sector": "Isolation électrique / Automobile",
+  "function": "Qualité",
+  "reason": "'Entreprise : Relats est une multinationale qui fabrique des tubes isolants electriques et thermiques'; '1-3 ans minimum dans un poste similaire'"
+ },
+ {
+  "key": "a00fce9beaf8",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "city": "",
+  "sector": "Aéronautique (composites)",
+  "function": "Qualité",
+  "reason": "'Avoir au moins 3 ans d experience dans un environnement industriel'; norme EN 9100. 'Maroc' n est pas une ville, la cellule est videe; l annonce ne nomme pas clairement l employeur"
+ },
+ {
+  "key": "e9696d4dc388",
+  "company": "Groupe LabelVie (Carrefour Maroc)",
+  "experience_required": "Au moins 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Grande distribution",
+  "function": "Qualité",
+  "reason": "'le Groupe marocain LabelVie... exploitation des hypermarches Carrefour'; 'Experience professionnelle d au moins 5 ans dans un poste similaire'"
+ },
+ {
+  "key": "b29964747522",
+  "company": "KITEA Group",
+  "experience_required": "1 à 3 ans",
+  "seniority_bucket": "Junior",
+  "city": "Casablanca",
+  "sector": "Ameublement / Distribution",
+  "function": "Supply Chain",
+  "reason": "'KITEA Group acteur leader dans le secteur de l ameublement'; 'Une premiere experience de 1 a 3 ans dans une fonction similaire'"
+ },
+ {
+  "key": "8d2e6213a575",
+  "experience_required": "Expérience en supply chain industrielle (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Agroalimentaire (biscuiterie / chocolaterie)",
+  "function": "Supply Chain",
+  "reason": "'Profil recherche : Experience en supply chain industrielle' sans duree. L employeur n est pas nomme"
+ },
+ {
+  "key": "1f6f9d6c4282",
+  "experience_required": "Expérience en supply chain industrielle (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Agroalimentaire (biscuiterie / chocolaterie)",
+  "function": "Supply Chain",
+  "reason": "Annonce identique a l autre 'Responsable Supply Chain' du meme biscuitier; 'Experience en supply chain industrielle' sans duree"
+ },
+ {
+  "key": "3569516c2f05",
+  "company": "Capgemini Engineering",
+  "experience_required": "3 à 10 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'Entreprise : Capgemini Engineering'; 'une experience de 3 a 10 ans dans des fonctions similaires'"
+ },
+ {
+  "key": "37fe25cefe9f",
+  "company": "Capgemini Engineering",
+  "experience_required": "3 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'Vous disposez d une experience professionnelle de 3 a 5 ans dans des fonctions similaires, idealement dans un environnement international'"
+ },
+ {
+  "key": "91e9a74e6a96",
+  "company": "Manpower Group",
+  "experience_required": "1 à 3 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "Contrat de projet",
+  "city": "Casablanca",
+  "sector": "Logistique",
+  "function": "Logistique / Achats",
+  "reason": "'Present depuis 1997 au Maroc, Manpower Group'; 'Profil Logistique & Supply Chain (Contrat de projet). Poste base a Casablanca. Salaire : 8 000 DH'; '1 a 3 ans d experience dans un poste similaire'"
+ },
+ {
+  "key": "d118e7993148",
+  "company": "Manpower Group",
+  "experience_required": "1 à 2 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "Contrat de projet",
+  "city": "Casablanca",
+  "sector": "Logistique",
+  "function": "Logistique / Supply Chain",
+  "reason": "'profil Logistique & Supply Chain, base a Casablanca'; '1 a 2 ans d experience dans un poste similaire'"
+ },
+ {
+  "key": "584d071a4319",
+  "company": "ALTEN Maroc",
+  "experience_required": "1 à 3 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "Temps plein",
+  "city": "Rabat",
+  "sector": "Services d'ingénierie / Automobile",
+  "function": "Qualité projet",
+  "reason": "'1 to 3 years of experience in the automotive industry in a quality-related role' - le poste etait classe Experimente sur la foi du champ LinkedIn 'Cadre', et le secteur affiche 'Developpement de logiciels' alors qu ALTEN Delivery Center Morocco est du conseil en ingenierie automobile"
+ },
+ {
+  "key": "2759cdc68ffd",
+  "experience_required": "2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "",
+  "sector": "Banque centrale / Imprimerie fiduciaire",
+  "function": "Production / Ordonnancement",
+  "deadline": "05/08/2026",
+  "reason": "'Bank Al-Maghrib recrute : 3 INGENIEUR PRODUCTION (H/F) (Poste(s) base(s) a DAR AS-SIKKAH)'; 'vous justifiez d une experience de 2 ans dans un poste similaire'; 'Date limite de candidature : 05/08/2026'. 'Maroc' n est pas une ville et l annonce ne precise que 'Dar As-Sikkah'"
+ },
+ {
+  "key": "5fc189bb8d50",
+  "company": "Belma S.A.",
+  "experience_required": "5 à 10 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Agadir",
+  "sector": "Conserves de poissons",
+  "function": "Supply Chain",
+  "reason": "'Responsable Supply Chain chez Belma S.A a Agadir'; 'Experience: 5 a 10 ans'"
+ },
+ {
+  "key": "fe52a4d0688b",
+  "experience_required": "Expérience obligatoire (durée non précisée)",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Intérim",
+  "city": "Fes",
+  "sector": "Industrie",
+  "function": "Qualité",
+  "reason": "'Type contrat: Interim, Formation: Bac+5, Experience: Obligatoire'"
+ },
+ {
+  "key": "8f9eb5a61333",
+  "experience_required": "8 à 12 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Industrie",
+  "function": "Supply Chain",
+  "reason": "'Experience de 8 a 12 ans en Supply Chain industrielle'; 'Experience confirmee en S&OP, Demand Planning et planification industrielle'; 'Type contrat: CDI'"
+ },
+ {
+  "key": "1b1f9bc7a47e",
+  "experience_required": "5 à 10 ans ou plus",
+  "seniority_bucket": "Experimente",
+  "city": "Mohammedia",
+  "sector": "BTP / Matériaux de construction",
+  "function": "Supply Chain",
+  "reason": "'Niveau d experience requis dans le secteur du BTP, avec une experience entre 5 ans et 10 ans ou superieure a 10 ans'; le poste s intitule 'Manager Supply Chain - Mohammedia', la ville affichee etait Casablanca"
+ },
+ {
+  "key": "f055921ebb9b",
+  "company": "CAPEP Travaux Publics",
+  "experience_required": "Débutant accepté",
+  "seniority_bucket": "Junior",
+  "city": "Casablanca",
+  "sector": "BTP / Travaux publics",
+  "function": "Achats / Supply Chain",
+  "reason": "'CAPEP Travaux Publics recrute des Acheteurs dans le secteur du BTP, pour un poste base a Casablanca, Route Mediouna'; 'Les debutants sont acceptes'"
+ },
+ {
+  "key": "630f46351d5f",
+  "company": "Capgemini Engineering",
+  "experience_required": "3 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'Experience Level: Experienced Professionals, Contract Type: Permanent, Location: Casablanca, Brand: Capgemini Engineering'. La meme offre publiee ailleurs precise '3 a 5 ans dans des fonctions similaires'"
+ },
+ {
+  "key": "c6d4ad74e6d2",
+  "company": "Capgemini Engineering",
+  "experience_required": "Débutant accepté",
+  "seniority_bucket": "Junior",
+  "city": "Fes",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'ouvre 20 postes de Supply Chain Engineers bases a Fes'; 'Experience: Debutant accepte'"
+ },
+ {
+  "key": "b6b023ad8277",
+  "company": "Capgemini Engineering",
+  "experience_required": "Jeune diplômé",
+  "seniority_bucket": "Junior",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'opportunite unique pour jeunes diplomes anglophones a Casablanca'; 'recherche des profils fraichement diplomes'"
+ },
+ {
+  "key": "031aabb18ec8",
+  "company": "Capgemini Engineering",
+  "experience_required": "Débutant (stage PFE apprécié)",
+  "seniority_bucket": "Junior",
+  "city": "Casablanca",
+  "sector": "Services d'ingénierie",
+  "function": "Supply Chain",
+  "reason": "'recrute des Ingenieurs Supply Chain sur Casablanca'; 'Une experience de stage (PFE) dans le domaine de l automobile ou de l aeronautique serait tres appreciee' - donc ouvert aux debutants"
+ },
+ {
+  "key": "c86102a4e691",
+  "company": "CRIT Maroc",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Intérim pré-embauche",
+  "city": "Tanger",
+  "sector": "Automobile",
+  "function": "Qualité",
+  "reason": "'Contrat Interim, Localisation Tanger, Secteur Automobile'; 'un(e) Ingenieur Qualite - Consultant Externe (H/F) sous contrat interim pre-embauche'; 'Experience minimum de 3 ans dans un poste similaire'"
+ },
+ {
+  "key": "52e859433b16",
+  "company": "Daher",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Aéronautique (composites)",
+  "function": "Méthodes / Industrialisation",
+  "reason": "'DAHER-Tanger se specialise dans la fabrication de pieces en matiere composite haute performance'; 'Experience professionnelle de minimum 3 ans dans l industrie aeronautique ou automobile'. 'Daher pour Ingenieur Methodes' etait un morceau de titre"
+ },
+ {
+  "key": "983989263922",
+  "company": "DEKRA Services",
+  "experience_required": "Solide expérience (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Rubans adhésifs / Automobile",
+  "function": "Direction de production",
+  "reason": "'Notre client, un fabricant allemand de rubans adhesifs techniques'; 'l entreprise lance l ouverture d un nouveau site de production a Tanger'; 'Solide experience en management de production et/ou maintenance industrielle' sans duree"
+ },
+ {
+  "key": "3dcca6ceaaa5",
+  "company": "",
+  "experience_required": "0 à 2 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Facility management / Maintenance multitechnique",
+  "function": "Méthodes",
+  "reason": "'Une premiere experience de 0 a 2 ans en maintenance, methodes, exploitation technique... est un plus' - le poste etait classe Experimente a tort; 'Localisation Casablanca, Type de contrat CDI / Temps plein'. 'FM Global' est une lecture erronee de 'FM' (facility management): l annonce ne nomme pas l employeur"
+ },
+ {
+  "key": "bc34cee1bf22",
+  "company": "",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Agroalimentaire (fromagerie)",
+  "function": "Qualité / Système de management",
+  "reason": "'Experience confirmee de 5 ans minimum dans une fonction similaire au sein d une industrie agroalimentaire'. L employeur n est pas nomme: 'un acteur majeur de l industrie agroalimentaire au Maroc, specialise dans... produits fromagers' - 'Fromagerie' n est pas un nom d entreprise"
+ },
+ {
+  "key": "c29a6f44698b",
+  "company": "HANDS 8 SA",
+  "experience_required": "Débutant (jeune diplômé)",
+  "seniority_bucket": "Junior",
+  "city": "Tanger",
+  "sector": "Jantes aluminium / Automobile",
+  "function": "Production",
+  "reason": "'HANDS 8 SA recherche un Ingenieur Production debutant'; 'Ce poste s adresse aux jeunes diplomes'; 'Experience acquise a travers des stages dans un departement production'"
+ },
+ {
+  "key": "eaa530706ab4",
+  "company": "Hemolab",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDD",
+  "city": "Had Soualem",
+  "sector": "Pharmaceutique / Dispositifs médicaux",
+  "function": "Supply Chain",
+  "reason": "'Le poste requiert un Bac+5 en logistique, supply chain ou ingenierie, avec minimum 5 ans d experience dans le secteur pharmaceutique'; 'Poste base a Had Soualem en CDD'"
+ },
+ {
+  "key": "15d9d08a8c19",
+  "company": "INDO Maroc",
+  "experience_required": "2 à 5 ans selon le poste",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Optique / Verres ophtalmiques",
+  "function": "Production / Méthodes",
+  "reason": "'INDO Maroc recrute un Superviseur Production et un Ingenieur Methodes sur Tanger'; Superviseur: 'Plus de cinq ans d experience en fabrication ou production, dont au moins deux ans en supervision'; Methodes: 'Minimum de 2 ans d experience'"
+ },
+ {
+  "key": "addb52d87114",
+  "company": "Inteva Products",
+  "experience_required": "3 à 4 ans minimum",
+  "seniority_bucket": "Experimente",
+  "city": "Kenitra",
+  "sector": "Automobile",
+  "function": "Production",
+  "reason": "'Minimum of 3-4 years of manufacturing experience within the automotive industry, including at least 3 years in a supervisory or management role'"
+ },
+ {
+  "key": "72f3b57fe26d",
+  "company": "TE Connectivity",
+  "experience_required": "1,5 à 5 ans selon le poste",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Tanger",
+  "sector": "Composants électroniques / Automobile",
+  "function": "Ingénierie / Qualité / Supply Chain",
+  "reason": "'TE Connectivity... ouvre actuellement plusieurs opportunites a Tanger'; Manufacturing & Process Development Engineer 'au moins 2 ans', Quality Analyst '3 a 5 ans', Product Design Engineer 'minimum 3 ans', QMS Analyst 'au moins 1,5 an'; 'Ces postes sont proposes en CDI a temps plein'. 'Ingenierie, qualite, supply chain' etait un morceau de titre, pas un nom d entreprise"
+ },
+ {
+  "key": "4137bdf3042b",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "b8fb7f1e9ed8",
+  "company": "Keragum",
+  "experience_required": "8 à 9 ans minimum (Ingénieur Maintenance)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Extraction végétale",
+  "function": "Maintenance",
+  "reason": "Annonce groupee (Charge RH, Ingenieur Maintenance, Operateur Production); le seul poste de la specialite est l Ingenieur Maintenance: 'Une experience professionnelle reussie de 8-9 ans minimum dans une fonction similaire'; 'Contrat: CDI'"
+ },
+ {
+  "key": "bdf66bda1760",
+  "company": "Latécoère",
+  "experience_required": "1 à 2 ans",
+  "seniority_bucket": "Junior",
+  "city": "Had Soualem",
+  "sector": "Aéronautique",
+  "function": "Approvisionnement / Supply Chain",
+  "reason": "'Latecoere Recrute des Approvisionneurs... a Had Soualem'; 'plusieurs Approvisionneurs possedant une premiere experience d au moins un an'; '1 a 2 ans d experience dans un poste similaire'"
+ },
+ {
+  "key": "ba88a8c68b93",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "6222f3cf8ebe",
+  "company": "Maghreb Steel",
+  "experience_required": "5 à 8 ans minimum selon le poste",
+  "seniority_bucket": "Experimente",
+  "sector": "Sidérurgie",
+  "function": "Supply Chain / Mécanique",
+  "reason": "'Maghreb Steel recrute Manager Supply Chain et Responsable Mecanique'; Supply Chain: 'Minimum de 8 ans d experience dans un poste similaire'; Mecanique: 'au moins 5 annees d experience dans le domaine'"
+ },
+ {
+  "key": "e7376be41653",
+  "experience_required": "",
+  "seniority_bucket": "Junior",
+  "contract_type": "Freelance",
+  "city": "",
+  "sector": "E-commerce / Biens de consommation",
+  "function": "Coordination supply chain / Achats",
+  "reason": "'Department: Specialized Roles, Location: Global+, Compensation: $6.00 / hour'; le client est 'a fast-growing, US-based e-commerce consumer goods brand'. 'Global Village, Doubai' vient du champ de localisation LinkedIn, pas de l annonce; 'Premier emploi' et le secteur 'Developpement de logiciels' etaient des etiquettes LinkedIn, l annonce ne demande aucune duree d experience"
+ },
+ {
+  "key": "6351208f541c",
+  "company": "Marocadres",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Dispositifs médicaux",
+  "function": "Qualité",
+  "reason": "'Dans le cadre du developpement de notre client, nous sommes a la recherche d un(e) Responsable qualite'; 'Experience : Minimum 5 ans d experience (secteur des dispositifs medicaux)'. Marocadres est le cabinet, le client n est pas nomme"
+ },
+ {
+  "key": "a04dbb43f2cc",
+  "company": "Marocadres",
+  "experience_required": "Expérience significative (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Automobile",
+  "function": "Logistique / Supply Chain",
+  "reason": "'Experience significative en gestion de la chaine d approvisionnement, idealement dans l industrie automobile' sans duree; 'Maitrise imperative de l ERP SAP'"
+ },
+ {
+  "key": "91dcff5530b5",
+  "company": "Mecachrome",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Tanger",
+  "sector": "Mécanique de précision / Aéronautique",
+  "function": "Méthodes / Industrialisation",
+  "reason": "'Mecachrome recrute des Preparateurs Methodes Industrialisation sur Tanger'; 'De BAC+2 a BAC+5 en genie mecanique industriel' - aucune duree d experience citee"
+ },
+ {
+  "key": "e9d8e504feae",
+  "company": "Menabiliat Sud",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Marrakech",
+  "sector": "Distribution de produits d'entretien",
+  "function": "Qualité",
+  "reason": "'Distribution des produits et materiels de nettoyage destines aux professionnels'; 'Lieu de travail : Marrakech'; aucune duree d experience citee"
+ },
+ {
+  "key": "2585e040546f",
+  "company": "Menabiliat Sud",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Marrakech",
+  "sector": "Distribution de produits d'entretien",
+  "function": "Qualité",
+  "reason": "Annonce identique a l autre 'Responsable qualite' Menabiliat Sud; aucune duree d experience citee"
+ },
+ {
+  "key": "53fd6c58f125",
+  "company": "Menabiliat Sud",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Marrakech",
+  "sector": "Distribution de produits d'entretien",
+  "function": "Qualité",
+  "reason": "Texte strictement identique aux deux autres annonces Menabiliat Sud. 'Service Achat' est un intitule de service, pas un nom d entreprise"
+ },
+ {
+  "key": "7172fc8501be",
+  "company": "Michael Page",
+  "experience_required": "Minimum 7 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Sale ou Tanger",
+  "sector": "Automobile (systèmes électriques et électroniques)",
+  "function": "Direction de site",
+  "reason": "'nous recrutons aujourd hui pour notre client un(e) Plant Manager (H/F) pour piloter l un de ses sites industriels, base a Sale ou a Tanger'; 'une experience confirmee d au moins 7 ans dans l industrie automobile'. Michael Page est le cabinet, le client n est pas nomme"
+ },
+ {
+  "key": "27da3a9ce3e1",
+  "company": "Michoc",
+  "experience_required": "2 à 5 ans selon le poste",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Agroalimentaire (confiserie / chocolat)",
+  "function": "Achats / Supply Chain",
+  "reason": "'Michoc recrute deux profils a Casablanca, en CDI'; Acheteur: 'Une experience de 2 ans en achats industriels'; Responsable Supply Chain: 'Une experience de 3 a 5 ans en supply chain'"
+ },
+ {
+  "key": "022870a53384",
+  "company": "Motherson Aerospace (ADIMA Aerospace)",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Aéronautique",
+  "function": "Qualité produit",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "'Les candidatures ne sont plus acceptees'; 'Le site de ADIMA AEROSPACE, base a Casablanca'; aucune duree d experience citee, 'Non pertinent' efface"
+ },
+ {
+  "key": "11c0a5b2b4ca",
+  "company": "OPmobility",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "city": "Tanger",
+  "sector": "Automobile",
+  "function": "Planification / Approvisionnement",
+  "reason": "'Joining OPmobility'; poste de Material Planner sur MRP; aucune duree d experience citee"
+ },
+ {
+  "key": "1cf4b1f157b4",
+  "company": "Profils Recrutement",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Casablanca",
+  "sector": "Dispositifs médicaux",
+  "function": "Qualité / Affaires réglementaires",
+  "reason": "'Nous recrutons pour notre client, Societe operant dans la vente, l installation et le service apres-vente de materiels et dispositifs medicaux hospitaliers... poste base a Casablanca'; 'vous justifiez d une experience similaire de 3 ans minimum'"
+ },
+ {
+  "key": "2088c3dce11c",
+  "company": "SNEP",
+  "experience_required": "4 à 8 ans minimum selon le poste",
+  "seniority_bucket": "Experimente",
+  "city": "Mohammedia",
+  "sector": "Pétrochimie",
+  "function": "Supply Chain / Maintenance",
+  "reason": "'SNEP (Industrie petrochimique - Mohammedia)'; Responsable Supply Chain: 'Experience minimale de 8 ans en gestion des stocks et logistique'; Ingenieur Maintenance Mecanique: 'Experience minimale de 4 ans'"
+ },
+ {
+  "key": "308807e4c6db",
+  "company": "SOMACOS",
+  "experience_required": "Expérience confirmée en plasturgie (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "city": "Meknes",
+  "sector": "Plasturgie",
+  "function": "Qualité",
+  "reason": "'Chef / Responsable Qualite - Meknes'; 'Experience confirmee en qualite dans le secteur de la plasturgie' sans duree; 'Maroc' n est pas une ville"
+ },
+ {
+  "key": "377806b62ca0",
+  "company": "Safran Aircraft Engines Services",
+  "experience_required": "3 à 4 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Nouaceur",
+  "sector": "Aéronautique",
+  "function": "Supply Chain / Approvisionnement",
+  "reason": "'Safran Aircraft Engines Services recrute plusieurs profils Supply Chain a Casablanca, en CDI'; 'au sein du nouveau shop de maintenance moteurs LEAP a Nouaceur'; 'une experience minimale de 3 ans' et 'une experience de 3 a 4 ans dans la gestion des flux'"
+ },
+ {
+  "key": "409b4514ce19",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "b3da2965cca5",
+  "experience_required": "5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Berrechid",
+  "sector": "Câblage automobile",
+  "function": "Qualité process",
+  "deadline": "Annonce publiée il y a 2 ans - vérifier qu'elle est toujours ouverte",
+  "reason": "'Vous justifiez d une experience de 5 ans d experience dans un poste similaire'; 'Berrechid, Casablanca-Settat'; la page indique 'il y a 2 ans'. 'Non pertinent' efface"
+ },
+ {
+  "key": "3468e497628a",
+  "experience_required": "7 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "city": "Berrechid",
+  "sector": "Câblage automobile",
+  "function": "Qualité site",
+  "deadline": "Annonce publiée il y a 2 ans - vérifier qu'elle est toujours ouverte",
+  "reason": "'Vous justifiez de 7 ans d experience dans un poste de responsabilite dans le management de la qualite'; 'Lieu de travail : Site Berrechid'; la page indique 'il y a 2 ans'. 'Non pertinent' efface"
+ },
+ {
+  "key": "b012bae44699",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
+ },
+ {
+  "key": "accbcf94fc6f",
+  "company": "Talents Partners",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Automobile (caoutchouc)",
+  "function": "Process / Industrialisation",
+  "reason": "'Bac+5 dans une specialite technique... avec un minimum 5 ans d experience dans l industrie automobile, de preference dans les systemes de transmission de fluides en caoutchouc'. Talents Partners est le cabinet, le client n est pas nomme"
+ },
+ {
+  "key": "79f53ca2ee8c",
+  "company": "Talents Partners",
+  "experience_required": "Minimum 8 ans",
+  "seniority_bucket": "Experimente",
+  "city": "El Jadida",
+  "sector": "Automobile",
+  "function": "Production",
+  "reason": "'Minimum 8 ans d experience dans un poste similaire en industrie automobile'"
+ },
+ {
+  "key": "417294b11786",
+  "company": "Talents Partners",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Automobile (caoutchouc)",
+  "function": "Process / Industrialisation",
+  "reason": "'avec un minimum de 2 ans d experience dans l industrie automobile, de preference dans les systemes de transmission de fluides en caoutchouc'"
+ },
+ {
+  "key": "7902f73359f8",
+  "company": "Talents Partners",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Automobile (caoutchouc)",
+  "function": "Qualité process",
+  "reason": "'avec un minimum de 5 ans d experience dans l industrie automobile, de preference dans les systemes de transmission de fluides en caoutchouc'"
+ },
+ {
+  "key": "7b155a123456",
+  "company": "Talents Partners",
+  "experience_required": "3 à 5 ans minimum",
+  "seniority_bucket": "Experimente",
+  "city": "Tanger",
+  "sector": "Automobile (injection plastique)",
+  "function": "Qualité système",
+  "reason": "'Secteur : Automobile - Injection plastique et assemblage de pieces plastiques'; 'Experience Minimum 3 a 5 ans dans une fonction qualite systeme en environnement automobile'"
+ },
+ {
+  "key": "d9c3c42c2d22",
+  "company": "Talents Partners",
+  "experience_required": "3 à 5 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Tanger",
+  "sector": "Industrie",
+  "function": "QHSE",
+  "reason": "'Experience : Minimum 3 a 5 ans dans un poste similaire en milieu industriel'; 'Contrat : CDI'"
+ },
+ {
+  "key": "bcdea58b0466",
+  "company": "Talents Partners",
+  "experience_required": "Expérience confirmée (durée non précisée)",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "city": "Tanger",
+  "sector": "Industrie / Automobile",
+  "function": "Qualité projet",
+  "reason": "'Experience : Experience confirmee dans un environnement industriel, idealement automobile' sans duree; 'Contrat : CDI'"
+ },
+ {
+  "key": "57a1e23a998e",
+  "company": "Ventec",
+  "experience_required": "Minimum 2 ans",
+  "seniority_bucket": "Experimente",
+  "city": "Benguerir",
+  "sector": "Maintenance multitechnique",
+  "function": "Méthodes / Maintenance",
+  "reason": "'l entreprise recrute des ingenieurs et charges de contrat experimentes prets a intervenir sur des sites techniques de premier plan a Benguerir'; 'Minimum 2 ans d experience reussie dans une fonction similaire'; parmi les postes ouverts, '2 Ingenieurs Methodes'"
+ },
+ {
+  "key": "f736114d6319",
+  "deadline": "OFFRE EXPIREE - candidatures fermees",
+  "reason": "La page repond 'Cette offre d emploi a expire'"
  }
 ]

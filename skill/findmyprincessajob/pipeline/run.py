@@ -1,10 +1,14 @@
 """Orchestrator.
 
-  python run.py scrape  spec.json      # every source -> data/raw_*.json
-  python run.py stage   spec.json      # emit remote_candidates.json for LLM review
-  python run.py curate  spec.json      # emit curation_candidates.json for LLM review
-  python run.py enrich  spec.json      # emit field_candidates.json for LLM field-filling
-  python run.py build   spec.json      # apply both verdict files + write/append the Excel
+  python run.py scrape   spec.json     # every source -> data/raw_*.json
+  python run.py fulltext spec.json     # fetch each ad's FULL body -> data/fulltext.json
+  python run.py stage    spec.json     # emit remote_candidates.json for LLM review
+  python run.py curate   spec.json     # emit curation_candidates.json for LLM review
+  python run.py enrich   spec.json     # emit field_candidates.json for LLM field-filling
+  python run.py build    spec.json     # apply both verdict files + write/append the Excel
+
+`fulltext` must run before `enrich`: the scrapers only keep the listing card, and
+a column filled from a card is empty or wrong more often than not.
 
 spec.json is written by the skill (see SKILL.md) and carries the specialty,
 its keyword expansion, the relevance regexes and the output paths.
@@ -123,6 +127,26 @@ def do_curate(run):
           '[{"id": 0, "keep": true, "reason": "..."}]')
 
 
+def shipping(run):
+    """Every row that will end up in the workbook: the curated scrape plus the
+    rows recovered from the existing workbook. Those came back through
+    read_existing and were never in raw_*.json, so any step that sources its
+    list from the scrape alone silently skips them."""
+    rows = curated(run)
+    seen = {r["url"] for r in rows}
+    for r in B.read_existing(run.spec["excel_path"]):
+        u = (r.get("url") or "").strip()
+        if u and u not in seen:
+            seen.add(u)
+            rows.append(r)
+    return rows
+
+
+def do_fulltext(run):
+    import fulltext as F
+    F.harvest(run, shipping(run))
+
+
 EXP_RE = re.compile(
     r"[^.\n]{0,140}(?:\b\d{1,2}\s*(?:\+|a|à|-|to)?\s*\d{0,2}\s*(?:ans?|ann[ée]es?|years?|yrs?)\b"
     r"|minimum\s*\d|au moins\s*\d|d[ée]butant|junior|senior|confirm[ée]|exp[ée]riment[ée]"
@@ -139,7 +163,7 @@ def do_enrich(run):
     actually carry the answer, so the model fills the columns by reading."""
     ftp = os.path.join(run.datadir, "fulltext.json")
     full = json.load(open(ftp, encoding="utf-8")) if os.path.exists(ftp) else {}
-    rows = [r for r in curated(run)]
+    rows = shipping(run)
     out, missing = [], 0
     for i, r in enumerate(rows):
         u = r["url"]
@@ -269,5 +293,5 @@ if __name__ == "__main__":
     cmd, spec = sys.argv[1], sys.argv[2]
     run = Run(spec)
     print(f"=== findmyprincessajob | {run.specialty} | {cmd} ===", flush=True)
-    {"scrape": do_scrape, "stage": do_stage, "curate": do_curate,
-     "enrich": do_enrich, "build": do_build}[cmd](run)
+    {"scrape": do_scrape, "fulltext": do_fulltext, "stage": do_stage,
+     "curate": do_curate, "enrich": do_enrich, "build": do_build}[cmd](run)

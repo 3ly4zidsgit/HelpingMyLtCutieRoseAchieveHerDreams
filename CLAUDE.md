@@ -5,8 +5,8 @@ Continue / Excellence Opérationnelle** (Morocco + genuinely visa-free remote).
 
 **Owner:** intern at DICE (DataLab, UM6P / EMI), Rabat. Windows 11, PowerShell,
 Python 3.13.5, Chrome 150.
-**Status as of 2026-08-02: round 2 COMPLETE. Both review gates run, workbook
-rebuilt and verified at 324 rows.**
+**Status as of 2026-08-03: round 3 COMPLETE. Full ad bodies fetched, columns
+filled by reading, workbook rebuilt and verified at 301 rows.**
 
 ---
 
@@ -25,22 +25,29 @@ rebuilt and verified at 324 rows.**
 
 ### Delivered and verified
 
-`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 4 sheets, 324 rows:
+`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 4 sheets, 301 rows:
 
 | Sheet | Rows |
 |---|---|
-| MAROC - JUNIOR | 174 |
-| MAROC - AVEC EXPERIENCE | 149 |
+| MAROC - JUNIOR | 116 |
+| MAROC - AVEC EXPERIENCE | 184 |
 | REMOTE - JUNIOR | 1 |
 | REMOTE - AVEC EXPERIENCE | 0 |
 
 14 columns (15 on remote sheets — they carry the evidence quote). Offer links are
-clickable, filters on, header row frozen, no pinned columns, no "technicien"
-titles. Verified: 324/324 links clickable, 0 excluded titles, 0 duplicate URLs,
-0 rows that either gate rejected.
+clickable, filters on, header row frozen. Verified 2026-08-03: 301/301 links
+clickable, 301 distinct URLs, 0 excluded titles, 0 job-board names in the
+employer column, `Expérience requise` usable on 235/301 (78 %).
 
-The count went **down** from round 1's 366 on purpose. Round 1 shipped before the
-relevance gate existed, so 55 of its rows had never been read — see below.
+A copy is republished to `G:\My Drive\Emploi Rose\` on every build — that is the
+link the workbook is shared through, since an e-mail attachment can never be
+updated once sent.
+
+**The count keeps going down on purpose.** 366 (round 1, unreviewed) -> 324
+(relevance gate) -> 313 (field reading) -> 301. Round 1 shipped before any gate
+existed. Each later round drops rows that reading proved wrong: an off-topic
+role, an internship, a technicien post inside a grouped ad. A shorter honest list
+beats a long one — do not restore a row without re-reading its ad.
 
 ### Round 1 (complete) — 615 offers merged from
 
@@ -93,11 +100,44 @@ sat in the deliverable having never faced either gate. On the user's decision
 (2026-08-02) `do_build` now filters recovered rows through both verdict files too;
 those 55 were dropped. Every prior workbook is in `backup/`.
 
+### Round 3 (2026-08-03) — read the ads, fill the columns
+
+The scrapers only ever kept the ~700-character listing card, so most of
+`Expérience requise`, `Type de contrat`, `Secteur` and even `Entreprise` were
+empty or carried a value the board invented. Fixed in two steps.
+
+**1. Fetch the real ad body** — `run.py fulltext` (new). Plain HTTP for LinkedIn /
+Rekrute / SmartRecruiters, then UC mode with a visible window for the walled
+boards. `data/fulltext.json` now holds **609 bodies**.
+
+168 walled offers were re-fetched, **151 succeeded**. Optioncarriere turned out
+**not** to block by IP reputation — UC clears it (53/55). The 17 failures are 14
+Jooble + 1 Indeed stuck on the Cloudflare interstitial, plus 2 expired ads. Those
+rows keep their link and their listing-card values; the rest of their columns stay
+empty rather than guessed.
+
+**2. Rule on the fields by reading** — `run.py enrich`, 132 offers read this round,
+`data/field_verdicts.json` now holds **289** rulings. Result: usable
+`Expérience requise` went from 41/324 (12.7 %) to **235/301 (78.1 %)**, and 0 rows
+still name a job board as the employer.
+
+Six more rows were dropped by reading: an AbbVie post whose body places it in
+*"Worcester, MA (5 days a week on site)"*; a Capgemini "Associate Quality
+Engineer" that is REST/Postman/JIRA software testing; a Safran "Chef d'équipe"
+the ad itself files as *"CDI Technicien"*; a Hirschmann grouped ad whose only
+industrial post is a *Lean Management Technician*; an SNTL "chef d'équipe"
+warehouse post at Bac+2; and a Manpower "Assistante Supply Chain" the source
+files under *"Assistant(e) / Secrétaire de direction"*.
+
 ### What is left to do
 
-1. Company enrichment for the ~100 new companies (`enrich_company.py`, cached).
-2. Re-run `scrape` when the list needs refreshing; `curate` and `stage` then only
-   need rulings on offers whose `key` is not already in the verdict files.
+1. **14 Jooble + 1 Indeed detail pages** are still behind Cloudflare. Do not burn
+   time on the captcha — the user called this off explicitly on 2026-08-03. The
+   rows ship with their link and whatever the listing card showed.
+2. Company enrichment (`enrich_company.py`) is **not needed for the workbook** —
+   it fills website/e-mail columns the deliverable no longer has.
+3. Re-run `scrape` when the list needs refreshing, then `fulltext`, then rule on
+   offers whose `key` is not already in the verdict files.
 
 ## The skill
 
@@ -156,6 +196,23 @@ which are dead. Read it before touching a source.
   `remote_verdict = OK` for every row on a REMOTE sheet so appends do not silently
   drop them. That also means a row never has to justify itself twice, which is why
   `do_build` re-checks recovered rows against both verdict files.
+- **A single long-lived UC session silently burns the queue when it dies.** The
+  browser window gets closed, Chrome updates, the driver drops — every later URL
+  then fails instantly against a dead localhost port and looks like a source
+  failure. `fulltext.uc_pass` reopens the session instead (12 retries max).
+- **`uc_gui_click_captcha()` misses on a scaled display.** Selenium reports the
+  checkbox in logical pixels, PyAutoGUI clicks in physical ones; at 150 % Windows
+  scaling every click lands at two thirds of the right spot. Use
+  `uc_gui_handle_captcha()` (TAB + SPACE) first. It still does not clear Jooble.
+- **SeleniumBase downloaded its own `uc_driver.exe` fine on 2026-08-03** (driver
+  150.0.7871.124, ~15 s), contradicting the earlier note. Keep the manual copy
+  trick in `SOURCES.md` as a fallback, not as the first move.
+- **`os.makedirs` raises WinError 3 on a Google Drive path that exists.** The
+  virtual filesystem breaks the walk up to `G:/`. Guard with `os.path.isdir`
+  first — this silently skipped the Drive publication for a whole build.
+- **An expired Optioncarriere ad returns the site's "Dernières offres" list**,
+  not a 404. Without checking for *"Cette offre d'emploi a expiré"* you store a
+  page of Decathlon and Konecta ads as the offer's body.
 - **A grouped ad is only as good as the posts inside it.** "STMicroelectronics
   recrute Plusieurs Profils" lists nothing but technicien roles; "Postes à saisir
   chez Safran" recruits Techniciens Supply Chain. The title passes every filter.
@@ -196,10 +253,16 @@ backup/                                         timestamped workbook snapshots
 $root = "c:\Users\El Yazid\Desktop\HelpingMyLtCutieRoseAchieveHerDreams"
 cd "$root\skill\findmyprincessajob\pipeline"
 $env:PYTHONIOENCODING="utf-8"
-python run.py curate "$root\spec.json"   # then read every offer + rule
-python run.py stage  "$root\spec.json"   # then read every offer + rule
-python run.py build  "$root\spec.json"
+python run.py fulltext "$root\spec.json"  # fetch the real ad bodies (opens Chrome)
+python run.py curate   "$root\spec.json"  # then read every offer + rule
+python run.py stage    "$root\spec.json"  # then read every offer + rule
+python run.py enrich   "$root\spec.json"  # then read every offer + fill the columns
+python run.py build    "$root\spec.json"
 ```
+
+`fulltext` must run before `enrich` — `enrich` can only be as good as the text it
+is handed. Close the workbook in Excel before `build`, or the save raises
+`PermissionError`.
 
 Back up the workbook first. A Chrome window opens during `scrape` — leave it alone.
 `curate` and `stage` only write the candidate files; the rulings are yours to make
