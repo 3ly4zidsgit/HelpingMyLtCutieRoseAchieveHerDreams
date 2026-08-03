@@ -25,19 +25,24 @@ filled by reading, workbook rebuilt and verified at 301 rows.**
 
 ### Delivered and verified
 
-`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 4 sheets, 301 rows:
+`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 4 sheets, 288 rows:
 
 | Sheet | Rows |
 |---|---|
-| MAROC - JUNIOR | 116 |
-| MAROC - AVEC EXPERIENCE | 184 |
-| REMOTE - JUNIOR | 1 |
-| REMOTE - AVEC EXPERIENCE | 0 |
+| MAROC - JUNIOR | 61 |
+| MAROC - AVEC EXPERIENCE | 226 |
+| REMOTE - JUNIOR | 0 |
+| REMOTE - AVEC EXPERIENCE | 1 |
 
-14 columns (15 on remote sheets — they carry the evidence quote). Offer links are
-clickable, filters on, header row frozen. Verified 2026-08-03: 301/301 links
-clickable, 301 distinct URLs, 0 excluded titles, 0 job-board names in the
-employer column, `Expérience requise` usable on 235/301 (78 %).
+15 columns (16 on remote sheets — they carry the evidence quote), "Postulé"
+first. Offer links are clickable, filters on, header row and the tick column
+frozen. Verified by `research/verify.py` on 2026-08-03: 288/288 links clickable,
+288 distinct URLs, **0 offre fermée**, **0 ligne junior au plancher > 0**,
+Description 100 %, Fonction 99.7 %, Secteur 97.6 %, Ville 96.2 %, Entreprise
+94.4 %, `Expérience requise` 83.3 %, Type de contrat 74.7 %, Date limite 13.5 %.
+
+Run it after every build: it prints the before/after of every column against the
+last `backup/*avant_round4*.xlsx` and fails loudly on the two invariants.
 
 A copy is republished to `G:\My Drive\Emploi Rose\` on every build — that is the
 link the workbook is shared through, since an e-mail attachment can never be
@@ -129,6 +134,28 @@ industrial post is a *Lean Management Technician*; an SNTL "chef d'équipe"
 warehouse post at Bac+2; and a Manpower "Assistante Supply Chain" the source
 files under *"Assistant(e) / Secrétaire de direction"*.
 
+### What round 4 could NOT fill, and why
+
+- **Date limite candidature: 249/288 vides (13.5 % remplie).** Only Rekrute and a
+  handful of concours publish one. 94 of the empties are LinkedIn alone; Dreamjob,
+  Optioncarriere, MarocAnnonces and Bayt never print a deadline anywhere in the ad.
+- **Type de contrat: 73 vides.** 57 of the 61 Optioncarriere/Dreamjob ads state no
+  contract type anywhere in their body — checked by scanning every body for CDI /
+  CDD / intérim / temps plein; the 4 hits were a recruiting agency describing its
+  own services and a franchise contract.
+- **Expérience requise: 48 vides.** For the 21 LinkedIn rows among them the body
+  was re-fetched through the guest API and simply states no duration. Board
+  buckets ("Non pertinent", "Cadre", "Confirmé") were cleared rather than kept.
+- **Entreprise: 16 vides.** The ads publish "Confidential", "ANONYME" or
+  "MULTINATIONAL". A board name is not an employer, so the cell stays empty.
+- **14 Jooble + 1 Indeed + 1 Optioncarriere** still refuse their detail page. The
+  captcha is off limits (user's decision, 2026-08-03). 7 of them were filled from
+  the same ad found under its real source; the rest carry only what the
+  aggregator card printed.
+- **35 lignes junior have a silent ad.** They are on the junior sheet because
+  nothing in them demands experience — not because a zero floor was established.
+  `Niveau d'expérience` shows "Non precise" for those.
+
 ### What is left to do
 
 1. **14 Jooble + 1 Indeed detail pages** are still behind Cloudflare. Do not burn
@@ -137,7 +164,30 @@ files under *"Assistant(e) / Secrétaire de direction"*.
 2. Company enrichment (`enrich_company.py`) is **not needed for the workbook** —
    it fills website/e-mail columns the deliverable no longer has.
 3. Re-run `scrape` when the list needs refreshing, then `fulltext`, then rule on
-   offers whose `key` is not already in the verdict files.
+   offers whose `key` is not already in the verdict files. `research/newonly.py
+   curate|stage` stages only those — after four rounds the corpus is 3 000 offers
+   and re-reading all of them to find the 40 new ones is the slow way to the same
+   answer.
+4. **2 263 offres internationales collectées en round 4 restent non jugées** sur
+   la porte visa. They cannot ship without an `OK` verdict, so the deliverable is
+   safe; judging them is a next-round job. Read
+   `research/scan.py` / `research/scan_new.py` for the compact-evidence pattern.
+
+### Helper scripts written in round 4 (`research/`)
+
+| Script | What it is for |
+|---|---|
+| `verify.py` | the acceptance check: sheets, closed offers, junior floors, links, empty cells before/after, Drive hash |
+| `audit_workbook.py` | dump the workbook to `data/audit_rows.json` and list the defects |
+| `worklist.py` | per-row list of empty columns + the passages that answer them |
+| `scan.py` / `scan_new.py` | one dense line per empty cell: the sentence that decides, or nothing |
+| `show.py` | dump the requirement block of one ad by verdict key |
+| `twins.py` | find the same ad republished elsewhere, and measure the vocabulary overlap |
+| `li_refetch.py` | re-fetch LinkedIn bodies through the public guest API |
+| `fulltext_ma.py` | `fulltext`, but only for the Moroccan rows still missing a body |
+| `rerun_linkedin.py` | replay just the two LinkedIn steps |
+| `newonly.py` | stage only the offers that carry no verdict yet |
+| `merge_verdicts.py` | merge `data/r4_batch_*.json` and `r4_drops*.json` into the verdict files |
 
 ## The skill
 
@@ -159,6 +209,59 @@ One input, the specialty. Pipeline: `scrape` -> `stage` -> `curate` -> `build`.
 `skill/findmyprincessajob/references/SOURCES.md` is the valuable artefact: a
 tested map of which boards answer plain HTTP, which need a real browser, and
 which are dead. Read it before touching a source.
+
+### Round 4 (2026-08-03) — close the offers, fix the sheets, fill the rest
+
+Four defects seen on screen, all fixed in code so they cannot come back:
+
+1. **20 lignes "OFFRE EXPIREE"** shipped in the deliverable. `build.is_closed` now
+   drops any row whose date columns carry a closure that was *read on the page*,
+   and `do_build` applies it to the fresh scrape and to the recovered workbook
+   rows on every build. An ad that is merely old is kept — "annonce publiée il y
+   a 2 ans - vérifier qu'elle est toujours ouverte" is a warning, not a closure.
+2. **30 lignes exigeant une durée non nulle étaient sur la feuille JUNIOR.** The
+   sheet is now decided by `build.exp_floor`, which returns the *minimum* the ad
+   demands. JUNIOR means floor zero. The floor beats a `seniority_bucket` the
+   model locked in — that lock was the bug. Reading the ceiling as the floor is
+   the trap: `0 à 3 ans`, `de la sortie d'études à 6 ans`, `jeune diplômé
+   jusqu'à 3 ans`, `junior (2 ans maximum)` all contain a number and are all
+   junior.
+3. **"Débutant accepté" / "Jeune diplômé" / empty** now normalise to `0` via
+   `build.normalize_exp`, keeping the ceiling (`0 à 3 ans`) and any real
+   qualifier (`0 (stage PFE apprécié)`). A **silent** ad still gets an empty
+   cell: unstated is not zero.
+4. **Colonne "Postulé"** — first column, dark blue, dropdown holding a tick. The
+   only column the pipeline never writes. Ticking greys the whole line out live
+   in Excel; the tick is read back by `read_existing` and mirrored to
+   `data/applied.json`, so it survives a workbook rebuilt from scratch.
+
+Google Drive folder renamed `Emploi Rose` -> `Helping My Rose🌸❤️`; `spec.json`
+`publish_dir` follows it. The Drive mount **flaps**: `os.path.isdir` on the same
+path answers False then True seconds later, and the old `publish()` reacted by
+calling `makedirs`, which walked to `G:/` and raised WinError 3. It now re-asks
+five times and refuses to create anything when the drive root is absent.
+
+**A bug in `Collector.push` had been discarding both LinkedIn steps.**
+`contact_email` was passed as a keyword *and* inside `**extra`, so `blank()`
+raised `TypeError` on the first LinkedIn row of every run. `run.py` catches per
+step, so the run looked healthy while the whole phase was lost — 1 309 raw / 130
+title-relevant for Morocco, 6 062 / 2 566 for remote. Fixed with `setdefault`.
+`all_rows()` now globs every `raw_*.json` instead of three hard-coded names, so a
+single source can be replayed on its own (`research/rerun_linkedin.py`) and a
+rescued corpus is picked up by dropping the file in `data/`.
+
+Round-4 collection: Rekrute 91, MarocAnnonces + Dreamjob 71, ATS 2, boards remote
+64, Emploi.ma 78, Bayt 486, Indeed 5, LinkedIn Maroc 108, LinkedIn Remote 2 566.
+52 new Moroccan offers read on the relevance gate, 17 kept. 16 new rows filled by
+reading. **The 2 320 new international offers were not individually judged**;
+the 57 that contained a "worldwide / globally" word were read and all 57 rejected
+— every one is corporate boilerplate ("a worldwide leader", "80 000 colleagues
+worldwide") on a post anchored to a plant in Luxembourg, Sligo, Stockholm,
+Hornell NY, Glasgow, Barcelona, Porto, Kuwait, Nigel or 10th of Ramadan; one
+states outright "No visa sponsorship available" and another "100% Onsite".
+An international row without an `OK` verdict never reaches a sheet, so the
+unjudged rest cannot leak into the deliverable — they stay staged in
+`data/curation_candidates.json` for a later round.
 
 ## Hard-won facts (do not re-derive)
 
@@ -213,6 +316,33 @@ which are dead. Read it before touching a source.
 - **An expired Optioncarriere ad returns the site's "Dernières offres" list**,
   not a 404. Without checking for *"Cette offre d'emploi a expiré"* you store a
   page of Decathlon and Konecta ads as the offer's body.
+- **`run.py scrape` overwrites `data/raw_http.json`.** The round-2 corpus lived
+  there (647 rows merged by the `research/` scripts, which never write
+  `raw_*.json`). Move it to `data/raw_extra.json` first — `all_rows()` unions
+  `raw_http` + `raw_uc` + `raw_extra`, so nothing is lost and the fresh scrape
+  gets a clean file.
+- **LinkedIn's `/jobs/view/` page serves two different bodies.** Sometimes the ad,
+  sometimes only the login shell ("Découvrez qui X a recruté", then the sign-in
+  form) — and the shell is over 2 000 characters, so length is no test for which
+  one you got. Check for LinkedIn's `Show more` marker instead, and re-fetch the
+  losers through `/jobs-guest/jobs/api/jobPosting/<id>`, which is public, needs no
+  account and cannot get anyone's LinkedIn banned. `research/li_refetch.py`.
+- **A board that refuses its detail page has usually mirrored an ad that is
+  already in the list.** 7 of the 14 walled Jooble rows were the same offer as a
+  LinkedIn/Optioncarriere row already in the workbook — same title, same employer,
+  same city, 81-100 % of the aggregator card's vocabulary present in the other
+  ad's body (`research/twins.py` measures it). Reading it there beats fighting the
+  captcha, and is the only way to fill those rows without inventing anything.
+- **The aggregator card itself is published data.** Jooble prints the employer,
+  the city and the posting age at the end of every card it serves. That is the
+  source speaking, and it filled Entreprise/Ville on rows whose detail page never
+  loaded.
+- **Most boards never publish a deadline.** After reading all 279 shipping ads,
+  only ~45 carry one, and 94 of the empties are LinkedIn alone. Rekrute publishes
+  it; LinkedIn, Dreamjob, Optioncarriere, MarocAnnonces and Bayt do not. Likewise
+  57 of the 61 Optioncarriere/Dreamjob ads state no contract type anywhere in
+  their body. Those cells are empty because nothing was published, not because
+  nobody looked.
 - **A grouped ad is only as good as the posts inside it.** "STMicroelectronics
   recrute Plusieurs Profils" lists nothing but technicien roles; "Postes à saisir
   chez Safran" recruits Techniciens Supply Chain. The title passes every filter.

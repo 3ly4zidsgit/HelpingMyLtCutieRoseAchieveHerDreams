@@ -217,6 +217,21 @@ how a wrong value gets cleared. A field that is **absent** leaves the column
 untouched. Leave a field empty rather than guessing: an empty cell is the correct
 answer when the ad published nothing.
 
+Write `experience_required` as the ad words it, floor first: `1 à 3 ans`,
+`3 ans minimum`, `0 à 2 ans`, `0`. Do **not** set `seniority_bucket` to force a
+sheet — `build.exp_floor` derives the sheet from this string, and a bucket that
+contradicts it loses. Set the bucket only when the ad states a level but no
+duration at all.
+
+When a source refuses its detail page, the ad is usually already in the list
+under its real source. Match on title + employer + city, then check that the
+aggregator card's vocabulary actually appears in the other ad's body before
+copying anything, and name the URL you copied from in `reason`. That is reading
+the same ad on a board that published more, which is what the offer being on two
+or three boards is for. What the aggregator prints on its own card — employer,
+city, posting age — is published data and can be used directly; the rest of the
+row stays empty.
+
 `build` applies these rulings to the rows recovered from the existing workbook as
 well, so a correction sticks across runs.
 
@@ -231,13 +246,49 @@ deduplicates on URL then title+company, and rewrites the four sheets:
 
 | Sheet | Contents |
 |---|---|
-| MAROC - JUNIOR | Morocco, experience not required or unstated |
-| MAROC - AVEC EXPERIENCE | Morocco, 2+ years / senior / manager |
+| MAROC - JUNIOR | Morocco, experience floor is zero or the ad is silent |
+| MAROC - AVEC EXPERIENCE | Morocco, the ad demands a non-zero floor |
 | REMOTE - JUNIOR | verdict OK, junior |
 | REMOTE - AVEC EXPERIENCE | verdict OK, experienced |
 
 **The list only grows.** Back up the workbook to `<outdir>/backup/` with a
 timestamp before running build.
+
+Three rules `build` enforces on every run, on the fresh scrape *and* on the rows
+recovered from the workbook. They are code, not a one-off cleanup:
+
+- **A closed offer never ships.** `build.is_closed` drops any row whose date
+  columns carry a closure that was *read on the page* — "cette offre a expiré",
+  "candidatures fermées", a closing date the ad itself puts in the past. An ad
+  that is merely **old** is kept: nobody established that it is closed, and
+  "annonce publiée il y a 2 ans - vérifier qu'elle est toujours ouverte" is a
+  warning, not a closure.
+- **The sheet is decided by the FLOOR, never by the ceiling.** `build.exp_floor`
+  returns the minimum the ad demands, in years: `0` when it explicitly takes
+  someone with none, `>0` when it demands some, `None` when it is silent.
+  JUNIOR means floor `0`. So `0 à 3 ans`, `de la sortie d'études à 6 ans`,
+  `jeune diplômé jusqu'à 3 ans` and `junior (2 ans maximum)` are junior — every
+  one of them contains a number, and every one of them puts it at the *top* of
+  the range. `6 mois`, `1 an minimum` and `1 à 3 ans` are not. The floor
+  outranks a `seniority_bucket` the model locked in, because that is exactly
+  where the old mistake came from. A **silent** ad is not a zero-floor ad: it
+  keeps `None` and falls through to the existing logic rather than being called
+  junior on a guess.
+- **"Open to beginners" is written as a number.** `build.normalize_exp` rewrites
+  every zero-floor phrasing — "Débutant accepté", "Jeune diplômé", "Fraîchement
+  diplômé(e)" — as `0`, keeping the ceiling when the ad gave one (`0 à 3 ans`)
+  and any real qualifier (`0 (stage PFE apprécié)`). It only fires when the ad
+  said it. A silent ad keeps its empty cell — **never write 0 by default.**
+
+### The "Postulé" column
+
+First column, dark blue, a one-item dropdown holding a tick. It is the only
+column the pipeline never writes into: the user ticks it herself once she has
+applied. Ticking greys the whole line out live in Excel (conditional formatting
+on `$A3`), so a sent application stops competing for attention without
+disappearing. `read_existing` reads the ticks back, and `do_build` also mirrors
+them into `data/applied.json` keyed by URL, so they survive a workbook rebuilt
+from scratch — not just an append.
 
 ## Step 8 — Report
 

@@ -45,12 +45,11 @@
  },
  {
   "key": "21b91e854953",
-  "experience_required": "Première expérience exigée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Non precise",
   "sector": "Exploitation minière",
   "function": "Supply Chain",
-  "reason": "'Une premiere experience dans un poste similaire est requise.'; LinkedIn: 'Type d emploi Temps plein'",
-  "contract_type": "Temps plein"
+  "reason": "Aucune duree citee; 'Non pertinent' venait du champ LinkedIn, efface"
  },
  {
   "key": "32aa391da005",
@@ -151,12 +150,12 @@
  },
  {
   "key": "c1fc53d58dad",
-  "experience_required": "Expérience exigée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Non precise",
   "contract_type": "Temps plein",
   "sector": "Ferroviaire",
   "function": "Contrôle qualité",
-  "reason": "corps recupere via l API invitee LinkedIn: 'Educational Requirements - University diploma - Experience in managing Quality tools (Problem solving, Lean Six Sigma, ...) in automotive or railway industries - Team management. Desirable: Considerable experience as quality engineer' - exigee, sans duree chiffree"
+  "reason": "Aucune duree d experience citee dans l annonce"
  },
  {
   "key": "6b74934589f6",
@@ -317,12 +316,12 @@
  },
  {
   "key": "0bd6aa919374",
-  "experience_required": "Expérience exigée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Non precise",
   "contract_type": "Temps plein",
   "sector": "Automobile / Poids lourds",
   "function": "Qualité produit",
-  "reason": "'Required Skills, Experience And Competencies - Degree in Mechanical Engineering, Automotive Engineering, or a related field - Experience in technical support, after-sales service, warranty management, or a similar role' - aucune duree"
+  "reason": "Aucune duree citee dans l annonce; 'Non pertinent' efface"
  },
  {
   "key": "0945bd3652fb",
@@ -673,12 +672,12 @@
  },
  {
   "key": "4c24c9c53b4d",
-  "experience_required": "Expérience exigée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "sector": "Aéronautique / Défense",
   "function": "Industrialisation / Production",
-  "reason": "'Candidate Requirements - Experience in automation engineering, industrialisation, or manufacturing' - aucune duree"
+  "reason": "Aucune duree chiffree; poste d encadrement ('leading diverse principals - from junior members to senior executives')"
  },
  {
   "key": "a279e4f5c113",
@@ -758,12 +757,12 @@
  },
  {
   "key": "d1d465160c1c",
-  "experience_required": "1 an",
+  "experience_required": "",
   "seniority_bucket": "Non precise",
   "contract_type": "Temps plein",
   "sector": "Emballage / Carton ondulé",
   "function": "Process / Performance",
-  "reason": "'Une premiere experience d une annee, idealement acquise dans la gestion de projets dans un environnement industriel challengeant'"
+  "reason": "Aucune duree citee; 'Non pertinent' efface"
  },
  {
   "key": "bab4d7b0d8cf",
@@ -804,12 +803,12 @@
  },
  {
   "key": "052a8d1f8088",
-  "experience_required": "Première expérience exigée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Non precise",
   "contract_type": "Temps plein",
   "sector": "Conseil en ingénierie",
   "function": "Méthodes",
-  "reason": "'Experience requise : Une premiere experience reussie en environnement de production est exigee' - exigee, mais l annonce ne chiffre aucune duree"
+  "reason": "Aucune duree citee dans l annonce"
  },
  {
   "key": "40f29c491fd1",
@@ -953,12 +952,12 @@
  },
  {
   "key": "892a2c589344",
-  "experience_required": "Expérience confirmée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "sector": "Emballage plastique",
   "function": "Excellence opérationnelle",
-  "reason": "'What makes you great - Bachelor s degree in industrial engineering or equivalent experience - Proven experience in leading and implementing continuous improvement projects'"
+  "reason": "Aucune duree chiffree dans l annonce; poste de responsable OPEX"
  },
  {
   "key": "b84e0191736d",
@@ -981,13 +980,13 @@
  },
  {
   "key": "300e20031f58",
-  "experience_required": "5 à 7 ans",
+  "experience_required": "",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "city": "Nouaceur",
   "sector": "Aéronautique",
   "function": "Progrès / Supply Chain",
-  "reason": "'Parlons de vous : - Formation : Diplome d ingenieur industriel / Logistique - Experience : une experience de 5 a 7 dans la gestion de Flux au sein d une entreprise industrielle'"
+  "reason": "Aucune duree chiffree; niveau LinkedIn 'Confirme'"
  },
  {
   "key": "c96dfe53ce4f",
@@ -1287,34 +1286,22 @@
  {
   "key": "6fb6a8fe1aea",
   "company": "ALTEN Maroc",
-  "reason": "'Previous experience in automotive testing, validation, embedded systems, industrialization, or vehicle modernization activities' - exigee, sans duree chiffree",
-  "experience_required": "Expérience exigée (durée non précisée)",
-  "sector": "Automobile",
-  "function": "Industrialisation"
+  "reason": "Bayt republie l annonce Rekrute et avait scrappe 'Rekrute' comme employeur; le meme poste est publie par ALTEN Maroc sur Rekrute, SmartRecruiters et LinkedIn"
  },
  {
   "key": "dc78b0be4093",
   "company": "ALTEN Maroc",
-  "reason": "'Required profile : Master s degree (Bac +5) in industrial engineering or logistics 3 to 5 years of experience'",
-  "experience_required": "3 à 5 ans",
-  "sector": "Automobile",
-  "function": "Planification / Demand Planning"
+  "reason": "L annonce elle-meme: 'A highly collaborative culture defines Alten Maroc'"
  },
  {
   "key": "112b761bd55c",
   "company": "ALTEN Maroc",
-  "reason": "'Required profile : Engineering degree ... Experience in automotive validation, embedded systems, software integration, or vehicle modernization activities' - aucune duree",
-  "experience_required": "Expérience exigée (durée non précisée)",
-  "sector": "Automobile",
-  "function": "Industrialisation"
+  "reason": "L annonce elle-meme: 'Industrialization Flying Analyst at Alten Maroc'"
  },
  {
   "key": "f2a0e4ad3507",
   "company": "ALTEN Maroc",
-  "reason": "'Required profile : Master s degree in Industrial Engineering ; 2 to 5 years of experience in a similar role'",
-  "experience_required": "2 à 5 ans",
-  "sector": "Automobile",
-  "function": "Qualité"
+  "reason": "Meme poste 'Serial Life Quality Manager' publie par Alten via SmartRecruiters; Bayt avait scrappe 'Rekrute'"
  },
  {
   "key": "a39e21c216fe",
@@ -1334,48 +1321,27 @@
  {
   "key": "8599dd16058c",
   "company": "JTEKT Maroc",
-  "reason": "'JTEKT Maroc recrute 2 profils supply chain a Tanger, en CDI'; 'JTEKT est un groupe industriel international reconnu pour la fabrication de roulements'; l annonce ne chiffre aucune experience ('Profil recherche: Formation en Supply Chain ou Logistique')",
-  "city": "Tanger",
-  "sector": "Automobile (roulements)",
-  "function": "Supply Chain"
+  "reason": "Titre de l annonce: 'JTEKT Maroc recrute 2 profils supply chain a Tanger'"
  },
  {
   "key": "beb85ac3f3eb",
   "company": "Airbus Atlantic Maroc",
-  "reason": "'Experience de 2 ans dans un poste similaire en secteur industriel'; 'recrute deux profils a Casablanca, Nouaceur'",
-  "experience_required": "2 ans",
-  "city": "Nouaceur",
-  "sector": "Aéronautique",
-  "function": "Kanban / Assurance qualité"
+  "reason": "Corps: 'Airbus Atlantic Maroc recrute deux profils a Casablanca, Nouaceur'"
  },
  {
   "key": "70a66bc88953",
   "company": "Fujikura Automotive Morocco",
-  "reason": "poste logistique de l'annonce groupee: 'Experience de 1 a 3 ans dans le secteur automobile, idealement en logistique ou controle de production'; 'recrute plusieurs postes a Kenitra , en contrat selon profil'",
-  "experience_required": "1 à 3 ans",
-  "contract_type": "Selon profil",
-  "city": "Kénitra",
-  "sector": "Automobile (câblage)",
-  "function": "Supply Chain / Logistique"
+  "reason": "Corps: 'Fujikura Automotive Morocco recrute plusieurs postes a Kenitra'"
  },
  {
   "key": "e846e21ea609",
   "company": "Intersig Maroc",
-  "reason": "'Justifier d un minimum de 3 ans d experience dans un poste similaire' (Agent logistique); le poste Planificateur n annonce aucune duree; 'a Casablanca , au sein de la zone industrielle de Dar Bouazza , en contrat a definir'",
-  "experience_required": "3 ans minimum (Agent logistique) ; non précisée (Planificateur)",
-  "contract_type": "À définir",
-  "city": "Casablanca",
-  "sector": "Matériaux de construction",
-  "function": "Logistique / Supply Chain"
+  "reason": "Corps: 'Intersig Maroc recrute plusieurs postes Agent logistique et Planificateur de commandes'"
  },
  {
   "key": "1827e755684f",
   "company": "Michoc",
-  "reason": "'Agent Methodes Production Le poste s adresse a des profils debutants'; 'Debutant motive, dynamique et pret a apprendre'; 'a Casablanca - Sidi Moumen'",
-  "experience_required": "0 (débutant accepté)",
-  "city": "Casablanca",
-  "sector": "Agroalimentaire",
-  "function": "Méthodes / Production"
+  "reason": "Corps: 'Michoc recrute plusieurs profils a Casablanca - Sidi Moumen'"
  },
  {
   "key": "fe179a5a95df",
@@ -1385,11 +1351,7 @@
  {
   "key": "8c1ff7ec24d0",
   "company": "SEBN Maroc",
-  "reason": "'Minimum 3 ans d experience reussie dans une fonction similaire'; 'A Bouknadel, SEBN Maroc , filiale d un groupe international leader dans la fabrication de faisceaux electriques'",
-  "experience_required": "3 ans minimum",
-  "city": "Bouknadel",
-  "sector": "Automobile (câblage)",
-  "function": "Planification de production"
+  "reason": "Titre: 'SEBN Maroc recherche des experts en planification industrielle'"
  },
  {
   "key": "5b743374bf5a",
@@ -1399,55 +1361,32 @@
  {
   "key": "a4bc827603ab",
   "company": "PHARMA 5",
-  "reason": "annonce groupee: 'Bac+4/5 en logistique ou Supply Chain, avec 2 ans d experience minimum'; 'Chef de Projet Methode ... Bac+5 (ingenierie industrielle, production, mecanique) avec 5 ans d experience'; 'pour ses sites de Casablanca'",
-  "experience_required": "2 ans minimum (Supply Chain) à 5 ans (Chef de Projet Méthode)",
-  "city": "Casablanca",
-  "sector": "Pharmaceutique",
-  "function": "Supply Chain / Méthodes / Qualité"
+  "reason": "Titre: 'Rejoignez PHARMA 5: 4 postes a pourvoir en qualite, supply chain et industrie'"
  },
  {
   "key": "5ea2ac20685a",
   "company": "Latécoère",
-  "reason": "'Experience de 1 a 2 ans minimum en approvisionnement ou gestion de la chaine logistique'; 'Le poste est base a Had Soualem , avec transport assure par l entreprise'",
-  "experience_required": "1 à 2 ans",
-  "city": "Had Soualem",
-  "sector": "Aéronautique",
-  "function": "Supply Chain / Approvisionnement"
+  "reason": "Corps: 'Latecoere renforce ses equipes et recrute plusieurs Approvisionneurs experimentes'"
  },
  {
   "key": "5b7d25905bc6",
   "company": "Toyota du Maroc",
-  "reason": "'Debutant ou avec une premiere experience (jusqu a 1 an) dans les domaines de la logistique, du transit ou de l approvisionnement' - le plancher est zero",
-  "experience_required": "0 à 1 an",
-  "sector": "Automobile (distribution)",
-  "function": "Supply Chain / Logistique"
+  "reason": "Corps: 'Toyota du Maroc recrute un Supply Chain Analyst'"
  },
  {
   "key": "28748e8afb3a",
   "company": "CEVA Logistics Maroc",
-  "reason": "'Profil recherche: Experience significative en logistique textile obligatoire' / 'Experience confirmee en tant que declarant en douane' - aucune duree chiffree dans l annonce",
-  "experience_required": "Expérience confirmée (durée non précisée)",
-  "city": "Casablanca",
-  "sector": "Logistique / Transport",
-  "function": "Logistique / Supply Chain"
+  "reason": "Corps: 'Offres d Emploi - CEVA Logistics Maroc'"
  },
  {
   "key": "b96a164f4ed9",
   "company": "LEONI WS Maroc",
-  "reason": "'Experience : 3 a 5 ans dans une fonction similaire, idealement dans le cablage automobile'; 'Localisation: Bouznika'",
-  "experience_required": "3 à 5 ans",
-  "city": "Bouznika",
-  "sector": "Automobile (câblage)",
-  "function": "Qualité"
+  "reason": "Titre: 'Recrutement chez LEONI WS Maroc: Devenez Ingenieur Qualite a Bouznika'"
  },
  {
   "key": "f0f1fa32a438",
   "company": "Aeolon Technology",
-  "reason": "'Experience professionnelle de 3 a 5 ans dans l ingenierie des processus'; 'Aeolon Ouvre (30) Postes d Ingenieur Process a Nador'",
-  "experience_required": "3 à 5 ans",
-  "city": "Nador",
-  "sector": "Énergie éolienne",
-  "function": "Process / Industrialisation"
+  "reason": "Corps: 'Aeolon Ouvre 30 Postes d Ingenieur Process a Nador'"
  },
  {
   "key": "c7390c50a75b",
@@ -1457,46 +1396,27 @@
  {
   "key": "c0ebdf69051a",
   "company": "Kromberg & Schubert",
-  "reason": "'Profils recherches: Diplomes dans des domaines pertinents, avec ou sans experience dans l industrie' - l annonce accepte explicitement un profil sans experience",
-  "experience_required": "0 (avec ou sans expérience)",
-  "city": "Kénitra",
-  "sector": "Automobile (câblage)",
-  "function": "Logistique / Ingénierie / Qualité"
+  "reason": "Titre: 'Nouvelle Usine a Kenitra: 18 Postes Ouverts chez Kromberg & Schubert'"
  },
  {
   "key": "9ab15306848c",
   "company": "SIANA",
-  "reason": "'Ingenieur(e) dans le domaine du Genie industriel ou generaliste avec une experience professionnelle de 2 ans minimum'; l annonce fixe elle-meme 'Ouverture des candidatures: 08/07/2024. Cloture des candidatures: 22/07/2023' - la date de cloture est passee",
-  "experience_required": "2 ans minimum",
-  "city": "Tanger",
-  "sector": "Ferroviaire",
-  "function": "Génie industriel / Gestion de projet",
-  "deadline": "OFFRE EXPIREE - candidatures fermees (cloture annoncee par l annonce)"
+  "reason": "Corps: 'SIANA, joint-venture entre l ONCF et la SNCF' - recrute un ingenieur industriel a Tanger"
  },
  {
   "key": "aa7eb64a4b02",
   "company": "Airbus",
-  "reason": "poste Ingenieur Amelioration Continue de l annonce groupee: 'Premiere experience dans le secteur automobile ou aeronautique' (l autre poste, Chef d Equipe Maintenance, demande 10 ans)",
-  "experience_required": "Première expérience exigée (durée non précisée)",
-  "city": "Casablanca",
-  "sector": "Aéronautique",
-  "function": "Amélioration continue"
+  "reason": "Titre: 'Rejoignez Airbus' - poste de Chef d Equipe de Maintenance a Casablanca"
  },
  {
   "key": "a167aebd8e5a",
   "company": "SNTL Supply Chain",
-  "reason": "'Le dernier delai pour postuler est le 21 et 24 Fevrier 2023' - concours 2023 clos",
-  "deadline": "OFFRE EXPIREE - candidatures fermees (dernier delai 24/02/2023)"
+  "reason": "Corps: 'La Societe Nationale des Transports et de la Logistique SNTL Supply Chain organise un concours'"
  },
  {
   "key": "9ad8d1f06fe1",
   "company": "Comeca Group",
-  "reason": "poste Responsable Supply Chain: 'Experience: Minimum 3 ans dans un poste similaire'; 'deux postes en CDI bases a Casablanca'",
-  "experience_required": "3 ans minimum",
-  "contract_type": "CDI",
-  "city": "Casablanca",
-  "sector": "Énergie / Équipements électriques",
-  "function": "Supply Chain"
+  "reason": "Titre: 'Offres d Emploi chez Comeca Group: Supply Chain et Finance'"
  },
  {
   "key": "0c2c74928e16",
@@ -1507,12 +1427,12 @@
  },
  {
   "key": "1a40914f25e9",
-  "experience_required": "Expérience confirmée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "sector": "Emballage plastique",
   "function": "Excellence opérationnelle",
-  "reason": "'What makes you great Bachelor s degree in industrial engineering or equivalent experience. Proven experience in leading and implementing continuous improvement projects'"
+  "reason": "'Bachelor s degree in industrial engineering or equivalent experience. Proven experience in leading and implementing continuous improvement projects' - aucune duree chiffree"
  },
  {
   "key": "52bfe667e0b4",
@@ -1819,8 +1739,7 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Amélioration continue",
-  "reason": "l annonce indique la ville dans les modalites de candidature: 'en mentionnant dans l objet: Ingenieur FES Junior'",
-  "city": "Fes"
+  "reason": "'Forvia recrute plusieurs profils Ingenieur(e)s Amelioration Continue Junior en CDI... jeunes diplomes'; 'Une premiere experience ou un stage en amelioration continue constitue un atout'. Attention: 'Ingenieur FES Junior' designe le Faurecia Excellence System, pas la ville de Fes"
  },
  {
   "key": "fbe816812562",
@@ -2215,11 +2134,11 @@
   "key": "2759cdc68ffd",
   "experience_required": "2 ans",
   "seniority_bucket": "Experimente",
-  "city": "Dar As-Sikkah",
+  "city": "",
   "sector": "Banque centrale / Imprimerie fiduciaire",
   "function": "Production / Ordonnancement",
   "deadline": "05/08/2026",
-  "reason": "'Dans le cadre du renforcement des effectifs de l entite DIRECTION DAR AS-SIKKAH, Bank Al-Maghrib recrute : 3 INGENIEURS PRODUCTION (H/F) (Poste(s) base(s) a DAR AS-SIKKAH)'. L annonce ne nomme que le site, pas la ville - la cellule porte donc ce que l annonce dit"
+  "reason": "'Bank Al-Maghrib recrute : 3 INGENIEUR PRODUCTION (H/F) (Poste(s) base(s) a DAR AS-SIKKAH)'; 'vous justifiez d une experience de 2 ans dans un poste similaire'; 'Date limite de candidature : 05/08/2026'. 'Maroc' n est pas une ville et l annonce ne precise que 'Dar As-Sikkah'"
  },
  {
   "key": "5fc189bb8d50",
@@ -2457,13 +2376,13 @@
  },
  {
   "key": "e7376be41653",
-  "experience_required": "Expérience confirmée (durée non précisée)",
+  "experience_required": "",
   "seniority_bucket": "Junior",
   "contract_type": "Freelance",
   "city": "",
   "sector": "E-commerce / Biens de consommation",
   "function": "Coordination supply chain / Achats",
-  "reason": "'Skills, Knowledge and Expertise Required: - Proven experience working directly with suppliers/manufacturers in procurement or supply chain - Hands-on experience managing purchase orders and supplier payment terms' - aucune duree chiffree"
+  "reason": "'Department: Specialized Roles, Location: Global+, Compensation: $6.00 / hour'; le client est 'a fast-growing, US-based e-commerce consumer goods brand'. 'Global Village, Doubai' vient du champ de localisation LinkedIn, pas de l annonce; 'Premier emploi' et le secteur 'Developpement de logiciels' etaient des etiquettes LinkedIn, l annonce ne demande aucune duree d experience"
  },
  {
   "key": "6351208f541c",
@@ -2727,298 +2646,5 @@
   "key": "f736114d6319",
   "deadline": "OFFRE EXPIREE - candidatures fermees",
   "reason": "La page repond 'Cette offre d emploi a expire'"
- },
- {
-  "key": "39912bb024c0",
-  "sector": "Automobile",
-  "function": "Process / Industrialisation",
-  "reason": "page detail Optioncarriere renvoyee comme 'Verification requise ... trafic inhabituel' - le corps n a jamais ete servi. Rempli uniquement sur ce que la carte publiait: employeur Adient (equipementier automobile, secteur deja etabli par ses autres annonces du classeur) et intitule 'Process Engineer'. Experience, contrat et date restent vides: la source ne les a pas publies"
- },
- {
-  "key": "a8e496c4f03c",
-  "company": "Talents Partners",
-  "city": "Tanger",
-  "sector": "Industrie",
-  "function": "Process / Amelioration continue",
-  "reason": "page detail Jooble derriere Cloudflare. La carte Jooble publie elle-meme l employeur et la ville: 'Talents Partners Tanger'. Fonction lue dans le corps de la carte: 'Mener des actions d amelioration continue (Lean, SMED, 5S, VSM, AMDEC)'. Talents Partners a plusieurs postes process a Tanger avec des anciennetes differentes - aucune duree d experience ne peut donc etre attribuee a celui-ci"
- },
- {
-  "key": "461259caa1fb",
-  "company": "Ingelec",
-  "city": "Casablanca",
-  "function": "Méthodes",
-  "reason": "page detail Jooble bloquee. La carte publie 'INGELEC Casablanca'. Fonction lue dans son corps: 'Realiser les etudes de temps, equilibrage des lignes et capacite'. Aucune duree d experience ni type de contrat publies"
- },
- {
-  "key": "793917734bd9",
-  "company": "Alstom",
-  "city": "Fes",
-  "sector": "Ferroviaire",
-  "function": "Excellence opérationnelle (APSYS)",
-  "reason": "page detail Jooble bloquee. La carte publie 'Alstom Fez'. Le corps de la carte definit la fonction: 'Support each department in APSYS deployment by providing on field expertise on lean & continuous improvement tools' - APSYS est le systeme d excellence operationnelle d Alstom, groupe ferroviaire. Aucune duree d experience publiee"
- },
- {
-  "key": "9a4d3a78aa9d",
-  "company": "Talents Partners",
-  "city": "Tanger",
-  "sector": "Automobile",
-  "function": "Projet / Industrialisation",
-  "reason": "page detail Jooble bloquee. La carte publie 'Talents Partners Tanger' et l intitule porte 'automobile'; son corps cite 'Coordonner les livrables APQP (AMDEC, PPAP) et les transferts produits/procedes/equipements'. Aucune duree d experience publiee"
- },
- {
-  "key": "437221ecc4ec",
-  "company": "Sanden Manufacturing Morocco SASU",
-  "city": "Tanger",
-  "sector": "Automobile",
-  "function": "Qualité / EHS",
-  "reason": "page detail Jooble bloquee. La carte publie 'Sanden Manufacturing Morocco SASU Tanger' (equipementier automobile, climatisation). Fonction lue dans son corps: 'Drive product and process quality performance by achieving plant KPIs'. Aucune duree d experience publiee"
- },
- {
-  "key": "423869855122",
-  "function": "Amélioration continue",
-  "reason": "page detail Indeed derriere Cloudflare. Seule la carte a ete servie: 'Responsable amelioration continue - Talents Partners - El Jadida', deja portee par les colonnes Entreprise, Ville et Type de contrat. La fonction se lit dans l intitule. Rien d autre n a ete publie: experience, secteur et date restent vides"
- },
- {
-  "key": "18f0de8d74d6",
-  "function": "Bureau d'études / Méthodes",
-  "reason": "page detail Jooble bloquee. La carte publie 'AFRICAWORK Agadir' alors que l intitule dit Casablanca - les deux se contredisent, la ville reste donc vide, et Africawork est un site de recrutement, pas l employeur. Seule la fonction est lisible dans le corps: 'Developper et mettre en oeuvre des methodes d optimisation de la production (Lean Manufacturing, amelioration continue)'"
- },
- {
-  "key": "0c2d6647a0f3",
-  "company": "Talents Partners",
-  "city": "Tanger",
-  "sector": "Automobile",
-  "function": "Qualité",
-  "reason": "page detail Jooble bloquee. La carte publie 'Talents Partners Tanger'; son corps cite 'Maitrise des referentiels IATF 16949, ISO 9001, Core Tools AIAG (APQP, PPAP, AMDEC, SPC, MSA)' - IATF 16949 est le referentiel qualite automobile. Aucune duree d experience publiee"
- },
- {
-  "key": "fb770a51dc42",
-  "company": "ALTEN Maroc",
-  "contract_type": "CDI",
-  "experience_required": "3 à 4 ans",
-  "city": "Kenitra",
-  "sector": "Automobile",
-  "function": "Automatisation",
-  "date_posted": "17/07/2026",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://www.rekrute.com/offre-emploi-ingenieur-automatisation-recrutement-alten-maroc-kenitra-184647.html - meme intitule \"Ingénieur automatisation\", meme employeur, meme ville, 90%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "9b524a40b81b",
-  "company": "THAÏS (Ténor Group)",
-  "contract_type": "Temps plein",
-  "experience_required": "3 à 5 ans minimum",
-  "city": "Casablanca",
-  "sector": "Facility management / Immobilier",
-  "function": "Méthodes / Amélioration continue",
-  "date_posted": "2026-07-06",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/responsable-m%C3%A9thodes-casablanca-at-tha%C3%AFs-t%C3%A9nor-group-4436247433 - meme intitule \"Responsable Méthodes - Casablanca\", meme employeur, meme ville, 100%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "e1ed781d1ab6",
-  "company": "Talents Partners",
-  "experience_required": "Minimum 8 ans",
-  "city": "El Jadida",
-  "sector": "Automobile",
-  "function": "Production",
-  "date_posted": "Il y a 11 jours",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://www.optioncarriere.ma/jobad/mac3a7f6d93608b41f5f126ace0c7b0033 - meme intitule \"Responsable production (uap)\", meme employeur, meme ville, 83%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "f371899e0c80",
-  "company": "Inteva Products",
-  "experience_required": "3 à 4 ans minimum",
-  "city": "Kenitra",
-  "sector": "Automobile",
-  "function": "Production",
-  "date_posted": "Il y a 1 mois",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://www.optioncarriere.ma/jobad/maebd1eeb4f8dd1908ce397f77b209e23c - meme intitule \"Production Manager - Kenitra\", meme employeur, meme ville, 81%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "d2c75aca66ce",
-  "company": "Alstom",
-  "contract_type": "Temps plein",
-  "city": "Fes",
-  "sector": "Ferroviaire",
-  "function": "Contrôle qualité",
-  "date_posted": "2026-07-22",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/quality-engineer-at-alstom-4434884609 - meme intitule \"Quality Engineer\", meme employeur, meme ville, 100%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "2d062dd1af25",
-  "company": "Hutchinson (groupe TotalEnergies)",
-  "contract_type": "CDI",
-  "experience_required": "Minimum 6 ans",
-  "city": "Safi",
-  "sector": "Aéronautique / Automobile",
-  "function": "Supply Chain",
-  "date_posted": "2026-07-22",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/coordinateur-supply-chain-at-totalenergies-4443793316 - meme intitule \"Coordinateur Supply Chain\", meme employeur, meme ville, 92%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source. La carte Jooble publie elle-meme la ville: 'Total Energies Safi'."
- },
- {
-  "key": "0e6936955c96",
-  "company": "Sanden International Europe GmbH",
-  "contract_type": "Temps plein",
-  "experience_required": "Minimum 5 ans",
-  "city": "Tanger",
-  "sector": "Automobile",
-  "function": "Supply Chain",
-  "date_posted": "2026-07-14",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/supply-chain-manager-at-sanden-international-europe-gmbh-4437696204 - meme intitule \"Supply Chain Manager\", meme employeur, meme ville, 100%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
- },
- {
-  "key": "ab87403cad4b",
-  "company": "SIMRA Maroc",
-  "sector": "",
-  "function": "Méthodes / Industrialisation",
-  "reason": "le corps nomme l employeur: 'SIMRA Maroc recrute un(e) Ingenieur Methodes & Industrialisation'. 'Qui Cherche Quoi' est la page de recrutement qui publie l annonce, pas l entreprise, et le secteur que LinkedIn affiche ('Technologie, information et Internet') est celui de cette page - il est efface plutot que conserve faux"
- },
- {
-  "key": "f19893d20a81",
-  "company": "SIMRA Maroc",
-  "city": "Nouaceur",
-  "contract_type": "Temps plein",
-  "sector": "",
-  "function": "Contrôle qualité",
-  "reason": "'SIMRA Maroc recrute un(e) Responsable Qualite'; LinkedIn: 'Nouaceur, Casablanca-Settat, Maroc', 'Type d emploi Temps plein', 'Fonction Controle qualite'. Le secteur affiche ('Technologie, information et Internet') est celui de la page qui publie, il est efface. L annonce ne chiffre aucune experience: 'Experience souhaitee dans une fonction similaire'"
- },
- {
-  "key": "8333bbd2f44b",
-  "company": "Parthenon Holding",
-  "city": "Casablanca",
-  "contract_type": "CDI",
-  "sector": "Agroalimentaire / Restauration",
-  "function": "QHSE",
-  "reason": "'Parthenon Holding recrute : Charge(e) QHSE - Agroalimentaire (H/F) Casablanca CDI ... sur l ensemble de ses activites agroalimentaires, de restauration, de production et de distribution'. LinkedIn affichait 'Sunset Hospitality Company' et le secteur 'Services de marketing' - ni l un ni l autre n est l employeur de cette annonce"
- },
- {
-  "key": "615557fbf708",
-  "experience_required": "3 à 5 ans",
-  "contract_type": "CDI",
-  "city": "Khénifra",
-  "sector": "Transport / Logistique",
-  "function": "Logistique / Supply Chain",
-  "reason": "le corps dit 'Profil recherche : Experience confirmee' sans chiffrer; la fiche Rekrute publie 'Intermediaire (3 a 5 ans)' et 'Type de contrat : CDI', et rien dans le corps ne la contredit"
- },
- {
-  "key": "a5f14958b1c4",
-  "experience_required": "5 ans minimum",
-  "contract_type": "CDI",
-  "city": "Casablanca",
-  "sector": "Agroalimentaire",
-  "function": "Qualité",
-  "reason": "le corps dit 'Experience de 5 ans minimum dans une fonction similaire en industrie agroalimentaire' - la fiche Rekrute affichait 'Intermediaire (3 a 5 ans)', le corps la contredit et l emporte. Employeur publie comme 'Confidential': la cellule reste vide"
- },
- {
-  "key": "e52ea8dcfb30",
-  "experience_required": "2 ans minimum",
-  "contract_type": "CDI",
-  "city": "Meknes",
-  "sector": "Métallurgie / Sidérurgie",
-  "function": "Production",
-  "reason": "'Experience de 2 ans minimum en environnement industriel' - la fiche Rekrute affichait 'Junior (1 a 3 ans) - Intermediaire (3 a 5 ans)', le corps tranche. Employeur 'Confidential': cellule vide"
- },
- {
-  "key": "d458076ba49e",
-  "company": "HOTIN",
-  "experience_required": "Expérience confirmée (durée non précisée)",
-  "contract_type": "CDI ou CDD selon profil",
-  "city": "Casablanca",
-  "sector": "Industrie",
-  "function": "Production",
-  "reason": "'Profil recherche : Ingenieur en production / genie industriel, Experience confirmee en management industriel'; 'Conditions : Contrat : CDI / CDD selon profil, Lieu : Casablanca'; 'Entreprise : HOTIN'. Le champ 'Fonction' du site dit 'Production - Operateur/Manoeuvre', ce que le corps contredit ('Manager les chefs d equipe')"
- },
- {
-  "key": "12bd557bb724",
-  "contract_type": "CDI",
-  "city": "Sale",
-  "sector": "Industrie",
-  "function": "Qualité / QHSE",
-  "reason": "'Contrat : CDI', 'Ville : Sale', 'Fonction : Qualite/Hygiene/Securite/Environnement', 'Domaine : Industrie / Ingenierie / Energie'. L annonce ne chiffre pas l experience: 'Experience souhaitee dans un poste similaire'. 'Entreprise : MULTINATIONAL' n est pas un nom d entreprise, la cellule reste vide"
- },
- {
-  "key": "4d1ce3e68c05",
-  "experience_required": "2 à 4 ans",
-  "contract_type": "Intérim",
-  "city": "Casablanca",
-  "sector": "Industrie (tuyauterie composite PRV)",
-  "function": "Qualité",
-  "reason": "'ayant experience 2 a 4 ans dans le domaine est exige'; 'Contrat : Interim', 'Ville : Casablanca', 'Domaine : Industrie / Ingenierie / Energie'. 'Entreprise : ANONYME': cellule vide"
- },
- {
-  "key": "f339a19b011e",
-  "experience_required": "",
-  "contract_type": "Temps plein",
-  "city": "Tetouan",
-  "sector": "Hôtellerie",
-  "function": "Excellence opérationnelle / RSE",
-  "reason": "'Le/La Responsable Excellence Operationnelle et RSE est la/le Garant(e) de l Excellence Operationnelle et du respect de la politique environnementale du groupe'; LinkedIn: 'Tetouan et peripherie', 'Type d emploi Temps plein'. Le niveau 'Cadre' affiche par LinkedIn n est pas une duree et le corps n en donne aucune: la cellule est videe plutot que gardee fausse"
- },
- {
-  "key": "dfe5d1b5e563",
-  "experience_required": "0 à 2 ans",
-  "contract_type": "Temps plein",
-  "city": "Casablanca",
-  "sector": "Services d'ingénierie",
-  "function": "Supply Chain / Capacité",
-  "reason": "'Niveau : Bac+5 - Junior (<= 2 ans d experience)' et 'Premiere experience <= 2 ans dans un environnement industriel ou Supply Chain' - le plancher est zero, le 2 ans est un plafond. LinkedIn affichait 'Cadre'. 'Lieu : Casablanca'"
- },
- {
-  "key": "135d13d671b5",
-  "experience_required": "",
-  "city": "Fes",
-  "sector": "Ferroviaire",
-  "function": "Méthodes",
-  "reason": "LinkedIn: 'Fes, Fes-Meknes, Maroc', secteur 'Construction de materiel ferroviaire', 'Type d emploi Temps plein'. La seule mention d experience du corps porte sur un outil - 'Strong experience working with CATIA V5 and AutoCAD software' - et ne chiffre aucune anciennete"
- },
- {
-  "key": "ba2f2dcb0a0f",
-  "experience_required": "0",
-  "city": "Kenitra",
-  "sector": "Automobile",
-  "function": "Qualité produit",
-  "reason": "LinkedIn: 'Kenitra, Rabat-Sale-Kenitra, Maroc', niveau 'Debutant' declare par l employeur, 'Type d emploi Temps plein'. Le corps ne chiffre aucune duree; la valeur retenue est celle que l annonce declare elle-meme, ouverte aux debutants"
- },
- {
-  "key": "69e2555a3c25",
-  "experience_required": "",
-  "contract_type": "Temps plein",
-  "sector": "Fabrication d'appareils électriques",
-  "function": "Supply Chain",
-  "reason": "'Supports and executes all supply chain activities ... Monitoring key performance indicators'. Aucune duree d experience dans le corps; le 'Confirme' affiche par LinkedIn est un niveau hierarchique, pas une anciennete - videe. L annonce ne publie aucune ville, seulement 'Maroc'"
- },
- {
-  "key": "2058f1927209",
-  "contract_type": "Temps plein",
-  "city": "Tiflet",
-  "sector": "Automobile",
-  "function": "Production",
-  "reason": "LinkedIn: 'Tiflet, Rabat-Sale-Kenitra, Maroc', 'Type d emploi Temps plein'; Adient est equipementier automobile (sieges). Le corps n a pas ete servi par LinkedIn: experience laissee vide"
- },
- {
-  "key": "5b2de8355f66",
-  "experience_required": "3 à 5 ans",
-  "contract_type": "Temps plein",
-  "city": "Casablanca",
-  "sector": "Conseil en ingénierie",
-  "function": "Soutien logistique intégré / Maintenance",
-  "reason": "'Experience de 3 a 5 ans en Soutien Logistique Integre (SLI) ou en ingenierie de maintenance sur des systemes complexes'; LinkedIn: 'Casablanca, Casablanca-Settat, Maroc', 'Type d emploi Temps plein'"
- },
- {
-  "key": "1d19a89d42c9",
-  "experience_required": "2 à 5 ans",
-  "contract_type": "Temps plein",
-  "city": "Tetouan",
-  "sector": "Automobile",
-  "function": "Qualité vie série",
-  "reason": "'2 to 5 years of experience in a similar role'; LinkedIn: 'Tetouan et peripherie', secteur 'Fabrication de vehicules automobiles', 'Type d emploi Temps plein'"
- },
- {
-  "key": "ff5aacd8fe64",
-  "experience_required": "0",
-  "contract_type": "Temps plein",
-  "city": "Casablanca",
-  "sector": "Services d'ingénierie",
-  "function": "Supply Chain",
-  "reason": "'Niveau : Bac+5 - Fraichement diplome' et 'Premiere experience (stage/PFE accepte) ou sortie d ecole' - l annonce accepte explicitement un profil sans experience. 'Lieu : Casablanca'"
  }
 ]

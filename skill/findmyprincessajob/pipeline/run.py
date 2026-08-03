@@ -14,7 +14,11 @@ spec.json is written by the skill (see SKILL.md) and carries the specialty,
 its keyword expansion, the relevance regexes and the output paths.
 """
 import sys, io, os, re, json, traceback
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+# only wrap a stdout that is not already wrapped: importing this module from
+# another script would otherwise re-wrap - and close - the wrapper that script is
+# printing through, killing it with "I/O operation on closed file"
+if getattr(sys.stdout, "encoding", "").lower() not in ("utf-8", "utf8"):
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from core import Run, jid
@@ -60,9 +64,17 @@ def do_scrape(run):
 
 
 def all_rows(run):
-    rows = run.load("raw_http") + run.load("raw_uc")
-    for extra in ("raw_extra",):
-        rows += run.load(extra)
+    """Every raw_*.json in data/, not a hard-coded three.
+
+    `scrape` overwrites raw_http.json, so a corpus merged by hand once sat there
+    waiting to be destroyed by the next run. Globbing means a rescued corpus, or a
+    single source re-run on its own, is picked up by dropping the file in - no
+    edit here, nothing to forget."""
+    import glob
+    rows = []
+    for p in sorted(glob.glob(os.path.join(run.datadir, "raw_*.json"))):
+        with open(p, encoding="utf-8") as f:
+            rows += json.load(f)
     return rows
 
 
@@ -224,6 +236,39 @@ def apply_fields(run, rows):
     return n
 
 
+LI_CHROME = re.compile(
+    r"Inscrivez-vous pour postuler|Mot de passe oubli|S.identifier avec|Politique de confidentialit"
+    r"|Utilisez l.IA pour|Personnaliser mon CV|Identifiez-vous pour|D[ée]couvrez qui .{0,60}a recrut"
+    r"|Les recommandations augmentent|Voir qui vous connaissez|Signaler cette offre|Show more Show less"
+    r"|Plus de \d+ candidats|Faites partie des \d+ premiers", re.I)
+
+
+def fill_descriptions(run, rows):
+    """A row whose Description cell is empty while its body sits in fulltext.json.
+
+    It happens when the board served the listing card but not the ad, and the body
+    only arrived later. The text is the ad's own - nothing is being invented, it
+    was simply fetched after the column had been filled."""
+    ftp = os.path.join(run.datadir, "fulltext.json")
+    if not os.path.exists(ftp):
+        return 0
+    with open(ftp, encoding="utf-8") as f:
+        full = json.load(f)
+    n = 0
+    for r in rows:
+        if len((r.get("description_snippet") or "").strip()) >= 60:
+            continue
+        body = (full.get(r.get("url", "")) or {}).get("text", "")
+        if not body:
+            continue
+        txt = " ".join(s for s in re.split(r"\s*\n\s*", body) if not LI_CHROME.search(s))
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if len(txt) >= 60:
+            r["description_snippet"] = txt[:800]
+            n += 1
+    return n
+
+
 def do_build(run):
     before = len([r for r in B.finalize(all_rows(run)) if run.strict_keep(r)])
     rows = curated(run)
@@ -285,6 +330,40 @@ def do_build(run):
     # the field rulings to the recovered rows too.
     if apply_fields(run, previous):
         print("field rulings also applied to the recovered workbook rows")
+
+    # The "Postule" ticks are the only thing in the workbook the user writes
+    # herself, so they are also the only thing a rebuild could destroy. Mirror
+    # them into data/applied.json, keyed by URL, and re-apply from there: the tick
+    # then survives a workbook rebuilt from scratch, not just an append.
+    ap = os.path.join(run.datadir, "applied.json")
+    marks = json.load(open(ap, encoding="utf-8")) if os.path.exists(ap) else {}
+    for r in previous:
+        if B.is_applied(r.get("applied")):
+            marks[r["url"]] = B.TICK
+    for r in list(rows) + list(previous):
+        if marks.get(r.get("url")):
+            r["applied"] = B.TICK
+    with open(ap, "w", encoding="utf-8") as f:
+        json.dump(marks, f, ensure_ascii=False, indent=1)
+    if marks:
+        print(f"candidatures deja envoyees (cochees): {len(marks)} - lignes grisees, conservees")
+
+    # A closed offer is not a lead. Reading an ad and finding "cette offre n'est
+    # plus d'actualite" is a permanent verdict, so it is filtered here on every
+    # build - both on the fresh scrape and on the rows recovered from the
+    # workbook - and not cleaned out by hand once. An ad that is merely OLD is
+    # kept: nobody has established that it is closed.
+    nd = fill_descriptions(run, rows) + fill_descriptions(run, previous)
+    if nd:
+        print(f"colonne Description completee depuis le corps deja telecharge: {nd} offres")
+
+    n, m = len(rows), len(previous)
+    rows = [r for r in rows if not B.is_closed(r)]
+    previous = [r for r in previous if not B.is_closed(r)]
+    closed = (n - len(rows)) + (m - len(previous))
+    if closed:
+        print(f"offres fermees ecartees (annonce lue comme expiree): {closed}")
+
     B.build(rows, run.spec["excel_path"], previous=previous,
             publish_dir=run.spec.get("publish_dir"))
 

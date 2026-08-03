@@ -66,10 +66,14 @@ class Collector:
         keep, score, hits = self.run.relevance(title, desc)
         if not keep:
             return False
+        # A caller that already extracted the address wins over the regex sweep of
+        # the description. setdefault, not a keyword argument: passing it both ways
+        # is a TypeError, and it took down the whole LinkedIn step - two hours of
+        # collecting, 673 title-relevant offers, discarded on the last line.
+        extra.setdefault("contact_email", ", ".join(find_emails(desc)[:2]))
         self.rows.append(blank(source=source, job_title=title, company=company,
                                location_city=loc, country=country, contract_type=ctype,
                                date_posted=date, url=url, description_snippet=desc[:800],
-                               contact_email=", ".join(find_emails(desc)[:2]),
                                keywords_matched=", ".join(hits), score=score, **extra))
         return True
 
