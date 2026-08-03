@@ -71,5 +71,7 @@
     "\\bsecr[ée]taire\\b", "\\bassistant[e]? de direction\\b", "\\bcaissier\\b",
     "\\bscrum master\\b", "\\bproduct owner\\b"
   ],
-  "exclude_titles": ["\\btechnicien\\b", "\\btechnician\\b"]
+  "exclude_titles": ["\\btechniciens?\\b", "\\btechnicians?\\b", "\\bstagiaires?\\b"],
+
+  "publish_dir": "G:/My Drive/Emploi Rose"
 }

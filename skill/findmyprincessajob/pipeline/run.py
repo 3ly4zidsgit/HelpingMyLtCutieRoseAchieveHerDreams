@@ -3,12 +3,13 @@
   python run.py scrape  spec.json      # every source -> data/raw_*.json
   python run.py stage   spec.json      # emit remote_candidates.json for LLM review
   python run.py curate  spec.json      # emit curation_candidates.json for LLM review
+  python run.py enrich  spec.json      # emit field_candidates.json for LLM field-filling
   python run.py build   spec.json      # apply both verdict files + write/append the Excel
 
 spec.json is written by the skill (see SKILL.md) and carries the specialty,
 its keyword expansion, the relevance regexes and the output paths.
 """
-import sys, io, os, json, traceback
+import sys, io, os, re, json, traceback
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -122,6 +123,82 @@ def do_curate(run):
           '[{"id": 0, "keep": true, "reason": "..."}]')
 
 
+EXP_RE = re.compile(
+    r"[^.\n]{0,140}(?:\b\d{1,2}\s*(?:\+|a|à|-|to)?\s*\d{0,2}\s*(?:ans?|ann[ée]es?|years?|yrs?)\b"
+    r"|minimum\s*\d|au moins\s*\d|d[ée]butant|junior|senior|confirm[ée]|exp[ée]riment[ée]"
+    r"|fraichement diplom|jeune diplom|entry[- ]level|niveau d.exp[ée]rience)[^.\n]{0,140}", re.I)
+CTR_RE = re.compile(r"[^.\n]{0,90}\b(cdi|cdd|stage|alternance|apprentissage|freelance|int[ée]rim"
+                    r"|temps plein|temps partiel|full[- ]time|part[- ]time|permanent|contract)\b"
+                    r"[^.\n]{0,90}", re.I)
+
+
+def do_enrich(run):
+    """Third reading gate. The scrapers only ever saw the listing card, so most
+    of 'Experience requise', 'Type de contrat', 'Secteur' and even 'Entreprise'
+    came out empty or wrong. This stages the FULL ad text plus the sentences that
+    actually carry the answer, so the model fills the columns by reading."""
+    ftp = os.path.join(run.datadir, "fulltext.json")
+    full = json.load(open(ftp, encoding="utf-8")) if os.path.exists(ftp) else {}
+    rows = [r for r in curated(run)]
+    out, missing = [], 0
+    for i, r in enumerate(rows):
+        u = r["url"]
+        txt = (full.get(u) or {}).get("text", "")
+        if not txt:
+            missing += 1
+        body = re.sub(r"\s+", " ", txt or r.get("description_snippet", ""))
+        out.append({
+            "id": i, "key": jid(u), "url": u,
+            "job_title": r["job_title"],
+            "current": {"company": r.get("company", ""),
+                        "experience_required": r.get("experience_required", ""),
+                        "seniority_bucket": r.get("seniority_bucket", ""),
+                        "contract_type": r.get("contract_type", ""),
+                        "location_city": r.get("location_city", ""),
+                        "sector": r.get("sector", ""), "function": r.get("function", "")},
+            "has_fulltext": bool(txt),
+            "evidence_experience": [m.group(0).strip() for m in EXP_RE.finditer(body)][:6],
+            "evidence_contract": [m.group(0).strip() for m in CTR_RE.finditer(body)][:4],
+            "text": body[:2600],
+        })
+    p = os.path.join(run.datadir, "field_candidates.json")
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    print(f"{len(out)} offres a enrichir -> {p}")
+    print(f"  dont {len(out) - missing} avec le texte integral, {missing} sans "
+          f"(sources murees - lancer fetch_fulltext)")
+    print('Write data/field_verdicts.json as [{"key": "...", "company": "...", '
+          '"experience_required": "...", "seniority_bucket": "Junior|Experimente|Non precise", '
+          '"contract_type": "...", "sector": "...", "function": "...", "city": "..."}]')
+
+
+def apply_fields(run, rows):
+    """Overlay the model's field rulings. A key that is PRESENT overwrites, even
+    when empty - that is how a wrong value gets cleared (LinkedIn stamps
+    "Non pertinent" on ads that never stated a level). A key that is absent
+    leaves the column untouched."""
+    fp = os.path.join(run.datadir, "field_verdicts.json")
+    if not os.path.exists(fp):
+        return 0
+    with open(fp, encoding="utf-8") as f:
+        v = {x["key"]: x for x in json.load(f) if x.get("key")}
+    n = 0
+    for r in rows:
+        d = v.get(jid(r["url"]))
+        if not d:
+            continue
+        n += 1
+        for src, dst in (("company", "company"), ("experience_required", "experience_required"),
+                         ("contract_type", "contract_type"), ("sector", "sector"),
+                         ("function", "function"), ("city", "location_city")):
+            if src in d:
+                r[dst] = d[src]
+        if d.get("seniority_bucket"):
+            r["seniority_bucket"] = d["seniority_bucket"]
+            r["seniority_locked"] = True
+    return n
+
+
 def do_build(run):
     before = len([r for r in B.finalize(all_rows(run)) if run.strict_keep(r)])
     rows = curated(run)
@@ -132,6 +209,10 @@ def do_build(run):
     else:
         print("WARNING: no curation_verdicts.json - shipping the keyword shortlist "
               "unreviewed. Run 'curate' and rule on the offers first.")
+
+    nf = apply_fields(run, rows)
+    if nf:
+        print(f"champs renseignes par lecture du modele: {nf} offres")
 
     verdicts = {}
     vp = os.path.join(run.datadir, "remote_verdicts.json")
@@ -165,12 +246,27 @@ def do_build(run):
         previous = [r for r in previous if jid(r.get("url", "")) not in rejected]
         print(f"existing rows re-checked against both gates: {n} -> {len(previous)} "
               f"({n - len(previous)} dropped)")
-    B.build(rows, run.spec["excel_path"], previous=previous)
+
+    # exclude_titles is a standing user rule ("never show me these"), so it has to
+    # reach rows already in the workbook as well, not just newly scraped ones.
+    n = len(previous)
+    previous = [r for r in previous
+                if not any(p.search(B.norm(r.get("job_title", ""))) for p in run._exclude)]
+    if n != len(previous):
+        print(f"existing rows dropped on exclude_titles: {n - len(previous)}")
+
+    # dedupe keeps the first row it sees for a URL and only fills its blanks, so a
+    # stale value already in the workbook would outrank the corrected one. Apply
+    # the field rulings to the recovered rows too.
+    if apply_fields(run, previous):
+        print("field rulings also applied to the recovered workbook rows")
+    B.build(rows, run.spec["excel_path"], previous=previous,
+            publish_dir=run.spec.get("publish_dir"))
 
 
 if __name__ == "__main__":
     cmd, spec = sys.argv[1], sys.argv[2]
     run = Run(spec)
     print(f"=== findmyprincessajob | {run.specialty} | {cmd} ===", flush=True)
-    {"scrape": do_scrape, "stage": do_stage,
-     "curate": do_curate, "build": do_build}[cmd](run)
+    {"scrape": do_scrape, "stage": do_stage, "curate": do_curate,
+     "enrich": do_enrich, "build": do_build}[cmd](run)

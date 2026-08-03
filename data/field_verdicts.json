@@ -1,0 +1,308 @@
+[
+ {
+  "key": "7c171e56b356",
+  "experience_required": "3 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "sector": "Automobile",
+  "function": "Supply Chain / Planification",
+  "reason": "'Bac +5 en genie industriel ou logistique - 3 a 5 ans d experience'; 'Contract Type: Permanent'"
+ },
+ {
+  "key": "70a538b7cea8",
+  "experience_required": "3 à 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "sector": "Automobile",
+  "function": "Supply Chain / Planification",
+  "reason": "'3 a 5 ans d experience - Experience en Supplier management'; 'Contract Type: Permanent'"
+ },
+ {
+  "key": "fb4206779992",
+  "experience_required": "Minimum 4 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Industrie pharmaceutique",
+  "function": "Qualité / Supply Chain",
+  "reason": "'Minimum 4 years of experience within the pharmaceutical industry operating in a GMP and/or GDP regulated environment'"
+ },
+ {
+  "key": "5b4a07b78e2c",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "reason": "Aucune duree d experience citee dans l annonce; le champ LinkedIn 'Non pertinent' est du bruit, il est vide"
+ },
+ {
+  "key": "e8d6b218f796",
+  "experience_required": "Junior ou fraîchement diplômé(e)",
+  "seniority_bucket": "Junior",
+  "contract_type": "CDD",
+  "sector": "Industrie manufacturière",
+  "function": "Amélioration continue",
+  "reason": "'Experience : Junior ou fraichement diplome(e)'; 'Lieu : Tanger / Contrat : CDD'"
+ },
+ {
+  "key": "21b91e854953",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "sector": "Exploitation minière",
+  "function": "Supply Chain",
+  "reason": "Aucune duree citee; 'Non pertinent' venait du champ LinkedIn, efface"
+ },
+ {
+  "key": "32aa391da005",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "function": "Méthodes / Industrialisation",
+  "reason": "Aucune duree citee dans le corps de l annonce; 'Non pertinent' efface"
+ },
+ {
+  "key": "7dbf033732da",
+  "experience_required": "2 ans minimum",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Fabrication d'appareils électriques",
+  "function": "Bureau d'études / Industrialisation",
+  "reason": "'2 ans d experience minimum en Bureau d Etudes et/ou industrialisation produit dans un environnement industriel'"
+ },
+ {
+  "key": "34159892ed31",
+  "experience_required": "2 à 3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Aéronautique / Défense",
+  "function": "Contrôle qualité",
+  "reason": "'2-3 years of relevant experience in quality engineering, preferably in the automotive, aerospace, or high-tech sectors'"
+ },
+ {
+  "key": "cd8092829ec0",
+  "experience_required": "Minimum 3 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Fabrication de semi-conducteurs",
+  "function": "Qualité industrielle",
+  "reason": "'Bac + 5 (Ingenieur ou Master option genie industriel...), avec experience minimale de 3 ans'"
+ },
+ {
+  "key": "34c0930e5703",
+  "experience_required": "5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Fabrication de semi-conducteurs",
+  "function": "Qualité fournisseurs",
+  "reason": "'Master degree in Quality, Industrial engineering - 5 years of Quality experience' - la fiche affichait 'Non precise'"
+ },
+ {
+  "key": "5164af13757e",
+  "experience_required": "5 ans et plus",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "sector": "Aéronautique / Défense",
+  "function": "Supply Chain / Logistique",
+  "reason": "'Essential Candidate Requirements - 5+ years of experience'"
+ },
+ {
+  "key": "a8e13c6b8b51",
+  "experience_required": "Minimum 5 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "Temps plein",
+  "function": "Operations / Supply Chain",
+  "reason": "'Experience Minimum 5 years of relevant...' et 'Niveau hierarchique: Cadre' - la ligne etait classee Junior a cause d un champ 'Stagiaire / Alternant' errone"
+ },
+ {
+  "key": "b1eae823b783",
+  "experience_required": "2 à 5 ans (annonce classee Junior 1 à 3 ans)",
+  "seniority_bucket": "Junior",
+  "contract_type": "CDI",
+  "sector": "Automobile",
+  "function": "Process / Industrialisation",
+  "reason": "Corps: 'Experience de 2 a 5 ans en conception Process EE'; l employeur classe malgre tout l offre en 'Junior (1 a 3 ans)'"
+ },
+ {
+  "key": "0e04383d619b",
+  "experience_required": "3 à 6 ans",
+  "seniority_bucket": "Experimente",
+  "contract_type": "CDI",
+  "sector": "Aéronautique / Spatial",
+  "function": "Méthodes / Industrialisation",
+  "reason": "'Experience de 3 a 6 ans en industrialisation, methodes ou support production en environnement aeronautique'"
+ },
+ {
+  "key": "f65270b8c708",
+  "experience_required": "1 à 3 ans",
+  "seniority_bucket": "Junior",
+  "contract_type": "CDD",
+  "sector": "Ameublement / Distribution",
+  "function": "Supply Chain",
+  "reason": "'Une premiere experience de 1 a 3 ans dans une fonction similaire'; CDD"
+ },
+ {
+  "key": "74c60532a673",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "function": "Ordonnancement / Planification industrielle",
+  "reason": "L annonce exige un 'personnel forme et experimente dans les activites PC&L' sans chiffrer la duree"
+ },
+ {
+  "key": "c1fc53d58dad",
+  "experience_required": "",
+  "seniority_bucket": "Non precise",
+  "contract_type": "Temps plein",
+  "sector": "Ferroviaire",
+  "function": "Contrôle qualité",
+  "reason": "Aucune duree d experience citee dans l annonce"
+ },
+ {
+  "key": "6fb6a8fe1aea",
+  "company": "ALTEN Maroc",
+  "reason": "Bayt republie l annonce Rekrute et avait scrappe 'Rekrute' comme employeur; le meme poste est publie par ALTEN Maroc sur Rekrute, SmartRecruiters et LinkedIn"
+ },
+ {
+  "key": "dc78b0be4093",
+  "company": "ALTEN Maroc",
+  "reason": "L annonce elle-meme: 'A highly collaborative culture defines Alten Maroc'"
+ },
+ {
+  "key": "112b761bd55c",
+  "company": "ALTEN Maroc",
+  "reason": "L annonce elle-meme: 'Industrialization Flying Analyst at Alten Maroc'"
+ },
+ {
+  "key": "f2a0e4ad3507",
+  "company": "ALTEN Maroc",
+  "reason": "Meme poste 'Serial Life Quality Manager' publie par Alten via SmartRecruiters; Bayt avait scrappe 'Rekrute'"
+ },
+ {
+  "key": "a39e21c216fe",
+  "company": "Confidentiel (annonce anonyme)",
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle', URL 'recrutement-confidentiel'"
+ },
+ {
+  "key": "7ceaaac83cbb",
+  "company": "Confidentiel (annonce anonyme)",
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+ },
+ {
+  "key": "1d4581daabcb",
+  "company": "Confidentiel (annonce anonyme)",
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+ },
+ {
+  "key": "b21fdf43a711",
+  "company": "Confidentiel (annonce anonyme)",
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+ },
+ {
+  "key": "2b1f714274f0",
+  "company": "Confidentiel (annonce anonyme)",
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+ },
+ {
+  "key": "8599dd16058c",
+  "company": "JTEKT Maroc",
+  "reason": "Titre de l annonce: 'JTEKT Maroc recrute 2 profils supply chain a Tanger'"
+ },
+ {
+  "key": "beb85ac3f3eb",
+  "company": "Airbus Atlantic Maroc",
+  "reason": "Corps: 'Airbus Atlantic Maroc recrute deux profils a Casablanca, Nouaceur'"
+ },
+ {
+  "key": "70a66bc88953",
+  "company": "Fujikura Automotive Morocco",
+  "reason": "Corps: 'Fujikura Automotive Morocco recrute plusieurs postes a Kenitra'"
+ },
+ {
+  "key": "e846e21ea609",
+  "company": "Intersig Maroc",
+  "reason": "Corps: 'Intersig Maroc recrute plusieurs postes Agent logistique et Planificateur de commandes'"
+ },
+ {
+  "key": "1827e755684f",
+  "company": "Michoc",
+  "reason": "Corps: 'Michoc recrute plusieurs profils a Casablanca - Sidi Moumen'"
+ },
+ {
+  "key": "fe179a5a95df",
+  "company": "Renault Commerce Maroc",
+  "reason": "Corps: 'Renault Commerce Maroc recrute 2 stagiaires PFE en Supply Chain'"
+ },
+ {
+  "key": "8c1ff7ec24d0",
+  "company": "SEBN Maroc",
+  "reason": "Titre: 'SEBN Maroc recherche des experts en planification industrielle'"
+ },
+ {
+  "key": "5b743374bf5a",
+  "company": "Centrale Danone",
+  "reason": "Corps: 'Centrale Danone, acteur majeur du secteur agroalimentaire au Maroc'"
+ },
+ {
+  "key": "a4bc827603ab",
+  "company": "PHARMA 5",
+  "reason": "Titre: 'Rejoignez PHARMA 5: 4 postes a pourvoir en qualite, supply chain et industrie'"
+ },
+ {
+  "key": "5ea2ac20685a",
+  "company": "Latécoère",
+  "reason": "Corps: 'Latecoere renforce ses equipes et recrute plusieurs Approvisionneurs experimentes'"
+ },
+ {
+  "key": "5b7d25905bc6",
+  "company": "Toyota du Maroc",
+  "reason": "Corps: 'Toyota du Maroc recrute un Supply Chain Analyst'"
+ },
+ {
+  "key": "28748e8afb3a",
+  "company": "CEVA Logistics Maroc",
+  "reason": "Corps: 'Offres d Emploi - CEVA Logistics Maroc'"
+ },
+ {
+  "key": "b96a164f4ed9",
+  "company": "LEONI WS Maroc",
+  "reason": "Titre: 'Recrutement chez LEONI WS Maroc: Devenez Ingenieur Qualite a Bouznika'"
+ },
+ {
+  "key": "f0f1fa32a438",
+  "company": "Aeolon Technology",
+  "reason": "Corps: 'Aeolon Ouvre 30 Postes d Ingenieur Process a Nador'"
+ },
+ {
+  "key": "c7390c50a75b",
+  "company": "Yazaki",
+  "reason": "Titre: 'Opportunites de Stage PFE chez Yazaki a Fes'"
+ },
+ {
+  "key": "c0ebdf69051a",
+  "company": "Kromberg & Schubert",
+  "reason": "Titre: 'Nouvelle Usine a Kenitra: 18 Postes Ouverts chez Kromberg & Schubert'"
+ },
+ {
+  "key": "9ab15306848c",
+  "company": "SIANA",
+  "reason": "Corps: 'SIANA, joint-venture entre l ONCF et la SNCF' - recrute un ingenieur industriel a Tanger"
+ },
+ {
+  "key": "aa7eb64a4b02",
+  "company": "Airbus",
+  "reason": "Titre: 'Rejoignez Airbus' - poste de Chef d Equipe de Maintenance a Casablanca"
+ },
+ {
+  "key": "a167aebd8e5a",
+  "company": "SNTL Supply Chain",
+  "reason": "Corps: 'La Societe Nationale des Transports et de la Logistique SNTL Supply Chain organise un concours'"
+ },
+ {
+  "key": "9ad8d1f06fe1",
+  "company": "Comeca Group",
+  "reason": "Titre: 'Offres d Emploi chez Comeca Group: Supply Chain et Finance'"
+ },
+ {
+  "key": "457cc51f74df",
+  "company": "SEBN Bouknadel",
+  "reason": "Corps: 'SEBN Bouknadel is looking for an experienced Production Manager with strong expertise in automotive wiring'; 'Hirely_ai' n est que la plateforme de publication"
+ }
+]

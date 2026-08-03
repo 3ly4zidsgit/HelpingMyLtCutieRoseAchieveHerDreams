@@ -20,3 +20,6 @@ assets/
 *.fdb_latexmk
 *.synctex.gz
 page-*.png
+
+# Playwright MCP session artefacts
+.playwright-mcp/

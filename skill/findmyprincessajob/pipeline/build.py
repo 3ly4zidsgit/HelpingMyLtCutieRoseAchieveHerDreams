@@ -1,6 +1,6 @@
 """Merge -> classify -> (LLM remote verdicts) -> Excel, appending to any
 workbook that already exists so the list only ever grows."""
-import os, re, json
+import os, re, json, shutil
 from datetime import datetime, timedelta
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
@@ -64,6 +64,11 @@ TOP_TITLE = re.compile(r"\bvice president\b|\bvp\b|\bchief\b|\bhead of\b|\bdirec
 
 
 def classify_exp(row):
+    # A bucket set by the model from the full ad text always wins: the regexes
+    # below only ever saw the listing card, which is why so many rows used to
+    # come out "Non precise" while the body said "minimum 5 ans".
+    if row.get("seniority_locked") and row.get("seniority_bucket"):
+        return row["seniority_bucket"]
     exp = norm(row.get("experience_required", ""))
     if exp in LI_LEVEL:
         return LI_LEVEL[exp]
@@ -287,7 +292,25 @@ def read_existing(path):
     return out
 
 
-def build(rows, dest, previous=None):
+def publish(dest, publish_dir):
+    """Drop a copy into a synced cloud folder (Google Drive Desktop, OneDrive...).
+
+    An e-mail attachment can never be updated once sent. A file inside a synced
+    folder can: overwriting it here re-syncs it, and whoever holds the share link
+    always sees the current version. So the workbook is shared once, as a link,
+    and every later build refreshes it in place."""
+    if not publish_dir:
+        return
+    try:
+        os.makedirs(publish_dir, exist_ok=True)
+        target = os.path.join(publish_dir, os.path.basename(dest))
+        shutil.copy2(dest, target)
+        print(f"  publie -> {target}", flush=True)
+    except Exception as e:
+        print(f"  publication ignoree ({type(e).__name__}: {e})", flush=True)
+
+
+def build(rows, dest, previous=None, publish_dir=None):
     rows = finalize(list(previous or []) + list(rows))
     remote = [r for r in rows if r["country"] != "Maroc" and r.get("remote_verdict") == "OK"]
     maroc = [r for r in rows if r["country"] == "Maroc"]
@@ -309,4 +332,5 @@ def build(rows, dest, previous=None):
     for (zone, bucket), v in groups.items():
         print(f"  {zone:7s} {bucket:12s} {len(v):5d}")
     print(f"  TOTAL {total}  ({os.path.getsize(dest)/1024:.1f} KB)")
+    publish(dest, publish_dir)
     return total
