@@ -190,7 +190,8 @@ def apply_fields(run, rows):
         n += 1
         for src, dst in (("company", "company"), ("experience_required", "experience_required"),
                          ("contract_type", "contract_type"), ("sector", "sector"),
-                         ("function", "function"), ("city", "location_city")):
+                         ("function", "function"), ("city", "location_city"),
+                         ("deadline", "deadline")):
             if src in d:
                 r[dst] = d[src]
         if d.get("seniority_bucket"):

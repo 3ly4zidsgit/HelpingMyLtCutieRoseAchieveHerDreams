@@ -374,8 +374,8 @@
  {
   "id": 62,
   "key": "33f345d536c4",
-  "keep": true,
-  "reason": "Industrial Engineer Internship Program, Capgemini Engineering"
+  "keep": false,
+  "reason": "Texte integral: 'Nous recherchons un(e) stagiaire PFE motive(e)' - c est un stage, exclu a la demande de l utilisateur"
  },
  {
   "id": 63,
@@ -2102,8 +2102,8 @@
  {
   "id": 350,
   "key": "dda0366a5dac",
-  "keep": true,
-  "reason": "Quality Engineer - fonction Controle qualite"
+  "keep": false,
+  "reason": "Texte integral: 'Experience confirmee en tests fonctionnels d API REST et SOAP, ideallement avec Postman et/ou SoapUI' - QA logicielle, pas qualite industrielle"
  },
  {
   "id": 351,
