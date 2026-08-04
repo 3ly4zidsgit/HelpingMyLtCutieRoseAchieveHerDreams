@@ -189,6 +189,16 @@ files under *"Assistant(e) / Secrétaire de direction"*.
 | `newonly.py` | stage only the offers that carry no verdict yet |
 | `merge_verdicts.py` | merge `data/r4_batch_*.json` and `r4_drops*.json` into the verdict files |
 
+### Ajoutes pour la piste 2 (`research/`)
+
+| Script | A quoi il sert |
+|---|---|
+| `harvest_track2.py` | relire le corpus deja telecharge avec les regex d'une autre piste, sans reseau - c'est la boucle de reglage gratuite d'un nouveau spec |
+| `curate_compact.py` | curation en deux passes: intitule + employeur + ville d'abord, description seulement pour les cas douteux |
+| `curate_business.py` | les regles de curation de la piste business, avec la liste des cas lus un par un |
+| `probe_careers.py` | lire l'hote du board d'un employeur dans l'URL qu'il publie, au lieu de deviner un tenant |
+| `rerun_ats.py` | rejouer la seule etape ATS (les employeurs changent plus souvent que le reste) |
+
 ## The skill
 
 `skill/findmyprincessajob/` — install by copying to `~/.claude/skills/`.
@@ -262,6 +272,49 @@ states outright "No visa sponsorship available" and another "100% Onsite".
 An international row without an `OK` verdict never reaches a sheet, so the
 unjudged rest cannot leak into the deliverable — they stay staged in
 `data/curation_candidates.json` for a later round.
+
+## Piste 2 (business) — les metiers qu'un diplome d'ingenieur ouvre hors GI
+
+Ajoutee le 2026-08-04. Le classeur porte maintenant **deux recherches**, chacune
+avec ses feuilles. Lire `skill/findmyprincessajob/references/TRACKS.md` avant d'y
+toucher.
+
+| | piste `lean` | piste `business` |
+|---|---|---|
+| spec | `spec.json` | `spec_business.json` |
+| datadir | `data/` | `data_business/` |
+| feuilles | les 4 d'origine | COMMERCIAL & CONSEIL - JUNIOR, COMMERCIAL & CONSEIL - AVEC EXP |
+| perimetre | Maroc + remote sans visa | **Maroc uniquement** (`morocco_only`) |
+
+Familles couvertes : commercial technique, programmes jeunes diplomes,
+conseil/audit, achats/product/data.
+
+**Le piege qui etait deja arme.** `do_build` re-juge les lignes recuperees du
+classeur contre les fichiers de verdict *du spec courant*. Le
+`curation_verdicts.json` du Lean porte `keep:false` sur des offres commerciales
+marocaines — parce qu'elles sont hors sujet **pour le Lean**. Sans partition,
+chaque `build spec.json` aurait supprime la feuille commerciale ligne par ligne,
+en silence. `do_build` met donc les lignes des autres pistes de cote juste apres
+`read_existing`, avant le jeu de cles rejetees, `exclude_titles` et
+`apply_fields`. **Le test de non-regression (construire une piste, reconstruire
+l'autre, verifier) n'est pas optionnel.**
+
+**`offdomain_hard`** (nouvelle cle de spec). A une seule recherche, `strict_keep`
+laisse passer un titre hors domaine s'il marque 10 — raisonnable seul, faux a
+deux pistes, puisque l'`offdomain` de l'une est le sujet de l'autre. Le veto ne se
+leve que si le titre nomme explicitement un metier de la piste. Partage retenu :
+**supply chain et logistique au Lean, achats et procurement au business**.
+
+**Ce que le reglage des regex a appris** (trois passes contre le corpus deja
+telecharge, sans reseau, via `research/harvest_track2.py`) :
+- un `context` generique ne filtre rien : `\bindustri` a lui seul repechait 98
+  des 155 premieres retenues, `\bbac ?\+ ?5\b` 40 de plus ;
+- `strict_keep` court-circuite sur `score >= 10`, et une ligne recuperee porte le
+  score de **l'autre** piste — il faut la re-noter avant de la juger ;
+- **ne jamais lire le secteur de l'employeur comme s'il decrivait le poste.** Il
+  classe "Data Analyst" chez Alten en "Developpement de logiciels", "Acheteur"
+  chez Auto Nejma en "Centre d'appels" et "Category Manager" chez KITEA en
+  "Agence pub". Les regles de curation ne lisent que l'intitule et la fonction.
 
 ## Hard-won facts (do not re-derive)
 

@@ -1,0 +1,156 @@
+[
+ {
+  "company": "delphi",
+  "ats": "ashby",
+  "url": "https://api.ashbyhq.com/posting-api/job-board/delphi",
+  "jobs": 5,
+  "morocco": true
+ },
+ {
+  "company": "safrangroup",
+  "ats": "workable",
+  "url": "https://apply.workable.com/api/v1/widget/accounts/safrangroup?details=true",
+  "jobs": 14,
+  "morocco": true
+ },
+ {
+  "company": "thales",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/thales/postings?limit=100",
+  "jobs": 2,
+  "morocco": false
+ },
+ {
+  "company": "continental",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/continental/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "flex",
+  "ats": "greenhouse",
+  "url": "https://boards-api.greenhouse.io/v1/boards/flex/jobs?content=true",
+  "jobs": 48,
+  "morocco": true
+ },
+ {
+  "company": "lesaffre",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/lesaffre/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "abbvie",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/abbvie/postings?limit=100",
+  "jobs": 100,
+  "morocco": false
+ },
+ {
+  "company": "alten",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/alten/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "assystem",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/assystem/postings?limit=100",
+  "jobs": 100,
+  "morocco": false
+ },
+ {
+  "company": "accenture",
+  "ats": "recruitee",
+  "url": "https://accenture.recruitee.com/api/offers/",
+  "jobs": 2,
+  "morocco": true
+ },
+ {
+  "company": "ey",
+  "ats": "recruitee",
+  "url": "https://ey.recruitee.com/api/offers/",
+  "jobs": 3,
+  "morocco": true
+ },
+ {
+  "company": "bcg",
+  "ats": "greenhouse",
+  "url": "https://boards-api.greenhouse.io/v1/boards/bcg/jobs?content=true",
+  "jobs": 4,
+  "morocco": true
+ },
+ {
+  "company": "geodis",
+  "ats": "recruitee",
+  "url": "https://geodis.recruitee.com/api/offers/",
+  "jobs": 25,
+  "morocco": true
+ },
+ {
+  "company": "rolandberger",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/rolandberger/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "apmterminals",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/apmterminals/postings?limit=100",
+  "jobs": 1,
+  "morocco": false
+ },
+ {
+  "company": "amazon",
+  "ats": "personio",
+  "url": "https://amazon.jobs.personio.de/search.json",
+  "jobs": 3,
+  "morocco": false
+ },
+ {
+  "company": "mazars",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/mazars/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "grantthornton",
+  "ats": "recruitee",
+  "url": "https://grantthornton.recruitee.com/api/offers/",
+  "jobs": 89,
+  "morocco": true
+ },
+ {
+  "company": "mazars",
+  "ats": "recruitee",
+  "url": "https://mazars.recruitee.com/api/offers/",
+  "jobs": 3,
+  "morocco": true
+ },
+ {
+  "company": "devoteam",
+  "ats": "smartrecruiters",
+  "url": "https://api.smartrecruiters.com/v1/companies/devoteam/postings?limit=100",
+  "jobs": 100,
+  "morocco": true
+ },
+ {
+  "company": "oliverwyman",
+  "ats": "lever",
+  "url": "https://api.lever.co/v0/postings/oliverwyman?mode=json",
+  "jobs": 2,
+  "morocco": true
+ },
+ {
+  "company": "hpe",
+  "ats": "personio",
+  "url": "https://hpe.jobs.personio.de/search.json",
+  "jobs": 2,
+  "morocco": true
+ }
+]

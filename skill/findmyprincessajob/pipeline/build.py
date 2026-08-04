@@ -280,6 +280,7 @@ def is_closed(row):
 def finalize(rows):
     rows = dedupe([r for r in rows if (r.get("url") or "").startswith("http")])
     for r in rows:
+        r.setdefault("track", DEFAULT_TRACK)   # rows from a raw_*.json written before tracks
         for f in TEXT_FIELDS:
             if r.get(f):
                 r[f] = unmojibake(r[f])
@@ -405,10 +406,50 @@ def write_sheet(wb, name, rows, note, cols):
     return ws
 
 
-SHEETS = [("MAROC - JUNIOR", "Maroc", "Junior"),
-          ("MAROC - AVEC EXPERIENCE", "Maroc", "Experimente"),
-          ("REMOTE - JUNIOR", "Remote", "Junior"),
-          ("REMOTE - AVEC EXPERIENCE", "Remote", "Experimente")]
+# ------------------------------------------------------------------ tracks
+# One workbook, several searches. A "track" is one spec.json: its own keywords,
+# its own relevance regexes, its own verdict files, its own sheets. The four
+# original sheets are the "lean" track; nothing about them changes.
+#
+# The track is NOT a column. No field survives a round-trip through the workbook
+# unless read_existing can rebuild it, and read_existing only knows the headers in
+# COLS - so the track is read back from the sheet name, exactly the way
+# seniority_bucket and remote_verdict already are. Sheet names are capped at 31
+# characters by Excel (write_sheet truncates silently), and "COMMERCIAL & CONSEIL
+# - AVEC EXP" is exactly 31: do not lengthen it.
+SHEETS = [  # (sheet name, track, zone, bucket)
+    ("MAROC - JUNIOR", "lean", "Maroc", "Junior"),
+    ("MAROC - AVEC EXPERIENCE", "lean", "Maroc", "Experimente"),
+    ("REMOTE - JUNIOR", "lean", "Remote", "Junior"),
+    ("REMOTE - AVEC EXPERIENCE", "lean", "Remote", "Experimente"),
+    ("COMMERCIAL & CONSEIL - JUNIOR", "business", "Maroc", "Junior"),
+    ("COMMERCIAL & CONSEIL - AVEC EXP", "business", "Maroc", "Experimente"),
+]
+DEFAULT_TRACK = "lean"
+TRACK_OF_SHEET = {name.upper(): track for name, track, _, _ in SHEETS}
+# a track that never ships outside Morocco: its rows carry no visa verdict, so
+# without this the remote gate below would drop every one of them in silence
+MOROCCO_ONLY_TRACKS = {"business"}
+SHEET_TITLE = {"lean": "MAROC", "business":
+               "COMMERCIAL / GRADUATE / CONSEIL / ACHATS - DATA — MAROC"}
+
+
+def route(row):
+    """Which sheet a row belongs on, as (track, zone, bucket) - or None and the
+    reason why not.
+
+    The old code partitioned into four buckets with no outlet: a row outside
+    Morocco with no remote verdict belonged to none of them and vanished from the
+    workbook without a word. Every rejection now has to say its name."""
+    track = row.get("track") or DEFAULT_TRACK
+    bucket = "Experimente" if row.get("seniority_bucket") == "Experimente" else "Junior"
+    if row.get("country") == "Maroc":
+        return (track, "Maroc", bucket), ""
+    if track in MOROCCO_ONLY_TRACKS:
+        return None, f"piste {track}: hors Maroc, hors perimetre"
+    if row.get("remote_verdict") == "OK":
+        return (track, "Remote", bucket), ""
+    return None, "hors Maroc sans verdict remote OK"
 
 
 def read_existing(path):
@@ -437,8 +478,22 @@ def read_existing(path):
                     row[key] = _clean(vals[i])
             if row.get("url"):
                 row["source"] = row.get("source") or "(déjà présent)"
-                row.setdefault("seniority_bucket",
-                               "Junior" if "JUNIOR" in sname else "Experimente")
+                # The level already in the workbook is a decision somebody made -
+                # by reading the ad, or by the sheet it was filed on. Lock it, or
+                # classify_exp re-derives it from the regexes and quietly moves the
+                # row: six rows whose ad states no duration jumped from JUNIOR to
+                # AVEC EXPERIENCE on the *other* track's build, purely because
+                # "Responsable" reads as senior when nothing else is known.
+                # A fresh field ruling still wins - apply_fields runs after this -
+                # and a stated experience floor outranks both.
+                if row.get("seniority_bucket"):
+                    row["seniority_locked"] = True
+                else:
+                    row["seniority_bucket"] = "Junior" if "JUNIOR" in sname else "Experimente"
+                # which search put this row here. An unknown sheet name falls back
+                # to the original track, so a workbook written before tracks
+                # existed reads back exactly as it did.
+                row["track"] = TRACK_OF_SHEET.get(sname.upper(), DEFAULT_TRACK)
                 # rows already on a REMOTE sheet were vetted in an earlier run;
                 # keep that verdict or they would silently drop out on append
                 if sname.upper().startswith("REMOTE"):
@@ -485,26 +540,42 @@ def publish(dest, publish_dir):
 
 
 def build(rows, dest, previous=None, publish_dir=None):
+    # previous first: dedupe keeps the first row it sees, so a row already in the
+    # workbook keeps the track it was filed under and does not jump sheets when a
+    # second track's scrape happens to find the same URL.
     rows = finalize(list(previous or []) + list(rows))
-    remote = [r for r in rows if r["country"] != "Maroc" and r.get("remote_verdict") == "OK"]
-    maroc = [r for r in rows if r["country"] == "Maroc"]
-    groups = {("Maroc", "Junior"): [r for r in maroc if r["seniority_bucket"] != "Experimente"],
-              ("Maroc", "Experimente"): [r for r in maroc if r["seniority_bucket"] == "Experimente"],
-              ("Remote", "Junior"): [r for r in remote if r["seniority_bucket"] != "Experimente"],
-              ("Remote", "Experimente"): [r for r in remote if r["seniority_bucket"] == "Experimente"]}
+    groups = {(track, zone, bucket): [] for _, track, zone, bucket in SHEETS}
+    dropped = []
+    for r in rows:
+        key, why = route(r)
+        if key is None or key not in groups:
+            dropped.append((r, why or f"aucune feuille pour {key}"))
+        else:
+            groups[key].append(r)
+    if dropped:
+        print(f"\n{len(dropped)} lignes non routees (aucune feuille ne les accueille):")
+        seen = {}
+        for r, why in dropped:
+            seen.setdefault(why, []).append(r)
+        for why, rs in seen.items():
+            print(f"  {len(rs):5d}  {why}")
+            for r in rs[:3]:
+                print(f"           {r.get('job_title','')[:60]} | {r.get('url','')[:60]}")
+
     wb = Workbook(); wb.remove(wb.active)
-    for name, zone, bucket in SHEETS:
-        data = groups[(zone, bucket)]
+    for name, track, zone, bucket in SHEETS:
+        data = groups[(track, zone, bucket)]
         cols = COLS + ([REMOTE_COL] if zone == "Remote" else [])
         label = "JUNIOR / SANS EXPÉRIENCE" if bucket == "Junior" else "AVEC EXPÉRIENCE"
-        where = "MAROC" if zone == "Maroc" else "100% REMOTE MONDIAL (sans visa)"
+        where = SHEET_TITLE.get(track, track.upper()) if zone == "Maroc" \
+            else "100% REMOTE MONDIAL (sans visa)"
         write_sheet(wb, name, data, f"{where} — {label} ({len(data)} offres)", cols)
     os.makedirs(os.path.dirname(dest) or ".", exist_ok=True)
     wb.save(dest)
     total = sum(len(v) for v in groups.values())
     print(f"\nSAVED: {dest}")
-    for (zone, bucket), v in groups.items():
-        print(f"  {zone:7s} {bucket:12s} {len(v):5d}")
+    for name, track, zone, bucket in SHEETS:
+        print(f"  {name:32s} {len(groups[(track, zone, bucket)]):5d}")
     print(f"  TOTAL {total}  ({os.path.getsize(dest)/1024:.1f} KB)")
     publish(dest, publish_dir)
     return total

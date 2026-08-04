@@ -1,0 +1,4048 @@
+[
+ {
+  "id": 0,
+  "key": "71d9e5f21ce2",
+  "keep": false,
+  "reason": "'AI Trainer' - freelance AI-model training gig recruiting Lean experts as annotators, not a Lean practice role"
+ },
+ {
+  "id": 1,
+  "key": "a8e496c4f03c",
+  "keep": true,
+  "reason": "Process engineer usine - parametres de fabrication, SMED/5S/VSM - coeur du metier"
+ },
+ {
+  "id": 2,
+  "key": "ee2efad13f7f",
+  "keep": true,
+  "reason": "Lean Business Analyst deploye sur les lignes de production - Operational Excellence"
+ },
+ {
+  "id": 3,
+  "key": "1a40914f25e9",
+  "keep": true,
+  "reason": "OPEX Responsible - projets amelioration continue Lean/Six Sigma"
+ },
+ {
+  "id": 4,
+  "key": "fb61f3515a48",
+  "keep": true,
+  "reason": "Ingenieur amelioration continue, Safran Nacelles, Methodes/Process/Industrialisation"
+ },
+ {
+  "id": 5,
+  "key": "224e501ced83",
+  "keep": false,
+  "reason": "'Chef de Projet IT' - securite des applications informatiques; Kanban/Lean cites comme methodes de gestion de projet logiciel"
+ },
+ {
+  "id": 6,
+  "key": "ba7b4176bd71",
+  "keep": true,
+  "reason": "Operational Excellence & Lean Consultant, Value Stream Design - coeur du metier"
+ },
+ {
+  "id": 7,
+  "key": "8ed546ffe59b",
+  "keep": true,
+  "reason": "Continuous Improvement / Lean Coach en industrie agroalimentaire"
+ },
+ {
+  "id": 8,
+  "key": "8762775ee870",
+  "keep": true,
+  "reason": "Continuous Improvement Lean Advisor - amelioration operationnelle manufacturiere"
+ },
+ {
+  "id": 9,
+  "key": "45d26eb02967",
+  "keep": true,
+  "reason": "Business Process Improvement Manager chez un fabricant de dispositifs medicaux"
+ },
+ {
+  "id": 10,
+  "key": "7aaa0c7df7f4",
+  "keep": true,
+  "reason": "Encadre une equipe d'initiatives d'amelioration des processus et deploie les methodologies BPI de l'entreprise - Salesforce n'est que le perimetre"
+ },
+ {
+  "id": 11,
+  "key": "1ef556fba459",
+  "keep": true,
+  "reason": "OpEx Manager chez un editeur de solutions atelier - transformation des shop floors"
+ },
+ {
+  "id": 12,
+  "key": "02fb016698a0",
+  "keep": true,
+  "reason": "Senior Lean & Business Transformation Consultant, Operational Excellence"
+ },
+ {
+  "id": 13,
+  "key": "eee85c927895",
+  "keep": true,
+  "reason": "Business Process Improvement - standardisation des processus et metriques de performance"
+ },
+ {
+  "id": 14,
+  "key": "76f57460bfb7",
+  "keep": true,
+  "reason": "Black Belt Process Improvement - role Six Sigma explicite"
+ },
+ {
+  "id": 15,
+  "key": "9b524a40b81b",
+  "keep": true,
+  "reason": "Responsable Methodes - methodes, planification, 5S/Lean/TPM"
+ },
+ {
+  "id": 16,
+  "key": "4636dfaf5e76",
+  "keep": true,
+  "reason": "Ingenieur Maintenance industrielle (mines) - metier adjacent retenu par la spec"
+ },
+ {
+  "id": 17,
+  "key": "52bfe667e0b4",
+  "keep": true,
+  "reason": "Head of Lean, APM Terminals Tanger"
+ },
+ {
+  "id": 18,
+  "key": "54d6f58353f0",
+  "keep": true,
+  "reason": "Chef de projet Black belt, Safran - Accelerated Improvement Workshops"
+ },
+ {
+  "id": 19,
+  "key": "461259caa1fb",
+  "keep": true,
+  "reason": "Cadre Methode - etudes de temps, equilibrage de lignes, Lean/Kaizen/5S"
+ },
+ {
+  "id": 20,
+  "key": "e1c3fbe4a0e1",
+  "keep": true,
+  "reason": "Cadre methode, Ingelec - Methodes/Process/Industrialisation"
+ },
+ {
+  "id": 21,
+  "key": "e1ed781d1ab6",
+  "keep": true,
+  "reason": "Responsable production UAP - KPI, Lean Manufacturing, amelioration continue"
+ },
+ {
+  "id": 22,
+  "key": "9262e0fb024f",
+  "keep": true,
+  "reason": "Materials Quality Engineer - Value Stream Warehouses, Built-In Quality"
+ },
+ {
+  "id": 23,
+  "key": "437221ecc4ec",
+  "keep": true,
+  "reason": "Quality & EHS Manager - 5Why/Ishikawa, Lean problem-solving, KPI usine"
+ },
+ {
+  "id": 24,
+  "key": "0c2c74928e16",
+  "keep": true,
+  "reason": "Titre trompeur: le poste pilote le tri automatise des colis, la performance operationnelle, les objectifs de productivite et les equipements industriels (WCS/VCS)"
+ },
+ {
+  "id": 25,
+  "key": "945eb3385802",
+  "keep": true,
+  "reason": "PMO Quality en ingenierie automobile chez ALTEN - qualite projet en environnement industriel"
+ },
+ {
+  "id": 26,
+  "key": "2606b106b556",
+  "keep": true,
+  "reason": "Responsable Maintenance des Engins, siderurgie - maintenance industrielle"
+ },
+ {
+  "id": 27,
+  "key": "2d062dd1af25",
+  "keep": true,
+  "reason": "Coordinateur Supply Chain - FIFO, standards Lean/5S, inventaire tournant"
+ },
+ {
+  "id": 28,
+  "key": "d2c75aca66ce",
+  "keep": true,
+  "reason": "Quality Engineer - Lean Six Sigma en ferroviaire/automobile"
+ },
+ {
+  "id": 29,
+  "key": "2ddb15165cb3",
+  "keep": false,
+  "reason": "'Lead Business Analyst - Automation/RPA' - automatisation logicielle; Lean/Six Sigma seulement cites en certifications"
+ },
+ {
+  "id": 30,
+  "key": "f371899e0c80",
+  "keep": true,
+  "reason": "Production Manager - pilotage production et amelioration continue Lean"
+ },
+ {
+  "id": 31,
+  "key": "2f8957764150",
+  "keep": true,
+  "reason": "Responsable Production, Eaton Tanger - excellence operationnelle"
+ },
+ {
+  "id": 32,
+  "key": "c3ee08224d42",
+  "keep": true,
+  "reason": "Quality Engineer chez un fabricant de robots chirurgicaux - qualite produit/industrielle (la categorie 'Software Engineering' vient du job board, pas de l'employeur)"
+ },
+ {
+  "id": 33,
+  "key": "8e8b854a4fd7",
+  "keep": false,
+  "reason": "'Senior Quality Engineer' chez une marketplace, fonction Software Engineering - QA logiciel"
+ },
+ {
+  "id": 34,
+  "key": "642ab3feb6ce",
+  "keep": true,
+  "reason": "Senior Supply Chain Manager - flux de marchandises bout en bout"
+ },
+ {
+  "id": 35,
+  "key": "58cd877f1b98",
+  "keep": true,
+  "reason": "Agent lean manufacturing - poste Lean en atelier"
+ },
+ {
+  "id": 36,
+  "key": "344c8114e17e",
+  "keep": true,
+  "reason": "Stage PFE en genie industriel"
+ },
+ {
+  "id": 37,
+  "key": "f9d1e381a418",
+  "keep": true,
+  "reason": "Charge(e) d'amelioration / Agent de methode LEAN"
+ },
+ {
+  "id": 38,
+  "key": "d0820662ccce",
+  "keep": true,
+  "reason": "Logisticien referent Kanban - flux tires en atelier"
+ },
+ {
+  "id": 39,
+  "key": "c7390c50a75b",
+  "keep": true,
+  "reason": "Stages PFE Yazaki, Genie Industriel explicitement cite"
+ },
+ {
+  "id": 40,
+  "key": "9ab15306848c",
+  "keep": true,
+  "reason": "Ingenieur Industriel, SIANA (ONCF/SNCF)"
+ },
+ {
+  "id": 41,
+  "key": "a729fec1bfe4",
+  "keep": true,
+  "reason": "Ingenieur amelioration continue Nouaceur - titre en plein coeur du metier (extrait = page anti-bot de la source)"
+ },
+ {
+  "id": 42,
+  "key": "2819626256f6",
+  "keep": false,
+  "reason": "'Stagiaire RH' - stage ressources humaines, la qualite des processus y est le sujet RH et non industriel"
+ },
+ {
+  "id": 43,
+  "key": "e42d0ac87def",
+  "keep": false,
+  "reason": "'AI Trainer' - meme gig d'entrainement de modeles que l'offre 0, pas un poste d'excellence operationnelle"
+ },
+ {
+  "id": 44,
+  "key": "892a2c589344",
+  "keep": true,
+  "reason": "OPEX Responsible ALPLA - projets Lean/Six Sigma"
+ },
+ {
+  "id": 45,
+  "key": "e45ffe9bb064",
+  "keep": true,
+  "reason": "Ingenieur Genie industriel, ARaymond"
+ },
+ {
+  "id": 46,
+  "key": "251c8d88cb65",
+  "keep": false,
+  "reason": "AbbVie 'Manager, Business Operational Excellence' - le corps situe le poste 'AbbVie Bioresearch Center Inc., Worcester, MA (5 days a week on site)'. Poste americain en presentiel: ni Maroc, ni remote sans visa. La fiche Bayt Maroc induisait en erreur"
+ },
+ {
+  "id": 47,
+  "key": "ce02c69abb68",
+  "keep": true,
+  "reason": "Process Improvement Director - direction des demarches d'amelioration des processus"
+ },
+ {
+  "id": 48,
+  "key": "73058233e771",
+  "keep": true,
+  "reason": "Operational Excellence Lead chez un CDMO pharmaceutique (production API)"
+ },
+ {
+  "id": 49,
+  "key": "4cf595e67dcd",
+  "keep": false,
+  "reason": "'Lean 4' est l'assistant de preuve formelle, pas le Lean manufacturing - poste de recherche en maths/IA"
+ },
+ {
+  "id": 50,
+  "key": "cfa7463c6a88",
+  "keep": true,
+  "reason": "Process Improvement & Standards Manager chez un industriel"
+ },
+ {
+  "id": 51,
+  "key": "c87c9c1db43c",
+  "keep": true,
+  "reason": "Lean Development Expert, Alstom"
+ },
+ {
+  "id": 52,
+  "key": "4dc2bc77f0a1",
+  "keep": false,
+  "reason": "Perimetre DSI: SLA/OLA, MTTR, incidents, gouvernance qualite des processus SI - gestion des services informatiques, pas amelioration continue industrielle"
+ },
+ {
+  "id": 53,
+  "key": "88c02bc9b222",
+  "keep": true,
+  "reason": "Operational Excellence Engineer, Amcor (emballage industriel)"
+ },
+ {
+  "id": 54,
+  "key": "ff6fce3ae549",
+  "keep": false,
+  "reason": "'Lean Agilist' - SAFe / Agile Release Train, coaching agile logiciel et non Lean manufacturing"
+ },
+ {
+  "id": 55,
+  "key": "1a6bc5432708",
+  "keep": true,
+  "reason": "Global Continuous Improvement Director chez un industriel mondial"
+ },
+ {
+  "id": 56,
+  "key": "b422608b465d",
+  "keep": true,
+  "reason": "Transformation Leader - Process et Lean Management, Centre d'Expertise Lean BNP"
+ },
+ {
+  "id": 57,
+  "key": "7dcd1988b18c",
+  "keep": true,
+  "reason": "Consultants Excellence Operationnelle, BCP Consulting"
+ },
+ {
+  "id": 58,
+  "key": "af6465d885de",
+  "keep": true,
+  "reason": "Director, Lean Operations - transformation Lean d'entreprise"
+ },
+ {
+  "id": 59,
+  "key": "a0effb994a7d",
+  "keep": true,
+  "reason": "Continuous Improvement & Transformation Project Manager, Bvlgari"
+ },
+ {
+  "id": 60,
+  "key": "d90fc5f0f528",
+  "keep": false,
+  "reason": "'Pilotage Commercial' - fonction Ventes/Developpement commercial en banque, l'excellence operationnelle n'est qu'un mot du titre"
+ },
+ {
+  "id": 61,
+  "key": "665a54957924",
+  "keep": true,
+  "reason": "Lean Facilitator pour un reseau de manufacturiers"
+ },
+ {
+  "id": 62,
+  "key": "33f345d536c4",
+  "keep": false,
+  "reason": "Texte integral: 'Nous recherchons un(e) stagiaire PFE motive(e)' - c est un stage, exclu a la demande de l utilisateur"
+ },
+ {
+  "id": 63,
+  "key": "550bbf5931a3",
+  "keep": true,
+  "reason": "Industrial Engineer, Capgemini Engineering"
+ },
+ {
+  "id": 64,
+  "key": "d76843936c38",
+  "keep": true,
+  "reason": "Director, Operational Excellence, chimie"
+ },
+ {
+  "id": 65,
+  "key": "18109e5e79aa",
+  "keep": true,
+  "reason": "Sr Operational Excellence Lead, chimie"
+ },
+ {
+  "id": 66,
+  "key": "527b344a73f1",
+  "keep": true,
+  "reason": "Responsable Amelioration Continue, Circor Tanger"
+ },
+ {
+  "id": 67,
+  "key": "ecbe413caf3b",
+  "keep": false,
+  "reason": "'Support Operations Manager' - encadrement du support client SaaS"
+ },
+ {
+  "id": 68,
+  "key": "249d13249a65",
+  "keep": false,
+  "reason": "'Operations Manager' chez Coinbase - operations crypto/finance, fonction Management and Finance"
+ },
+ {
+  "id": 69,
+  "key": "5f3e7de2966c",
+  "keep": true,
+  "reason": "Head of Continuous Improvement, transport/logistique"
+ },
+ {
+  "id": 70,
+  "key": "aa21b5e03527",
+  "keep": true,
+  "reason": "Planification, optimisation de la charge et amelioration continue de la performance operationnelle"
+ },
+ {
+  "id": 71,
+  "key": "5b0f0952013d",
+  "keep": true,
+  "reason": "Process Improvement Engineer sur des operations physiques de tri/expedition"
+ },
+ {
+  "id": 72,
+  "key": "01453e868edb",
+  "keep": true,
+  "reason": "Ingenieur Lean, DARI COUSPATE"
+ },
+ {
+  "id": 73,
+  "key": "39d4671cd689",
+  "keep": true,
+  "reason": "Consultants Excellence Operationnelle, DOOC filiale OCP"
+ },
+ {
+  "id": 74,
+  "key": "189451481c8b",
+  "keep": true,
+  "reason": "Operational Excellence Manager, CIP & Process Optimization, logistique DSV"
+ },
+ {
+  "id": 75,
+  "key": "038a87703370",
+  "keep": true,
+  "reason": "Senior Manager, Lean, Dexcom (fabrication dispositifs medicaux)"
+ },
+ {
+  "id": 76,
+  "key": "31004cabec3e",
+  "keep": false,
+  "reason": "'Sales Operations Manager' - pilotage des ventes, territoires et quotas"
+ },
+ {
+  "id": 77,
+  "key": "43ddcd52fa14",
+  "keep": false,
+  "reason": "'Head of Finance' - fonction Finance, reporting financier de la Manufacturing Excellence"
+ },
+ {
+  "id": 78,
+  "key": "eb0a26ef5958",
+  "keep": true,
+  "reason": "Responsable Excellence Operationnelle usine, Coca-Cola Tanger"
+ },
+ {
+  "id": 79,
+  "key": "441beb87430c",
+  "keep": true,
+  "reason": "Continuous Improvement Specialist, Eaton"
+ },
+ {
+  "id": 80,
+  "key": "f2d70bba68d6",
+  "keep": false,
+  "reason": "'Business Analyst' dans un cabinet d'automatisation logicielle - analyse et implementation de systemes"
+ },
+ {
+  "id": 81,
+  "key": "0e295e66bdea",
+  "keep": true,
+  "reason": "Process Improvement Leader - amelioration des processus, methodologie CI"
+ },
+ {
+  "id": 82,
+  "key": "76a606cabd83",
+  "keep": true,
+  "reason": "Process Improvement Leader - Operations"
+ },
+ {
+  "id": 83,
+  "key": "89d854587f12",
+  "keep": true,
+  "reason": "Student - Process Improvement - poste junior d'amelioration des processus"
+ },
+ {
+  "id": 84,
+  "key": "4505a6c951ee",
+  "keep": false,
+  "reason": "L'annonce le dit elle-meme: 'This is not a Continuous Improvement Manager vacancy... for a Customer Success Manager role within a SaaS business'"
+ },
+ {
+  "id": 85,
+  "key": "4099fa0bc976",
+  "keep": true,
+  "reason": "Director R&D Operational Excellence & Performance, pharma"
+ },
+ {
+  "id": 86,
+  "key": "ccb9a0c25f21",
+  "keep": true,
+  "reason": "Senior Advisor, Operational Excellence"
+ },
+ {
+  "id": 87,
+  "key": "93f1946709bc",
+  "keep": true,
+  "reason": "Green Belt - Business Process Consultant - role Six Sigma explicite"
+ },
+ {
+  "id": 88,
+  "key": "39aff8f196a8",
+  "keep": true,
+  "reason": "Project Manager Operational Excellence, Getinge"
+ },
+ {
+  "id": 89,
+  "key": "155853c1fcbf",
+  "keep": true,
+  "reason": "Global Continuous Improvement Manager, Greif (emballage)"
+ },
+ {
+  "id": 90,
+  "key": "4764317f001a",
+  "keep": true,
+  "reason": "Lean Manager 100%, Micarna (production agroalimentaire)"
+ },
+ {
+  "id": 91,
+  "key": "5111487eb905",
+  "keep": false,
+  "reason": "Missions reelles = metres, kosztorysy et dossiers d'appel d'offres (economiste de la construction); 'Lean Construction' n'est que le cadre de travail"
+ },
+ {
+  "id": 92,
+  "key": "c443508bb129",
+  "keep": true,
+  "reason": "LEAN Management Trainer - deploiement du Lean sur les chantiers"
+ },
+ {
+  "id": 93,
+  "key": "4b621392bedb",
+  "keep": true,
+  "reason": "Industrial Engineer - conseil en logistique et strategie supply chain"
+ },
+ {
+  "id": 94,
+  "key": "412fdff73ea4",
+  "keep": false,
+  "reason": "Annonce groupee Hirschmann: 'Infirmier/Infirmiere (Stage)', 'Talent Acquisition & HR Development Specialist' et 'Lean Management Technician'. Le seul poste industriel est un technicien, exclu par la regle de l utilisateur; les deux autres sont hors specialite"
+ },
+ {
+  "id": 95,
+  "key": "b925e3c41068",
+  "keep": true,
+  "reason": "Operational Excellence Manager, HomeServe (sud Allemagne)"
+ },
+ {
+  "id": 96,
+  "key": "c6ee4a0f94f1",
+  "keep": true,
+  "reason": "Operational Excellence Manager, HomeServe (nord Allemagne)"
+ },
+ {
+  "id": 97,
+  "key": "8a65e10cc66a",
+  "keep": true,
+  "reason": "Operational Excellence Consultant, Honeywell Aerospace"
+ },
+ {
+  "id": 98,
+  "key": "4241d9fe7153",
+  "keep": true,
+  "reason": "Process Improvement Lead - optimisation de l'efficacite operationnelle"
+ },
+ {
+  "id": 99,
+  "key": "035a7776645d",
+  "keep": true,
+  "reason": "Process Improvement Manager - pilotage de l'amelioration continue d'un programme"
+ },
+ {
+  "id": 100,
+  "key": "d11fca22d120",
+  "keep": false,
+  "reason": "L'annonce precise elle-meme le perimetre: 'executive coaching and leadership support' aupres du CEO - conseil de direction, pas excellence operationnelle terrain"
+ },
+ {
+  "id": 101,
+  "key": "0dabed49f3bf",
+  "keep": true,
+  "reason": "Poste ouvert a un Industrial Engineer sur des projets d'infrastructure de recharge"
+ },
+ {
+  "id": 102,
+  "key": "eb836808cdd4",
+  "keep": true,
+  "reason": "Process Improvement Consultant - optimisation de workflows operationnels"
+ },
+ {
+  "id": 103,
+  "key": "e18829e6affd",
+  "keep": true,
+  "reason": "Operational Excellence Manager - amelioration continue et standardisation des operations"
+ },
+ {
+  "id": 104,
+  "key": "b26365090053",
+  "keep": true,
+  "reason": "Lean Manager, James Hardie (materiaux de construction)"
+ },
+ {
+  "id": 105,
+  "key": "6a7195650066",
+  "keep": true,
+  "reason": "Process Improvement Project Analyst Principal"
+ },
+ {
+  "id": 106,
+  "key": "e8d6b218f796",
+  "keep": true,
+  "reason": "Ingenieur Amelioration Continue (KOS), Kohler Tanger"
+ },
+ {
+  "id": 107,
+  "key": "179dbc8adfdf",
+  "keep": true,
+  "reason": "Director, Global Value Stream - amelioration continue et discipline process"
+ },
+ {
+  "id": 108,
+  "key": "1e404a2818e3",
+  "keep": true,
+  "reason": "Manager Continuous Improvement - Predictive Maintenance"
+ },
+ {
+  "id": 109,
+  "key": "43064a9472c2",
+  "keep": true,
+  "reason": "Continuous Improvement Leader"
+ },
+ {
+  "id": 110,
+  "key": "d449f10b0c83",
+  "keep": true,
+  "reason": "Team Leader Operational Excellence en usine, Leoni"
+ },
+ {
+  "id": 111,
+  "key": "3370b1ffef52",
+  "keep": true,
+  "reason": "Specialist Industrial Engineering, Leoni"
+ },
+ {
+  "id": 112,
+  "key": "03ac995fa1fc",
+  "keep": false,
+  "reason": "Fiche de demonstration de l'ATS Lever ('Lever Middleware Test Company'), pas une offre reelle"
+ },
+ {
+  "id": 113,
+  "key": "87e1ea291c8e",
+  "keep": true,
+  "reason": "Operational Excellence Engineer, diplome en Industrial Engineering demande"
+ },
+ {
+  "id": 114,
+  "key": "dc2d84f8e5cb",
+  "keep": true,
+  "reason": "Operational Excellence Consultant - amelioration des processus"
+ },
+ {
+  "id": 115,
+  "key": "5ae983c6989a",
+  "keep": true,
+  "reason": "Continuous Improvement Leader - performance operationnelle multi-sites"
+ },
+ {
+  "id": 116,
+  "key": "8a3c9896efd1",
+  "keep": false,
+  "reason": "'Evaluator' pour des laboratoires de recherche IA - evaluation de modeles, pas un poste d'amelioration des processus"
+ },
+ {
+  "id": 117,
+  "key": "b09a18e41dd0",
+  "keep": false,
+  "reason": "'LEAN' et 'MAP' sont ici les programmes de pret HUD/FHA - poste de souscripteur de credit immobilier"
+ },
+ {
+  "id": 118,
+  "key": "85a9d253a523",
+  "keep": true,
+  "reason": "Process Improvement Project Analyst - analyse et amelioration des processus"
+ },
+ {
+  "id": 119,
+  "key": "6454a81bfb38",
+  "keep": true,
+  "reason": "Operational Excellence Manager, energies renouvelables"
+ },
+ {
+  "id": 120,
+  "key": "ac414fe3a8b7",
+  "keep": true,
+  "reason": "Lean Transformation Coach chez un industriel"
+ },
+ {
+  "id": 121,
+  "key": "d9f62bd7c738",
+  "keep": false,
+  "reason": "'Benefits Operations' - gestion des avantages sociaux, fonction RH"
+ },
+ {
+  "id": 122,
+  "key": "a8e92bbe8307",
+  "keep": false,
+  "reason": "'Benefits Operations' - gestion des avantages sociaux, fonction RH"
+ },
+ {
+  "id": 123,
+  "key": "4b19f607e3a4",
+  "keep": false,
+  "reason": "'GTM Operational Excellence' - excellence operationnelle des equipes commerciales (go-to-market)"
+ },
+ {
+  "id": 124,
+  "key": "1728ba2e8649",
+  "keep": true,
+  "reason": "Continuous Improvement Manager - Lean, Six Sigma, TPM, resolution de causes racines en usine"
+ },
+ {
+  "id": 125,
+  "key": "f3e6dfa551da",
+  "keep": true,
+  "reason": "Manager of Operational Excellence rattache au Directeur des Operations"
+ },
+ {
+  "id": 126,
+  "key": "c3bad47e6010",
+  "keep": false,
+  "reason": "'PDF Forms Operations Specialist' - traitement de formulaires, fonction administrative"
+ },
+ {
+  "id": 127,
+  "key": "b94eb42e5eef",
+  "keep": true,
+  "reason": "Responsable Nomenclature et Kaizen, cablage automobile"
+ },
+ {
+  "id": 128,
+  "key": "b1f34e3d1967",
+  "keep": true,
+  "reason": "Continuous Improvement Manager, STERIS"
+ },
+ {
+  "id": 129,
+  "key": "a279e4f5c113",
+  "keep": true,
+  "reason": "Ingenieur Progres et Amelioration Continue, Safran Aircraft Engines"
+ },
+ {
+  "id": 130,
+  "key": "318ca356193d",
+  "keep": true,
+  "reason": "VP Operational Excellence - definition et execution de la strategie d'excellence operationnelle"
+ },
+ {
+  "id": 131,
+  "key": "3fae4b682bb4",
+  "keep": true,
+  "reason": "Senior Consultant Operational Excellence, Siemens Energy Grid Technologies"
+ },
+ {
+  "id": 132,
+  "key": "dcf5f4f5eb21",
+  "keep": false,
+  "reason": "'HEDIS Audit' - amelioration et audit des indicateurs qualite de soins d'un assureur sante, metier de reporting clinique"
+ },
+ {
+  "id": 133,
+  "key": "06b014c384d7",
+  "keep": false,
+  "reason": "'Stagiaire RH' - stage ressources humaines, fonction Audit/Conseil - RH"
+ },
+ {
+  "id": 134,
+  "key": "5dfa7e3e7633",
+  "keep": true,
+  "reason": "Process Improvement Consultant - Lean Six Sigma Green/Black Belt demande"
+ },
+ {
+  "id": 135,
+  "key": "5a9050bdf86a",
+  "keep": true,
+  "reason": "Operational Excellence Consultant, Solus (Aviva)"
+ },
+ {
+  "id": 136,
+  "key": "b8b4d7cfef35",
+  "keep": true,
+  "reason": "Director, Global Value Stream - pilotage de chaine de valeur"
+ },
+ {
+  "id": 137,
+  "key": "f0b520905594",
+  "keep": true,
+  "reason": "Operational Excellence Lead - documentation operationnelle, formation, audits, terrain"
+ },
+ {
+  "id": 138,
+  "key": "a82c5eea264e",
+  "keep": true,
+  "reason": "Operational Excellence Manager sur les operations logistiques europeennes"
+ },
+ {
+  "id": 139,
+  "key": "b2463f1f96cf",
+  "keep": true,
+  "reason": "Consultant Senior / Manager Excellence Operationnelle et Transformation"
+ },
+ {
+  "id": 140,
+  "key": "8901f5959ae1",
+  "keep": true,
+  "reason": "Responsable Nomenclature et Kaizen, Sumitomo Electric"
+ },
+ {
+  "id": 141,
+  "key": "cf886deb2dc0",
+  "keep": true,
+  "reason": "Global Operational Excellence sur des centres d'integration et d'entrepot physiques"
+ },
+ {
+  "id": 142,
+  "key": "2fc8a9fcee68",
+  "keep": true,
+  "reason": "CI Lean Leader, TE Connectivity"
+ },
+ {
+  "id": 143,
+  "key": "aa6d892dff72",
+  "keep": true,
+  "reason": "Continuous Improvement Staff Engineer, TE Connectivity"
+ },
+ {
+  "id": 144,
+  "key": "423869855122",
+  "keep": true,
+  "reason": "Responsable amelioration continue, El Jadida"
+ },
+ {
+  "id": 145,
+  "key": "1c33cf463f95",
+  "keep": false,
+  "reason": "Le poste reel est 'Ingenieur Technique Clients et Produits' (support technique client/produit); 'ingenieur industriel' n'est que l'accroche du site"
+ },
+ {
+  "id": 146,
+  "key": "bf3f39e512c3",
+  "keep": true,
+  "reason": "SVP Operational Excellence - conception du systeme operationnel de l'entreprise"
+ },
+ {
+  "id": 147,
+  "key": "2564845f76db",
+  "keep": false,
+  "reason": "'Finance & Operations Analyst' - fonction Finance & Accounting dans une EdTech"
+ },
+ {
+  "id": 148,
+  "key": "6bc01b6c854d",
+  "keep": false,
+  "reason": "L'annonce le precise: 'contribute to projects that help evaluate and enhance AI systems using your industrial engineering expertise' - evaluation de modeles IA"
+ },
+ {
+  "id": 149,
+  "key": "617bf67ddfa5",
+  "keep": false,
+  "reason": "'Fast Track Operations' chez Twilio - operations de provisioning telecom"
+ },
+ {
+  "id": 150,
+  "key": "56ac50c59b92",
+  "keep": false,
+  "reason": "'Compliance Operations' - conformite reglementaire telecom"
+ },
+ {
+  "id": 151,
+  "key": "bae1512ad893",
+  "keep": false,
+  "reason": "'Compliance Operations' - conformite reglementaire telecom"
+ },
+ {
+  "id": 152,
+  "key": "24b8a1152a20",
+  "keep": true,
+  "reason": "Consultant Smart Factory & Operational Excellence"
+ },
+ {
+  "id": 153,
+  "key": "89220d2182a5",
+  "keep": true,
+  "reason": "Director Operational Excellence, Viatris (pharma)"
+ },
+ {
+  "id": 154,
+  "key": "c8e69141b9da",
+  "keep": true,
+  "reason": "Senior Director Lean chez un industriel"
+ },
+ {
+  "id": 155,
+  "key": "87656f0388ac",
+  "keep": true,
+  "reason": "Sr Manager Continuous Improvement, agroalimentaire"
+ },
+ {
+  "id": 156,
+  "key": "b21fdf43a711",
+  "keep": true,
+  "reason": "Planificateur - ordonnancement/planification industrielle en automobile"
+ },
+ {
+  "id": 157,
+  "key": "2b1f714274f0",
+  "keep": true,
+  "reason": "Directeur Qualite Industrielle, automobile"
+ },
+ {
+  "id": 158,
+  "key": "18f0de8d74d6",
+  "keep": true,
+  "reason": "Responsable Bureau d'Etudes - optimisation des process et methodes de production"
+ },
+ {
+  "id": 159,
+  "key": "793917734bd9",
+  "keep": true,
+  "reason": "APSYS Leader - deploiement du systeme de production Alstom, lean & continuous improvement"
+ },
+ {
+  "id": 160,
+  "key": "f4aba65bf070",
+  "keep": false,
+  "reason": "'Global Recruitment Centre Lead' - direction d'un centre de recrutement Adecco"
+ },
+ {
+  "id": 161,
+  "key": "d28cf6807572",
+  "keep": true,
+  "reason": "Consultant PMO - Quality, ALTEN, Production/Qualite, automobile"
+ },
+ {
+  "id": 162,
+  "key": "8f863ca87013",
+  "keep": true,
+  "reason": "Superviseur Qualite en production textile"
+ },
+ {
+  "id": 163,
+  "key": "9f8f2e4fb360",
+  "keep": true,
+  "reason": "Responsable Planification, Lesaffre - planification industrielle"
+ },
+ {
+  "id": 164,
+  "key": "4bf3fe1f5ae1",
+  "keep": false,
+  "reason": "'Value Management Officer' - optimisation de la valeur du portefeuille et gouvernance, pilotage financier telecom"
+ },
+ {
+  "id": 165,
+  "key": "92671791dc83",
+  "keep": true,
+  "reason": "IE/PP Specialist - Industrial Engineering / Production Planning chez Yazaki"
+ },
+ {
+  "id": 166,
+  "key": "2be88dd167d2",
+  "keep": false,
+  "reason": "'Directeur des achats' - fonction Achats/negociation fournisseurs"
+ },
+ {
+  "id": 167,
+  "key": "785af5acf305",
+  "keep": true,
+  "reason": "Stagiaire pre-embauche QHSE - Production/Qualite/Securite"
+ },
+ {
+  "id": 168,
+  "key": "0e6936955c96",
+  "keep": true,
+  "reason": "Supply Chain Manager - planification, outils Lean manufacturing"
+ },
+ {
+  "id": 169,
+  "key": "267b7a5aae98",
+  "keep": true,
+  "reason": "Industrialization Leader, ALTEN"
+ },
+ {
+  "id": 170,
+  "key": "0a93d40e0829",
+  "keep": true,
+  "reason": "Serial life quality manager, automobile"
+ },
+ {
+  "id": 171,
+  "key": "414241759b79",
+  "keep": true,
+  "reason": "Ingenieur QHSE, mines"
+ },
+ {
+  "id": 172,
+  "key": "4421091f9273",
+  "keep": true,
+  "reason": "Ingenieur Process Senior - Methodes/Process/Industrialisation"
+ },
+ {
+  "id": 173,
+  "key": "96963ab2143a",
+  "keep": true,
+  "reason": "Ingenieur Methodes - Methodes/Process/Industrialisation (milieu hospitalier)"
+ },
+ {
+  "id": 174,
+  "key": "6fb6a8fe1aea",
+  "keep": true,
+  "reason": "Industrialization Flying Analyst - mise en oeuvre operationnelle de l'industrialisation"
+ },
+ {
+  "id": 175,
+  "key": "f2a0e4ad3507",
+  "keep": true,
+  "reason": "Serial Life Quality Manager - plans de convergence qualite et KPI"
+ },
+ {
+  "id": 176,
+  "key": "2f0aec26f1b4",
+  "keep": true,
+  "reason": "Ingenieur Qualite, automobile/electronique, Tanger"
+ },
+ {
+  "id": 177,
+  "key": "7fc8a5fb57e6",
+  "keep": false,
+  "reason": "'Business Technology Product Manager' - product management d'une plateforme logicielle"
+ },
+ {
+  "id": 178,
+  "key": "41deaa1fde3b",
+  "keep": false,
+  "reason": "'Software Quality Engineer' - QA/tests logiciels"
+ },
+ {
+  "id": 179,
+  "key": "049ea992c7fc",
+  "keep": true,
+  "reason": "Ingenieur Methodes & Industrialisation, Rabat"
+ },
+ {
+  "id": 180,
+  "key": "40f29c491fd1",
+  "keep": true,
+  "reason": "Ingenieur Methodes & Industrialisation, ALTEN"
+ },
+ {
+  "id": 181,
+  "key": "27ed972f7b21",
+  "keep": true,
+  "reason": "Ingenieur Methodes & Industrialisation, ALTEN Maroc"
+ },
+ {
+  "id": 182,
+  "key": "0945bd3652fb",
+  "keep": true,
+  "reason": "Ingenieur methodes et industrialisation, Alstom"
+ },
+ {
+  "id": 183,
+  "key": "74c60532a673",
+  "keep": true,
+  "reason": "Consultant PC&L / Ingenieur Ordonnancement & Planification Industrielle"
+ },
+ {
+  "id": 184,
+  "key": "0e504b327326",
+  "keep": true,
+  "reason": "Business Analyst en Supply Chain - analyse et optimisation de la chaine logistique"
+ },
+ {
+  "id": 185,
+  "key": "530281b14cce",
+  "keep": true,
+  "reason": "Ingenieur Methodes Industrialisation, Motherson Aerospace"
+ },
+ {
+  "id": 186,
+  "key": "8cc2c88e7778",
+  "keep": true,
+  "reason": "Supply Chain & Operations Manager"
+ },
+ {
+  "id": 187,
+  "key": "4db49de3427b",
+  "keep": true,
+  "reason": "Supply Chain & Operations Manager"
+ },
+ {
+  "id": 188,
+  "key": "693d3d1a7d4a",
+  "keep": true,
+  "reason": "Responsables QHSE, SNTL Supply Chain"
+ },
+ {
+  "id": 189,
+  "key": "18f00077858e",
+  "keep": true,
+  "reason": "Supply Chain und Operations Manager"
+ },
+ {
+  "id": 190,
+  "key": "1d4581daabcb",
+  "keep": true,
+  "reason": "Charge(e) de Qualite - Production/Qualite en industrie electrique"
+ },
+ {
+  "id": 191,
+  "key": "9b696499dd32",
+  "keep": false,
+  "reason": "'Acheteur Technique' - fonction Achats"
+ },
+ {
+  "id": 192,
+  "key": "beb85ac3f3eb",
+  "keep": true,
+  "reason": "Airbus Atlantic Maroc - dont un Referent Kanban"
+ },
+ {
+  "id": 193,
+  "key": "fb770a51dc42",
+  "keep": true,
+  "reason": "Ingenieur automatisation - convoyeurs, robotique, outils Lean Manufacturing en atelier"
+ },
+ {
+  "id": 194,
+  "key": "0c2d6647a0f3",
+  "keep": true,
+  "reason": "Manager qualite - IATF 16949, Core Tools AIAG, Lean Manufacturing, QRQC, 8D"
+ },
+ {
+  "id": 195,
+  "key": "9a4d3a78aa9d",
+  "keep": true,
+  "reason": "Ingenieur projet automobile - APQP/AMDEC/PPAP, optimisation des process par actions Lean"
+ },
+ {
+  "id": 196,
+  "key": "9de3d512919e",
+  "keep": true,
+  "reason": "Chefs de projet transformation sur une strategie d'excellence operationnelle"
+ },
+ {
+  "id": 197,
+  "key": "19ef444ded10",
+  "keep": false,
+  "reason": "'Project Economic Manager' - pilotage economique et couts projet"
+ },
+ {
+  "id": 198,
+  "key": "4473c3748f53",
+  "keep": false,
+  "reason": "'Pilote Cout' - controle des couts projet"
+ },
+ {
+  "id": 199,
+  "key": "ca75d1b1e6ca",
+  "keep": true,
+  "reason": "Ingenieur automatisation, ALTEN Kenitra - Production/Qualite"
+ },
+ {
+  "id": 200,
+  "key": "17d63820898e",
+  "keep": true,
+  "reason": "Capacity Planning Analyst - analyse de capacite, planification industrielle"
+ },
+ {
+  "id": 201,
+  "key": "029df0f69883",
+  "keep": false,
+  "reason": "'Responsable d'affaire' - management d'affaires et developpement commercial en SSII d'ingenierie"
+ },
+ {
+  "id": 202,
+  "key": "a0d62848cfe4",
+  "keep": false,
+  "reason": "'Claims Invoicing Consultant' - facturation, fonction Assistanat de Direction"
+ },
+ {
+  "id": 203,
+  "key": "76b3fb3f66c2",
+  "keep": true,
+  "reason": "Pilote configuration EE - gestion de configuration produit, fonction Production/Qualite en automobile, ouvert aux debutants"
+ },
+ {
+  "id": 204,
+  "key": "188dfa18b6d6",
+  "keep": false,
+  "reason": "Classe par la source en 'Assistanat de Direction / Services Generaux' et aucune mission technique decrite"
+ },
+ {
+  "id": 205,
+  "key": "6679393315d4",
+  "keep": true,
+  "reason": "Tactical planning Consultant - planification tactique industrielle"
+ },
+ {
+  "id": 206,
+  "key": "b25e6940ded3",
+  "keep": false,
+  "reason": "'AMOA - Stream Lead' - assistance a maitrise d'ouvrage, pilotage de projet SI"
+ },
+ {
+  "id": 207,
+  "key": "210890c12c5d",
+  "keep": false,
+  "reason": "'Animation Technique' chez un assureur - developpement des competences techniques et assistance aux equipes"
+ },
+ {
+  "id": 208,
+  "key": "f605f849f8ca",
+  "keep": true,
+  "reason": "Adjoint(e) Directeur de Production, agroalimentaire"
+ },
+ {
+  "id": 209,
+  "key": "1cdcff23b690",
+  "keep": true,
+  "reason": "Aeolon Nador - dont un Quality Engineer Customer & Process en CDI"
+ },
+ {
+  "id": 210,
+  "key": "b1eae823b783",
+  "keep": true,
+  "reason": "Ingenieur Concepteur Process EE - conception et industrialisation des processus de fabrication"
+ },
+ {
+  "id": 211,
+  "key": "7d61251814a3",
+  "keep": true,
+  "reason": "Specialiste Materiaux et procedes - Methodes/Process/Industrialisation, aeronautique"
+ },
+ {
+  "id": 212,
+  "key": "09c4e1ef3771",
+  "keep": true,
+  "reason": "Profils Qualite recherches par un cabinet de conseil en Excellence Operationnelle"
+ },
+ {
+  "id": 213,
+  "key": "7c171e56b356",
+  "keep": true,
+  "reason": "Demand Planner TL - planification de la demande, supply chain automobile"
+ },
+ {
+  "id": 214,
+  "key": "70a538b7cea8",
+  "keep": true,
+  "reason": "Demand Planner - planification de la demande, supply chain automobile"
+ },
+ {
+  "id": 215,
+  "key": "cb7045d9c928",
+  "keep": true,
+  "reason": "QHSE Manager - systemes de management qualite/securite/environnement integres"
+ },
+ {
+  "id": 216,
+  "key": "7b5298f32b44",
+  "keep": true,
+  "reason": "BCP Consulting recrute notamment des profils Excellence Operationnelle"
+ },
+ {
+  "id": 217,
+  "key": "9c32118d6a64",
+  "keep": true,
+  "reason": "Responsable UAP - unite autonome de production, agroalimentaire"
+ },
+ {
+  "id": 218,
+  "key": "aa476b7a7d3a",
+  "keep": true,
+  "reason": "Responsable Maintenance industrielle"
+ },
+ {
+  "id": 219,
+  "key": "d84ff54c22be",
+  "keep": false,
+  "reason": "'Quality & Test Lead - Salesforce & AI Solutions' - tests logiciels, secteur Informatique"
+ },
+ {
+  "id": 220,
+  "key": "d324c48a36a8",
+  "keep": true,
+  "reason": "Oulmes recrute notamment un Responsable Excellence Operationnelle"
+ },
+ {
+  "id": 221,
+  "key": "ea833484c73d",
+  "keep": true,
+  "reason": "Global Graduate Program 'focusing on manufacturing excellence and operational performance' chez Grupo Bimbo"
+ },
+ {
+  "id": 222,
+  "key": "183b5ae84f8e",
+  "keep": false,
+  "reason": "'Automaticien' - metier d'automatisme/maintenance equipements, en deca du perimetre genie industriel"
+ },
+ {
+  "id": 223,
+  "key": "d8fcdc27ba07",
+  "keep": false,
+  "reason": "'Charge HSE' sur chantiers - securite/environnement seuls, sans volet qualite ni performance industrielle"
+ },
+ {
+  "id": 224,
+  "key": "72af6dd87616",
+  "keep": true,
+  "reason": "Forvia recrute des Ingenieur(e)s Amelioration Continue Junior en CDI"
+ },
+ {
+  "id": 225,
+  "key": "8d594383defb",
+  "keep": true,
+  "reason": "Ingenieur Conditionnement - Methodes/Process/Industrialisation"
+ },
+ {
+  "id": 226,
+  "key": "a8f972936250",
+  "keep": true,
+  "reason": "Ingenieur Fabrication - Production/Qualite, agroalimentaire"
+ },
+ {
+  "id": 227,
+  "key": "84d326344e25",
+  "keep": true,
+  "reason": "Stagiaire GMAO - methodes maintenance"
+ },
+ {
+  "id": 228,
+  "key": "9f3e4c5df606",
+  "keep": false,
+  "reason": "'Software Engineer II' - developpement logiciel"
+ },
+ {
+  "id": 229,
+  "key": "9416edbe9159",
+  "keep": false,
+  "reason": "'Installation Engineer' - supervision de chantiers d'installation d'ascenseurs"
+ },
+ {
+  "id": 230,
+  "key": "fbe816812562",
+  "keep": true,
+  "reason": "Cutting/Crimping Equipment Engineer - process equipement en cablage automobile"
+ },
+ {
+  "id": 231,
+  "key": "916e9b26d465",
+  "keep": true,
+  "reason": "Trois postes dont un en performance industrielle"
+ },
+ {
+  "id": 232,
+  "key": "c032b2b681c2",
+  "keep": false,
+  "reason": "'Procurement Specialist' - fonction Achats"
+ },
+ {
+  "id": 233,
+  "key": "b84e0191736d",
+  "keep": true,
+  "reason": "Responsable de Site industriel (siderurgie/automobile) - equivalent plant manager"
+ },
+ {
+  "id": 234,
+  "key": "c0ebdf69051a",
+  "keep": true,
+  "reason": "Ouverture d'usine Kromberg & Schubert, dont Planificateur des flux"
+ },
+ {
+  "id": 235,
+  "key": "cf9553d7b7ec",
+  "keep": true,
+  "reason": "Stagiaires eleves ingenieurs en genie industriel, RATP Dev"
+ },
+ {
+  "id": 236,
+  "key": "aa7eb64a4b02",
+  "keep": true,
+  "reason": "Airbus Casablanca, dont Chef d'Equipe de Maintenance"
+ },
+ {
+  "id": 237,
+  "key": "4d6fb597a083",
+  "keep": false,
+  "reason": "'Control Manager' - systeme de controle interne et conformite"
+ },
+ {
+  "id": 238,
+  "key": "dc78b0be4093",
+  "keep": true,
+  "reason": "Demand Planner TL - coordination de la planification de la demande"
+ },
+ {
+  "id": 239,
+  "key": "976e2e662bd3",
+  "keep": false,
+  "reason": "L'annonce ne liste que des postes de technicien (surete, maintenance) - titres explicitement exclus"
+ },
+ {
+  "id": 240,
+  "key": "9de2346c71b6",
+  "keep": false,
+  "reason": "Safran 'Chef d equipe F/H' - l annonce se classe elle-meme 'CDI Technicien Temps complet' et le perimetre est le management d atelier d un ilot. Poste de technicien, exclu par la regle de l utilisateur"
+ },
+ {
+  "id": 241,
+  "key": "ad0bb76d29af",
+  "keep": true,
+  "reason": "Responsable Maintenance - Methodes/Process/Industrialisation"
+ },
+ {
+  "id": 242,
+  "key": "d2747b30c5e0",
+  "keep": true,
+  "reason": "Sews Cabind, dont Responsable Planification Coupe & Preparation"
+ },
+ {
+  "id": 243,
+  "key": "4d92fed7de4f",
+  "keep": true,
+  "reason": "Xiezhong: Ingenieur Process, Ingenieur Amelioration Continue, Ingenieur Qualite"
+ },
+ {
+  "id": 244,
+  "key": "82c5cb02c7e4",
+  "keep": false,
+  "reason": "'Operateur de cablage' - poste d'operateur de production"
+ },
+ {
+  "id": 245,
+  "key": "a39e21c216fe",
+  "keep": true,
+  "reason": "Responsable Supply Chain, agroalimentaire"
+ },
+ {
+  "id": 246,
+  "key": "7ceaaac83cbb",
+  "keep": true,
+  "reason": "Responsable Supply Chain - Achats/Supply Chain et Production/Qualite"
+ },
+ {
+  "id": 247,
+  "key": "d5694d28f21d",
+  "keep": true,
+  "reason": "Responsable production, Tanger"
+ },
+ {
+  "id": 248,
+  "key": "3b3cff6644ae",
+  "keep": true,
+  "reason": "Responsable Production, Casablanca"
+ },
+ {
+  "id": 249,
+  "key": "6ea14f1f04bd",
+  "keep": true,
+  "reason": "Ingenieur qualite, Fes"
+ },
+ {
+  "id": 250,
+  "key": "d3e8de582e96",
+  "keep": true,
+  "reason": "Responsable Production"
+ },
+ {
+  "id": 251,
+  "key": "b3cfe169c95e",
+  "keep": true,
+  "reason": "Ingenieur production, Casablanca"
+ },
+ {
+  "id": 252,
+  "key": "5cafaaa1bb61",
+  "keep": true,
+  "reason": "Responsable Supply Chain"
+ },
+ {
+  "id": 253,
+  "key": "c6df71954b56",
+  "keep": true,
+  "reason": "Responsable Qualite, Had Soualem"
+ },
+ {
+  "id": 254,
+  "key": "ba13a97bec1f",
+  "keep": true,
+  "reason": "Responsable Qualite, Casablanca"
+ },
+ {
+  "id": 255,
+  "key": "0c812547ae26",
+  "keep": true,
+  "reason": "Ingenieur Qualite, Casablanca"
+ },
+ {
+  "id": 256,
+  "key": "e3a54145607e",
+  "keep": true,
+  "reason": "Responsable Production, Casablanca"
+ },
+ {
+  "id": 257,
+  "key": "8bc8d2cba586",
+  "keep": true,
+  "reason": "Assistant Supply Chain - poste junior de chaine logistique"
+ },
+ {
+  "id": 258,
+  "key": "0721ae438a1e",
+  "keep": true,
+  "reason": "Assistant supply chain, Casablanca"
+ },
+ {
+  "id": 259,
+  "key": "79064f86e747",
+  "keep": false,
+  "reason": "'Assistante Supply Chain' Manpower/Nouaceur - l annonce se classe 'Domaine : Autre, Fonction : Assistant(e) / Secretaire de direction', Bac+2 a Bac+3, contrat d interim. Poste administratif, pas un poste de genie industriel"
+ },
+ {
+  "id": 260,
+  "key": "b52a523da9f7",
+  "keep": true,
+  "reason": "Agent de Planning d'Ordonnancement Production - ordonnancement, coeur du genie industriel"
+ },
+ {
+  "id": 261,
+  "key": "6eae15c065fa",
+  "keep": true,
+  "reason": "Stage remunere en supply chain"
+ },
+ {
+  "id": 262,
+  "key": "200b2d378ead",
+  "keep": true,
+  "reason": "Responsable Supply Chain, Tanger"
+ },
+ {
+  "id": 263,
+  "key": "9383ccd461a3",
+  "keep": true,
+  "reason": "Assistant Supply Chain, Casablanca"
+ },
+ {
+  "id": 264,
+  "key": "3300b9f26a59",
+  "keep": true,
+  "reason": "Production Manager, Tanger"
+ },
+ {
+  "id": 265,
+  "key": "8599dd16058c",
+  "keep": true,
+  "reason": "JTEKT Maroc, 2 profils supply chain en CDI"
+ },
+ {
+  "id": 266,
+  "key": "f0f1fa32a438",
+  "keep": true,
+  "reason": "Aeolon, 30 postes d'Ingenieur Process"
+ },
+ {
+  "id": 267,
+  "key": "70a66bc88953",
+  "keep": true,
+  "reason": "Fujikura Automotive, dont des profils supply chain"
+ },
+ {
+  "id": 268,
+  "key": "e846e21ea609",
+  "keep": true,
+  "reason": "Intersig, dont Planificateur de commandes"
+ },
+ {
+  "id": 269,
+  "key": "1827e755684f",
+  "keep": true,
+  "reason": "Michoc, postes en production et supply chain"
+ },
+ {
+  "id": 270,
+  "key": "fe179a5a95df",
+  "keep": true,
+  "reason": "Renault, 2 stages PFE en Supply Chain"
+ },
+ {
+  "id": 271,
+  "key": "5b743374bf5a",
+  "keep": false,
+  "reason": "lecture du corps: les deux postes sont hors cible pour une jeune ingenieure. Le poste supply chain est un stage etudiant - 'Stage - Logistique & Projets Supply Chain (6 mois) Ce stage s adresse a un(e) etudiant(e)' - et l autre est un poste RH 'Diplome Bac+2 a Bac+3 en Ressources Humaines ou Gestion'"
+ },
+ {
+  "id": 272,
+  "key": "5ea2ac20685a",
+  "keep": true,
+  "reason": "Latecoere recrute des Approvisionneurs experimentes - planification des approvisionnements"
+ },
+ {
+  "id": 273,
+  "key": "5b7d25905bc6",
+  "keep": true,
+  "reason": "Toyota du Maroc, Supply Chain Analyst debutant"
+ },
+ {
+  "id": 274,
+  "key": "9c805596b816",
+  "keep": false,
+  "reason": "'Merchandisers' pour le departement commercial - le titre annonce la supply chain mais le poste est commercial"
+ },
+ {
+  "id": 275,
+  "key": "9ad8d1f06fe1",
+  "keep": true,
+  "reason": "Comeca Group, dont un Responsable Supply Chain"
+ },
+ {
+  "id": 276,
+  "key": "b96a164f4ed9",
+  "keep": true,
+  "reason": "LEONI WS Maroc, Ingenieur Qualite Projet"
+ },
+ {
+  "id": 277,
+  "key": "8c1ff7ec24d0",
+  "keep": true,
+  "reason": "SEBN Maroc, experts en planification industrielle"
+ },
+ {
+  "id": 278,
+  "key": "18ff1193c52c",
+  "keep": true,
+  "reason": "Ingenieur Production, Meknes"
+ },
+ {
+  "id": 279,
+  "key": "f702d849a0ab",
+  "keep": true,
+  "reason": "Ingenieur Qualite & Logistique"
+ },
+ {
+  "id": 280,
+  "key": "d0c02d71285b",
+  "keep": true,
+  "reason": "R&D - Manufacturing Engineer"
+ },
+ {
+  "id": 281,
+  "key": "cecb40017b07",
+  "keep": true,
+  "reason": "Process Engineer chef de projet"
+ },
+ {
+  "id": 282,
+  "key": "a07fbf9303b8",
+  "keep": true,
+  "reason": "Ingenieur Methodes, Rabat"
+ },
+ {
+  "id": 283,
+  "key": "8a147c52157e",
+  "keep": true,
+  "reason": "Ingenieur Process Senior"
+ },
+ {
+  "id": 284,
+  "key": "ed88d4979a23",
+  "keep": true,
+  "reason": "Responsable Production (ovoproduits)"
+ },
+ {
+  "id": 285,
+  "key": "fa125214822c",
+  "keep": true,
+  "reason": "Responsable Qualite Produit"
+ },
+ {
+  "id": 286,
+  "key": "9af94a13c4a3",
+  "keep": true,
+  "reason": "Ingenieur Qualite, Tanger"
+ },
+ {
+  "id": 287,
+  "key": "a00fce9beaf8",
+  "keep": true,
+  "reason": "Ingenieur Qualite"
+ },
+ {
+  "id": 288,
+  "key": "e9696d4dc388",
+  "keep": true,
+  "reason": "Responsable Qualite d'une activite express - management de la qualite operationnelle"
+ },
+ {
+  "id": 289,
+  "key": "b29964747522",
+  "keep": true,
+  "reason": "Poste Supply Chain, Casablanca"
+ },
+ {
+  "id": 290,
+  "key": "8d2e6213a575",
+  "keep": true,
+  "reason": "Responsable Supply Chain, Casablanca"
+ },
+ {
+  "id": 291,
+  "key": "1daab9193ec8",
+  "keep": true,
+  "reason": "Stage logistique / supply chain"
+ },
+ {
+  "id": 292,
+  "key": "1f6f9d6c4282",
+  "keep": true,
+  "reason": "Responsable Supply Chain, Casablanca"
+ },
+ {
+  "id": 293,
+  "key": "3569516c2f05",
+  "keep": true,
+  "reason": "Senior Supply Chain Engineer"
+ },
+ {
+  "id": 294,
+  "key": "37fe25cefe9f",
+  "keep": true,
+  "reason": "Multilingual Supply Chain Engineer"
+ },
+ {
+  "id": 295,
+  "key": "91e9a74e6a96",
+  "keep": true,
+  "reason": "Profil Logistique & Supply Chain en contrat de projet"
+ },
+ {
+  "id": 296,
+  "key": "d118e7993148",
+  "keep": true,
+  "reason": "Profil Logistique & Supply Chain en contrat de projet"
+ },
+ {
+  "id": 297,
+  "key": "0f5c733afcf2",
+  "keep": true,
+  "reason": "Head of Supply Chain and Fulfilment"
+ },
+ {
+  "id": 298,
+  "key": "6cecfb7907b3",
+  "keep": true,
+  "reason": "Poste Procurement & Supply Chain"
+ },
+ {
+  "id": 299,
+  "key": "adb6c5470b6d",
+  "keep": true,
+  "reason": "Responsable QSE et Energie chez un equipementier automobile de rang 1"
+ },
+ {
+  "id": 300,
+  "key": "89d7e5af9685",
+  "keep": true,
+  "reason": "Ingenieur charge d'affaires moyens industriels / Process Engineer, automobile"
+ },
+ {
+  "id": 301,
+  "key": "c32cd76c50e3",
+  "keep": true,
+  "reason": "Serial life quality engineer, automobile"
+ },
+ {
+  "id": 302,
+  "key": "d81d71e37e0c",
+  "keep": true,
+  "reason": "Project quality engineer, automobile"
+ },
+ {
+  "id": 303,
+  "key": "584d071a4319",
+  "keep": true,
+  "reason": "Project quality manager, automobile"
+ },
+ {
+  "id": 304,
+  "key": "9c311543e035",
+  "keep": true,
+  "reason": "Industrialization Leader"
+ },
+ {
+  "id": 305,
+  "key": "1927575ad286",
+  "keep": true,
+  "reason": "Industrialization Flying Analyst"
+ },
+ {
+  "id": 306,
+  "key": "58cf36dbda52",
+  "keep": true,
+  "reason": "Serial life quality engineer, Tetouan"
+ },
+ {
+  "id": 307,
+  "key": "3c36cbaa0b39",
+  "keep": true,
+  "reason": "Industrialization Flying Analyst, Rabat"
+ },
+ {
+  "id": 308,
+  "key": "3b0048bc1d84",
+  "keep": true,
+  "reason": "Project quality engineer, Tetouan"
+ },
+ {
+  "id": 309,
+  "key": "2943422421d6",
+  "keep": false,
+  "reason": "L'annonce l'ecrit: 'Steig ein ins Software Testing' - QA logicielle"
+ },
+ {
+  "id": 310,
+  "key": "478724edeb40",
+  "keep": true,
+  "reason": "Manufacturing Engineer - implantation de ligne, process flow chart, PFMEA"
+ },
+ {
+  "id": 311,
+  "key": "1150f22015a8",
+  "keep": true,
+  "reason": "Quality engineer - ISO/TS-16949, KPI usine/client"
+ },
+ {
+  "id": 312,
+  "key": "39912bb024c0",
+  "keep": true,
+  "reason": "Process Engineer, Adient (automobile)"
+ },
+ {
+  "id": 313,
+  "key": "8ef105b00cf6",
+  "keep": true,
+  "reason": "Quality Engineer, Aeolon Nador"
+ },
+ {
+  "id": 314,
+  "key": "93f952cd7c15",
+  "keep": true,
+  "reason": "Global Process Engineer - deploiement d'ingenierie de fabrication"
+ },
+ {
+  "id": 315,
+  "key": "d050bf82a28b",
+  "keep": false,
+  "reason": "'Data Quality Engineer' - donnees robots, data analysis, software engineering"
+ },
+ {
+  "id": 316,
+  "key": "20a12a325567",
+  "keep": true,
+  "reason": "Operations Manager - pilotage des operations logistiques d'un transporteur specialise"
+ },
+ {
+  "id": 317,
+  "key": "0e04383d619b",
+  "keep": true,
+  "reason": "Process Engineer chef de projet - Methodes/Process/Industrialisation, aeronautique"
+ },
+ {
+  "id": 318,
+  "key": "c1fc53d58dad",
+  "keep": true,
+  "reason": "Quality Engineer, Alstom"
+ },
+ {
+  "id": 319,
+  "key": "1820ce749859",
+  "keep": true,
+  "reason": "Industrial Quality Engineer, Alstom"
+ },
+ {
+  "id": 320,
+  "key": "4b888d3dcb6b",
+  "keep": false,
+  "reason": "Le poste reel est 'Manual QA Engineer - Corporate Banking Exchange' - test logiciel bancaire"
+ },
+ {
+  "id": 321,
+  "key": "09a612563c35",
+  "keep": true,
+  "reason": "Process Engineer, Aptiv (automobile)"
+ },
+ {
+  "id": 322,
+  "key": "8aaaa9f8c616",
+  "keep": true,
+  "reason": "Quality Engineer, Aptiv (automobile)"
+ },
+ {
+  "id": 323,
+  "key": "a593a2c21f53",
+  "keep": true,
+  "reason": "Operations Manager - coordination de toutes les activites des zones operationnelles de l'usine"
+ },
+ {
+  "id": 324,
+  "key": "8adf1dcde18e",
+  "keep": false,
+  "reason": "'App Operations Manager' - exploitation d'une application mobile de perte de poids"
+ },
+ {
+  "id": 325,
+  "key": "d2c0782a1b28",
+  "keep": true,
+  "reason": "Manufacturing Operations Manager - production de datacenters modulaires"
+ },
+ {
+  "id": 326,
+  "key": "f00c1e6f7b97",
+  "keep": true,
+  "reason": "Operations Manager chez un 3PL de supply chain et e-commerce"
+ },
+ {
+  "id": 327,
+  "key": "cd95ece4b431",
+  "keep": false,
+  "reason": "'Responsable production' chez un assureur - la production designe ici la souscription de contrats"
+ },
+ {
+  "id": 328,
+  "key": "1fd71cd49cc0",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, aeronautique/defense"
+ },
+ {
+  "id": 329,
+  "key": "929daba20143",
+  "keep": false,
+  "reason": "'Agency Operations Manager' - operations d'une agence de publicite"
+ },
+ {
+  "id": 330,
+  "key": "aaabfc78d910",
+  "keep": false,
+  "reason": "'Production Monetique' - exploitation informatique de systemes de paiement (PowerCard)"
+ },
+ {
+  "id": 331,
+  "key": "fd9755561b18",
+  "keep": true,
+  "reason": "Ingenieur Logistique, BTP/genie civil"
+ },
+ {
+  "id": 332,
+  "key": "8a147319a786",
+  "keep": true,
+  "reason": "Quality Manager, Balfour Beatty (infrastructure)"
+ },
+ {
+  "id": 333,
+  "key": "2759cdc68ffd",
+  "keep": true,
+  "reason": "Ingenieur Production - titre au coeur de la specialite; la source ne publie pas de descriptif exploitable"
+ },
+ {
+  "id": 334,
+  "key": "7920be0b77ce",
+  "keep": true,
+  "reason": "Executive Director, Technical Operations & Supply Chain (biotech)"
+ },
+ {
+  "id": 335,
+  "key": "5fc189bb8d50",
+  "keep": true,
+  "reason": "Responsable Supply Chain, Belma Agadir"
+ },
+ {
+  "id": 336,
+  "key": "fe52a4d0688b",
+  "keep": true,
+  "reason": "Ingenieur Qualite, Fes"
+ },
+ {
+  "id": 337,
+  "key": "8f9eb5a61333",
+  "keep": true,
+  "reason": "Responsable Supply Chain, Casablanca"
+ },
+ {
+  "id": 338,
+  "key": "c10908e09cfe",
+  "keep": true,
+  "reason": "Supply Chain Coordinator junior, logistique aeronautique"
+ },
+ {
+  "id": 339,
+  "key": "1b1f9bc7a47e",
+  "keep": true,
+  "reason": "Manager Supply Chain, Mohammedia"
+ },
+ {
+  "id": 340,
+  "key": "0108abe2a49e",
+  "keep": true,
+  "reason": "Ingenieur Qualite & Logistique - Achats/Supply Chain et Logistique"
+ },
+ {
+  "id": 341,
+  "key": "f055921ebb9b",
+  "keep": true,
+  "reason": "CAPEP - metiers des achats et de la supply chain pour jeunes laureats"
+ },
+ {
+  "id": 342,
+  "key": "496b5363bddc",
+  "keep": false,
+  "reason": "'Qualite de service & Reclamations' rattache a la direction service client d'une banque - qualite relation client"
+ },
+ {
+  "id": 343,
+  "key": "a09f94198dc8",
+  "keep": true,
+  "reason": "Plant Manager - direction de toutes les operations de fabrication du site"
+ },
+ {
+  "id": 344,
+  "key": "0b1244ee2e55",
+  "keep": true,
+  "reason": "Production Manager chez un industriel, Kenitra"
+ },
+ {
+  "id": 345,
+  "key": "6c0670cc38de",
+  "keep": false,
+  "reason": "'Senior Quality Engineer' dans un editeur de logiciels juridiques - QA logicielle"
+ },
+ {
+  "id": 346,
+  "key": "8d3b6ebf9311",
+  "keep": true,
+  "reason": "Plant Manager d'une usine de transformation de volaille"
+ },
+ {
+  "id": 347,
+  "key": "c1a2c4c7809e",
+  "keep": true,
+  "reason": "Plant Manager, agroalimentaire (boulangerie industrielle)"
+ },
+ {
+  "id": 348,
+  "key": "ff3464ca2239",
+  "keep": true,
+  "reason": "Supplier Manufacturing Engineer - qualite, delais et couts fournisseurs"
+ },
+ {
+  "id": 349,
+  "key": "fbb2f40e59ee",
+  "keep": true,
+  "reason": "Ingenieur Qualite Aeronautique sur site industriel client"
+ },
+ {
+  "id": 350,
+  "key": "dda0366a5dac",
+  "keep": false,
+  "reason": "Texte integral: 'Experience confirmee en tests fonctionnels d API REST et SOAP, ideallement avec Postman et/ou SoapUI' - QA logicielle, pas qualite industrielle"
+ },
+ {
+  "id": 351,
+  "key": "42b3e791ef6c",
+  "keep": true,
+  "reason": "Ingenieur Qualite & Conformite - conformite des processus et produits"
+ },
+ {
+  "id": 352,
+  "key": "2b93463edf41",
+  "keep": false,
+  "reason": "Capgemini 'Associate Quality Engineer' - le corps est du test logiciel, pas de la qualite industrielle: 'Bac+5 en informatique, systemes d information', 'tests fonctionnels avec une forte orientation tests API', 'tests de services REST a l aide d outils tels que Postman', 'JIRA', 'environnements Agile / Scrum'"
+ },
+ {
+  "id": 353,
+  "key": "24170b23d51b",
+  "keep": false,
+  "reason": "'Business Analyst/Process Consultant' chez Capgemini Invent - conseil en transformation SI/metier"
+ },
+ {
+  "id": 354,
+  "key": "630f46351d5f",
+  "keep": true,
+  "reason": "Multilingual Supply Chain Engineer"
+ },
+ {
+  "id": 355,
+  "key": "a5c008152ff3",
+  "keep": true,
+  "reason": "Multilingual Supply Chain Engineer, 20 postes"
+ },
+ {
+  "id": 356,
+  "key": "ec34a2e44ffe",
+  "keep": true,
+  "reason": "Senior Supply Chain Engineer, 30 postes"
+ },
+ {
+  "id": 357,
+  "key": "b33d337b0a12",
+  "keep": true,
+  "reason": "Project Quality Engineer, services d'ingenierie"
+ },
+ {
+  "id": 358,
+  "key": "b8c8cc785b97",
+  "keep": true,
+  "reason": "Ingenieur Qualite Aeronautique, Nouaceur"
+ },
+ {
+  "id": 359,
+  "key": "a79179232405",
+  "keep": true,
+  "reason": "Blade Manufacturing Engineer, Nador"
+ },
+ {
+  "id": 360,
+  "key": "3f49fde2c6f4",
+  "keep": true,
+  "reason": "Ingenieur Qualite Junior"
+ },
+ {
+  "id": 361,
+  "key": "6619bf1fde83",
+  "keep": true,
+  "reason": "Ingenieur Qualite & Conformite"
+ },
+ {
+  "id": 362,
+  "key": "086282ab2b81",
+  "keep": true,
+  "reason": "Supply Chain Engineer"
+ },
+ {
+  "id": 363,
+  "key": "cb766c3de9f2",
+  "keep": true,
+  "reason": "Ingenieur Qualite - gestion documentaire qualite en ingenierie industrielle"
+ },
+ {
+  "id": 364,
+  "key": "481ffe8d6e7c",
+  "keep": true,
+  "reason": "Supply Chain Analyst"
+ },
+ {
+  "id": 365,
+  "key": "3ac1ba7ceea2",
+  "keep": true,
+  "reason": "Ingenieur Qualite Soudage - qualite des procedes d'assemblage"
+ },
+ {
+  "id": 366,
+  "key": "b4756d4a84a8",
+  "keep": true,
+  "reason": "Ingenieur Qualite Pharmaceutique"
+ },
+ {
+  "id": 367,
+  "key": "c6d4ad74e6d2",
+  "keep": true,
+  "reason": "20 postes Supply Chain Engineer, Fes"
+ },
+ {
+  "id": 368,
+  "key": "b6b023ad8277",
+  "keep": true,
+  "reason": "Jeunes diplomes Supply Chain, Casablanca"
+ },
+ {
+  "id": 369,
+  "key": "031aabb18ec8",
+  "keep": true,
+  "reason": "Ingenieurs Supply Chain, Casablanca"
+ },
+ {
+  "id": 370,
+  "key": "57d3a08843cf",
+  "keep": true,
+  "reason": "Supply Chain Analyst"
+ },
+ {
+  "id": 371,
+  "key": "94eefe99e00f",
+  "keep": false,
+  "reason": "'Quality Engineer' dans une societe d'optimisation du risque par la donnee (GIS, analytics) pour des services publics - qualite de donnees et de programmes"
+ },
+ {
+  "id": 372,
+  "key": "a9933cdb1d5a",
+  "keep": true,
+  "reason": "Supplier Quality Engineer - qualite des produits issus de la supply chain"
+ },
+ {
+  "id": 373,
+  "key": "a073816a854d",
+  "keep": true,
+  "reason": "Quality Manager - conformite qualite et manufacturing excellence chez un CDMO"
+ },
+ {
+  "id": 374,
+  "key": "1ba3c7908e2c",
+  "keep": false,
+  "reason": "'Ingenieur qualite formation' chez Concentrix - qualite et formation en centre de relation client"
+ },
+ {
+  "id": 375,
+  "key": "a167aebd8e5a",
+  "keep": true,
+  "reason": "Concours de recrutement SNTL Supply Chain"
+ },
+ {
+  "id": 376,
+  "key": "37f618f0b375",
+  "keep": false,
+  "reason": "'Regional Operations Manager' - supervision d'activites operationnelles regionales d'un reseau associatif, aucun contenu industriel"
+ },
+ {
+  "id": 377,
+  "key": "69b941e87f6a",
+  "keep": false,
+  "reason": "'Lead Executive Assistant' - assistanat de direction et bureau du CEO"
+ },
+ {
+  "id": 378,
+  "key": "c86102a4e691",
+  "keep": true,
+  "reason": "Ingenieur Qualite en mission de consultance externe"
+ },
+ {
+  "id": 379,
+  "key": "fd15aa069b46",
+  "keep": false,
+  "reason": "Mission reelle: 'annotate sample documentation... deliver detailed feedback on logistics-related scenarios' - annotation de documents pour l'entrainement d'IA"
+ },
+ {
+  "id": 380,
+  "key": "d6a8e6cbcee5",
+  "keep": false,
+  "reason": "Mission reelle: annotation de documents logistiques pour l'entrainement d'IA, pas un poste de supply chain"
+ },
+ {
+  "id": 381,
+  "key": "fc198b86ad6b",
+  "keep": false,
+  "reason": "'Techniciens Industrialisation' - titre technicien, explicitement exclu"
+ },
+ {
+  "id": 382,
+  "key": "2de6806a9aff",
+  "keep": true,
+  "reason": "Sr. Supply Chain Analyst/Specialist"
+ },
+ {
+  "id": 383,
+  "key": "d1d465160c1c",
+  "keep": true,
+  "reason": "Ingenieur Process rattache au Manufacturing manager - animation des reunions de performance"
+ },
+ {
+  "id": 384,
+  "key": "52e859433b16",
+  "keep": true,
+  "reason": "Daher, Ingenieur Methodes, Tanger"
+ },
+ {
+  "id": 385,
+  "key": "9cabfb65cea9",
+  "keep": false,
+  "reason": "'Revenue Operations Manager' - operations commerciales et revenus"
+ },
+ {
+  "id": 386,
+  "key": "be0569c51813",
+  "keep": false,
+  "reason": "'Digital Project Manager' au sein des equipes Digital Value Chain - pilotage de projets numeriques"
+ },
+ {
+  "id": 387,
+  "key": "af4b82cf0db2",
+  "keep": true,
+  "reason": "Lead Process Engineer / Ingenieur Principal en Procedes"
+ },
+ {
+  "id": 388,
+  "key": "983989263922",
+  "keep": true,
+  "reason": "Production Manager, Tanger"
+ },
+ {
+  "id": 389,
+  "key": "a22dae36234c",
+  "keep": false,
+  "reason": "'Supply Chain Security' chez Docker - securite de la chaine logistique logicielle"
+ },
+ {
+  "id": 390,
+  "key": "8cf0b5258657",
+  "keep": false,
+  "reason": "'Quality Engineering' chez un editeur logiciel hotelier - QA logicielle"
+ },
+ {
+  "id": 391,
+  "key": "fd8bd8b08d7d",
+  "keep": true,
+  "reason": "Regional Quality Engineer chez un industriel"
+ },
+ {
+  "id": 392,
+  "key": "7dbf033732da",
+  "keep": true,
+  "reason": "Ingenieur Bureau d'Etudes & Industrialisation, Eaton Tanger"
+ },
+ {
+  "id": 393,
+  "key": "5f01fd0707d0",
+  "keep": true,
+  "reason": "Industrialization Test Engineer, Eaton"
+ },
+ {
+  "id": 394,
+  "key": "fd5b3b68289d",
+  "keep": true,
+  "reason": "Quality Engineer - audits fournisseurs, chimie"
+ },
+ {
+  "id": 395,
+  "key": "ccc199a095b0",
+  "keep": true,
+  "reason": "Sr Quality Engineer - pilotage des audits qualite fournisseurs"
+ },
+ {
+  "id": 396,
+  "key": "f8e5ce18fd64",
+  "keep": true,
+  "reason": "Process Engineer sur une usine de pate a papier - efficacite operationnelle"
+ },
+ {
+  "id": 397,
+  "key": "21b91e854953",
+  "keep": true,
+  "reason": "Coordinateur Supply Chain, Epiroc"
+ },
+ {
+  "id": 398,
+  "key": "3babe7609726",
+  "keep": false,
+  "reason": "'Operations Manager' generique: 'continuous improvement' et 'operational excellence' n'y sont que du vocabulaire de culture d'entreprise, aucun contenu industriel ni methodologique"
+ },
+ {
+  "id": 399,
+  "key": "49e45c106fdf",
+  "keep": false,
+  "reason": "'Production Manager' d'expositions evenementielles, rattache au Chief Production Director - production de spectacles"
+ },
+ {
+  "id": 400,
+  "key": "23d82b4e19a4",
+  "keep": false,
+  "reason": "'iGaming Quality Engineer' - QA logicielle de jeux en ligne"
+ },
+ {
+  "id": 401,
+  "key": "3dcca6ceaaa5",
+  "keep": true,
+  "reason": "Responsable methodes - titre au coeur de la specialite; la source ne publie pas de descriptif exploitable"
+ },
+ {
+  "id": 402,
+  "key": "80caddf54e1f",
+  "keep": true,
+  "reason": "Ficosa, stagiaires en Supply Chain"
+ },
+ {
+  "id": 403,
+  "key": "760247147b57",
+  "keep": false,
+  "reason": "'M365 Operations Manager' - exploitation de l'environnement Microsoft 365"
+ },
+ {
+  "id": 404,
+  "key": "bc34cee1bf22",
+  "keep": true,
+  "reason": "Responsable qualite systeme en fromagerie"
+ },
+ {
+  "id": 405,
+  "key": "a552a7a2924e",
+  "keep": false,
+  "reason": "'Senior IT Project Manager' - pilotage de projets SI"
+ },
+ {
+  "id": 406,
+  "key": "6561ea071503",
+  "keep": true,
+  "reason": "Plant Manager, usine de transformation de viande"
+ },
+ {
+  "id": 407,
+  "key": "68d925baeeaf",
+  "keep": true,
+  "reason": "Senior Supplier Quality Engineer, GE Vernova"
+ },
+ {
+  "id": 408,
+  "key": "e36e8669ba0f",
+  "keep": true,
+  "reason": "Product Compliance & Quality Manager sur des produits physiques"
+ },
+ {
+  "id": 409,
+  "key": "7a741bbd8695",
+  "keep": true,
+  "reason": "Stagiaire logistique / supply chain"
+ },
+ {
+  "id": 410,
+  "key": "a86f80e4e624",
+  "keep": true,
+  "reason": "Business Operations Manager chez une plateforme de fulfilment - fonction Chaine logistique"
+ },
+ {
+  "id": 411,
+  "key": "8b6f35d47043",
+  "keep": true,
+  "reason": "Mechanical Manufacturing Engineer, Global Manufacturing Operations"
+ },
+ {
+  "id": 412,
+  "key": "0e2e38e9e871",
+  "keep": true,
+  "reason": "Process Engineer sur des fours a chaux"
+ },
+ {
+  "id": 413,
+  "key": "adccc71541c0",
+  "keep": true,
+  "reason": "Ingenieur Qualite, fabrication de composants"
+ },
+ {
+  "id": 414,
+  "key": "c29a6f44698b",
+  "keep": true,
+  "reason": "Ingenieur Production debutant, Tanger"
+ },
+ {
+  "id": 415,
+  "key": "6658d798d7d8",
+  "keep": false,
+  "reason": "L'annonce le dit: 'support AI research through flexible, hourly contract work. This is not a traditional job'"
+ },
+ {
+  "id": 416,
+  "key": "9981b545a2cb",
+  "keep": false,
+  "reason": "L'annonce le dit: 'support AI research through flexible, part-time contract work'"
+ },
+ {
+  "id": 417,
+  "key": "edf3e9974cae",
+  "keep": true,
+  "reason": "Analyst Central Planning Supply Chain - outils de planification reseau"
+ },
+ {
+  "id": 418,
+  "key": "9589efe88315",
+  "keep": true,
+  "reason": "Operations Manager chez un industriel de defense"
+ },
+ {
+  "id": 419,
+  "key": "34159892ed31",
+  "keep": true,
+  "reason": "Quality Engineer chez un industriel de defense"
+ },
+ {
+  "id": 420,
+  "key": "4c24c9c53b4d",
+  "keep": true,
+  "reason": "Industrialization & Manufacturing Manager"
+ },
+ {
+  "id": 421,
+  "key": "5164af13757e",
+  "keep": true,
+  "reason": "Supply Chain & Logistics Coordinator"
+ },
+ {
+  "id": 422,
+  "key": "506701ef9eff",
+  "keep": false,
+  "reason": "'Workday Business Analyst' - analyse fonctionnelle d'un progiciel RH"
+ },
+ {
+  "id": 423,
+  "key": "d4238d624166",
+  "keep": false,
+  "reason": "'SAP EWM Consultant' - integration d'un module logiciel d'entrepot"
+ },
+ {
+  "id": 424,
+  "key": "f78e25c8aa5f",
+  "keep": true,
+  "reason": "Junior Supply Chain Analyst - support des operations de chaine logistique"
+ },
+ {
+  "id": 425,
+  "key": "a611ac2a11f9",
+  "keep": true,
+  "reason": "Supply Chain & Quality Manager, Rabat"
+ },
+ {
+  "id": 426,
+  "key": "eaa530706ab4",
+  "keep": true,
+  "reason": "Hemolab, profils supply chain et qualite"
+ },
+ {
+  "id": 427,
+  "key": "6b74934589f6",
+  "keep": true,
+  "reason": "Quality Engineer, Hexcel (materiaux composites)"
+ },
+ {
+  "id": 428,
+  "key": "8478dd706ce2",
+  "keep": true,
+  "reason": "Supply Chain Coordinator - pilotage d'un reseau d'entrepots internationaux"
+ },
+ {
+  "id": 429,
+  "key": "457cc51f74df",
+  "keep": true,
+  "reason": "Production Manager cablage automobile - performance SQCD"
+ },
+ {
+  "id": 430,
+  "key": "523e0af7bc35",
+  "keep": true,
+  "reason": "Project Quality Engineer - diplome d'ingenieur en genie industriel demande"
+ },
+ {
+  "id": 431,
+  "key": "d467a662cb7e",
+  "keep": true,
+  "reason": "Customer Quality Engineer, automobile"
+ },
+ {
+  "id": 432,
+  "key": "8d3ad0178dfe",
+  "keep": true,
+  "reason": "Quality Production Engineer, automobile"
+ },
+ {
+  "id": 433,
+  "key": "23a26dcfb882",
+  "keep": true,
+  "reason": "Coordinateur Supply Chain, Hutchinson (aeronautique/automobile)"
+ },
+ {
+  "id": 434,
+  "key": "3820fe573d42",
+  "keep": false,
+  "reason": "'Techniciens Methode/Industrialisation' - titre technicien, explicitement exclu"
+ },
+ {
+  "id": 435,
+  "key": "11dc3329cc9b",
+  "keep": false,
+  "reason": "'Operations Manager' en location courte duree / hotellerie"
+ },
+ {
+  "id": 436,
+  "key": "3e4d59e36211",
+  "keep": true,
+  "reason": "Supplier Quality Engineer - qualite et fiabilite des composants fournisseurs"
+ },
+ {
+  "id": 437,
+  "key": "3dffcb0f9672",
+  "keep": true,
+  "reason": "Supply Chain Manager d'une marque de produits d'entretien"
+ },
+ {
+  "id": 438,
+  "key": "2bbbd051ba17",
+  "keep": true,
+  "reason": "Head of Supply Chain d'une marque DTC"
+ },
+ {
+  "id": 439,
+  "key": "5c3744b06f36",
+  "keep": true,
+  "reason": "Ingenieur Methodes, Hopital Universitaire International de Rabat"
+ },
+ {
+  "id": 440,
+  "key": "590da6116697",
+  "keep": false,
+  "reason": "'Country Study Operations Manager' - conduite d'etudes cliniques"
+ },
+ {
+  "id": 441,
+  "key": "15d9d08a8c19",
+  "keep": true,
+  "reason": "INDO Maroc, Superviseur Production et Ingenieur Methodes"
+ },
+ {
+  "id": 442,
+  "key": "addb52d87114",
+  "keep": true,
+  "reason": "Production Manager, INTEVA Kenitra"
+ },
+ {
+  "id": 443,
+  "key": "63940e452791",
+  "keep": true,
+  "reason": "Manufacturing Engineer chez un groupe de 11 societes industrielles"
+ },
+ {
+  "id": 444,
+  "key": "e27431420ac7",
+  "keep": true,
+  "reason": "Responsable Production, Ingelec"
+ },
+ {
+  "id": 445,
+  "key": "72f3b57fe26d",
+  "keep": true,
+  "reason": "TE Connectivity Tanger - ingenierie, qualite, supply chain"
+ },
+ {
+  "id": 446,
+  "key": "140088d176ae",
+  "keep": false,
+  "reason": "'Change Enablement Consultant' - conduite du changement, competence demandee: 7 ans de change management"
+ },
+ {
+  "id": 447,
+  "key": "f36d898b45ca",
+  "keep": true,
+  "reason": "Supply Chain Intelligence Analyst - analyse de la chaine logistique"
+ },
+ {
+  "id": 448,
+  "key": "0768814ede85",
+  "keep": false,
+  "reason": "'Qualite et Formation Site' chez Intelcia - qualite en centre de relation client"
+ },
+ {
+  "id": 449,
+  "key": "4137bdf3042b",
+  "keep": true,
+  "reason": "Ingenieur Qualite & RSE - titre qualite; la source ne publie pas de descriptif exploitable"
+ },
+ {
+  "id": 450,
+  "key": "c38c5a8ff0ef",
+  "keep": true,
+  "reason": "Supply Chain Business Partner, sciences de la vie"
+ },
+ {
+  "id": 451,
+  "key": "0d00b6f09b30",
+  "keep": true,
+  "reason": "Head of Supply Chain, pharma"
+ },
+ {
+  "id": 452,
+  "key": "21c956c12b57",
+  "keep": true,
+  "reason": "Ingenieur Qualite Terrain, Iveco (vehicules industriels)"
+ },
+ {
+  "id": 453,
+  "key": "0c624957394d",
+  "keep": true,
+  "reason": "Apprentis en Ordonnancement de Production, JTEKT"
+ },
+ {
+  "id": 454,
+  "key": "db3b094766a8",
+  "keep": false,
+  "reason": "Le poste 'combines financial analysis, strategic problem-solving' avec la finance - pilotage strategique et budgetaire"
+ },
+ {
+  "id": 455,
+  "key": "0d15af5cd3b3",
+  "keep": true,
+  "reason": "Industrial Process Engineer"
+ },
+ {
+  "id": 456,
+  "key": "4917b4577546",
+  "keep": false,
+  "reason": "L'annonce le precise: 'ensuring successful software delivery from concept through production... developers, QA specialists' - livraison logicielle"
+ },
+ {
+  "id": 457,
+  "key": "f65270b8c708",
+  "keep": true,
+  "reason": "Poste Supply Chain junior, KITEA"
+ },
+ {
+  "id": 458,
+  "key": "196a94a12874",
+  "keep": true,
+  "reason": "Manager du Centre d'Excellence Operations & Supply Chain"
+ },
+ {
+  "id": 459,
+  "key": "41deb749bb1f",
+  "keep": false,
+  "reason": "'AI Process Engineer' - automatisation des processus metier par IA dans les services financiers"
+ },
+ {
+  "id": 460,
+  "key": "b8fb7f1e9ed8",
+  "keep": true,
+  "reason": "Keragum, dont un Ingenieur Maintenance"
+ },
+ {
+  "id": 461,
+  "key": "54b3aa0c901f",
+  "keep": true,
+  "reason": "Plant Manager d'une usine manufacturiere"
+ },
+ {
+  "id": 462,
+  "key": "071e8fde54b6",
+  "keep": false,
+  "reason": "'Operations Manager' d'un studio d'animation anime"
+ },
+ {
+  "id": 463,
+  "key": "c5f0a55122a7",
+  "keep": false,
+  "reason": "Programme de placement de 4 semaines vendu par une academie ('Only 10 Places'), pas une offre d'emploi"
+ },
+ {
+  "id": 464,
+  "key": "c9d31645df3a",
+  "keep": true,
+  "reason": "Responsable Qualite, LabelVie"
+ },
+ {
+  "id": 465,
+  "key": "bdf66bda1760",
+  "keep": true,
+  "reason": "Latecoere, Approvisionneurs experimentes en supply chain"
+ },
+ {
+  "id": 466,
+  "key": "048ddced5e53",
+  "keep": true,
+  "reason": "Manager Supply Chain Resiliency, Westinghouse"
+ },
+ {
+  "id": 467,
+  "key": "5635587ce227",
+  "keep": true,
+  "reason": "Principal Supplier Quality Engineer, Westinghouse"
+ },
+ {
+  "id": 468,
+  "key": "cefbf9771951",
+  "keep": true,
+  "reason": "Process Engineer, Lear Meknes"
+ },
+ {
+  "id": 469,
+  "key": "68efafa4c8bf",
+  "keep": true,
+  "reason": "Process engineer, Lear Kenitra"
+ },
+ {
+  "id": 470,
+  "key": "f1ea32144a17",
+  "keep": true,
+  "reason": "Process Engineer Injection Molding, Lear"
+ },
+ {
+  "id": 471,
+  "key": "a0676ee48cb1",
+  "keep": true,
+  "reason": "Production Manager, Lear Rabat"
+ },
+ {
+  "id": 472,
+  "key": "3c530e09ef92",
+  "keep": true,
+  "reason": "Operations Manager, Lear Meknes"
+ },
+ {
+  "id": 473,
+  "key": "fe7ced3214c4",
+  "keep": true,
+  "reason": "Manufacturing Quality Engineer, Lear"
+ },
+ {
+  "id": 474,
+  "key": "8f79dc397202",
+  "keep": true,
+  "reason": "Laboratory Quality engineer, Lear"
+ },
+ {
+  "id": 475,
+  "key": "de481751a00a",
+  "keep": true,
+  "reason": "Manufacturing quality engineer Cutting, Lear"
+ },
+ {
+  "id": 476,
+  "key": "521bfa31f270",
+  "keep": false,
+  "reason": "'Senior Quality Engineer' chez une fintech - QA logicielle"
+ },
+ {
+  "id": 477,
+  "key": "ba88a8c68b93",
+  "keep": true,
+  "reason": "Ingenieur Methodes, Lesaffre"
+ },
+ {
+  "id": 478,
+  "key": "6d1797af208b",
+  "keep": false,
+  "reason": "'Product Operations Manager' - fonction Marketing/Produit"
+ },
+ {
+  "id": 479,
+  "key": "51e3d37d2282",
+  "keep": true,
+  "reason": "Manufacturing Engineer - construction des MBOM sous SAP"
+ },
+ {
+  "id": 480,
+  "key": "afd2216c43c8",
+  "keep": true,
+  "reason": "MTA, stagiaires logistique supply chain"
+ },
+ {
+  "id": 481,
+  "key": "6222f3cf8ebe",
+  "keep": true,
+  "reason": "Maghreb Steel, Manager Supply Chain"
+ },
+ {
+  "id": 482,
+  "key": "e7376be41653",
+  "keep": true,
+  "reason": "Supply Chain Coordinator / Procurement Assistant"
+ },
+ {
+  "id": 483,
+  "key": "672f01329721",
+  "keep": false,
+  "reason": "'People and Business Operations Manager' - fonction Ressources humaines"
+ },
+ {
+  "id": 484,
+  "key": "6351208f541c",
+  "keep": true,
+  "reason": "Responsable Qualite"
+ },
+ {
+  "id": 485,
+  "key": "a04dbb43f2cc",
+  "keep": true,
+  "reason": "Ingenieur Logistique"
+ },
+ {
+  "id": 486,
+  "key": "91dcff5530b5",
+  "keep": true,
+  "reason": "Preparateurs Methodes Industrialisation, Mecachrome"
+ },
+ {
+  "id": 487,
+  "key": "e9d8e504feae",
+  "keep": true,
+  "reason": "Responsable qualite"
+ },
+ {
+  "id": 488,
+  "key": "2585e040546f",
+  "keep": true,
+  "reason": "Responsable qualite"
+ },
+ {
+  "id": 489,
+  "key": "362af02f085a",
+  "keep": false,
+  "reason": "Mercor met en relation des experts avec des laboratoires de recherche IA - mission d'annotation/evaluation, pas un poste supply chain"
+ },
+ {
+  "id": 490,
+  "key": "d1e7c8bf5f1b",
+  "keep": true,
+  "reason": "Manufacturing Quality Engineer - programme qualite oriente fabrication"
+ },
+ {
+  "id": 491,
+  "key": "7172fc8501be",
+  "keep": true,
+  "reason": "Plant Manager, automobile, Sale ou Tanger"
+ },
+ {
+  "id": 492,
+  "key": "27da3a9ce3e1",
+  "keep": true,
+  "reason": "Michoc, Responsable Supply Chain"
+ },
+ {
+  "id": 493,
+  "key": "a8e13c6b8b51",
+  "keep": true,
+  "reason": "Operations Manager - optimisation du processus de commande et de livraison"
+ },
+ {
+  "id": 494,
+  "key": "022870a53384",
+  "keep": true,
+  "reason": "Ingenieur Qualite produit, Motherson Aerospace"
+ },
+ {
+  "id": 495,
+  "key": "d80d37d52276",
+  "keep": false,
+  "reason": "'Customer Operations Manager' - operations client telecom"
+ },
+ {
+  "id": 496,
+  "key": "c50c01ab4cc5",
+  "keep": false,
+  "reason": "'Operations Manager (US Staffing & Offshore Teams)' - gestion d'equipes externalisees"
+ },
+ {
+  "id": 497,
+  "key": "a21917227fe3",
+  "keep": false,
+  "reason": "'SAP Supply Chain & Procurement Consultant' - integration S/4HANA, metier progiciel"
+ },
+ {
+  "id": 498,
+  "key": "fdbf7cb0393b",
+  "keep": false,
+  "reason": "'SAP Supply Chain & Procurement Consultant' - integration progiciel"
+ },
+ {
+  "id": 499,
+  "key": "8c16b32fd1dc",
+  "keep": true,
+  "reason": "Global Quality Manager chez un industriel du traitement de l'eau"
+ },
+ {
+  "id": 500,
+  "key": "18d5ee4e4522",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, energie"
+ },
+ {
+  "id": 501,
+  "key": "11c0a5b2b4ca",
+  "keep": true,
+  "reason": "Site Supply Chain Planning Professional, OPmobility"
+ },
+ {
+  "id": 502,
+  "key": "43b598945443",
+  "keep": true,
+  "reason": "Ingenieur Qualite Fournisseur, aeronautique/automobile"
+ },
+ {
+  "id": 503,
+  "key": "4fb17a7e0e84",
+  "keep": false,
+  "reason": "'Operations Manager' en operations touristiques et hotellerie"
+ },
+ {
+  "id": 504,
+  "key": "05178ae6e680",
+  "keep": true,
+  "reason": "Supplier Quality Engineer II, technologies medicales"
+ },
+ {
+  "id": 505,
+  "key": "0efce55eda2a",
+  "keep": false,
+  "reason": "'Business Operations Manager' d'une ONG IT & climat"
+ },
+ {
+  "id": 506,
+  "key": "fb0c9c1bf6c1",
+  "keep": false,
+  "reason": "'Facilities Operations Manager' - exploitation immobiliere de datacenters"
+ },
+ {
+  "id": 507,
+  "key": "60b63e572769",
+  "keep": true,
+  "reason": "Solution Design Engineer Supply Chain - modelisation, optimisation et simulation de reseaux logistiques"
+ },
+ {
+  "id": 508,
+  "key": "3d7bd24ecc62",
+  "keep": false,
+  "reason": "'Responsable qualite' chez un centre de relation client externalise - qualite des appels"
+ },
+ {
+  "id": 509,
+  "key": "c8927e3fd178",
+  "keep": true,
+  "reason": "Werkstudent Supply Chain Management"
+ },
+ {
+  "id": 510,
+  "key": "1cf4b1f157b4",
+  "keep": true,
+  "reason": "Responsable Qualite et Affaires Reglementaires"
+ },
+ {
+  "id": 511,
+  "key": "b5d26ac8b5ef",
+  "keep": false,
+  "reason": "'SAP Ariba Quality Engineer/QA Analyst' - tests logiciels"
+ },
+ {
+  "id": 512,
+  "key": "1cc7cd460e92",
+  "keep": true,
+  "reason": "Plant Manager, grande usine manufacturiere"
+ },
+ {
+  "id": 513,
+  "key": "3083dfd4b23e",
+  "keep": false,
+  "reason": "'Client Operations Manager' pour une societe de services juridiques"
+ },
+ {
+  "id": 514,
+  "key": "fb4206779992",
+  "keep": true,
+  "reason": "Supply Chain Quality Officer, Pfizer - qualite du stockage et de la distribution"
+ },
+ {
+  "id": 515,
+  "key": "be66ed00b892",
+  "keep": true,
+  "reason": "Process Engineer - optimisation des procedes industriels"
+ },
+ {
+  "id": 516,
+  "key": "ef81adb5c5a2",
+  "keep": true,
+  "reason": "Sr. DC Operations Manager - pilotage d'un centre de distribution"
+ },
+ {
+  "id": 517,
+  "key": "36f7f76a4bfb",
+  "keep": false,
+  "reason": "'Human Data Quality Engineer' - qualite des donnees d'entrainement IA"
+ },
+ {
+  "id": 518,
+  "key": "de41a835d728",
+  "keep": true,
+  "reason": "Quality Engineer chez un fabricant de purificateurs d'air"
+ },
+ {
+  "id": 519,
+  "key": "9725d7d9fc47",
+  "keep": true,
+  "reason": "Supply Chain Transformation Specialist, pharma"
+ },
+ {
+  "id": 520,
+  "key": "58a0708d8ec7",
+  "keep": true,
+  "reason": "Vice President Supply Chain"
+ },
+ {
+  "id": 521,
+  "key": "a6820c85c59c",
+  "keep": true,
+  "reason": "Manufacturing Quality Engineer"
+ },
+ {
+  "id": 522,
+  "key": "28748e8afb3a",
+  "keep": true,
+  "reason": "CEVA Logistics, 6 offres logistique et supply chain"
+ },
+ {
+  "id": 523,
+  "key": "a4bc827603ab",
+  "keep": true,
+  "reason": "PHARMA 5, postes en qualite, supply chain et industrie"
+ },
+ {
+  "id": 524,
+  "key": "112b761bd55c",
+  "keep": true,
+  "reason": "Industrialization Leader / Flying Analyst, Kenitra"
+ },
+ {
+  "id": 525,
+  "key": "c3da8aba81d0",
+  "keep": false,
+  "reason": "'Revenue Operations Manager' - operations commerciales et revenus"
+ },
+ {
+  "id": 526,
+  "key": "b531738df3f5",
+  "keep": false,
+  "reason": "'Product Operations Manager' d'une plateforme RH"
+ },
+ {
+  "id": 527,
+  "key": "cd39eb438c3b",
+  "keep": false,
+  "reason": "'EOR Business Operations Manager' - operations d'employer of record, metier RH"
+ },
+ {
+  "id": 528,
+  "key": "528bee949f90",
+  "keep": false,
+  "reason": "'Strategy & Operations Manager' dans une fintech - pilotage strategique"
+ },
+ {
+  "id": 529,
+  "key": "b08e89d06e8a",
+  "keep": false,
+  "reason": "'Operations Manager (Process)' dans une fintech - processus d'operations bancaires"
+ },
+ {
+  "id": 530,
+  "key": "434a32ea2dd4",
+  "keep": true,
+  "reason": "Senior Quality Engineer chez un fabricant d'equipements medicaux"
+ },
+ {
+  "id": 531,
+  "key": "59ba45cc598b",
+  "keep": false,
+  "reason": "'SAP Supply Chain Planung Berater' - conseil sur progiciel SAP"
+ },
+ {
+  "id": 532,
+  "key": "a2ba59a2f59b",
+  "keep": true,
+  "reason": "Process Quality Engineer, electronique automobile, Tanger"
+ },
+ {
+  "id": 533,
+  "key": "c9ef85cfdc9d",
+  "keep": true,
+  "reason": "Ingenieur qualite Projet, SEWS-CABIND"
+ },
+ {
+  "id": 534,
+  "key": "367b1b9975e2",
+  "keep": true,
+  "reason": "Responsable Qualite Process, SEWS-CABIND"
+ },
+ {
+  "id": 535,
+  "key": "d73556212526",
+  "keep": true,
+  "reason": "Material & Process Engineer, aeronautique"
+ },
+ {
+  "id": 536,
+  "key": "2088c3dce11c",
+  "keep": true,
+  "reason": "SNEP, profils Supply Chain et Maintenance"
+ },
+ {
+  "id": 537,
+  "key": "9eee3ecc9354",
+  "keep": false,
+  "reason": "Le poste publie est un Charge RH - fonction ressources humaines"
+ },
+ {
+  "id": 538,
+  "key": "7360d40d393d",
+  "keep": false,
+  "reason": "SNTL Supply Chain 'recrute des chefs d equipes sur Tanger Med' - 'Bac + 2 et plus', missions d entrepot (organiser les arrivages, gerer les emplacements de stocks, preparation des commandes). Poste de chef d equipe logistique, pas un poste d ingenieur genie industriel"
+ },
+ {
+  "id": 539,
+  "key": "308807e4c6db",
+  "keep": true,
+  "reason": "Chef / Responsable Qualite, Meknes"
+ },
+ {
+  "id": 540,
+  "key": "cd8092829ec0",
+  "keep": true,
+  "reason": "Manufacturing Quality Engineer, STMicroelectronics"
+ },
+ {
+  "id": 541,
+  "key": "9130c33d9c2a",
+  "keep": true,
+  "reason": "Process Engineer, STMicroelectronics"
+ },
+ {
+  "id": 542,
+  "key": "34c0930e5703",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, STMicroelectronics"
+ },
+ {
+  "id": 543,
+  "key": "300e20031f58",
+  "keep": true,
+  "reason": "Responsable Progres Supply Chain, Safran - progres/amelioration continue logistique"
+ },
+ {
+  "id": 544,
+  "key": "377806b62ca0",
+  "keep": true,
+  "reason": "Safran Aircraft Engines Services, profils Supply Chain en CDI"
+ },
+ {
+  "id": 545,
+  "key": "fd5bec022c5f",
+  "keep": false,
+  "reason": "L'annonce recrute des 'Techniciens Supply Chain' - titre technicien, explicitement exclu"
+ },
+ {
+  "id": 546,
+  "key": "6eb4216daf45",
+  "keep": false,
+  "reason": "'Senior Quality Engineer' chez un editeur d'application alimentaire - QA logicielle"
+ },
+ {
+  "id": 547,
+  "key": "0e1ab844539b",
+  "keep": true,
+  "reason": "Supply Chain Manager chez un fabricant de compresseurs automobiles"
+ },
+ {
+  "id": 548,
+  "key": "409b4514ce19",
+  "keep": true,
+  "reason": "Supply Chain Manager, Sanden Manufacturing Morocco"
+ },
+ {
+  "id": 549,
+  "key": "052a8d1f8088",
+  "keep": true,
+  "reason": "Ingenieur Methodes operationnel, Scalian"
+ },
+ {
+  "id": 550,
+  "key": "ca37913a9f7b",
+  "keep": true,
+  "reason": "Responsable Qualite Projet Nucleaire"
+ },
+ {
+  "id": 551,
+  "key": "d74c88597256",
+  "keep": true,
+  "reason": "Process Engineer - passage du concept a la production commerciale"
+ },
+ {
+  "id": 552,
+  "key": "53fd6c58f125",
+  "keep": true,
+  "reason": "Responsable qualite"
+ },
+ {
+  "id": 553,
+  "key": "69c9406b45e1",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, Siemens Energy"
+ },
+ {
+  "id": 554,
+  "key": "1cbbdd3d3ce7",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, systemes auxiliaires mecaniques"
+ },
+ {
+  "id": 555,
+  "key": "53e47af5278e",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, equipements offshore, Siemens Gamesa"
+ },
+ {
+  "id": 556,
+  "key": "a2e4bacf0193",
+  "keep": false,
+  "reason": "'Operations Manager' chez un prestataire de services terrain retail - coordination des services clients, aucun contenu industriel"
+ },
+ {
+  "id": 557,
+  "key": "16b441406de8",
+  "keep": false,
+  "reason": "'Site Reliability Engineer' - fiabilite des systemes informatiques"
+ },
+ {
+  "id": 558,
+  "key": "8980e168e68f",
+  "keep": false,
+  "reason": "'Production' designe ici l'exploitation des plateformes de pricing - informatique bancaire"
+ },
+ {
+  "id": 559,
+  "key": "4e33042b76fc",
+  "keep": false,
+  "reason": "'Quality Engineer' chez un editeur adtech - QA logicielle"
+ },
+ {
+  "id": 560,
+  "key": "f34f142dd11a",
+  "keep": false,
+  "reason": "'Senior Quality Engineer, Infrastructure' - QA d'infrastructure logicielle"
+ },
+ {
+  "id": 561,
+  "key": "c96dfe53ce4f",
+  "keep": true,
+  "reason": "Supply Chain Transformation Manager, Stellantis"
+ },
+ {
+  "id": 562,
+  "key": "d45ceb8af739",
+  "keep": true,
+  "reason": "Supply Planning Transformation Specialist, pharma"
+ },
+ {
+  "id": 563,
+  "key": "9e7573a297cc",
+  "keep": false,
+  "reason": "'Site Reliability / Production Engineer' - exploitation informatique"
+ },
+ {
+  "id": 564,
+  "key": "888ade5b0e88",
+  "keep": false,
+  "reason": "'Customer Operations manager' chez un editeur SaaS"
+ },
+ {
+  "id": 565,
+  "key": "4bf769f8cedc",
+  "keep": false,
+  "reason": "'Production Manager' chez une plateforme de personnalisation produit, fonction Marketing"
+ },
+ {
+  "id": 566,
+  "key": "658b3f761003",
+  "keep": true,
+  "reason": "Ingenieur qualite Projet, Sumitomo Electric"
+ },
+ {
+  "id": 567,
+  "key": "b3da2965cca5",
+  "keep": true,
+  "reason": "Responsable Qualite Process, Sumitomo Electric"
+ },
+ {
+  "id": 568,
+  "key": "3468e497628a",
+  "keep": true,
+  "reason": "Responsable Qualite Site, Sumitomo Electric"
+ },
+ {
+  "id": 569,
+  "key": "bab4d7b0d8cf",
+  "keep": true,
+  "reason": "R&D Manufacturing Engineer, TE Connectivity"
+ },
+ {
+  "id": 570,
+  "key": "ab534ee75e00",
+  "keep": true,
+  "reason": "Manufacturing Quality Engineer, TE Connectivity"
+ },
+ {
+  "id": 571,
+  "key": "ea7e7618e770",
+  "keep": true,
+  "reason": "Supply Chain Analyst, TE Connectivity"
+ },
+ {
+  "id": 572,
+  "key": "bb4593d8c8a0",
+  "keep": true,
+  "reason": "Advanced Quality Engineer, TE Connectivity"
+ },
+ {
+  "id": 573,
+  "key": "0c20d9c0c41c",
+  "keep": true,
+  "reason": "Manager Supply Chain, TE Connectivity"
+ },
+ {
+  "id": 574,
+  "key": "4c65f875876c",
+  "keep": true,
+  "reason": "Supply Chain Analyst III, TE Connectivity"
+ },
+ {
+  "id": 575,
+  "key": "0acb41a7b85c",
+  "keep": true,
+  "reason": "Supplier Excellence Quality Engineer, TE Connectivity"
+ },
+ {
+  "id": 576,
+  "key": "e0d87d0734d9",
+  "keep": true,
+  "reason": "Customer Quality Engineer, automobile OEM"
+ },
+ {
+  "id": 577,
+  "key": "4b0b71245251",
+  "keep": true,
+  "reason": "Customer Quality Engineer, automobile OEM"
+ },
+ {
+  "id": 578,
+  "key": "b012bae44699",
+  "keep": true,
+  "reason": "Supply Chain Support, TE Connectivity"
+ },
+ {
+  "id": 579,
+  "key": "1195443279a5",
+  "keep": false,
+  "reason": "'Quality Manager' exigeant 'a strong background in AI/ML systems' pour des programmes de robotique cognitive - qualite des donnees et modeles IA"
+ },
+ {
+  "id": 580,
+  "key": "253e8b51bc5c",
+  "keep": false,
+  "reason": "Qualite des systemes AI/ML pour programmes de robotique cognitive"
+ },
+ {
+  "id": 581,
+  "key": "41d3f4a677c3",
+  "keep": false,
+  "reason": "Qualite des systemes AI/ML pour programmes de robotique cognitive"
+ },
+ {
+  "id": 582,
+  "key": "1d048105eec4",
+  "keep": false,
+  "reason": "'ServiceNow Quality Engineer' - tests logiciels"
+ },
+ {
+  "id": 583,
+  "key": "266f10feda8d",
+  "keep": false,
+  "reason": "Qualite des systemes AI/ML (TELUS Digital AI Data Solutions)"
+ },
+ {
+  "id": 584,
+  "key": "964a2aceb1ac",
+  "keep": false,
+  "reason": "Qualite des systemes AI/ML (TELUS Digital AI Data Solutions)"
+ },
+ {
+  "id": 585,
+  "key": "aad84e5c9f35",
+  "keep": true,
+  "reason": "Responsable Methodes: 'piloter l'amelioration continue des processus techniques et operationnels', performance et qualite des interventions"
+ },
+ {
+  "id": 586,
+  "key": "0e3bebd6301f",
+  "keep": false,
+  "reason": "'Ingenieur production' chez un editeur de cybersecurite - exploitation informatique"
+ },
+ {
+  "id": 587,
+  "key": "cdb50db6b1ae",
+  "keep": true,
+  "reason": "Ingenieur Methodes, TRIGO (qualite industrielle)"
+ },
+ {
+  "id": 588,
+  "key": "1425170bc8de",
+  "keep": true,
+  "reason": "Supplier Quality Engineer, TRIGO"
+ },
+ {
+  "id": 589,
+  "key": "59b099180947",
+  "keep": true,
+  "reason": "Ingenieur Qualite Aeronautique, TRIGO"
+ },
+ {
+  "id": 590,
+  "key": "5d4897911c0a",
+  "keep": true,
+  "reason": "Responsable Qualite Systeme, TRIGO"
+ },
+ {
+  "id": 591,
+  "key": "13033e5e7589",
+  "keep": false,
+  "reason": "'Acheteur Operationnel / Operational Buyer' - fonction Achats"
+ },
+ {
+  "id": 592,
+  "key": "a3a2054eca85",
+  "keep": false,
+  "reason": "'Product Quality Engineer (AI & Agentic Systems)' - qualite de systemes IA"
+ },
+ {
+  "id": 593,
+  "key": "accbcf94fc6f",
+  "keep": true,
+  "reason": "Process engineer"
+ },
+ {
+  "id": 594,
+  "key": "79f53ca2ee8c",
+  "keep": true,
+  "reason": "Responsable production (UAP)"
+ },
+ {
+  "id": 595,
+  "key": "417294b11786",
+  "keep": true,
+  "reason": "Ingenieur process"
+ },
+ {
+  "id": 596,
+  "key": "7902f73359f8",
+  "keep": true,
+  "reason": "Ingenieur qualite process"
+ },
+ {
+  "id": 597,
+  "key": "7b155a123456",
+  "keep": true,
+  "reason": "Responsable qualite systeme (SMQ)"
+ },
+ {
+  "id": 598,
+  "key": "d9c3c42c2d22",
+  "keep": true,
+  "reason": "Responsable qualite systeme & HSE"
+ },
+ {
+  "id": 599,
+  "key": "bcdea58b0466",
+  "keep": true,
+  "reason": "Ingenieur qualite projet"
+ },
+ {
+  "id": 600,
+  "key": "35092f742acb",
+  "keep": true,
+  "reason": "Production Manager, site pharmaceutique de Berrechid"
+ },
+ {
+  "id": 601,
+  "key": "85987dca6dcd",
+  "keep": true,
+  "reason": "Supply Chain Manager"
+ },
+ {
+  "id": 602,
+  "key": "526053257320",
+  "keep": true,
+  "reason": "Working Student Global Supply Chain Support"
+ },
+ {
+  "id": 603,
+  "key": "5b4a07b78e2c",
+  "keep": true,
+  "reason": "Ingenieur Qualite, TotalEnergies"
+ },
+ {
+  "id": 604,
+  "key": "7a9043b02f64",
+  "keep": true,
+  "reason": "Coordinateur Supply Chain, TotalEnergies"
+ },
+ {
+  "id": 605,
+  "key": "79f87239dc8c",
+  "keep": true,
+  "reason": "Ingenieur Methodes et HES"
+ },
+ {
+  "id": 606,
+  "key": "32aa391da005",
+  "keep": true,
+  "reason": "Methods & Industrialization Engineer"
+ },
+ {
+  "id": 607,
+  "key": "912e24a3ae21",
+  "keep": false,
+  "reason": "'Lead Quality Engineer - AI Platform' - QA d'une plateforme logicielle"
+ },
+ {
+  "id": 608,
+  "key": "080dd770378e",
+  "keep": false,
+  "reason": "'Operations Manager - Contracts' - gestion des partenaires d'installation tiers"
+ },
+ {
+  "id": 609,
+  "key": "737b7b3ae41a",
+  "keep": true,
+  "reason": "Manufacturing Engineer - support fabrication et process"
+ },
+ {
+  "id": 610,
+  "key": "3c5ea778ccec",
+  "keep": true,
+  "reason": "Product Quality Engineer - investigation des reclamations produit"
+ },
+ {
+  "id": 611,
+  "key": "249153078e17",
+  "keep": false,
+  "reason": "'Consultor Sostenibilidad' chez EY - conseil en durabilite/ESG"
+ },
+ {
+  "id": 612,
+  "key": "e1b3aa7f3d82",
+  "keep": true,
+  "reason": "Supply Chain Manager - achats, planification de la demande et logistique"
+ },
+ {
+  "id": 613,
+  "key": "870328f3fbc5",
+  "keep": true,
+  "reason": "FF&E Supply Chain Manager - approvisionnement et logistique d'ameublement"
+ },
+ {
+  "id": 614,
+  "key": "fa91dda737e9",
+  "keep": true,
+  "reason": "Supply Chain PTM, Valeo (activite essuyage)"
+ },
+ {
+  "id": 615,
+  "key": "57a1e23a998e",
+  "keep": true,
+  "reason": "Ventec, dont des ingenieurs methodes et QHSE"
+ },
+ {
+  "id": 616,
+  "key": "34e2995b7706",
+  "keep": true,
+  "reason": "Support des systemes de planification supply chain chez un industriel pharmaceutique"
+ },
+ {
+  "id": 617,
+  "key": "0bd6aa919374",
+  "keep": true,
+  "reason": "Product Quality Engineer, Volvo Trucks"
+ },
+ {
+  "id": 618,
+  "key": "36dac42a9d6e",
+  "keep": false,
+  "reason": "L'annonce le dit: 'help improve next-generation AI systems by providing high-quality, real-world insights into logistics processes'"
+ },
+ {
+  "id": 619,
+  "key": "4935d96fc764",
+  "keep": true,
+  "reason": "Principal Supplier Quality Engineer, Westinghouse"
+ },
+ {
+  "id": 620,
+  "key": "cc54341fdc46",
+  "keep": false,
+  "reason": "'Account Manager' - gestion de comptes clients"
+ },
+ {
+  "id": 621,
+  "key": "114727c98545",
+  "keep": true,
+  "reason": "Responsable Production Senior, groupe industriel aeronautique"
+ },
+ {
+  "id": 622,
+  "key": "6da014428396",
+  "keep": false,
+  "reason": "Mission: 'develop and annotate sample documentation' pour un laboratoire IA - annotation de donnees"
+ },
+ {
+  "id": 623,
+  "key": "6ffd504c9386",
+  "keep": false,
+  "reason": "L'annonce le dit: 'apply your expertise to help train next-generation AI systems'"
+ },
+ {
+  "id": 624,
+  "key": "8b726c956445",
+  "keep": false,
+  "reason": "Meme mission d'annotation documentaire pour l'entrainement de modeles IA"
+ },
+ {
+  "id": 625,
+  "key": "d7adeb4d761d",
+  "keep": true,
+  "reason": "Manufacturing Engineer, moulage par injection metallique"
+ },
+ {
+  "id": 626,
+  "key": "09ee6dc48920",
+  "keep": false,
+  "reason": "'Senior Quality Engineer' chez une fintech - QA logicielle"
+ },
+ {
+  "id": 627,
+  "key": "66d612304f9d",
+  "keep": true,
+  "reason": "Design Quality Engineer - qualite de conception produit"
+ },
+ {
+  "id": 628,
+  "key": "a0e38263bf49",
+  "keep": false,
+  "reason": "'Qualite & Performance des App Stores' - qualite des applications mobiles"
+ },
+ {
+  "id": 629,
+  "key": "a5f64a2b2fba",
+  "keep": false,
+  "reason": "'Senior SAP Consultant' - conseil progiciel"
+ },
+ {
+  "id": 630,
+  "key": "fc8a460236d9",
+  "keep": false,
+  "reason": "'Product Operations Manager - Hardware/Software' - fonction Responsable produit"
+ },
+ {
+  "key": "615557fbf708",
+  "keep": true,
+  "reason": "supply chain industrielle: 'planifier et coordonner les flux de reception, de stockage et de distribution', 'superviser les inventaires physiques et informatiques', 'garantir la fiabilite des donnees de stock'"
+ },
+ {
+  "key": "a5f14958b1c4",
+  "keep": true,
+  "reason": "'Responsable Qualite Produit ... Vous garantirez la conformite des produits, piloterez les actions qualite et managerez une equipe. Ingenieur ou Bac+5 avec 5 ans d experience en agroalimentaire et maitrisant les outils qualite'"
+ },
+ {
+  "key": "e52ea8dcfb30",
+  "keep": true,
+  "reason": "'Vous piloterez et optimiserez les processus de production, assurerez la qualite et les delais, et proposerez des ameliorations continues. Profil ingenieur avec 2 ans d experience industrielle minimum'"
+ },
+ {
+  "key": "d458076ba49e",
+  "keep": true,
+  "reason": "'Responsable production (H/F) - Casablanca' - poste de production industrielle"
+ },
+ {
+  "key": "12bd557bb724",
+  "keep": true,
+  "reason": "'Ingenieur qualite' a Sale - qualite industrielle"
+ },
+ {
+  "key": "4d1ce3e68c05",
+  "keep": true,
+  "reason": "'INGENIEUR QUALITE / Tuyauterie en PRV A MZINDA' - qualite sur une ligne de fabrication de tuyauterie composite"
+ },
+ {
+  "key": "664658c95a26",
+  "keep": false,
+  "reason": "poste situe a Tunis (l URL Rekrute se termine par 'tunis-184606'), donc ni au Maroc ni en remote sans visa - hors du perimetre du classeur"
+ },
+ {
+  "key": "7534895f23b5",
+  "keep": false,
+  "reason": "'Total Energies Tunisie ... les-berges-du-lac' - poste base a Tunis, ni Maroc ni remote sans visa"
+ },
+ {
+  "key": "c0c9ab6deffc",
+  "keep": false,
+  "reason": "'Job Title: SAP Ariba Sourcing Consultant Location: Cairo, Egypt' - conseil sur un progiciel achats, au Caire; ni le metier ni le lieu ne correspondent"
+ },
+ {
+  "key": "72bd232c1c8a",
+  "keep": false,
+  "reason": "'profil Junior Cloud Ops pour des missions de Service/Run Management ... gestion des incidents' - exploitation informatique. 'Amelioration continue' y designe le support IT, pas l industrie"
+ },
+ {
+  "key": "fd2cdf2139f3",
+  "keep": false,
+  "reason": "'construire, deployer et operer le security operations center (soc)' - cybersecurite"
+ },
+ {
+  "key": "db6983eed881",
+  "keep": false,
+  "reason": "'Ingenieur Support N2 M365 pour diagnostic, resolution d incidents ... maitrise des outils collaboratifs et des environnements Windows/Azure AD' - support informatique"
+ },
+ {
+  "key": "9ecee7cdf85a",
+  "keep": false,
+  "reason": "'experience en delivery, gestion de projets digitaux ou product management ... methodologies agile (scrum, kanban ...)' - le kanban ici est celui du developpement logiciel"
+ },
+ {
+  "key": "adb4e20d813b",
+  "keep": false,
+  "reason": "'GenAI Engineer / AI Builder ... design and build AI-powered workflows and AI Agents' - developpement logiciel"
+ },
+ {
+  "key": "7af26280ee2d",
+  "keep": false,
+  "reason": "'Senior IT Operations Engineer' - exploitation informatique"
+ },
+ {
+  "key": "7629bcf0f0dd",
+  "keep": false,
+  "reason": "'Manager, Ad Operations' chez StackAdapt - operations publicitaires programmatiques"
+ },
+ {
+  "key": "765dfc0d01b5",
+  "keep": false,
+  "reason": "'Senior Manager, Payroll Compliance & International Operations (Sydney, Australia)' - paie et conformite, et poste rattache a Sydney"
+ },
+ {
+  "key": "e1878f667740",
+  "keep": false,
+  "reason": "'Talent Scientist - Graduate Lead ... Our Talent Science team ensures that our processes are effective' - recrutement"
+ },
+ {
+  "key": "bead86de6e73",
+  "keep": false,
+  "reason": "'Talent Scientist' chez Canonical - recrutement"
+ },
+ {
+  "key": "4d0ed66b1069",
+  "keep": false,
+  "reason": "'SEO Specialist ... improve our online visibility, increase qualified website traffic' - referencement web"
+ },
+ {
+  "key": "30a2bf3827e1",
+  "keep": false,
+  "reason": "'Manager, Engineering - Catalog ... lead a lean, high-seniority team of engineers' - le mot lean qualifie ici la taille de l equipe logicielle, pas une demarche industrielle"
+ },
+ {
+  "key": "0de12aad5d1a",
+  "keep": false,
+  "reason": "'Customer Success Manager' chez AssetWatch - relation client sur un produit de maintenance predictive, pas un poste d amelioration continue en usine"
+ },
+ {
+  "key": "5b055ddca4c1",
+  "keep": false,
+  "reason": "'Senior Manager, Enterprise Customer Success' chez Dutchie - relation client logicielle"
+ },
+ {
+  "key": "b28744fd4489",
+  "keep": false,
+  "reason": "'Lead FP&A Analyst' - analyse financiere"
+ },
+ {
+  "key": "8ff95885b74b",
+  "keep": false,
+  "reason": "'Associate General Counsel, Corporate' - juridique"
+ },
+ {
+  "key": "28f81b2a1490",
+  "keep": false,
+  "reason": "'Global Payroll Manager ... lead and optimize our end-to-end payroll operations' - paie"
+ },
+ {
+  "key": "700b37db1dec",
+  "keep": false,
+  "reason": "'Operations Program Manager' chez Stripe, 'Headquarters: US-Remote' - operations d une plateforme de paiement"
+ },
+ {
+  "key": "16b0c08a6cf2",
+  "keep": false,
+  "reason": "'Manager, Fast Track Operations' chez Twilio, 'Headquarters: Remote - US' - operations commerciales telecom"
+ },
+ {
+  "key": "98b1ff7d5761",
+  "keep": false,
+  "reason": "'Operations Insights, Tax' chez Stripe - fiscalite"
+ },
+ {
+  "key": "914d16db1c16",
+  "keep": false,
+  "reason": "'Global Security Operations Center Operator' - surveillance et securite des personnes et des sites"
+ },
+ {
+  "key": "acd4b9ea895d",
+  "keep": false,
+  "reason": "'Financial Controller ... private investment firm ... manufactured housing communities' - controle de gestion immobilier"
+ },
+ {
+  "key": "bcd840debd45",
+  "keep": false,
+  "reason": "'French-speaking Web Journalist ... crafting engaging articles' - journalisme web"
+ },
+ {
+  "key": "1e299f7a0314",
+  "keep": false,
+  "reason": "'INSURANCE AGENCY DIRECTOR ... lead a motivated sales team' - direction d agence d assurance"
+ },
+ {
+  "key": "874c7785424b",
+  "keep": false,
+  "reason": "'Insurance Agency Director in Sale ... develop a robust client portfolio' - direction d agence d assurance"
+ },
+ {
+  "key": "0118e8b77e99",
+  "keep": false,
+  "reason": "'expertise in hydraulic development and structural design ... develop digital models' - bureau d etudes hydraulique et structures, pas genie industriel"
+ },
+ {
+  "key": "8f7c92ebf9f5",
+  "keep": false,
+  "reason": "'Human Resources Manager in Nador ... effective deployment of HR processes' - ressources humaines"
+ },
+ {
+  "key": "6910f1c49762",
+  "keep": false,
+  "reason": "'Senior Privacy & Compliance Officer ... Privacy, Security, and Compliance framework' - conformite et protection des donnees"
+ },
+ {
+  "key": "12cc871c65c0",
+  "keep": false,
+  "reason": "'Technical Support Engineer ... post-sales support across hardware and software solutions' - support technique apres-vente"
+ },
+ {
+  "key": "6c10f5854b98",
+  "keep": false,
+  "reason": "'Operations Team Member I ... implement daily express operations procedures that ensure timely package processing and delivery' - agent d exploitation messagerie, poste d operateur"
+ },
+ {
+  "key": "f339a19b011e",
+  "keep": true,
+  "reason": "le poste EST la specialite demandee, meme si le secteur est l hotellerie: 'Le/La Responsable Excellence Operationnelle et RSE est la/le Garant(e) de l Excellence Operationnelle et du respect de la politique environnementale du groupe'"
+ },
+ {
+  "key": "ab87403cad4b",
+  "keep": true,
+  "reason": "'SIMRA Maroc recrute un(e) Ingenieur Methodes & Industrialisation pour optimiser les procedes de fabrication ... Mettre en oeuvre les actions d amelioration continue'"
+ },
+ {
+  "key": "dfe5d1b5e563",
+  "keep": true,
+  "reason": "'Supply Chain Capacity Management' chez Capgemini Engineering - planification de capacite industrielle"
+ },
+ {
+  "key": "135d13d671b5",
+  "keep": true,
+  "reason": "'Ingenieur Methodes' chez Alstom - le corps n a pas ete servi par LinkedIn, mais l intitule et l employeur ferroviaire suffisent: c est exactement le poste vise, et Alstom porte deja plusieurs postes methodes dans le classeur"
+ },
+ {
+  "key": "ba2f2dcb0a0f",
+  "keep": true,
+  "reason": "'Product Quality Engineer' chez Hirschmann Automotive - equipementier automobile, qualite produit"
+ },
+ {
+  "key": "69e2555a3c25",
+  "keep": true,
+  "reason": "'Supports and executes all supply chain activities ... Monitoring key performance indicators' chez TE Connectivity"
+ },
+ {
+  "key": "8333bbd2f44b",
+  "keep": true,
+  "reason": "'Parthenon Holding recrute : Charge(e) QHSE - Agroalimentaire (H/F) Casablanca CDI ... deploiement et le suivi de son systeme de management QHSE sur l ensemble de ses activites agroalimentaires, de restauration, de production et de distribution'"
+ },
+ {
+  "key": "2058f1927209",
+  "keep": true,
+  "reason": "'Production Manager' chez Adient - equipementier automobile (sieges); corps non servi par LinkedIn mais intitule et employeur industriels sans ambiguite"
+ },
+ {
+  "key": "5b2de8355f66",
+  "keep": true,
+  "reason": "'Ingenieur Maintenance Soutien Logistique Integre Confirme (SLI)' chez LGM - le SLI est l ingenierie de soutien logistique d un systeme industriel"
+ },
+ {
+  "key": "1d19a89d42c9",
+  "keep": true,
+  "reason": "'Serial life quality manager' chez ALTEN MAROC, secteur 'Fabrication de vehicules automobiles' - qualite vie serie automobile"
+ },
+ {
+  "key": "b05e39cbc933",
+  "keep": false,
+  "reason": "'F&O Supply Chain Management Consultant ... Our solutions and services are 100% based on Microsoft business applications and the Microsoft Business cloud' - conseil sur le module Supply Chain de Dynamics 365, un poste progiciel et non industriel"
+ },
+ {
+  "key": "f19893d20a81",
+  "keep": true,
+  "reason": "corps recupere via l API invitee LinkedIn: 'SIMRA Maroc recrute un(e) Responsable Qualite pour garantir la conformite des produits ... Participer aux demarches d amelioration continue. Profil Recherche Formation en qualite ou genie industriel'"
+ },
+ {
+  "key": "6db172bb9be2",
+  "keep": false,
+  "reason": "corps recupere via l API invitee LinkedIn: la logistique de ce poste est celle des moyens generaux de la banque - 'Bureau d ordre, messagerie, suivi du patrimoine mobilier, Parc auto, Standard telephonique, centre d archivage' et 'suivre la mise a jour du patrimoine physique de la banque ainsi que son rapprochement physique-comptable'. Ni supply chain industrielle ni amelioration de process de production"
+ }
+]

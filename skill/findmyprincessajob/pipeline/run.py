@@ -34,16 +34,25 @@ REMOTE_LOCS = ["European Union", "United States", "United Kingdom", "Worldwide",
 
 def do_scrape(run):
     col = scrape.Collector(run)
-    steps = [
-        ("Rekrute", lambda: scrape.rekrute(run, col)),
-        ("LinkedIn Maroc", lambda: scrape.linkedin(run, col, MA_LOCS, False)),
-        ("LinkedIn Remote", lambda: scrape.linkedin(run, col, REMOTE_LOCS, True,
-                                                    country="International",
-                                                    label="LinkedIn (Remote)")),
-        ("MarocAnnonces + Dreamjob", lambda: scrape.ma_boards(run, col)),
-        ("ATS feeds", lambda: scrape.ats(run, col)),
-        ("Worldwide remote boards", lambda: scrape.worldwide(run, col)),
+    all_steps = [
+        ("rekrute", "Rekrute", lambda: scrape.rekrute(run, col)),
+        ("linkedin_ma", "LinkedIn Maroc", lambda: scrape.linkedin(run, col, MA_LOCS, False)),
+        ("linkedin_remote", "LinkedIn Remote",
+         lambda: scrape.linkedin(run, col, REMOTE_LOCS, True, country="International",
+                                 label="LinkedIn (Remote)")),
+        ("ma_boards", "MarocAnnonces + Dreamjob", lambda: scrape.ma_boards(run, col)),
+        ("ats", "ATS feeds", lambda: scrape.ats(run, col)),
+        ("worldwide", "Worldwide remote boards", lambda: scrape.worldwide(run, col)),
     ]
+    # A Morocco-only track has no business spending an hour on the two
+    # international steps, and every row they would return is one the router will
+    # refuse anyway.
+    want = run.spec.get("sources")
+    steps = [(lab, fn) for key, lab, fn in all_steps if not want or key in want]
+    if want:
+        skipped = [k for k, _, _ in all_steps if k not in want]
+        if skipped:
+            print(f"sources ignorees pour cette piste: {', '.join(skipped)}", flush=True)
     for name, fn in steps:
         print(f"\n########## {name} ##########", flush=True)
         try:
@@ -52,6 +61,9 @@ def do_scrape(run):
             traceback.print_exc()
         run.save("raw_http", col.rows)
 
+    if want and "uc" not in want:
+        print("\nUC mode ignore pour cette piste (absent de spec['sources'])", flush=True)
+        return
     print("\n########## UC mode (Cloudflare-walled sources) ##########", flush=True)
     try:
         import scrape_uc
@@ -106,6 +118,12 @@ def _by_key(verdicts, rows):
 def do_stage(run):
     """Everything outside Morocco needs a human/LLM ruling on 'really remote,
     really no visa'. Emit exactly what is needed to decide."""
+    if run.spec.get("morocco_only"):
+        # and do NOT write remote_verdicts.json: do_build re-checks the recovered
+        # workbook rows against that file, so an empty one would start deleting
+        # rows that never needed a visa ruling in the first place.
+        print("piste Maroc uniquement - aucun arbitrage visa a rendre")
+        return
     cand = [r for r in curated(run) if r["country"] != "Maroc"]
     out = [{"id": i, "key": jid(r["url"]),
             "job_title": r["job_title"], "company": r["company"],
@@ -140,13 +158,19 @@ def do_curate(run):
 
 
 def shipping(run):
-    """Every row that will end up in the workbook: the curated scrape plus the
-    rows recovered from the existing workbook. Those came back through
-    read_existing and were never in raw_*.json, so any step that sources its
-    list from the scrape alone silently skips them."""
+    """Every row of THIS track that will end up in the workbook: the curated
+    scrape plus the rows recovered from the existing workbook. Those came back
+    through read_existing and were never in raw_*.json, so any step that sources
+    its list from the scrape alone silently skips them.
+
+    The track filter matters: without it, `fulltext` and `enrich` on a second spec
+    would re-download and re-stage the other track's whole workbook, and put those
+    ads in front of the model under the wrong specialty."""
     rows = curated(run)
     seen = {r["url"] for r in rows}
     for r in B.read_existing(run.spec["excel_path"]):
+        if r.get("track", B.DEFAULT_TRACK) != run.track:
+            continue
         u = (r.get("url") or "").strip()
         if u and u not in seen:
             seen.add(u)
@@ -269,7 +293,20 @@ def fill_descriptions(run, rows):
     return n
 
 
+def _check_isolation(run):
+    """A second track pointed at the first one's data/ overwrites its verdicts on
+    the first curate. Say so loudly rather than lose 683 rulings quietly."""
+    default = os.path.normpath(os.path.join(run.outdir, "data"))
+    if run.track != B.DEFAULT_TRACK and os.path.normpath(run.datadir) == default:
+        print("!" * 74)
+        print(f"! ATTENTION: piste '{run.track}' mais datadir = {run.datadir}")
+        print("! Les fichiers de verdict de l'autre piste vont etre ecrases.")
+        print("! Ajouter \"datadir\" au spec avant de continuer.")
+        print("!" * 74, flush=True)
+
+
 def do_build(run):
+    _check_isolation(run)
     before = len([r for r in B.finalize(all_rows(run)) if run.strict_keep(r)])
     rows = curated(run)
     cp = os.path.join(run.datadir, "curation_verdicts.json")
@@ -302,6 +339,19 @@ def do_build(run):
     # read_existing re-approves every remote one on sight. Hold them to the same
     # ruling, or a row the model has judged off-topic survives forever.
     previous = B.read_existing(run.spec["excel_path"])
+
+    # ...but only the rows of THIS track. The other track's rows were judged by
+    # another spec, with other keywords and other verdict files; re-judging them
+    # here deletes them. That is not hypothetical: the Lean curation file already
+    # says keep:false for a dozen Moroccan commercial offers, precisely because
+    # they were off-topic FOR LEAN. Left unpartitioned, every Lean build would
+    # quietly erase the commercial sheets.
+    foreign = [r for r in previous if r.get("track", B.DEFAULT_TRACK) != run.track]
+    previous = [r for r in previous if r.get("track", B.DEFAULT_TRACK) == run.track]
+    if foreign:
+        print(f"autre(s) piste(s): {len(foreign)} lignes reprises telles quelles, "
+              f"sans repasser par les regles de ce spec")
+
     rejected = set()
     if os.path.exists(cp):
         with open(cp, encoding="utf-8") as f:
@@ -335,12 +385,15 @@ def do_build(run):
     # herself, so they are also the only thing a rebuild could destroy. Mirror
     # them into data/applied.json, keyed by URL, and re-apply from there: the tick
     # then survives a workbook rebuilt from scratch, not just an append.
-    ap = os.path.join(run.datadir, "applied.json")
+    # A tick belongs to the workbook, not to a search, so every track reads and
+    # writes the same file and every track's rows get the mark re-applied.
+    ap = run.applied_path
+    os.makedirs(os.path.dirname(ap) or ".", exist_ok=True)
     marks = json.load(open(ap, encoding="utf-8")) if os.path.exists(ap) else {}
-    for r in previous:
+    for r in list(previous) + list(foreign):
         if B.is_applied(r.get("applied")):
             marks[r["url"]] = B.TICK
-    for r in list(rows) + list(previous):
+    for r in list(rows) + list(previous) + list(foreign):
         if marks.get(r.get("url")):
             r["applied"] = B.TICK
     with open(ap, "w", encoding="utf-8") as f:
@@ -357,13 +410,17 @@ def do_build(run):
     if nd:
         print(f"colonne Description completee depuis le corps deja telecharge: {nd} offres")
 
-    n, m = len(rows), len(previous)
+    # closure is not a matter of specialty: a closed offer must never ship,
+    # whichever track found it.
+    n, m, o = len(rows), len(previous), len(foreign)
     rows = [r for r in rows if not B.is_closed(r)]
     previous = [r for r in previous if not B.is_closed(r)]
-    closed = (n - len(rows)) + (m - len(previous))
+    foreign = [r for r in foreign if not B.is_closed(r)]
+    closed = (n - len(rows)) + (m - len(previous)) + (o - len(foreign))
     if closed:
         print(f"offres fermees ecartees (annonce lue comme expiree): {closed}")
 
+    previous = previous + foreign
     B.build(rows, run.spec["excel_path"], previous=previous,
             publish_dir=run.spec.get("publish_dir"))
 

@@ -26,10 +26,16 @@ LINK_COL = "LIEN DE L'OFFRE"
 
 def read(path):
     wb = load_workbook(path)
-    out, per = [], {}
+    out, per, cols = [], {}, []
     for sn in wb.sheetnames:
         ws = wb[sn]
         hdr = [c.value for c in ws[2]]
+        # the union, in order, not the last sheet's header: the remote sheets
+        # carry an evidence column the others do not, so returning one sheet's
+        # header silently stops reporting whichever columns the last sheet lacks
+        for h in hdr:
+            if h and h not in cols:
+                cols.append(h)
         li = hdr.index(LINK_COL) + 1 if LINK_COL in hdr else None
         n = 0
         for r in range(3, ws.max_row + 1):
@@ -42,7 +48,7 @@ def read(path):
             out.append(d)
             n += 1
         per[sn] = n
-    return out, per, hdr
+    return out, per, cols
 
 
 new, per, hdr = read(XL)
@@ -115,9 +121,54 @@ tick = sum(1 for r in new if TICK in (r.get("Postulé") or ""))
 print(f"   presente: {'Postulé' in cols}   1re colonne: {cols[0] == 'Postulé'}   "
       f"deja cochees: {tick}")
 
-print("\n7. COPIE DRIVE")
+print("\n7. INTEGRITE PAR PISTE")
+from build import SHEETS, DEFAULT_TRACK
+TRACK = {n.upper(): t for n, t, _, _ in SHEETS}
+
+
+def track_of(sheet):
+    return TRACK.get(sheet.upper(), DEFAULT_TRACK)
+
+
+# A row leaving is not by itself a failure: a gate that reads an ad as closed or
+# off-topic is supposed to remove it. What must never happen is a row leaving
+# because the OTHER track was rebuilt. So losses are only an error when the
+# reference is the immediately preceding build of the same workbook, which the
+# caller states by passing it as the second argument.
+STRICT = len(sys.argv) > 2
+tracks = sorted({track_of(r["_sheet"]) for r in new})
+for t in tracks:
+    rn = [r for r in new if track_of(r["_sheet"]) == t]
+    ro = [r for r in old if track_of(r["_sheet"]) == t]
+    un, uo = {r.get(LINK_COL) for r in rn}, {r.get(LINK_COL) for r in ro}
+    lost = uo - un
+    ma = sum(1 for r in rn if "maroc" in strip_accents(r.get("Pays / Éligibilité", "")).lower())
+    tick = sum(1 for r in rn if TICK in (r.get("Postulé") or ""))
+    verdict = ("OK" if not lost else "ECHEC") if STRICT else \
+              ("" if not lost else "(sorties a expliquer par une porte)")
+    print(f"   piste {t:9s} {len(ro):5d} -> {len(rn):5d} lignes | Maroc {ma}/{len(rn)} | "
+          f"cochees {tick} | URL sorties: {len(lost)} {verdict}")
+    for u in list(lost)[:5]:
+        print("      sortie:", u)
+if not STRICT:
+    print(f"   reference = {os.path.basename(OLD) if OLD else '-'} : des sorties y sont")
+    print("   normales. Pour le test inter-pistes, passer en 2e argument le classeur")
+    print("   d'AVANT le build de l'autre piste - la, toute sortie est un echec.")
+cross = [r["_sheet"] for r in new]
+byurl = {}
+for r in new:
+    byurl.setdefault(r.get(LINK_COL), set()).add(track_of(r["_sheet"]))
+both = [u for u, ts in byurl.items() if len(ts) > 1]
+print(f"   URL revendiquees par deux pistes: {len(both)}   "
+      f"{'OK' if not both else 'ECHEC'}")
+for u in both[:5]:
+    print("      ", u)
+
+print("\n8. COPIE DRIVE")
 import json
-spec = json.load(open(os.path.join(ROOT, "spec.json"), encoding="utf-8"))
+spec_path = next((a for a in sys.argv[1:] if a.endswith(".json")), None) \
+    or os.path.join(ROOT, "spec.json")
+spec = json.load(open(spec_path, encoding="utf-8"))
 pub = spec.get("publish_dir")
 tgt = os.path.join(pub, os.path.basename(XL)) if pub else None
 

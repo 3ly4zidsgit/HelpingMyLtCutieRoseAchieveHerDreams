@@ -71,6 +71,7 @@ class Collector:
         # is a TypeError, and it took down the whole LinkedIn step - two hours of
         # collecting, 673 title-relevant offers, discarded on the last line.
         extra.setdefault("contact_email", ", ".join(find_emails(desc)[:2]))
+        extra.setdefault("track", self.run.track)   # which search found it
         self.rows.append(blank(source=source, job_title=title, company=company,
                                location_city=loc, country=country, contract_type=ctype,
                                date_posted=date, url=url, description_snippet=desc[:800],
@@ -289,11 +290,25 @@ ATS_GREENHOUSE = ["flex", "bcg", "jabil", "sanmina"]
 ATS_RECRUITEE = ["geodis", "teleperformance", "ey", "accenture"]
 ATS_ASHBY = ["delphi"]
 ATS_WORKABLE = ["safrangroup"]
+ATS_LEVER = []
+ATS_PERSONIO = []
+ATS_TEAMTAILOR = []
+# Every list above is a default. A spec can add employers of its own with
+# "ats": {"smartrecruiters": [...], "lever": [...]} - a second track should not
+# have to edit this file, and it must not drag the first track's employers along.
+_ATS_KEYS = {"smartrecruiters": ATS_SMARTRECRUITERS, "greenhouse": ATS_GREENHOUSE,
+             "recruitee": ATS_RECRUITEE, "ashby": ATS_ASHBY, "workable": ATS_WORKABLE,
+             "lever": ATS_LEVER, "personio": ATS_PERSONIO, "teamtailor": ATS_TEAMTAILOR}
+
+
+def _slugs(run, key):
+    extra = (run.spec.get("ats") or {}).get(key, [])
+    return list(dict.fromkeys(_ATS_KEYS[key] + list(extra)))
 
 
 def ats(run, col):
     hint = re.compile("|".join(run.queries_fr + run.queries_en), re.I) if run.queries else None
-    for c in ATS_SMARTRECRUITERS:
+    for c in _slugs(run, "smartrecruiters"):
         off = 0
         while off < 600:
             d = J(f"https://api.smartrecruiters.com/v1/companies/{c}/postings?limit=100&offset={off}")
@@ -322,7 +337,7 @@ def ats(run, col):
             off += 100
             if len(d["content"]) < 100:
                 break
-    for c in ATS_GREENHOUSE:
+    for c in _slugs(run, "greenhouse"):
         d = J(f"https://boards-api.greenhouse.io/v1/boards/{c}/jobs?content=true")
         for j in (d or {}).get("jobs", []):
             loc = (j.get("location") or {}).get("name", "")
@@ -330,7 +345,7 @@ def ats(run, col):
                 col.push(f"ATS Greenhouse ({c})", j.get("title", ""), c.title(), loc, "",
                          (j.get("updated_at") or "")[:10], j.get("absolute_url", ""),
                          clean_html(j.get("content", "")))
-    for c in ATS_RECRUITEE:
+    for c in _slugs(run, "recruitee"):
         d = J(f"https://{c}.recruitee.com/api/offers/")
         for j in (d or {}).get("offers", []):
             loc = ", ".join(x for x in [j.get("city"), j.get("country")] if x)
@@ -339,14 +354,14 @@ def ats(run, col):
                          j.get("employment_type_code", ""), (j.get("published_at") or "")[:10],
                          j.get("careers_url") or j.get("url", ""),
                          clean_html(j.get("description", "")), function=j.get("department", ""))
-    for c in ATS_ASHBY:
+    for c in _slugs(run, "ashby"):
         d = J(f"https://api.ashbyhq.com/posting-api/job-board/{c}")
         for j in (d or {}).get("jobs", []):
             if MA.search(j.get("location", "")):
                 col.push(f"ATS Ashby ({c})", j.get("title", ""), c.title(), j.get("location", ""),
                          j.get("employmentType", ""), (j.get("publishedAt") or "")[:10],
                          j.get("jobUrl", ""), clean_html(j.get("descriptionHtml", "")))
-    for c in ATS_WORKABLE:
+    for c in _slugs(run, "workable"):
         d = J(f"https://apply.workable.com/api/v1/widget/accounts/{c}?details=true")
         for j in (d or {}).get("jobs", []):
             loc = ", ".join(x for x in [j.get("city"), j.get("country")] if x)
@@ -354,6 +369,37 @@ def ats(run, col):
                 col.push(f"ATS Workable ({c})", j.get("title", ""), c.title(), loc,
                          j.get("type", ""), (j.get("published_on") or "")[:10],
                          j.get("url", ""), clean_html(j.get("description", "")))
+    # Lever, Personio and Teamtailor were documented in SOURCES.md and probed by
+    # research/probe_ats.py, but never had a loop here. Oliver Wyman (conseil) and
+    # HPE answer on the first two.
+    for c in _slugs(run, "lever"):
+        d = J(f"https://api.lever.co/v0/postings/{c}?mode=json")
+        for j in (d or []):
+            loc = ((j.get("categories") or {}).get("location") or "")
+            if MA.search(loc):
+                cats = j.get("categories") or {}
+                col.push(f"ATS Lever ({c})", j.get("text", ""), c.title(), loc,
+                         cats.get("commitment", ""), "", j.get("hostedUrl", ""),
+                         j.get("descriptionPlain", "") or clean_html(j.get("description", "")),
+                         function=cats.get("team", ""))
+    for c in _slugs(run, "personio"):
+        d = J(f"https://{c}.jobs.personio.de/search.json")
+        for j in (d or []):
+            loc = g(j, "office", "city")
+            if MA.search(loc):
+                col.push(f"ATS Personio ({c})", g(j, "name", "title"), c.title(), loc,
+                         g(j, "employmentType", "schedule"), g(j, "createdAt")[:10],
+                         g(j, "url", "jobUrl"), clean_html(g(j, "description", "jobDescriptions")),
+                         function=g(j, "department"))
+    for c in _slugs(run, "teamtailor"):
+        d = J(f"https://{c}.teamtailor.com/jobs.json")
+        jobs = d if isinstance(d, list) else (d or {}).get("jobs", [])
+        for j in jobs:
+            loc = g(j, "location", "city")
+            if MA.search(loc):
+                col.push(f"ATS Teamtailor ({c})", g(j, "title", "name"), c.title(), loc, "",
+                         g(j, "created-at", "createdAt")[:10], g(j, "careersite-job-url", "url"),
+                         clean_html(g(j, "body", "description")))
     print(f"  [ATS] total collected so far: {len(col.rows)}", flush=True)
 
 

@@ -1,0 +1,233 @@
+{
+ "P&G": {
+  "tried": [
+   "https://pg.com/careers",
+   "https://pg.com/en/careers",
+   "https://pg.com/fr/carrieres",
+   "https://pg.com/carrieres",
+   "https://pg.com/jobs",
+   "https://pg.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Dell": {
+  "tried": [
+   "https://dell.com/careers"
+  ],
+  "ats_urls": [
+   "/hcmUI/CandidateExperience/fr-FR/sites/careers"
+  ]
+ },
+ "Unilever": {
+  "tried": [
+   "https://unilever.com/careers",
+   "https://unilever.com/en/careers",
+   "https://unilever.com/fr/carrieres",
+   "https://unilever.com/carrieres",
+   "https://unilever.com/jobs",
+   "https://unilever.com/en/jobs"
+  ],
+  "ats_urls": [
+   "unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals/userHome"
+  ]
+ },
+ "Nestle": {
+  "tried": [
+   "https://nestle.com/careers",
+   "https://nestle.com/en/careers",
+   "https://nestle.com/fr/carrieres",
+   "https://nestle.com/carrieres",
+   "https://nestle.com/jobs",
+   "https://nestle.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Danone": {
+  "tried": [
+   "https://danone.com/careers",
+   "https://danone.com/en/careers",
+   "https://danone.com/fr/carrieres",
+   "https://danone.com/carrieres",
+   "https://danone.com/jobs",
+   "https://danone.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Schneider Electric": {
+  "tried": [
+   "https://se.com/careers",
+   "https://se.com/en/careers",
+   "https://se.com/fr/carrieres",
+   "https://se.com/carrieres",
+   "https://se.com/jobs",
+   "https://se.com/en/jobs"
+  ],
+  "ats_urls": [
+   "frcareers-se.icims.com/\\",
+   "www.icims.com/legal/privacy-notice-website/\\",
+   "schneiderele.taleo.net/careersection/iam/accessmanagement/login.jsf?redirectionURI=https%3A%2F%2Fschneiderele.taleo.net%2Fcareersection%2F2%2Fjobsearch.ftl%3Fft",
+   "careers-se.icims.com/\\"
+  ]
+ },
+ "Siemens": {
+  "tried": [
+   "https://siemens.com/careers",
+   "https://siemens.com/en/careers",
+   "https://siemens.com/fr/carrieres",
+   "https://siemens.com/carrieres",
+   "https://siemens.com/jobs",
+   "https://siemens.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Mars": {
+  "tried": [
+   "https://mars.com/careers",
+   "https://mars.com/en/careers",
+   "https://mars.com/fr/carrieres",
+   "https://mars.com/carrieres",
+   "https://mars.com/jobs",
+   "https://mars.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "JTI": {
+  "tried": [
+   "https://jti.com/careers",
+   "https://jti.com/en/careers",
+   "https://jti.com/fr/carrieres",
+   "https://jti.com/carrieres",
+   "https://jti.com/jobs",
+   "https://jti.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Coca-Cola": {
+  "tried": [
+   "https://coca-colacompany.com/careers",
+   "https://coca-colacompany.com/en/careers",
+   "https://coca-colacompany.com/fr/carrieres",
+   "https://coca-colacompany.com/carrieres",
+   "https://coca-colacompany.com/jobs",
+   "https://coca-colacompany.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Henkel": {
+  "tried": [
+   "https://henkel.com/careers",
+   "https://henkel.com/en/careers",
+   "https://henkel.com/fr/carrieres",
+   "https://henkel.com/carrieres",
+   "https://henkel.com/jobs",
+   "https://henkel.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "L'Oreal": {
+  "tried": [
+   "https://loreal.com/careers",
+   "https://loreal.com/en/careers",
+   "https://loreal.com/fr/carrieres",
+   "https://loreal.com/carrieres",
+   "https://loreal.com/jobs",
+   "https://loreal.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Deloitte": {
+  "tried": [
+   "https://deloitte.com/careers",
+   "https://deloitte.com/en/careers",
+   "https://deloitte.com/fr/carrieres",
+   "https://deloitte.com/carrieres",
+   "https://deloitte.com/jobs"
+  ],
+  "ats_urls": [
+   "career4.successfactors.com/career?company=C0020897957P&",
+   "career2.successfactors.eu/career?company=drtyonetim&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH&_s.crb=S6MR4%2fqX%2btbMmyVb7DH9zLnJHcnqk3BeT85%",
+   "dttit.taleo.net/careersection/d_corporate+28greece29/jobsearch.ftl?lang=en",
+   "deloitteie.wd3.myworkdayjobs.com/Experienced_Professionals",
+   "deloittecm.avature.net/en_US/careers/SearchJobs/?729=5946&729_format=1565&listFilterMode=1&jobRecordsPerPage=6&",
+   "dttit.taleo.net/careersection/d_corporate+28malta29/jobsearch.ftl?lang=en",
+   "jobs.lever.co/deloitte"
+  ]
+ },
+ "PwC": {
+  "tried": [
+   "https://pwc.com/careers",
+   "https://pwc.com/en/careers",
+   "https://pwc.com/fr/carrieres",
+   "https://pwc.com/carrieres",
+   "https://pwc.com/jobs",
+   "https://pwc.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "KPMG": {
+  "tried": [
+   "https://kpmg.com/careers",
+   "https://kpmg.com/en/careers",
+   "https://kpmg.com/fr/carrieres",
+   "https://kpmg.com/carrieres",
+   "https://kpmg.com/jobs",
+   "https://kpmg.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Capgemini": {
+  "tried": [
+   "https://capgemini.com/careers",
+   "https://capgemini.com/en/careers",
+   "https://capgemini.com/fr/carrieres",
+   "https://capgemini.com/carrieres",
+   "https://capgemini.com/jobs",
+   "https://capgemini.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Managem": {
+  "tried": [
+   "https://managemgroup.com/careers",
+   "https://managemgroup.com/en/careers",
+   "https://managemgroup.com/fr/carrieres",
+   "https://managemgroup.com/carrieres",
+   "https://managemgroup.com/jobs",
+   "https://managemgroup.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "OCP": {
+  "tried": [
+   "https://ocpgroup.ma/careers",
+   "https://ocpgroup.ma/en/careers",
+   "https://ocpgroup.ma/fr/carrieres",
+   "https://ocpgroup.ma/carrieres",
+   "https://ocpgroup.ma/jobs",
+   "https://ocpgroup.ma/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Attijariwafa": {
+  "tried": [
+   "https://attijariwafabank.com/careers",
+   "https://attijariwafabank.com/en/careers",
+   "https://attijariwafabank.com/fr/carrieres",
+   "https://attijariwafabank.com/carrieres",
+   "https://attijariwafabank.com/jobs",
+   "https://attijariwafabank.com/en/jobs"
+  ],
+  "ats_urls": []
+ },
+ "Maroc Telecom": {
+  "tried": [
+   "https://iam.ma/careers",
+   "https://iam.ma/en/careers",
+   "https://iam.ma/fr/carrieres",
+   "https://iam.ma/carrieres",
+   "https://iam.ma/jobs",
+   "https://iam.ma/en/jobs"
+  ],
+  "ats_urls": []
+ }
+}

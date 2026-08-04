@@ -1,0 +1,2272 @@
+[
+ {
+  "key": "b4c77c5d0bf5",
+  "keep": true,
+  "reason": "'Data Analyst' - Alten - Développement de logiciels et Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "bc2376adb808",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst cybersécurité' - Alten)"
+ },
+ {
+  "key": "e37af2230abf",
+  "keep": true,
+  "reason": "'Auditeur Junior en Asset Management (H/F) - Octobre 2026' - Mazars : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a0193bb9cbe0",
+  "keep": true,
+  "reason": "'Product Owner / Business Analyst Monetique (H/F)' chez Devoteam: le Product Owner est une des familles demandees et le poste est ouvert a un profil ingenieur"
+ },
+ {
+  "key": "33494a455f8c",
+  "keep": true,
+  "reason": "'Ingénieur Commercial H/F' - Clayens NP Morocco - Plasturgie - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7f20fad40f24",
+  "keep": true,
+  "reason": "'Product Owner - IA' - HEOMI - Centre d'appels - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7521512fa224",
+  "keep": true,
+  "reason": "'Business Analyst - Telecom - Technopolis' - Informatique - Telecom : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f5ce5bcac0f5",
+  "keep": true,
+  "reason": "'Key Account Manager (H/F)' - Lamalif Group - BTP / Génie Civil - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "778fb72b0146",
+  "keep": true,
+  "reason": "'Business Development Manager - Industrie' - Lamalif Group - Indifférent - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "93eed32c1a18",
+  "keep": true,
+  "reason": "'Business Development Manager - CFO/CFA' - Lamalif Group - Electricité - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d898738970d5",
+  "keep": true,
+  "reason": "'Business Development Manager' chez Perenity Software: developpement commercial B2B d'un editeur, pas un poste de developpement logiciel"
+ },
+ {
+  "key": "848f15cf1701",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Chargé d'Affaires Grandes Entreprises' - Attijariwafa bank)"
+ },
+ {
+  "key": "9e9ea173ba61",
+  "keep": true,
+  "reason": "'Ingénieur Commercial Senior' - GSM AL MAGHRIB - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "604924bc8cc7",
+  "keep": true,
+  "reason": "'Chargé de développement commercial – accessoires et pneumatique' - CAC (Centrale Automobile Chérifienne) - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7ac2149c668c",
+  "keep": true,
+  "reason": "'Sales Representative – Heavy Vehicle Spare Parts' - XCDM Maroc - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "68030e07468f",
+  "keep": true,
+  "reason": "'Technico commercial en équipements médicaux cliniques' - Locamed - Matériel Médical : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "77376fd8b2f6",
+  "keep": true,
+  "reason": "'Technico commercial matériel respiratoire' - Locamed - Matériel Médical : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "003ee5939bf7",
+  "keep": true,
+  "reason": "'Technico-Commercial Bois / Agencement' - Revetou - Import / Export / Négoce : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "683ef6910aa1",
+  "keep": true,
+  "reason": "'Chargé d'affaires - Commercial grands comptes F/H' - HEOMI - Assurance / Courtage : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a8733c3c648e",
+  "keep": true,
+  "reason": "'Technico commercial terrain cliniques' - Locamed - Matériel Médical - Papier / Carton : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "214fa44c96dd",
+  "keep": true,
+  "reason": "'Technico commercial en ascenseurs escaliers et montecharges' - Locamed - Matériel Médical : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b20def1afd5d",
+  "keep": true,
+  "reason": "'Technico commercial en kinésithérapie' - Locamed - Matériel Médical : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "62d838becc08",
+  "keep": false,
+  "reason": "poste ouvert a Bac+2 ou en appui, sous le niveau d'un diplome d'ingenieur (lu: 'ASSISTANT(E) COMMERCIAL (B2B)' - Manpower Agences)"
+ },
+ {
+  "key": "fafdefe1f135",
+  "keep": true,
+  "reason": "'KEY ACCOUNT MANAGER H/F' - Sothema - Pharmacie / Santé - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cf708261c23d",
+  "keep": true,
+  "reason": "'KEY ACCOUNT MANAGER (H/F) – Robinetterie Industrielle / Transport de Fluides' - FIRM - Electro-mécanique / Mécanique - Electronique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fe3d460d1974",
+  "keep": true,
+  "reason": "'Key Account Manager - MG' - Jameel Motors - Automobile / Motos / Cycles - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "89d728a7ee53",
+  "keep": true,
+  "reason": "'Account Manager (H/F)' - Devink - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "476716dd3b51",
+  "keep": true,
+  "reason": "'Project Account Manager' - Hilti Maroc - BTP / Génie Civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "261aab7960bb",
+  "keep": true,
+  "reason": "'Account Manager H/F Casablanca' - Hilti Maroc - BTP / Génie Civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9ce564fd2e8d",
+  "keep": true,
+  "reason": "'Account Manager H/F Rabat' - Hilti Maroc - BTP / Génie Civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "05d6e4acf31a",
+  "keep": true,
+  "reason": "'Business Analyst CRMA' - Akkodis Maroc - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3f008fc1bb0f",
+  "keep": false,
+  "reason": "poste de centre d'appels / BPO: la vente s'y fait au telephone sur script, ce n'est pas de la vente technique (lu: 'Inside sales' - Marketing Call Center)"
+ },
+ {
+  "key": "6750f670f6f0",
+  "keep": true,
+  "reason": "'Sales Manager VUL' - Jameel Motors - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "387b21a6b95e",
+  "keep": false,
+  "reason": "vente au detail, en agence ou au particulier - ni B2B technique ni programme jeune diplome (lu: 'Conseiller(ère) Commercial(e) VUL' - Jameel Motors)"
+ },
+ {
+  "key": "f346756851d3",
+  "keep": true,
+  "reason": "'Responsable Export – Industrie Biscuitière' - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fc067aef067d",
+  "keep": true,
+  "reason": "'Sales Manager (H/F)' - Flormar - Distribution - Cosmétique / Parfumerie / Luxe : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3b1e276effa8",
+  "keep": false,
+  "reason": "'Charge(e) d'affaires Assurance credit' chez Coface: vente de solutions d'assurance-credit. L'annonce demande 'Bac+3 a Bac+5, 2-5 ans d'experience en B2B' sans aucune composante technique - un diplome d'ingenieur n'y ouvre rien de particulier"
+ },
+ {
+  "key": "24804a6a6c64",
+  "keep": false,
+  "reason": "'Charge(e) d'Affaires - Recouvrement de Creances' chez Coface: recouvrement, metier financier"
+ },
+ {
+  "key": "47e2327fab98",
+  "keep": true,
+  "reason": "'Commercial Terrain' - Agroalimentaire - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1f35f74a3463",
+  "keep": true,
+  "reason": "'Responsable Commercial(e) Grands Comptes (H/F)' - Sedec - BTP / Génie Civil - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e031747a95ad",
+  "keep": false,
+  "reason": "vente au detail, en agence ou au particulier - ni B2B technique ni programme jeune diplome (lu: 'Attaché Commercial - Marrakech & Agadir' - Manpower Agences)"
+ },
+ {
+  "key": "4b4908957142",
+  "keep": true,
+  "reason": "'Chef de Secteur GMS' - Sotherma - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "6ed6359e1fd3",
+  "keep": true,
+  "reason": "'Chef de Produit Senior - BYD' chez Auto Nejma: chef de produit automobile, famille Product"
+ },
+ {
+  "key": "15f09cd97cbd",
+  "keep": true,
+  "reason": "'Chef de secteur CHR' - Sotherma - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "86731ea7bb18",
+  "keep": true,
+  "reason": "'Chef de Secteur Commercial' - Ciments du Maroc - BTP / Génie Civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "59855bab292b",
+  "keep": true,
+  "reason": "'Business Analyst' - Groupe Label'Vie - Carrefour - Distribution : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1298a46a22d2",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst cybersécurité' - ALTEN Maroc)"
+ },
+ {
+  "key": "fd9f446bf9c7",
+  "keep": true,
+  "reason": "'Business Analyst Bilingue' - Maroc Climate and Security (MCS) - Carrier - Conseil / Etudes : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5bac6d625ae2",
+  "keep": true,
+  "reason": "'Data Analyst Sénior – BigQuery / BigTable / BI' - ALTEN Maroc - Autres services - Autres services : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "21ef478b8bc0",
+  "keep": true,
+  "reason": "'Data Analyst expérimenté – BigQuery / BigTable / BI' - ALTEN Maroc - Autres services - Autres services : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "268cb0d90a9a",
+  "keep": true,
+  "reason": "'Financial BI Analyst (M/F)' - Maroc Climate and Security (MCS) - Carrier - Conseil / Etudes : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2a565f3b7379",
+  "keep": true,
+  "reason": "'Product Owner (F/H)' - Sofrecom Maroc - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fb852949f319",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Chef de Projet Mainframe & Business Analyst (F/H)' - CGI Technologies et Solutions Maroc)"
+ },
+ {
+  "key": "eb7ab8e2133a",
+  "keep": true,
+  "reason": "'Data Analyste Sénior (H/F)' - Sothema - Internet / Multimédia - Pharmacie / Santé : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "32859d5d2404",
+  "keep": true,
+  "reason": "'Business Analyst' - Domino HR Morocco - Aéronautique / Spatial - Métallurgie / Sidérurgie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a0e96cdf7d49",
+  "keep": true,
+  "reason": "'Data Analyst' - CAC (Centrale Automobile Chérifienne) - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8eb0ac489388",
+  "keep": true,
+  "reason": "'Business Analyst Data' - Groupe Label'Vie - Carrefour - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d1e091bc35b7",
+  "keep": true,
+  "reason": "'Auditeur junior' - Fondation Arrawaj - Banque / Finance : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "63a5d8334e45",
+  "keep": true,
+  "reason": "'Audit interne' - Groupe Label'Vie - Carrefour - Distribution : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fd97db66d422",
+  "keep": true,
+  "reason": "'Auditeur Interne (H/F)' - Sorec - Comptabilité / Audit : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cb9dfd0425c0",
+  "keep": true,
+  "reason": "'Auditeur Interne' - Auto Nejma Maroc S.A. - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "52bb3558cc7f",
+  "keep": true,
+  "reason": "'Auditeur Interne Agronome Qualité (H/F)' - IB Arome - Agriculture / Environnement - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4e583f8b6b72",
+  "keep": true,
+  "reason": "'Directeur(trice) Audit Interne et Risques H/F' - Université Internationale de Rabat (UIR) - Conseil / Etudes - Enseignement / Formation : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b1e36f75ca77",
+  "keep": false,
+  "reason": "vente au detail, en agence ou au particulier - ni B2B technique ni programme jeune diplome (lu: 'Conseiller Commercial Automobile H/F – Casablanca' - Tractafric Motors Maroc)"
+ },
+ {
+  "key": "8aba62009474",
+  "keep": true,
+  "reason": "'Consultant Senior Banque (Conformité Bancaire / Trade Finance / Poste Agence) (H/F)' - Systema - Banque / Finance - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c287e2444577",
+  "keep": true,
+  "reason": "'Consultant Financier Confirmé - Finance et Transactions Services - F/H' - SFM - Conseil / Etudes : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3e9da340e256",
+  "keep": true,
+  "reason": "'Responsable Achats H/F' - Université Internationale de Rabat (UIR) - Enseignement / Formation : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3276c9510ad1",
+  "keep": true,
+  "reason": "'Acheteur IT Senior' - Agroalimentaire - Telecom : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ced830ca2ecb",
+  "keep": true,
+  "reason": "'Acheteur Senior' - Groupe Label'Vie - Carrefour - Distribution : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "984b51c7a1c5",
+  "keep": true,
+  "reason": "'Acheteur Import' - Energy Transfo - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7ff85896f5b1",
+  "keep": true,
+  "reason": "'Acheteur(se)' - CRIT - BTP / Génie Civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b532653a9873",
+  "keep": true,
+  "reason": "'Acheteur(se)' - FIGEAC Aero Maroc - Aéronautique / Spatial - Métallurgie / Sidérurgie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9b696499dd32",
+  "keep": true,
+  "reason": "'Acheteur Technique HAD SOUALEM' - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8ee2f6af220a",
+  "keep": true,
+  "reason": "'Acheteur junior' - Auto Nejma Maroc S.A. - Automobile / Motos / Cycles - Centre d'appels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "25912db15166",
+  "keep": true,
+  "reason": "'Acheteur' - Aya Gold & Silver - Extraction / Mines - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c5aa537faae1",
+  "keep": true,
+  "reason": "'Acheteur' - Bricoma - BTP / Génie Civil - Distribution : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "513554face46",
+  "keep": true,
+  "reason": "'Acheteur Import non Alimentaire' - Groupe Label'Vie - Carrefour - Agroalimentaire : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2a492cd5e765",
+  "keep": true,
+  "reason": "'Category Manager - Pièces de Rechange Automobile' - ORH Assessment - Automobile / Motos / Cycles - Import / Export / Négoce : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "6f5ba6a163c7",
+  "keep": true,
+  "reason": "'Category Manager' chez KITEA Group: gestion de categorie d'achat, famille Achats"
+ },
+ {
+  "key": "cc457c5f4cae",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Regional Category Manager' - Moore Casablanca)"
+ },
+ {
+  "key": "5eab84715cb8",
+  "keep": true,
+  "reason": "'Program Buyer H/F' - ALTEN Maroc - Automobile / Motos / Cycles - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c032b2b681c2",
+  "keep": true,
+  "reason": "'Procurement Specialist (H/F)' - Manpower Agences - Autres Industries : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0b199bf1fa63",
+  "keep": true,
+  "reason": "'Program Buyer' - ALTEN Maroc - Automobile / Motos / Cycles - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "95630fe9f63a",
+  "keep": true,
+  "reason": "'Aerospace Procurement Officer' - Capgemini Engineering - Aéronautique / Spatial : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f35c8d76968b",
+  "keep": true,
+  "reason": "'Procurement Specialist' - Domino HR Morocco - Hôtellerie / Restauration : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a751da3c9e20",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Product Owner / Scrum Master (F/H)– Domaine Finance' - CGI Technologies et Solutions Maroc)"
+ },
+ {
+  "key": "476274dabbe4",
+  "keep": true,
+  "reason": "'Product Manager (H/F)' chez Sothema: product management pharmaceutique"
+ },
+ {
+  "key": "d820de6413bc",
+  "keep": true,
+  "reason": "'Campus & Unified Communications Solution Product Manager' chez Orange Maroc: product management d'une offre telecom, famille Product demandee"
+ },
+ {
+  "key": "b3c826ddec48",
+  "keep": true,
+  "reason": "'IoT Solution Product Manager (H/F)' - Orange Maroc - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "61110790296a",
+  "keep": true,
+  "reason": "'Hosting & on-prem Cloud Solution Product Manager (H/F)' - Orange Maroc - Indifférent : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e8b9ca8fd84b",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Cybersecurity Solution Product Manager (H/F)' - Orange Maroc)"
+ },
+ {
+  "key": "d6aa7a34b52c",
+  "keep": true,
+  "reason": "'CHEF DE PRODUIT H/F' chez Sothema: chef de produit pharmaceutique"
+ },
+ {
+  "key": "fb47c88ced91",
+  "keep": true,
+  "reason": "'Data Analyst' - ALTEN Maroc - Automobile / Motos / Cycles - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "07c0164a381e",
+  "keep": true,
+  "reason": "'Data Analyst Sénior' - ALTEN Maroc - Autres services - Autres services : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ab2557fa3181",
+  "keep": true,
+  "reason": "'Sales Performance Analyst' - Groupe Label'Vie - Carrefour - Distribution : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4ca39f4d73ef",
+  "keep": true,
+  "reason": "'Data Analyst (F/H)' - Sofrecom Maroc - Informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "db426a73990f",
+  "keep": false,
+  "reason": "'Head Of Marketing & Customer Intelligence' chez KITEA Group: direction marketing"
+ },
+ {
+  "key": "7a8cec469ec4",
+  "keep": true,
+  "reason": "'Ingénieur développement Business Intelligence H/F' - Autres Industries - Autres services : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "deea3e5af5f8",
+  "keep": true,
+  "reason": "'Commercial B2B – Véhicules Utilitaires' - Manpower Agences - Automobile / Motos / Cycles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "bebe6f0bca19",
+  "keep": true,
+  "reason": "'Ingénieur d'Affaires (H/F)' - Algofi - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "53df3ad0f253",
+  "keep": true,
+  "reason": "'Senior Sales Engineer' - Beck & Pollitzer - Génie civil et Services d’ingénierie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d65f8c289d4a",
+  "keep": true,
+  "reason": "'Ingénieur(e) Technico-Commercial(e) – Responsable Agence Maroc H/F' - Dunasys - Fabrication de produits informatiques et électroniques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fd126f51811b",
+  "keep": true,
+  "reason": "'Pre-Sales Engineer - Africa Region - Building Automation' chez Honeywell: avant-vente technique sur des systemes de batiment"
+ },
+ {
+  "key": "ef68100c214b",
+  "keep": true,
+  "reason": "'Sales Engineer' chez Check Point Software: vente technique"
+ },
+ {
+  "key": "239e70705e16",
+  "keep": true,
+  "reason": "'Commercial(e) Avant-Vente' - HUMADE Group : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3ca203c3d1e5",
+  "keep": true,
+  "reason": "'Pre-Sales Engineer' chez Micro Conseil International: avant-vente technique"
+ },
+ {
+  "key": "bcd42ec6d37c",
+  "keep": true,
+  "reason": "'Ingénieur Commercial Service (H/F)' - Otis Elevator Co. : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "872b08baa5ee",
+  "keep": true,
+  "reason": "'KEY ACCOUNT MANAGER NORTH AFRICA' - SEMPERIT AG : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "94a443fff2e5",
+  "keep": true,
+  "reason": "'Client Account Manager - Morocco' - Lenovo : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5bbf59ffc549",
+  "keep": true,
+  "reason": "'KEY ACCOUNT MANAGER' - SOFADEX-PURATOS : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3cbecafe2baa",
+  "keep": true,
+  "reason": "'Key account Manager' - Abbott - Hôpitaux et services de santé : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "bd62f2515d55",
+  "keep": true,
+  "reason": "'Business Development Manager (Sales Development )' - Mondelēz International - Fabrication de produits alimentaires et boissons, Services de restauration et Industrie manufacturière : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "bc4dfb9b1270",
+  "keep": true,
+  "reason": "'Account Manager IT (Sales & Key Account Manager)' - Intelcom - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2cda0ec08e66",
+  "keep": true,
+  "reason": "'Technico-Commercial(e) B2B H/F' - DIORH HOLDING - Services d’impression : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4b050aefb073",
+  "keep": true,
+  "reason": "'Responsable Technico-Commercial (H/F)' - KWS Group - Agriculture et Recherche en biotechnologie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "85211f71474c",
+  "keep": true,
+  "reason": "'Technico-Commercial H/F (Rabat)' - Xpertize Africa - Industrie manufacturière, Fabrication de machines pour le commerce et les industries de services et Fabrication de composants pour l’industrie aéronautique et aérospatiale : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a3f55e18ea8d",
+  "keep": true,
+  "reason": "'Presales engineer' chez Alphorm: avant-vente technique"
+ },
+ {
+  "key": "fcc9a1bc4f13",
+  "keep": true,
+  "reason": "'Technico-Commercial(e) en Imprimerie & Solutions d'Impression H/F' - DIORH HOLDING - Services d’impression : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "32aaa900868f",
+  "keep": true,
+  "reason": "'Conseiller technico-commercial' - SEHI - Ingénierie mécanique ou industrielle : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c326c7694b3d",
+  "keep": true,
+  "reason": "'Technico-Commercial - Marrakech (F/H)' - Fonroche Lighting FR - Fabrication d’appareils d’éclairage électrique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2095f182c100",
+  "keep": true,
+  "reason": "'Technico-commercial Courant Fort/Courant Faible' - G4S : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "02fae426716f",
+  "keep": true,
+  "reason": "'Software Pre-Sales Engineer (Gulf Market)': avant-vente, poste commercial"
+ },
+ {
+  "key": "9a9965a0afbd",
+  "keep": true,
+  "reason": "'Représentant technico-commercial' - AIR CI : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "782e64694135",
+  "keep": true,
+  "reason": "'Ingénieur technico-commercial' - Claes Medical Service : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "46ff61d9a886",
+  "keep": true,
+  "reason": "'Technico-Commercial / Expert Matériel Électrique & Éclairage (H/F)' - Visionair - Votre partenaire au quotidien - Commerce de gros : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f3f00bf0cf95",
+  "keep": true,
+  "reason": "'Technico-Commercial - Fès' - Fonroche Lighting FR - Fabrication d’appareils d’éclairage électrique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f67126ba519a",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Chargé d'affaires restructuration (Banque de l'Entreprise)' - CIH BANK)"
+ },
+ {
+  "key": "2a840614bf30",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Chargé d'Affaires M&A H/F' - BMCE Capital)"
+ },
+ {
+  "key": "b05e25043dc9",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Chargé d'Affaires Leasing sur Casablanca (H/F)' - CREDIT DU MAROC)"
+ },
+ {
+  "key": "505a306fb5fa",
+  "keep": true,
+  "reason": "'Chargé d'Affaires Bâtiment (H/F)' - Bertrandt Group - Services d’ingénierie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b4ea7a7895c7",
+  "keep": true,
+  "reason": "'Chargé d'Affaires Cash et Trade H/F ( Casablanca/Tanger)' - CREDIT DU MAROC - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "71c6801ca567",
+  "keep": true,
+  "reason": "'Major Account Manager' - Palo Alto Networks - Sécurité informatique et des réseaux : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2a0721b1e26b",
+  "keep": true,
+  "reason": "'Sales Account Manager' - inDrive : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "af934c9d0b1b",
+  "keep": true,
+  "reason": "'Operations Manager - Telco B2B Sales' - TELUS Digital : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4f7f2fe65630",
+  "keep": true,
+  "reason": "'Responsable grands comptes' - FINANCITE INSTITUTE : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ca67f5753673",
+  "keep": true,
+  "reason": "'Technical Account Manager' - Holafly - Télécommunications : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0ddbddad1eab",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Senior Account Executive' - Huzzle.com)"
+ },
+ {
+  "key": "8c894f648363",
+  "keep": true,
+  "reason": "'Account Executive – Senior Manager – Fintech – Morocco, Tunisia, Algeria, Mauritania' - Visa - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "26cdafbbf324",
+  "keep": true,
+  "reason": "'CHANNEL ACCOUNT MANAGER' - Sage - Développement de logiciels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "10be9cc4cb74",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Customer Success Manager/Account Manager' - Huzzle.com)"
+ },
+ {
+  "key": "a9162890d1d6",
+  "keep": true,
+  "reason": "'Account Manager' - Midis Group - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d659736b0cd9",
+  "keep": true,
+  "reason": "'Account Manager' - Plutus21 Partners - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1449c7bb5e83",
+  "keep": true,
+  "reason": "'Account Manager' - Yakeey - Développement de logiciels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0268612ec791",
+  "keep": true,
+  "reason": "'Account Manager - Administratif & SAV / Suivi client - H/F_ Marrakech_ACS' - L3M HOLDING - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4cc7722f7ac8",
+  "keep": true,
+  "reason": "'Senior Enterprise Account Executive - Morocco & Africa' - Palo Alto Networks : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "317257044188",
+  "keep": false,
+  "reason": "'SENIOR SOCIAL ACCOUNT MANAGER' chez Hexagone Digitale: gestion de comptes reseaux sociaux"
+ },
+ {
+  "key": "e33c318ba2f6",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Account Executive - Remote' - Huzzle.com)"
+ },
+ {
+  "key": "05272f591585",
+  "keep": true,
+  "reason": "'Account Executive, Inside Sales' - Dell Technologies - Fabrication de produits informatiques et électroniques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9ca0eff7ff6f",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Account Executive (Remote, B2B SaaS, uncapped commission)' - 100Hires.com - Attract, Interview, and Hire the Best Candidates Faster by Using AI)"
+ },
+ {
+  "key": "22a654f8cdb3",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Full-cycle Account Executive (HVAC)' - Huzzle.com)"
+ },
+ {
+  "key": "b3b7dcdd9532",
+  "keep": true,
+  "reason": "'Sales Solutions Consultant' - tesselate - Banques d’investissement, Services bancaires et Services financiers : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "034888deffb5",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Account Executive (Marketing)' - Huzzle.com)"
+ },
+ {
+  "key": "460d10fecb83",
+  "keep": true,
+  "reason": "'Account Executive (B2B)' - Holafly - Télécommunications : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "236738d17b7e",
+  "keep": true,
+  "reason": "'Enterprise Account Executive - New (AI Pilled)' - Curacel (YC 22) - Technologies et services de l’information : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a8d129c146f3",
+  "keep": true,
+  "reason": "'Business Developer Finance' - Attijariwafa bank : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "50d8b978d734",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: '[MAROC][CASABLANCA] Business Developer ERP-H/F' - Smile)"
+ },
+ {
+  "key": "701179441b75",
+  "keep": true,
+  "reason": "'Business Development Manager - Morocco' - Eskimi : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "05780ec36c6b",
+  "keep": true,
+  "reason": "'Business Development Manager' - A.P. Moller - Maersk : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "933d2dd102c3",
+  "keep": true,
+  "reason": "'BUSINESS DEVELOPER - MAROC (F/H)' - Gerflor - Matériaux de construction : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "39625d1dafa7",
+  "keep": true,
+  "reason": "'Business Development Manager – Material Handling & Ports – AIM' - Michelin - Fabrication de véhicules automobiles, Industrie manufacturière et Fabrication de machines : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "df681ac16a70",
+  "keep": true,
+  "reason": "'Business Development Manager - Morocco (Resume must be in English)' - Mamoru - Édition en ligne : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a8b5ca210427",
+  "keep": true,
+  "reason": "'Business Developer IT' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4d294ca6087b",
+  "keep": true,
+  "reason": "'Business Development Manager' - Dahua Technology Co. LTD - Fabrication d’équipements audio et vidéo : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f19773cc67ea",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst & Développeur' - Société Générale)"
+ },
+ {
+  "key": "24ad70d2721c",
+  "keep": true,
+  "reason": "'Business Development Manager' - Arrow Components - Technologie, information et Internet : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d8803de78609",
+  "keep": true,
+  "reason": "'Business Development Manager (IQSIGHT) - Morocco' - Keenfinity Group - Ingénierie mécanique ou industrielle : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d08a87eaab52",
+  "keep": true,
+  "reason": "'Business developer BtoB' - Silkhom | LUNOPA Group - Fabrication de machines industrielles et Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cca5add448a2",
+  "keep": true,
+  "reason": "'Business Development Manager' - Arrow Electronics : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5044ada05285",
+  "keep": false,
+  "reason": "metier RH ou recrutement (lu: 'Business Development Manager (Student Recruitment)' - GEDU Global Education)"
+ },
+ {
+  "key": "8dfdd668468e",
+  "keep": true,
+  "reason": "'Senior Business Developer (H/F)' - Percall Group : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f7fc59c39782",
+  "keep": true,
+  "reason": "'Business Development Manager (Morrocco)' - SMOOTHH® : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "abe441e9f347",
+  "keep": true,
+  "reason": "'Business Development Manager - OM & PPP - Africa' - Egis en Afrique - Génie civil : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d12efc7983a5",
+  "keep": true,
+  "reason": "'Business Developer – Pôle Efficience (H/F)' - Leyton - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "499cebaeaa1f",
+  "keep": false,
+  "reason": "metier RH ou recrutement (lu: 'Business Development Manager for International Student Recruitment' - Global University Systems)"
+ },
+ {
+  "key": "aacead434e02",
+  "keep": true,
+  "reason": "'Channel Business Development Manager' - Optimize Integration Group (OIG) - Transport, logistique, chaîne logistique et stockage : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "6bbcd88e5787",
+  "keep": true,
+  "reason": "'Chef de secteur' - Newrest - Services de restauration : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7042814dc6c2",
+  "keep": true,
+  "reason": "'Chef de produit' - CASHPLUS - Services financiers : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0d3b3a08e00b",
+  "keep": true,
+  "reason": "'Chargé d’Affaires et Concepteur CAD – Faisceaux' - ARRA-ENGINEERING : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0f496e57d1b9",
+  "keep": true,
+  "reason": "'Analytics Graduate Program - Client Capabilities Network' - McKinsey & Company : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "422e1487af71",
+  "keep": true,
+  "reason": "'Graduate Program Controleur de gestion F/H' chez VINCI Construction: c'est un programme jeunes diplomes, l'une des quatre familles demandees, et VINCI ouvre les siens aux ecoles d'ingenieurs"
+ },
+ {
+  "key": "a319e280b169",
+  "keep": true,
+  "reason": "'Business Analyst Program - Casablanca' - McKinsey & Company : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "be07b784fbf7",
+  "keep": true,
+  "reason": "'Business Analyst' - BMCI Groupe BNP Paribas : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f6436245fcae",
+  "keep": true,
+  "reason": "'Business Analyst' - RMA - Royale Marocaine d'Assurance - Assurances et Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ea8631203ee8",
+  "keep": true,
+  "reason": "'Business Analyst' - LabelVie - Commerce de détail : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2bbdb70b2277",
+  "keep": true,
+  "reason": "'Business Analyst' - kenzup - Édition en ligne : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "015f594468f5",
+  "keep": true,
+  "reason": "'Business Analyst (HIS / Healthcare)' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "78ed0e4db498",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst HRSD' - Astek)"
+ },
+ {
+  "key": "f0522a27929b",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst SIRH' - LabelVie)"
+ },
+ {
+  "key": "4a99ef8d6945",
+  "keep": true,
+  "reason": "'Data Business Analyst (H/F)' - LabelVie - Commerce de détail : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b14c074b7e6d",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst AMOA' - BROME Consulting & Technology)"
+ },
+ {
+  "key": "80bfb8a7d166",
+  "keep": true,
+  "reason": "'Business Analyst' - Sofitel : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e6c926225f97",
+  "keep": true,
+  "reason": "'Business Modeler / Business Analyst' - Orange Business : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f7ec8d29a07b",
+  "keep": true,
+  "reason": "'Business Analyst – Outbound Communications' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5dad12bb6390",
+  "keep": true,
+  "reason": "'PMO Business Analyst' - Capgemini Engineering : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4f2c372d3eca",
+  "keep": true,
+  "reason": "'Business Analyst (BA) Assets' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b4b98f5836ae",
+  "keep": false,
+  "reason": "metier RH ou recrutement (lu: 'Consultant Junior – People Strategy & Transformation | CDI | F/H' - KPMG au Maroc)"
+ },
+ {
+  "key": "ac01eec0d8ac",
+  "keep": true,
+  "reason": "'Consultant Junior - Fonction Finance F/H' - KPMG au Maroc - Services financiers : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9ad6a5928cd5",
+  "keep": true,
+  "reason": "'Consultant Junior - Fonction Finance' - PwC - Services professionnels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c7902e9dfd2c",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Consultant Junior AMOA' - BROME Consulting & Technology)"
+ },
+ {
+  "key": "2466c202f491",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Consultant Junior Tax et Legal' - PwC au Maroc)"
+ },
+ {
+  "key": "660683341d39",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Consultant Junior Support Applicatif - Secteur Bancaire F/H' - KPMG au Maroc)"
+ },
+ {
+  "key": "d945a8de100f",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Consultant Junior - Actuariat Vie F/H' - KPMG au Maroc)"
+ },
+ {
+  "key": "481f3339796e",
+  "keep": true,
+  "reason": "'Digital Data Analyst (H/F)' - Attijariwafa bank - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1e2a18685ca0",
+  "keep": true,
+  "reason": "'Consultant Junior Audit des Systemes d'Information F/H' chez Deloitte: c'est le programme d'entree en audit d'un Big4, une des voies classiques d'un diplome d'ingenieur, meme si l'objet audite est un SI"
+ },
+ {
+  "key": "03d733eac5a1",
+  "keep": true,
+  "reason": "'Associate Data Analyst' - JHC Consulting : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "98ca82bc3538",
+  "keep": false,
+  "reason": "metier de la finance: les annonces lues demandent une formation finance, commerce ou comptabilite, pas un diplome d'ingenieur (lu: 'Consultant Junior en Expertise Comptable' - PwC)"
+ },
+ {
+  "key": "267e1b71d50f",
+  "keep": true,
+  "reason": "'Business Analyst Corporate' - Saham Bank (Officiel) : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4c98e6580a0d",
+  "keep": true,
+  "reason": "'BUSINESS ANALYST SENIOR' - RED TIC : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "eda77a14ba38",
+  "keep": true,
+  "reason": "'Business Analyst Confimés et séniors - Banking' - Adria Business & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5af43943bd23",
+  "keep": true,
+  "reason": "'Business Analyst Senior' - Orange Business - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b6d974c77a52",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst Senior AMOE/MOE – Banque d'Investissement' - GEC _ Global Experts Consulting)"
+ },
+ {
+  "key": "719b0f59b5e0",
+  "keep": true,
+  "reason": "'Consultant Business Analyst Senior – Stratégie, Go-to-Market & Operating Model' - GEC _ Global Experts Consulting - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "63513c9bb633",
+  "keep": true,
+  "reason": "'Business Analyst Senior' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "65e1f982b558",
+  "keep": true,
+  "reason": "'Auditeur Junior H/F' - Deloitte - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a1c2e78a8be7",
+  "keep": true,
+  "reason": "'Auditeur Financier Junior (H/F) - PwC Services' - PwC au Maroc - Services financiers : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9c42d88be272",
+  "keep": true,
+  "reason": "'Auditeur Junior – Marché Canadien |F/H' - KPMG au Maroc : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "dc6480ed8f49",
+  "keep": true,
+  "reason": "'Auditeur Interne Junior' - SEWS-CABIND : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c97bbdf2faf9",
+  "keep": true,
+  "reason": "'Audit Interne' - LabelVie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f34f358e6488",
+  "keep": true,
+  "reason": "'Auditeur Interne (H/F)' - CFG Bank : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f185a266e36a",
+  "keep": true,
+  "reason": "'Auditeur Interne Junior' - Sumitomo Electric : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "892f30f16bee",
+  "keep": true,
+  "reason": "'Auditeur Interne H/F' - Mobilize Financial Services : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e3265be73b60",
+  "keep": true,
+  "reason": "'Acheteur Fournisseur' - Scalian - Développement de logiciels et Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8171734a4a3a",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Product Owner / Scrum Master (F/H)– Domaine Finance' - CGI)"
+ },
+ {
+  "key": "6701eaf490f4",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Chef de Projet Mainframe & Business Analyst (F/H)' - CGI)"
+ },
+ {
+  "key": "e001a1a6a12a",
+  "keep": true,
+  "reason": "'Consultant Power BI Confirmé / Senior (H/F)' - CGI - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "16ae4093b82b",
+  "keep": true,
+  "reason": "'Acheteur Packaging (H/F)' - Danone - Industrie manufacturière, Services de restauration et Fabrication de produits alimentaires et boissons : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5b6ee4645a21",
+  "keep": true,
+  "reason": "'Acheteur' - TotalEnergies - Industrie pétrolière et gazière : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "88cb67682350",
+  "keep": true,
+  "reason": "'Acheteur' - TotalEnergies : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "936b30acc3a2",
+  "keep": true,
+  "reason": "'Acheteur ANM' - Confidential : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8053c1f5341c",
+  "keep": true,
+  "reason": "'Buyer' - Alstom : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e201713ca737",
+  "keep": true,
+  "reason": "'Acheteur Senior' - LabelVie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c2cf7eea87b1",
+  "keep": true,
+  "reason": "'Acheteur' - Saham Bank (Officiel) : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "22524497cffa",
+  "keep": true,
+  "reason": "'Acheteur - Achats Généraux, CAPEX & Prestations de services' - Expleo Group : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "13033e5e7589",
+  "keep": true,
+  "reason": "'Acheteur Opérationnel / Operational Buyer – Achats Indirects & Supply Chain' - TRIGO - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c0c44375f661",
+  "keep": true,
+  "reason": "'Acheteur Projet' - SEGULA Technologies : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "435ad3b6652e",
+  "keep": true,
+  "reason": "'Acheteur Technique (H/F) Expérimenté(e) – Poste basé a Berrechid' - MA LOGISTICS : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "322206a65edf",
+  "keep": true,
+  "reason": "'Acheteur Expert | Secteur Bancaire' - GEC _ Global Experts Consulting - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0a10e0d58147",
+  "keep": true,
+  "reason": "'Acheteur' - SEWS-CABIND - Fabrication d’équipements automobiles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b47e7dff59db",
+  "keep": true,
+  "reason": "'Acheteur' - SEWS-CABIND - Fabrication d’équipements automobiles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "00d4f3057489",
+  "keep": true,
+  "reason": "'Acheteur' - Palais Jamai Fes - Hôtellerie et Services financiers : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "dffc91c43a63",
+  "keep": true,
+  "reason": "'Acheteur ( H/F)' - VINCI Construction - Construction : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b9ced0289cdb",
+  "keep": true,
+  "reason": "'Acheteur ( H/F)' - VINCI - Construction : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f3aaef21dc2e",
+  "keep": true,
+  "reason": "'Acheteur Projet CDP' - Hutchinson : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4ef9002090f1",
+  "keep": true,
+  "reason": "'Acheteur Direct' - Snop - Groupe FSD : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9cb0c0aa2091",
+  "keep": true,
+  "reason": "'Acheteur Commodité BIW' - Renault Group : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9a7c62edf1fd",
+  "keep": true,
+  "reason": "'Buyer SMW' - Alstom : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1ddd6ecd03c5",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Acheteur Junior' - Catenon)"
+ },
+ {
+  "key": "6c4aaea9ccb8",
+  "keep": true,
+  "reason": "'Junior Buyer' - Capgemini Engineering : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "655d1cd3a0dc",
+  "keep": true,
+  "reason": "'Category Manager' - LabelVie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b6cf97cd163c",
+  "keep": false,
+  "reason": "poste ouvert a Bac+2 ou en appui, sous le niveau d'un diplome d'ingenieur (lu: 'Assistant Category Manager' - LabelVie)"
+ },
+ {
+  "key": "dd5ed8024743",
+  "keep": true,
+  "reason": "'CATEGORY MANAGER GSC' - JTI - Industrie manufacturière, Services de restauration et Fabrication de tabac : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "159eaf41d04e",
+  "keep": true,
+  "reason": "'Category Manager / Manager Commercial B2B' chez Intelcia Tech: le corps decrit la vente B2B de services d'infrastructure et de cloud a des entreprises - c'est du commercial technique, pas de l'exploitation informatique"
+ },
+ {
+  "key": "d6de785ae804",
+  "keep": false,
+  "reason": "'Media Buyer (publicite payante / Ads)': achat d'espace publicitaire, rien a voir avec les achats industriels"
+ },
+ {
+  "key": "4c0da680a2b0",
+  "keep": false,
+  "reason": "'Media Buyer' publie par Huzzle.com: achat d'espace publicitaire, et employeur non nomme"
+ },
+ {
+  "key": "9aa66ed5eed9",
+  "keep": false,
+  "reason": "'Advertising Media Buyer': achat d'espace publicitaire"
+ },
+ {
+  "key": "c1ef1bf0fedf",
+  "keep": true,
+  "reason": "'Commodity Buyer' - Renault Group - Fabrication de véhicules automobiles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a1ffd75f805e",
+  "keep": true,
+  "reason": "'Aerospace Procurement Officer' - Capgemini : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9dce505392f0",
+  "keep": false,
+  "reason": "'(fluent English) Implementation Consultant (B2B Client Onboarding)' chez SupportYourApp: onboarding client d'un prestataire de support externalise"
+ },
+ {
+  "key": "a30022966838",
+  "keep": true,
+  "reason": "'Procurement Specialist' - Solenis : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ecd8fb30c61c",
+  "keep": true,
+  "reason": "'Procurement Analyst' - Capgemini : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f6ed367fd774",
+  "keep": true,
+  "reason": "'Strategic Sourcing Manager M/F/X' - PIP Global Safety : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "27ed57ae986c",
+  "keep": true,
+  "reason": "'Product Owner' - Saham Bank (Officiel) : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "773192cb54f9",
+  "keep": true,
+  "reason": "'PRODUCT OWNER' - RED TIC - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3beebda9c50d",
+  "keep": true,
+  "reason": "'Product Owner' - LabelVie - Services de gestion stratégique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2ce0c43d2e36",
+  "keep": true,
+  "reason": "'Product Owner - MAROC - F/H' - Onepoint - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5e66f7b79902",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Proxy Product Owner' - Wafa Assurance)"
+ },
+ {
+  "key": "168da42564c9",
+  "keep": true,
+  "reason": "'Product Owner (F/H) - Casablanca' - Sofrecom Maroc - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f4532d69d7f6",
+  "keep": true,
+  "reason": "'Product Owner' - Dedalus - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0b5aa3715dfb",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Proxy Product Owner' - Astek)"
+ },
+ {
+  "key": "103d15401811",
+  "keep": true,
+  "reason": "'Product Owner Application Mobile' - Royal Air Maroc : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3c0450fbe063",
+  "keep": true,
+  "reason": "'PRODUCT OWNER - RELATION CLIENT' - CIH BANK : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "62cf1b894f81",
+  "keep": true,
+  "reason": "'Product Owner' - Capgemini : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8d9a22a372ea",
+  "keep": true,
+  "reason": "'Product Owner' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "afa997fc422d",
+  "keep": true,
+  "reason": "'Head of Product / Product Owner — Conformité AML' - Adria Business & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "769dc9a99d28",
+  "keep": true,
+  "reason": "'Technical Product Owner (TPO)' - AXONE - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9b8f571654d2",
+  "keep": true,
+  "reason": "'PRODUCT OWNER - RETAIL & DIGITAL BANKING' - CIH BANK - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a5f05c5d50cd",
+  "keep": true,
+  "reason": "'PRODUCT OWNER - CORPORATE BANKING' - CIH BANK - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "951f88ba212f",
+  "keep": true,
+  "reason": "'Product Owner - Cash Management & Moyens de Paiement' - CIH BANK - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c121d6d3ecf5",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'PROXY PRODUCT OWNER' - RED TIC)"
+ },
+ {
+  "key": "644419a6912c",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Consultant Proxy Product Owner Senio' - GEC _ Global Experts Consulting)"
+ },
+ {
+  "key": "be6f25833d6b",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Product Owner - Cegid HR' - Matys, A Cegid Company)"
+ },
+ {
+  "key": "729ed15ffd9c",
+  "keep": true,
+  "reason": "'Product Owner - Crédit' - CIH BANK - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e54a8801791e",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Proxy Product Owner - SharePoint / OneDrive' - HCLTech)"
+ },
+ {
+  "key": "144a4a9eec30",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Product Owner IAM Journey' - Orange Business)"
+ },
+ {
+  "key": "0eef0f0bc845",
+  "keep": true,
+  "reason": "'Product Manager' - Samsung Electronics - Fabrication d’appareils électroménagers, électriques et électroniques, Commerce de gros de matériel électrique et électronique et Commerce de détail d’appareils électriques et électroniques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0d56c9e9ec08",
+  "keep": true,
+  "reason": "'Product Manager - Casablanca CDI - Theodo Maroc' - Theodo - Technologies et services de l’information : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cc5c3a5007d3",
+  "keep": true,
+  "reason": "'Product Manager' - kenzup - Édition en ligne : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "1a689c65cf18",
+  "keep": true,
+  "reason": "'Product Manager' - Hikma Pharmaceuticals - Recherche en biotechnologie et Fabrication de produits pharmaceutiques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "bca123b3a683",
+  "keep": true,
+  "reason": "'Product Manager Segment Pro (H/F)' - Orange Maroc - Télécommunications : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4fc01bf236e3",
+  "keep": true,
+  "reason": "'Product Manager' - Harmattan AI : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e8e56b43b821",
+  "keep": true,
+  "reason": "'Senior Product Manager' - Yassir : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8a6e097af5b7",
+  "keep": true,
+  "reason": "'Product Manager- Strategic Partnerships' - Holafly : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "150f57f5b916",
+  "keep": true,
+  "reason": "'Senior Product Manager - LMD' - Yassir : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d2b9cab73138",
+  "keep": true,
+  "reason": "'Power BI Reporting & Data Analyst' - Swissport : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "607c4042485e",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'DATA ANALYST – QLIK SENSE' - RED TIC)"
+ },
+ {
+  "key": "f774c1baf62f",
+  "keep": true,
+  "reason": "'Business Data Analyst' - Yakeey : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ade44d80a863",
+  "keep": true,
+  "reason": "'Data Analyst' - HCLTech : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7b0cf068951c",
+  "keep": true,
+  "reason": "'Data Analyst' - Attijariwafa bank : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "079b1b0cf80a",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'DATA ANALYST ITSM/CMDB SERVICENOW' - RED TIC)"
+ },
+ {
+  "key": "4a49e100665e",
+  "keep": true,
+  "reason": "'[MAROC][CASABLANCA] DATA Analyst H/F' - Smile : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2bb044f57f2a",
+  "keep": true,
+  "reason": "'DATA ANALYST' - CIH BANK - Services bancaires : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4ef4e558f566",
+  "keep": false,
+  "reason": "'IT & Data Analyst INTERN': un stage, exclu par la regle permanente du classeur"
+ },
+ {
+  "key": "df23a511d8d6",
+  "keep": true,
+  "reason": "'Application & Data Analyst' - Tractafric Equipment : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f65b100cc652",
+  "keep": true,
+  "reason": "'DATA ANALYST SÉNIOR' - RED TIC : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e11d9fcf33af",
+  "keep": true,
+  "reason": "'Senior Data Analyst' - Smollan : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0d712bc632f7",
+  "keep": true,
+  "reason": "'Data Analyst Sénior (H-F)' - SQLI : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9059077d3a00",
+  "keep": false,
+  "reason": "'Web Data Analyst Annotator': le corps dit 'annotate web-based datasets used in training Artificial Intelligence and Large Language Models' - c'est une prestation d'annotation"
+ },
+ {
+  "key": "915b7c38fc10",
+  "keep": true,
+  "reason": "'Consultants DATA (PO / Data Analyst)' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "74c2b10c555c",
+  "keep": true,
+  "reason": "'Consultant Data Analyst Senior | Power BI' - GEC _ Global Experts Consulting : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0c304de7f910",
+  "keep": true,
+  "reason": "'Senior Data Analyst' - Yakeey : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "68ea1178ee18",
+  "keep": false,
+  "reason": "'Legal Data Analyst' chez Odixcity Consulting: analyse de donnees juridiques"
+ },
+ {
+  "key": "aa8bd42d6a2b",
+  "keep": true,
+  "reason": "'Expert Data analyst' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "870eeb3da554",
+  "keep": true,
+  "reason": "'BI ANALYST JUNIOR' - TRIGO - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4023ba93a846",
+  "keep": true,
+  "reason": "'Business Intelligence Manager' - Stellantis Middle East & Africa - Fabrication de véhicules automobiles : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cccdcacaf221",
+  "keep": true,
+  "reason": "'Business Intelligence Analyst (H/F)' - ALTEN - Développement de logiciels et Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "53af7c529a64",
+  "keep": true,
+  "reason": "'Freelance - Data & AI Automation Consultant (Power BI & Business Intelligence)' - Y STRATEGIE - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "35b5681baa7a",
+  "keep": true,
+  "reason": "'Expert en Business intelligence BI' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a3b085f43590",
+  "keep": true,
+  "reason": "'Business Analyst Junior (H/F) - Anglophone' - Capgemini : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2ada488db0bb",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst (CBS Amplitude)' - BROME Consulting & Technology)"
+ },
+ {
+  "key": "f7228b845566",
+  "keep": true,
+  "reason": "'Consultante / Consultant Power BI Senior' - Capgemini - Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "85317c858fa0",
+  "keep": true,
+  "reason": "'Pre-Sales Senior Consultant (ERP/CRM)': avant-vente, donc commercial, meme si le produit est un progiciel"
+ },
+ {
+  "key": "5feb37dc0e3d",
+  "keep": true,
+  "reason": "'B2B Sales Representative' - Teltonika : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b8c0dc37b20a",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'B2B Sales Development Representative' - Huzzle.com)"
+ },
+ {
+  "key": "e32bc20e28f8",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Business Development Representative' - ELVTR)"
+ },
+ {
+  "key": "ec173bdf41cf",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Business Development Representative (BDR)' - Huzzle.com)"
+ },
+ {
+  "key": "4949ace1889c",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Business Development Representative' - Huzzle.com)"
+ },
+ {
+  "key": "fdef0777e2ce",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Business Development Representative - Logistics (UK Market)' - Huzzle.com)"
+ },
+ {
+  "key": "4240b9114b6d",
+  "keep": false,
+  "reason": "'Business Development Representative - Cybersecurity Sector' publie par Huzzle.com, un agregateur - l'employeur reel n'est pas nomme"
+ },
+ {
+  "key": "36384950f18a",
+  "keep": true,
+  "reason": "'Inside Sales Representative' - Sage : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e2e44c36f259",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Business Development Representative - Cybersecurity' - Huzzle.com)"
+ },
+ {
+  "key": "f5be43311911",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Inside Sales Representative' - ELVTR)"
+ },
+ {
+  "key": "da97d98f8ec1",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Inside Sales Representative' - Net2Source Inc.)"
+ },
+ {
+  "key": "c3620ed92d53",
+  "keep": true,
+  "reason": "'Inside Sales Associate (English speaker)' - Arrow Electronics - Technologie, information et Internet : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8d8f92ed3c80",
+  "keep": true,
+  "reason": "'INSIDE SALES CYBERSECURITE' chez RED TIC: le poste est commercial, la cybersecurite en est le produit vendu"
+ },
+ {
+  "key": "b2147282737d",
+  "keep": true,
+  "reason": "'Inside Sales Representative - Retention & Réabonnement' - Sage - Développement de logiciels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4be9e6ed2fe5",
+  "keep": true,
+  "reason": "'Inside Sales Associate (English speaker)' - Arrow Components : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d22de28f0dfb",
+  "keep": true,
+  "reason": "'Inside Sales Representative (Spanish Speaker)' - Arrow Electronics : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8a76fae91ed2",
+  "keep": false,
+  "reason": "l'employeur affiche est une plateforme d'annonces ou un cabinet de sourcing, pas le recruteur final - le classeur n'accepte pas un nom de job board dans la colonne Entreprise (lu: 'Solutions Engineer - Morocco (French-Speaking, Remote)' - Talkpush)"
+ },
+ {
+  "key": "9bb68534eb01",
+  "keep": true,
+  "reason": "'Ingenieur Avant-vente Solutions Services' chez Orange Business: avant-vente technique"
+ },
+ {
+  "key": "fd0fc1ab0b7b",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Catalog Data Solutions Engineer' - Orange Business)"
+ },
+ {
+  "key": "f2fcf5e98251",
+  "keep": true,
+  "reason": "'Sr. Presales Engineer-Data/Mobile Solutions' chez Orange Business: avant-vente technique"
+ },
+ {
+  "key": "c9a49adb1283",
+  "keep": true,
+  "reason": "'Senior Business Analyst (HIS / Healthcare)' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ed6718ac8c11",
+  "keep": true,
+  "reason": "'Consultant Business Analyst Senior' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "384535b5833f",
+  "keep": false,
+  "reason": "'Manager Deals - Transaction Services' chez PwC: fusions-acquisitions, metier financier"
+ },
+ {
+  "key": "94f4668f0883",
+  "keep": false,
+  "reason": "'Consultant experimente Transaction Services Immobilier F/H' chez Deloitte: valorisation d'actifs immobiliers, metier financier"
+ },
+ {
+  "key": "9eae1460f0e0",
+  "keep": false,
+  "reason": "'Senior Manager Deals - Transaction Services' chez PwC: idem"
+ },
+ {
+  "key": "8a4a9f6e4647",
+  "keep": false,
+  "reason": "'Manager Deals - Transaction Services' chez PwC: idem"
+ },
+ {
+  "key": "99412ed21593",
+  "keep": false,
+  "reason": "'Manager en Transaction Services F/H' chez Deloitte: idem"
+ },
+ {
+  "key": "0186afc6c2ef",
+  "keep": false,
+  "reason": "'Ex-MBB Strategy Consultant - AI Training (Remote)' chez Mindrift: prestation d'entrainement de modeles d'IA"
+ },
+ {
+  "key": "451bbe4c0cf9",
+  "keep": false,
+  "reason": "'Business Central Financials Management Consultant' chez sa.global: conseil sur un progiciel financier Microsoft"
+ },
+ {
+  "key": "b05e39cbc933",
+  "keep": false,
+  "reason": "'F&O Supply Chain Management Consultant' chez sa.global: conseil sur le module Supply Chain de Dynamics 365, poste progiciel"
+ },
+ {
+  "key": "91286980db6b",
+  "keep": true,
+  "reason": "'Buyer, Procurement Operations (Raw & Packaging Materials)' - Hikma Pharmaceuticals - Fabrication de produits pharmaceutiques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2955e6f9cbfb",
+  "keep": true,
+  "reason": "'NPI Strategic Buyer' - Eaton : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0a00c3c74392",
+  "keep": true,
+  "reason": "'Program Buyer' - ALTEN : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "23d6c07ba63c",
+  "keep": true,
+  "reason": "'Project Buyer (Thermal Activity) M/F' - Valeo : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "20798538f6bb",
+  "keep": true,
+  "reason": "'Buyer - Advanced Procurement' - TE Connectivity - Fabrication d’appareils électroménagers, électriques et électroniques : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a5bb6814d9e8",
+  "keep": true,
+  "reason": "'Business Analyst Data – Finance (Microsoft Fabric / Power BI)' - Inetum - Développement de logiciels : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a8dfe50fe9f6",
+  "keep": true,
+  "reason": "'Business Analyst – Sales Efficiency' - Société Générale : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "6caa600150fd",
+  "keep": true,
+  "reason": "'Business Analyst – BMP Claims' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a154497f27db",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Cybersecurity Business Analyst' - NGBS)"
+ },
+ {
+  "key": "23635402f81e",
+  "keep": false,
+  "reason": "'SEO Account Manager' chez Hexagone Digitale: referencement web"
+ },
+ {
+  "key": "f9bd6bf77396",
+  "keep": true,
+  "reason": "'Account Executive - French Speaker' - goFLUENT - Fournisseurs d’apprentissage en ligne : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3fa603d97cba",
+  "keep": true,
+  "reason": "'Business Developer - French Speaker' - goFLUENT - Fournisseurs d’apprentissage en ligne : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9ea3af316281",
+  "keep": true,
+  "reason": "'Business Development Executive - ATM Network' - Euronet Payments Infrastructure - Technologie, information et Internet : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2ecd38192752",
+  "keep": true,
+  "reason": "'Business Analyst Sinistre Automobile' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "33ea8d01cb0d",
+  "keep": true,
+  "reason": "'Business Analyst Asset Investissement (Confirmé)' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8fc78009b825",
+  "keep": true,
+  "reason": "'Business Analyst – Engineering Inspection Services' - BROME Consulting & Technology : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "fa317d259600",
+  "keep": true,
+  "reason": "'Senior Business Analyst' - BROME Consulting & Technology - Services et conseil aux entreprises : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7a63f73cf559",
+  "keep": true,
+  "reason": "'Auditeur Junior & Technical Reviewer' - Bureau Veritas - Services de conseil en environnement : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2dac0dddfd2b",
+  "keep": true,
+  "reason": "'Aftermarket Buyer' - Capgemini Engineering - Services d’ingénierie : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d53e3574b139",
+  "keep": true,
+  "reason": "'Acheteur(se) Senior' - Parthenon Holding : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "53f59f4c0273",
+  "keep": true,
+  "reason": "'Acheteur(se) SENIOR' - CIH BANK : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5216f86ac5ee",
+  "keep": true,
+  "reason": "'Junior Spanish-speaking International Buyer' - Ozeol : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b1783907556f",
+  "keep": true,
+  "reason": "'Procurement Analyst' - Capgemini Engineering : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8bfc0fa088bf",
+  "keep": false,
+  "reason": "'Quantitative Risk Analyst / Data Analyst' chez CIH BANK: modelisation du risque bancaire, metier finance quantitative"
+ },
+ {
+  "key": "f0cf45b2b93d",
+  "keep": true,
+  "reason": "'Inside Sales Representative (Spanish Speaker)' - Arrow Components : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "3ace89c7064b",
+  "keep": true,
+  "reason": "'Inside Sales Associate (English & French Speaker )' - Arrow Components : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "96a7a41d7f74",
+  "keep": true,
+  "reason": "'Inside Sales Associate (Benelux)' - Arrow Electronics : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "27948385d170",
+  "keep": true,
+  "reason": "'Inside Sales Associate (English & French Speaker )' - Arrow Electronics : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "44e54dc3db1e",
+  "keep": true,
+  "reason": "'Inside Sales – French Market' - goFLUENT : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "05e44f631ee6",
+  "keep": true,
+  "reason": "'Inside Sales Representative (Italian Speaker)' - Arrow Components - Technologie, information et Internet : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "96b1d7370eb3",
+  "keep": true,
+  "reason": "'Inside Sales Associate (Italian Speaker)' - Arrow Components - Technologie, information et Internet : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d3094b6a270e",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Business Analyst – SAP Finance' - BROME Consulting & Technology)"
+ },
+ {
+  "key": "f8d2a9bff340",
+  "keep": true,
+  "reason": "'Senior Sales Data Analyst' - Arrow Components : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e215b2c80fa5",
+  "keep": true,
+  "reason": "'Acheteur BOP BIW' - Renault Group : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "918f6d3c54ed",
+  "keep": true,
+  "reason": "'Buyer - NPI' - TE Connectivity : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "76c5b450b8ac",
+  "keep": true,
+  "reason": "'Business Development Representative (H/F)' - MyUnisoft - Comptabilité : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a8cab2240a6c",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Data Scientist / Data Engineer / Business Analyst' - HCLTech)"
+ },
+ {
+  "key": "faf3fed2d7de",
+  "keep": true,
+  "reason": "'Data Analyst Sénior – BigQuery / BigTable / BI' - ALTEN : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c0a70fb014a6",
+  "keep": true,
+  "reason": "'Data Analyst Sénior' - ALTEN : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8d59189ae44f",
+  "keep": true,
+  "reason": "'Data Analyst expérimenté – BigQuery / BigTable / BI' - ALTEN - Développement de logiciels et Services et conseil en informatique : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7cc0449693de",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: '- Data Scientist / Data Engineer with Business Analyst activities' - HCLTech)"
+ },
+ {
+  "key": "446b5e4849a1",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'CONSULTANT INTERMEDIAIRE CRM DYNAMICS SENIOR' - RED TIC)"
+ },
+ {
+  "key": "1cca61e1ca63",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Consultant senior Microsoft Dynamics 365 CRM (F/H)' - SQLI)"
+ },
+ {
+  "key": "c5a423e13121",
+  "keep": true,
+  "reason": "'Acheteur(se)' - Fairmont Hotels & Resorts : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "86325fd87c4e",
+  "keep": true,
+  "reason": "'Chargé d'affaires BTP' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a0e9a2ef0f59",
+  "keep": true,
+  "reason": "'Responsable Technico-Commercial – CMS' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "98fb374f1a74",
+  "keep": true,
+  "reason": "'Responsable Offre & Avant-Vente – Managed Office' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "06b74b558bb9",
+  "keep": true,
+  "reason": "'Responsable offre & avant-vente – integrated securité' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "93091bf1a267",
+  "keep": true,
+  "reason": "'Responsable Offre & Avant-Vente – Smart Experience' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d419cc35fb9f",
+  "keep": true,
+  "reason": "'Ingénieur Technico-commercial - CASABLANCA' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4c139cb294fd",
+  "keep": true,
+  "reason": "'Ingénieur Technico-Commercial' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "30f536ac2848",
+  "keep": true,
+  "reason": "'Sales engineer' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "35a975c431a6",
+  "keep": true,
+  "reason": "'Commercial /technico commercial' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "4bd90f43501f",
+  "keep": true,
+  "reason": "'Chargé d'affaires sénior' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b1a8c13c3721",
+  "keep": false,
+  "reason": "'Charge d'Affaires (RH)': l'intitule place lui-meme le poste aux ressources humaines"
+ },
+ {
+  "key": "efa4d8e06e06",
+  "keep": true,
+  "reason": "'Key account manager / casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "45eca627ca23",
+  "keep": true,
+  "reason": "'Account manager - systèmes de vidéo surveillance' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5579151305f6",
+  "keep": false,
+  "reason": "'B2b senior business developer / bac+2': l'intitule fixe lui-meme le niveau a Bac+2"
+ },
+ {
+  "key": "a0bc2181b19a",
+  "keep": true,
+  "reason": "'Business Developer - Systèmes de vidéosurveillance' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "360a75cbfd6f",
+  "keep": true,
+  "reason": "'Business Developer – Data Center en CDD (H/F)' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d325eb39963d",
+  "keep": true,
+  "reason": "'Commercial B2B – Maintenance Industrielle Casa' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "cfa01a3d8d0a",
+  "keep": true,
+  "reason": "'Responsable Grands Comptes & Marketing (H/F)' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "65e54b9b8ec8",
+  "keep": true,
+  "reason": "'Commercial B2B – Dar Bouazza' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2448af92d75a",
+  "keep": true,
+  "reason": "'Responsable achats (H/F) – Casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "487504da85f2",
+  "keep": true,
+  "reason": "'Technico-commercial - système de vidéosurveillance / tanger' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "d8879c0c1a9d",
+  "keep": true,
+  "reason": "'Business Analyst' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e21e8175c249",
+  "keep": true,
+  "reason": "'Business Analyst - Casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "47f416c50a1a",
+  "keep": true,
+  "reason": "'Acheteur confirmé' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "efdc4e58f483",
+  "keep": true,
+  "reason": "'Acheteur Expérimenté' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "7637bd1a1938",
+  "keep": true,
+  "reason": "'Acheteur Import (H/F)' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "ed0002d61a75",
+  "keep": true,
+  "reason": "'Acheteur Expérimenté (H/F) Casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "e55eed0d1976",
+  "keep": true,
+  "reason": "'Acheteur (H/F) – Casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "75e0d324f7c1",
+  "keep": true,
+  "reason": "'Acheteur(se)-El Jadida' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "afbe7501d7ed",
+  "keep": true,
+  "reason": "'Acheteur' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2ba7cf874b06",
+  "keep": true,
+  "reason": "'Acheteur - Intérim 6 mois - Ain Sebaâ' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f6682ac89017",
+  "keep": true,
+  "reason": "'Un(e) Acheteur(se) debutante': achat, et l'annonce vise explicitement un profil debutant"
+ },
+ {
+  "key": "780d2a80809a",
+  "keep": true,
+  "reason": "'Acheteur projet - casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "a1840b35faae",
+  "keep": true,
+  "reason": "'Acheteur Famille' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "8bfcf07c5672",
+  "keep": true,
+  "reason": "'Acheteur - Casablanca' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "552a63ff3c3a",
+  "keep": true,
+  "reason": "'ACHETEUR' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b41ee1a60afb",
+  "keep": true,
+  "reason": "'Acheteur / tanger' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9086995b25e6",
+  "keep": true,
+  "reason": "'Acheteur' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "54b6ccbf6cd8",
+  "keep": true,
+  "reason": "'Acheteur (se) H/F Rabat' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "422cff8f7418",
+  "keep": true,
+  "reason": "'RECRUTEMENT ACHETEUR' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "f59503d1f285",
+  "keep": true,
+  "reason": "'Acheteur' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "801288e84fd5",
+  "keep": true,
+  "reason": "'Acheteur' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "986cf19054c4",
+  "keep": true,
+  "reason": "'Acheteur (H/F)' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "c7f55495da9e",
+  "keep": true,
+  "reason": "'Acheteur Senior - CASABLANCA' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b094ce6a2577",
+  "keep": true,
+  "reason": "'ACHETEUR SENIOR JORF LAASFAR' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2c0159cc3e0c",
+  "keep": true,
+  "reason": "'Acheteur junior jorf laasfar / bac+5': achat, junior, Bac+5"
+ },
+ {
+  "key": "744598e9fc01",
+  "keep": true,
+  "reason": "'Responsable achats - Tanger' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2d470b5e3a23",
+  "keep": true,
+  "reason": "'Product Manager en CDD (H/F)' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "9874e14c0c3f",
+  "keep": true,
+  "reason": "'Data Analyst' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "5f7e4e876c73",
+  "keep": true,
+  "reason": "'DATA ANALYST (F/H)- CASABLANCA' : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "2ddb15165cb3",
+  "keep": false,
+  "reason": "le sujet du poste est un systeme d'information ou un progiciel: c'est un metier informatique, qui appartient a une autre recherche que celle-ci (lu: 'Lead Business Analyst-Automation/ RPA')"
+ },
+ {
+  "key": "0e504b327326",
+  "keep": false,
+  "reason": "'Business Analyst en Supply Chain | 100% Teletravail | 2500 Dh/jour' chez Flow: mission freelance en supply chain, deja portee par la piste genie industriel"
+ },
+ {
+  "key": "89d7e5af9685",
+  "keep": false,
+  "reason": "'INGENIEUR CHARGE D'AFFAIRES MOYENS INDUSTRIELS AUTOMOBILE' chez ALTEN: charge d'affaires au sens ingenierie des moyens industriels, pas au sens commercial - c'est un poste de la piste genie industriel, ou il figure deja"
+ },
+ {
+  "key": "27da3a9ce3e1",
+  "keep": false,
+  "reason": "'Michoc recrute un Acheteur et un Responsable Supply Chain': annonce groupee deja presente sur la feuille genie industriel"
+ },
+ {
+  "key": "ee3144d359d1",
+  "keep": false,
+  "reason": "vente au detail, en agence ou au particulier - ni B2B technique ni programme jeune diplome (lu: 'Conseiller Commercial - Tanger' - Sketch Design Maroc)"
+ },
+ {
+  "key": "36bb0c5b5df1",
+  "keep": true,
+  "reason": "'Commercial Francophone en B2B - Meknès' - Logicat & Evccat : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "b931811e047d",
+  "keep": false,
+  "reason": "vente au detail, en agence ou au particulier - ni B2B technique ni programme jeune diplome (lu: 'Responsable Commercial(e) – Showroom - Rabat' - Sketch Design Maroc)"
+ },
+ {
+  "key": "e89bedcb8e4c",
+  "keep": true,
+  "reason": "'Senior Business Developer | Casablanca (Morocco)' - Rekrute : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ },
+ {
+  "key": "0912ba88f464",
+  "keep": true,
+  "reason": "'Ingénieur Chargé d'Affaires (H/F)' - MONDIAL FEU : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+ }
+]

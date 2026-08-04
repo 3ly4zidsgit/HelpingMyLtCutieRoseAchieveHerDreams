@@ -40,10 +40,54 @@ https://apply.workable.com/api/v1/widget/accounts/{c}?details=true
 https://{c}.teamtailor.com/jobs.json
 ```
 
+```
+https://{c}.jobs.personio.de/search.json
+```
+
 Confirmed live with Morocco postings: **alten** (by far the richest),
 lesaffre, abbvie, rolandberger, assystem, thales, continental (SmartRecruiters);
 flex, bcg (Greenhouse); geodis, teleperformance, ey, accenture (Recruitee);
 delphi (Ashby); safrangroup (Workable).
+
+Added 2026-08-04 for the business track: **mazars** (SmartRecruiters 100 +
+Recruitee 3), **grantthornton** (Recruitee 89), **devoteam** (SmartRecruiters
+100), **oliverwyman** (Lever), **hpe** (Personio). Lever, Personio and Teamtailor
+had been documented and probed here for a year without ever having a loop in
+`scrape.ats` — they do now.
+
+The slug lists in `scrape.py` are defaults; a spec adds its own with
+`"ats": {"lever": ["oliverwyman"], ...}` so a second track does not have to edit
+the file and does not drag the first track's employers along.
+
+### Career sites of the big multinationals — the discovery recipe
+
+Do **not** guess a Workday tenant. `research/probe_bypass.py` tried 20 across
+3 hosts and got nothing; a later probe returned **422** (not 404) from danone,
+jti and mars on every site name tried. Read the status code: 404 means "look
+elsewhere", 422 or 500 means "the route is there, your request is wrong" — i.e.
+the tenant exists and only the site path is missing, and the site path is written
+in the URL the company itself links to.
+
+`research/probe_careers.py` does that: fetch `<domain>/careers` (and `/jobs`,
+`/fr/carrieres`...), follow the redirects, and read the ATS host out of the final
+URL and out of every link on the page — Workday `{tenant}.wd{N}.myworkdayjobs.com`,
+SuccessFactors `career{N}.successfactors.{eu,com}`, Taleo, Avature, Eightfold,
+iCIMS, Oracle `/hcmUI/CandidateExperience/`. Output: `careers_hosts.json`.
+
+Results on 2026-08-04, and they are mostly negative — worth knowing before
+spending a day on it. Full write-up in `data_business/careers_verdicts.md`:
+
+| | |
+|---|---|
+| Unilever | Workday reachable, real site names read off their page, **0 Morocco postings**. No scraper written: a board with nothing in it is dead code. |
+| Schneider Electric | `careers.se.com/api/jobs` answers 200 with real jobs but its **geographic filters do not work** (`country=Morocco` returns a Cairo job). Already covered via SmartRecruiters anyway. |
+| Dell | careers page points at Oracle Cloud Recruiting; host not resolved over plain HTTP. `dell.wd1...` answers 200 with total 0. |
+| Deloitte | three different boards by country, none of them the Morocco entity. |
+| P&G, Nestle, Danone, Siemens, Mars, JTI, Coca-Cola, Henkel, L'Oreal, PwC, KPMG, Capgemini, OCP, Managem, Attijariwafa, Maroc Telecom | no public board reachable over plain HTTP — JS-rendered or behind a WAF. |
+
+**The practical route to these employers is the LinkedIn guest search**, which is
+why the business spec's `queries_en` carries employer-anchored probes
+("graduate program Morocco", "management trainee Casablanca").
 
 Two traps:
 - SmartRecruiters throttles **at the TLS layer** (`SSL: UNEXPECTED_EOF`) when

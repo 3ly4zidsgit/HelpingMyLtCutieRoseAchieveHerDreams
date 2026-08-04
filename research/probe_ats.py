@@ -38,6 +38,19 @@ COMPANIES = [
  "decathlon", "ikea", "inditex", "hm", "leroymerlin", "amazon", "tesla",
  # tech maroc / offshore
  "intelcia", "webhelp", "concentrix", "teleperformance", "majorel", "sitel",
+ # ---- piste business (commercial / graduate / conseil / achats) -------------
+ # jamais sondes jusqu'ici. Ces employeurs sont ceux que la proprietaire du
+ # classeur a cites nommement, plus les cabinets qui recrutent des ingenieurs
+ # sans experience. Un slug qui ne repond pas ne coute rien; un slug devine qui
+ # repond est verifiable, donc utilisable.
+ "pg", "procterandgamble", "pgcareers", "dell", "delltechnologies", "dellemc",
+ "mars", "marsinc", "marswrigley", "jti", "jtinternational", "henkel", "loreal",
+ "beiersdorf", "reckittbenckiser", "heineken", "diageo", "britishamericantobacco",
+ "capgemini", "capgeminiinvent", "kearney", "wavestone", "alvarezandmarsal",
+ "oliverwyman", "strategyand", "eyparthenon", "grantthornton", "mazars", "bdo",
+ "sia-partners", "siapartners", "valyans", "lms-orh", "devoteam", "sqli",
+ "salesforce", "sap", "oracle", "cisco", "hp", "hpe", "lenovo", "ibm",
+ "schneiderelectric-careers", "sew-eurodrive", "endress", "trane",
 ]
 
 ENDPOINTS = [
@@ -97,7 +110,9 @@ if __name__ == "__main__":
             pass
     ma = [h for h in HITS if h["morocco"]]
     print(f"\n{len(HITS)} live ATS feeds | {len(ma)} mention Morocco")
-    json.dump(HITS, open("data/ats_hits.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    out = sys.argv[1] if len(sys.argv) > 1 else "data/ats_hits.json"
+    json.dump(HITS, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"-> {out}")
     print("\n--- feeds mentioning Morocco ---")
     for h in sorted(ma, key=lambda x: -x["jobs"]):
         print(f"  {h['company']:22s} {h['ats']:15s} {h['jobs']:5d}  {h['url']}")

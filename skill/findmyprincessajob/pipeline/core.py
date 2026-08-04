@@ -31,8 +31,17 @@ class Run:
             self.spec = json.load(f)
         self.specialty = self.spec["specialty"]
         self.outdir = self.spec["outdir"]
-        self.datadir = os.path.join(self.outdir, "data")
+        # One workbook can carry several searches ("tracks"). Each needs its OWN
+        # data directory: every verdict file below has a global name
+        # (curation_verdicts.json, field_verdicts.json...), so two specs sharing a
+        # directory destroy each other's rulings on the first curate.
+        self.track = self.spec.get("track", "lean")
+        self.datadir = self.spec.get("datadir") or os.path.join(self.outdir, "data")
         os.makedirs(self.datadir, exist_ok=True)
+        # The ticks are the one thing the user writes herself, and they belong to
+        # the WORKBOOK, not to a search. Every track points at the same file.
+        self.applied_path = (self.spec.get("applied_path")
+                             or os.path.join(self.outdir, "data", "applied.json"))
         self.queries_fr = self.spec.get("queries_fr", [])
         self.queries_en = self.spec.get("queries_en", [])
         self.queries = self.queries_fr + self.queries_en
@@ -41,6 +50,7 @@ class Run:
         self._context = [re.compile(p) for p in self.spec.get("context", [])]
         self._offdomain = [re.compile(p) for p in self.spec.get("offdomain", [])]
         self._exclude = [re.compile(p) for p in self.spec.get("exclude_titles", [])]
+        self.offdomain_hard = bool(self.spec.get("offdomain_hard"))
 
     # ---- relevance -------------------------------------------------------
     def relevance(self, title, body=""):
@@ -74,6 +84,17 @@ class Run:
         if any(p.search(title) for p in self._exclude):
             return False
         if any(p.search(title) for p in self._offdomain):
+            # `score >= 10` is the right escape hatch for a single search: a title
+            # that says "commercial" but scores 10 on Lean vocabulary is worth a
+            # look. It is the WRONG rule when two tracks share a workbook - each
+            # track's offdomain is the other track's subject, so the escape hatch
+            # lets both claim the same offer. A track that shares says so with
+            # "offdomain_hard": true, and its offdomain becomes a veto - lifted
+            # only when the title *explicitly* names one of this track's own roles,
+            # which is what keeps a "Charge de Pilotage Commercial et Excellence
+            # Operationnelle" from being lost by both searches at once.
+            if self.offdomain_hard:
+                return any(p.search(title) for p in self._strong)
             return score >= 10
         if score >= 10:
             return True
@@ -101,7 +122,7 @@ FIELDS = ("source job_title company recruiter_or_hr hr_title hr_profile contact_
           "company_email company_website location_city country remote contract_type "
           "experience_required education_level sector function date_posted date_posted_iso "
           "deadline deadline_iso positions salary url description_snippet keywords_matched "
-          "seniority_bucket remote_verdict remote_reason").split()
+          "seniority_bucket remote_verdict remote_reason track").split()
 
 
 def blank(**kw):

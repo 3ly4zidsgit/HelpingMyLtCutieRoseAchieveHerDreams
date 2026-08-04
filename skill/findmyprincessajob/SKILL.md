@@ -1,6 +1,6 @@
 ---
 name: findmyprincessajob
-description: Find real, currently-open job offers for a given specialty across Moroccan and international job boards, verify which remote roles are genuinely 100% remote with no visa or work-permit requirement, and deliver them as a 4-sheet Excel (Maroc junior / Maroc expérimenté / Remote junior / Remote expérimenté). Adds to the existing workbook instead of overwriting it. Use when asked to find jobs, search job offers, refresh the job list, or run findmyprincessajob for a specialty.
+description: Find real, currently-open job offers for a given specialty across Moroccan and international job boards, verify which remote roles are genuinely 100% remote with no visa or work-permit requirement, and deliver them as an Excel split by zone and by experience level (Maroc junior / Maroc expérimenté / Remote junior / Remote expérimenté). Several specialties can share one workbook, each on its own sheets. Adds to the existing workbook instead of overwriting it. Use when asked to find jobs, search job offers, refresh the job list, add a second kind of role to the workbook, or run findmyprincessajob for a specialty.
 ---
 
 # findmyprincessajob
@@ -61,6 +61,11 @@ Rules that matter:
   rule, so `build` applies it to rows already in the workbook too, not only to
   the fresh scrape. **Write the plural**: `\bstagiaire\b` leaves every
   "Stagiaires Génie Industriel" in place.
+- **`track`** / **`datadir`** / **`applied_path`** / **`morocco_only`** /
+  **`sources`** / **`offdomain_hard`** / **`ats`** = the keys that let a second
+  search share one workbook. All optional; all documented in
+  `references/TRACKS.md`. `datadir` stops being optional the moment `track` is
+  set, because every verdict filename is a global constant.
 - **`publish_dir`** (optional) = a synced folder (Google Drive Desktop, OneDrive)
   the workbook is copied to after every build. An emailed attachment is frozen at
   the moment it was sent; a link into a synced folder shows the current file. Use
@@ -244,12 +249,21 @@ python run.py build <outdir>/spec.json
 Reads any existing workbook at `excel_path`, merges the new rows into it,
 deduplicates on URL then title+company, and rewrites the four sheets:
 
-| Sheet | Contents |
-|---|---|
-| MAROC - JUNIOR | Morocco, experience floor is zero or the ad is silent |
-| MAROC - AVEC EXPERIENCE | Morocco, the ad demands a non-zero floor |
-| REMOTE - JUNIOR | verdict OK, junior |
-| REMOTE - AVEC EXPERIENCE | verdict OK, experienced |
+| Sheet | Track | Contents |
+|---|---|---|
+| MAROC - JUNIOR | lean | Morocco, experience floor is zero or the ad is silent |
+| MAROC - AVEC EXPERIENCE | lean | Morocco, the ad demands a non-zero floor |
+| REMOTE - JUNIOR | lean | verdict OK, junior |
+| REMOTE - AVEC EXPERIENCE | lean | verdict OK, experienced |
+| COMMERCIAL & CONSEIL - JUNIOR | business | Morocco, floor zero or silent |
+| COMMERCIAL & CONSEIL - AVEC EXP | business | Morocco, non-zero floor |
+
+One workbook can carry several searches. A **track** is one spec.json with its
+own keywords, regexes, verdict files and sheets — see
+`references/TRACKS.md` before adding or building one. The short version: a second
+track needs `"track"`, its own `"datadir"`, a shared `"applied_path"`, and
+`"offdomain_hard": true`; and `do_build` sets the other track's rows aside before
+the three steps that would otherwise delete them.
 
 **The list only grows.** Back up the workbook to `<outdir>/backup/` with a
 timestamp before running build.

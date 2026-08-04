@@ -1,0 +1,1247 @@
+[
+ {
+  "id": 0,
+  "key": "ee2efad13f7f",
+  "verdict": "REJET",
+  "reason": "'You will spend significant time on manufacturing floors' - poste sur site, Californie"
+ },
+ {
+  "id": 1,
+  "key": "ba7b4176bd71",
+  "verdict": "REJET",
+  "reason": "Cabinet base a Hartford (USA), missions de conseil chez le client; aucune mention de remote ni d'ouverture hors USA"
+ },
+ {
+  "id": 2,
+  "key": "8ed546ffe59b",
+  "verdict": "REJET",
+  "reason": "'UK or Ireland home base... Travel: ~90% - onsite at customer plants Monday to Friday'"
+ },
+ {
+  "id": 3,
+  "key": "8762775ee870",
+  "verdict": "REJET",
+  "reason": "Amelioration des procedes de fabrication sur le site de Fort Mill (USA), aucune mention de remote"
+ },
+ {
+  "id": 4,
+  "key": "45d26eb02967",
+  "verdict": "REJET",
+  "reason": "Poste rattache au site de Maastricht (Pays-Bas); l'annonce ne dit rien de l'eligibilite hors UE"
+ },
+ {
+  "id": 5,
+  "key": "7aaa0c7df7f4",
+  "verdict": "REJET",
+  "reason": "Assureur sante americain, remote a l'interieur des Etats-Unis; aucune ouverture mondiale annoncee"
+ },
+ {
+  "id": 6,
+  "key": "1ef556fba459",
+  "verdict": "REJET",
+  "reason": "Poste base a Birmingham (UK), coaching 'we partner with manufacturing plants' - presence en usine"
+ },
+ {
+  "id": 7,
+  "key": "02fb016698a0",
+  "verdict": "REJET",
+  "reason": "'Redegate USA has been engaged...' - missions de conseil aux Etats-Unis, aucune mention de remote mondial"
+ },
+ {
+  "id": 8,
+  "key": "eee85c927895",
+  "verdict": "REJET",
+  "reason": "Poste americain (US Anesthesia Partners), aucune mention d'eligibilite hors USA"
+ },
+ {
+  "id": 9,
+  "key": "76f57460bfb7",
+  "verdict": "REJET",
+  "reason": "'100% Remote' mais poste rattache a Prosper, Texas; l'annonce ne dit rien du droit de travailler aux USA - le silence ne vaut pas autorisation"
+ },
+ {
+  "id": 10,
+  "key": "9262e0fb024f",
+  "verdict": "REJET",
+  "reason": "'Technical partner to warehouse operations' sur les entrepots de la value stream, poste localise a Varsovie"
+ },
+ {
+  "id": 11,
+  "key": "c3ee08224d42",
+  "verdict": "REJET",
+  "reason": "Poste en Allemagne, aucune mention de teletravail ni d'eligibilite hors UE"
+ },
+ {
+  "id": 12,
+  "key": "642ab3feb6ce",
+  "verdict": "REJET",
+  "reason": "Localisation 'Munich Office' - poste rattache au bureau de Munich"
+ },
+ {
+  "id": 13,
+  "key": "ce02c69abb68",
+  "verdict": "REJET",
+  "reason": "Poste rattache aux operations des Philippines"
+ },
+ {
+  "id": 14,
+  "key": "73058233e771",
+  "verdict": "REJET",
+  "reason": "'The function exists to... embeds the production system on the manufacturing floor', sites de Charlottetown et Windsor (Canada)"
+ },
+ {
+  "id": 15,
+  "key": "cfa7463c6a88",
+  "verdict": "REJET",
+  "reason": "Poste americain, aucune mention de remote ni d'ouverture internationale"
+ },
+ {
+  "id": 16,
+  "key": "c87c9c1db43c",
+  "verdict": "REJET",
+  "reason": "Poste rattache au site Alstom de La Rochelle (France)"
+ },
+ {
+  "id": 17,
+  "key": "88c02bc9b222",
+  "verdict": "REJET",
+  "reason": "'Location: Bremervorde, DE, Neumunster, DE...' - le remote s'entend depuis un des sites allemands"
+ },
+ {
+  "id": 18,
+  "key": "1a6bc5432708",
+  "verdict": "REJET",
+  "reason": "'Location: China (Relocation support available for international candidates)' - relocalisation exigee"
+ },
+ {
+  "id": 19,
+  "key": "af6465d885de",
+  "verdict": "REJET",
+  "reason": "'This role may be based at Brink's Headquarters in Coppell, TX, or within the Midwest/Mid-Atlantic operating region'"
+ },
+ {
+  "id": 20,
+  "key": "a0effb994a7d",
+  "verdict": "REJET",
+  "reason": "Divisions Horlogerie et Parfums basees en Suisse, poste a Neuchatel"
+ },
+ {
+  "id": 21,
+  "key": "665a54957924",
+  "verdict": "REJET",
+  "reason": "Formation et coaching sur site chez les manufacturiers membres, poste en Alberta (Canada)"
+ },
+ {
+  "id": 22,
+  "key": "d76843936c38",
+  "verdict": "REJET",
+  "reason": "'This role is offered as a remote position to be home-based, with travel requirements, across either the US or Canada'"
+ },
+ {
+  "id": 23,
+  "key": "18109e5e79aa",
+  "verdict": "REJET",
+  "reason": "'Primary Location: Home Based (Canada or US)' - remote limite a deux pays"
+ },
+ {
+  "id": 24,
+  "key": "5f3e7de2966c",
+  "verdict": "REJET",
+  "reason": "Recherche executive americaine, aucune mention de remote ni d'eligibilite hors USA"
+ },
+ {
+  "id": 25,
+  "key": "aa21b5e03527",
+  "verdict": "REJET",
+  "reason": "'Location: Remote within Canada'"
+ },
+ {
+  "id": 26,
+  "key": "5b0f0952013d",
+  "verdict": "REJET",
+  "reason": "Startup americaine avec operations physiques de vaulting; aucune mention d'ouverture hors USA"
+ },
+ {
+  "id": 27,
+  "key": "189451481c8b",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Austin (USA), aucune mention de remote mondial"
+ },
+ {
+  "id": 28,
+  "key": "038a87703370",
+  "verdict": "REJET",
+  "reason": "Poste rattache au site de La Mesa (Californie)"
+ },
+ {
+  "id": 29,
+  "key": "0e295e66bdea",
+  "verdict": "REJET",
+  "reason": "'Location: Remote - Ontario'"
+ },
+ {
+  "id": 30,
+  "key": "76a606cabd83",
+  "verdict": "REJET",
+  "reason": "'Location: Remote - Ontario'"
+ },
+ {
+  "id": 31,
+  "key": "89d854587f12",
+  "verdict": "REJET",
+  "reason": "'Location: Remote in Canada'"
+ },
+ {
+  "id": 32,
+  "key": "4099fa0bc976",
+  "verdict": "REJET",
+  "reason": "Poste rattache a l'Espagne, aucune mention d'eligibilite hors UE"
+ },
+ {
+  "id": 33,
+  "key": "ccb9a0c25f21",
+  "verdict": "REJET",
+  "reason": "'Location: Germany. Work model: Remote, with occasional travel' - remote limite a l'Allemagne"
+ },
+ {
+  "id": 34,
+  "key": "93f1946709bc",
+  "verdict": "REJET",
+  "reason": "Poste rattache au Texas, aucune mention d'ouverture hors USA"
+ },
+ {
+  "id": 35,
+  "key": "39aff8f196a8",
+  "verdict": "REJET",
+  "reason": "'a position within Maquet Cardiopulmonary GmbH in the Operations department at the Rastatt or Hechingen site'"
+ },
+ {
+  "id": 36,
+  "key": "155853c1fcbf",
+  "verdict": "REJET",
+  "reason": "Poste rattache a l'Angleterre, aucune mention de remote mondial"
+ },
+ {
+  "id": 37,
+  "key": "4764317f001a",
+  "verdict": "REJET",
+  "reason": "'Observer les processus sur le terrain (Gemba)' - presence usine exigee, site de Courtepin (Suisse)"
+ },
+ {
+  "id": 38,
+  "key": "c443508bb129",
+  "verdict": "REJET",
+  "reason": "'Einsatzort: Wien oder Bad Schonau... LEAN Besprechungen auf der Baustelle' - animation sur chantier"
+ },
+ {
+  "id": 39,
+  "key": "4b621392bedb",
+  "verdict": "REJET",
+  "reason": "Cabinet americain, contact principal des clients hopitaux sur site; aucune ouverture hors USA"
+ },
+ {
+  "id": 40,
+  "key": "b925e3c41068",
+  "verdict": "REJET",
+  "reason": "Poste 'im Suden Deutschlands' - secteur geographique allemand, mobiles Arbeiten depuis l'Allemagne"
+ },
+ {
+  "id": 41,
+  "key": "c6ee4a0f94f1",
+  "verdict": "REJET",
+  "reason": "Poste 'im Norden Deutschlands' - secteur geographique allemand"
+ },
+ {
+  "id": 42,
+  "key": "8a65e10cc66a",
+  "verdict": "REJET",
+  "reason": "Poste americain (Honeywell Aerospace), aeronautique de defense, aucune ouverture hors USA"
+ },
+ {
+  "id": 43,
+  "key": "4241d9fe7153",
+  "verdict": "REJET",
+  "reason": "Poste americain chez un assureur sante, aucune mention d'eligibilite hors USA"
+ },
+ {
+  "id": 44,
+  "key": "035a7776645d",
+  "verdict": "REJET",
+  "reason": "'a high-impact federal contact center program' - programme federal americain, habilitation et residence US implicites"
+ },
+ {
+  "id": 45,
+  "key": "0dabed49f3bf",
+  "verdict": "REJET",
+  "reason": "Poste rattache a l'Espagne pour des projets d'infrastructure au Portugal - presence sur site"
+ },
+ {
+  "id": 46,
+  "key": "eb836808cdd4",
+  "verdict": "REJET",
+  "reason": "Conseil aupres d'agences gouvernementales americaines, poste a Atlanta"
+ },
+ {
+  "id": 47,
+  "key": "e18829e6affd",
+  "verdict": "REJET",
+  "reason": "'act as floating PFM during PFM turnover or transition periods in APAC' - presence sur les sites, Hong Kong"
+ },
+ {
+  "id": 48,
+  "key": "b26365090053",
+  "verdict": "REJET",
+  "reason": "Poste americain sur des sites de production, aucune mention de remote"
+ },
+ {
+  "id": 49,
+  "key": "6a7195650066",
+  "verdict": "REJET",
+  "reason": "'Our partner is looking for a Process Improvement Project Analyst Principal based in United States'"
+ },
+ {
+  "id": 50,
+  "key": "179dbc8adfdf",
+  "verdict": "REJET",
+  "reason": "'Location: Remote - US based candidates only, no visa sponsorship available'"
+ },
+ {
+  "id": 51,
+  "key": "1e404a2818e3",
+  "verdict": "REJET",
+  "reason": "'Location: Remote - US based candidates only, no visa sponsorship available'"
+ },
+ {
+  "id": 52,
+  "key": "43064a9472c2",
+  "verdict": "REJET",
+  "reason": "Poste americain (Phoenix), aucune mention d'ouverture hors USA"
+ },
+ {
+  "id": 53,
+  "key": "87e1ea291c8e",
+  "verdict": "REJET",
+  "reason": "Poste chez un industriel de defense americain a Orlando - habilitation et citoyennete US requises dans ce secteur"
+ },
+ {
+  "id": 54,
+  "key": "dc2d84f8e5cb",
+  "verdict": "REJET",
+  "reason": "'MSIG Europe - Brussels or Amstelveen or Paris' - poste rattache a un de ces trois bureaux"
+ },
+ {
+  "id": 55,
+  "key": "5ae983c6989a",
+  "verdict": "REJET",
+  "reason": "'Facilitate Kaizen events, value stream mapping exercises... alongside the Automation Engineer' - presence sur les sites, Greer (USA)"
+ },
+ {
+  "id": 56,
+  "key": "85a9d253a523",
+  "verdict": "REJET",
+  "reason": "PBM americain, remote a l'interieur des Etats-Unis"
+ },
+ {
+  "id": 57,
+  "key": "6454a81bfb38",
+  "verdict": "REJET",
+  "reason": "'Operational Excellence Manager for South Europe', poste rattache a Madrid"
+ },
+ {
+  "id": 58,
+  "key": "ac414fe3a8b7",
+  "verdict": "REJET",
+  "reason": "'Our goal is to help revitalize the U.S. manufacturing base' - deploiement sur les filiales industrielles americaines"
+ },
+ {
+  "id": 59,
+  "key": "1728ba2e8649",
+  "verdict": "REJET",
+  "reason": "'partners with plant leadership' - amelioration de la performance usine sur site, USA"
+ },
+ {
+  "id": 60,
+  "key": "f3e6dfa551da",
+  "verdict": "REJET",
+  "reason": "'Reporting to the Director of Operations' sur le site de Nadler Modular, Suffern (USA)"
+ },
+ {
+  "id": 61,
+  "key": "b1f34e3d1967",
+  "verdict": "REJET",
+  "reason": "Poste rattache au site de Lincoln (Royaume-Uni)"
+ },
+ {
+  "id": 62,
+  "key": "318ca356193d",
+  "verdict": "REJET",
+  "reason": "Poste de direction americain, aucune mention de remote ni d'ouverture internationale"
+ },
+ {
+  "id": 63,
+  "key": "3fae4b682bb4",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Budapest (Hongrie)"
+ },
+ {
+  "id": 64,
+  "key": "5dfa7e3e7633",
+  "verdict": "REJET",
+  "reason": "'Work Authorization: US Citizen'"
+ },
+ {
+  "id": 65,
+  "key": "5a9050bdf86a",
+  "verdict": "REJET",
+  "reason": "Poste au Royaume-Uni au sein de l'Operations Excellence Team, aucune ouverture hors UK"
+ },
+ {
+  "id": 66,
+  "key": "b8b4d7cfef35",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Eden Prairie (USA)"
+ },
+ {
+  "id": 67,
+  "key": "f0b520905594",
+  "verdict": "REJET",
+  "reason": "'Location: Remote - Latin America' - remote limite a l'Amerique latine"
+ },
+ {
+  "id": 68,
+  "key": "a82c5eea264e",
+  "verdict": "REJET",
+  "reason": "'In this dynamic, multi-site role, you will be the ultimate owner of our warehouse standard operating procedures' - sites UK/DE/IT/FR"
+ },
+ {
+  "id": 69,
+  "key": "b2463f1f96cf",
+  "verdict": "REJET",
+  "reason": "Cabinet intervenant 'en France, en Belgique et au Luxembourg', poste a Neuilly-sur-Seine"
+ },
+ {
+  "id": 70,
+  "key": "cf886deb2dc0",
+  "verdict": "REJET",
+  "reason": "Poste rattache au siege de Silicon Valley (Californie), aucune mention d'ouverture hors USA"
+ },
+ {
+  "id": 71,
+  "key": "2fc8a9fcee68",
+  "verdict": "REJET",
+  "reason": "'Run Kaizen events and large VSM workshops on site' - presence usine, Royaume-Uni"
+ },
+ {
+  "id": 72,
+  "key": "aa6d892dff72",
+  "verdict": "REJET",
+  "reason": "'This role requires regular travel, including international trips, approximately 50-75% of the time'"
+ },
+ {
+  "id": 73,
+  "key": "bf3f39e512c3",
+  "verdict": "REJET",
+  "reason": "Deploiement 'across all laboratories and field operations' de Trans Ova aux Etats-Unis"
+ },
+ {
+  "id": 74,
+  "key": "24b8a1152a20",
+  "verdict": "REJET",
+  "reason": "Cabinet allemand, accompagnement des clients sur site (Buren), aucune ouverture hors Allemagne"
+ },
+ {
+  "id": 75,
+  "key": "89220d2182a5",
+  "verdict": "REJET",
+  "reason": "Perimetre 'EU & NA' et entite Mylan Pharmaceuticals Private Limited - poste rattache a une region, sans ouverture mondiale"
+ },
+ {
+  "id": 76,
+  "key": "c8e69141b9da",
+  "verdict": "REJET",
+  "reason": "Poste americain, 'hands-on global practitioner' aupres des equipes Operations - aucune ouverture hors USA"
+ },
+ {
+  "id": 77,
+  "key": "87656f0388ac",
+  "verdict": "REJET",
+  "reason": "'Location: US Works from Home... Remote with Travel up to 75%... ideal candidate living close to Grand Forks'"
+ },
+ {
+  "id": 78,
+  "key": "8cc2c88e7778",
+  "verdict": "REJET",
+  "reason": "Le titre de l'annonce impose '(Remote, US-Based)'"
+ },
+ {
+  "id": 79,
+  "key": "4db49de3427b",
+  "verdict": "REJET",
+  "reason": "'Fully Remote UK or EU' - remote limite a une zone"
+ },
+ {
+  "id": 80,
+  "key": "18f00077858e",
+  "verdict": "REJET",
+  "reason": "Annonce en allemand pour une marque allemande; '100% remote' s'entend depuis l'Allemagne, aucune ouverture hors UE annoncee"
+ },
+ {
+  "id": 81,
+  "key": "0f5c733afcf2",
+  "verdict": "REJET",
+  "reason": "'fully remote' mais scale-up britannique remuneree en GBP/jour; l'annonce ne dit rien du droit de travailler au Royaume-Uni - le silence ne vaut pas autorisation"
+ },
+ {
+  "id": 82,
+  "key": "6cecfb7907b3",
+  "verdict": "REJET",
+  "reason": "Poste au Caire pour une societe saoudienne, aucune mention de teletravail"
+ },
+ {
+  "id": 83,
+  "key": "93f952cd7c15",
+  "verdict": "REJET",
+  "reason": "Deploiement de standards sur les equipements de production, site de Mesagne (Italie)"
+ },
+ {
+  "id": 84,
+  "key": "20a12a325567",
+  "verdict": "REJET",
+  "reason": "'Headquartered in Carlsbad, California' - poste rattache aux Etats-Unis; l'ouverture mondiale citee concerne l'effectif, pas l'eligibilite au poste"
+ },
+ {
+  "id": 85,
+  "key": "d2c0782a1b28",
+  "verdict": "REJET",
+  "reason": "Manufacturing Operations Manager sur la production de datacenters modulaires, poste a Dublin"
+ },
+ {
+  "id": 86,
+  "key": "f00c1e6f7b97",
+  "verdict": "REJET",
+  "reason": "'Location: Corby' - poste en entrepot logistique au Royaume-Uni"
+ },
+ {
+  "id": 87,
+  "key": "1fd71cd49cc0",
+  "verdict": "REJET",
+  "reason": "'Remote in Midwest' chez un industriel de defense americain - zone geographique imposee"
+ },
+ {
+  "id": 88,
+  "key": "8a147319a786",
+  "verdict": "REJET",
+  "reason": "'Regional Civils team based in Warrington' - poste sur projets de genie civil au Royaume-Uni"
+ },
+ {
+  "id": 89,
+  "key": "7920be0b77ce",
+  "verdict": "REJET",
+  "reason": "Le titre impose 'REMOTE East Coast Based'"
+ },
+ {
+  "id": 90,
+  "key": "c10908e09cfe",
+  "verdict": "REJET",
+  "reason": "Poste rattache au site de Garching bei Munchen (Allemagne)"
+ },
+ {
+  "id": 91,
+  "key": "8d3b6ebf9311",
+  "verdict": "REJET",
+  "reason": "'full responsibility for plant operations' d'un abattoir americain - poste sur site"
+ },
+ {
+  "id": 92,
+  "key": "c1a2c4c7809e",
+  "verdict": "REJET",
+  "reason": "Plant Manager d'une usine agroalimentaire americaine - poste sur site"
+ },
+ {
+  "id": 93,
+  "key": "ff3464ca2239",
+  "verdict": "REJET",
+  "reason": "Accompagnement technique des fournisseurs (NPI, onboarding) depuis Chicago - deplacements fournisseurs"
+ },
+ {
+  "id": 94,
+  "key": "a9933cdb1d5a",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Lancaster (USA), liaison technique entre qualite, achats et operations"
+ },
+ {
+  "id": 95,
+  "key": "a073816a854d",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Houston, conformite FDA/cGMP chez le CDMO et son reseau fournisseurs"
+ },
+ {
+  "id": 96,
+  "key": "2de6806a9aff",
+  "verdict": "REJET",
+  "reason": "Poste a Kitchener (Canada), coordination d'assemblage et entrepots canadiens et americains"
+ },
+ {
+  "id": 97,
+  "key": "af4b82cf0db2",
+  "verdict": "REJET",
+  "reason": "'Job location: Montreal, Calgary, or Remote' pour des projets DAC 'across Canada' - remote entendu au Canada"
+ },
+ {
+  "id": 98,
+  "key": "fd8bd8b08d7d",
+  "verdict": "REJET",
+  "reason": "Poste americain sur les sites de production, aucune ouverture internationale"
+ },
+ {
+  "id": 99,
+  "key": "fd5b3b68289d",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Pune (Inde), audits ISO9001/ISO13485 sur site fournisseur"
+ },
+ {
+  "id": 100,
+  "key": "ccc199a095b0",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Pune (Inde), encadrement d'une equipe d'audits fournisseurs"
+ },
+ {
+  "id": 101,
+  "key": "f8e5ce18fd64",
+  "verdict": "REJET",
+  "reason": "'full-time remote role' mais societe et poste rattaches aux Etats-Unis, aucune mention d'eligibilite hors USA"
+ },
+ {
+  "id": 102,
+  "key": "6561ea071503",
+  "verdict": "REJET",
+  "reason": "'full responsibility for the day-to-day management' d'une usine de transformation de viande - poste sur site"
+ },
+ {
+  "id": 103,
+  "key": "68d925baeeaf",
+  "verdict": "REJET",
+  "reason": "'In this role you will mainly work in the region of Graz and Budapest'"
+ },
+ {
+  "id": 104,
+  "key": "e36e8669ba0f",
+  "verdict": "REJET",
+  "reason": "Marque allemande basee a Munster, annonce en allemand, aucune ouverture hors UE annoncee"
+ },
+ {
+  "id": 105,
+  "key": "a86f80e4e624",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Amsterdam"
+ },
+ {
+  "id": 106,
+  "key": "8b6f35d47043",
+  "verdict": "REJET",
+  "reason": "'In-office locations: Prague, Czechia. Remote location(s): Czechia'"
+ },
+ {
+  "id": 107,
+  "key": "0e2e38e9e871",
+  "verdict": "REJET",
+  "reason": "'Full-Time, Permanent (Hybrid) Canada (AB, MB, SK, QC, NB, NS)' - hybride et limite a des provinces canadiennes"
+ },
+ {
+  "id": 108,
+  "key": "edf3e9974cae",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Calabasas (Californie), collaboration avec les equipes des centres de distribution"
+ },
+ {
+  "id": 109,
+  "key": "f78e25c8aa5f",
+  "verdict": "REJET",
+  "reason": "'This is a remote position' mais societe et poste rattaches aux Etats-Unis, aucune mention d'eligibilite hors USA"
+ },
+ {
+  "id": 110,
+  "key": "8478dd706ce2",
+  "verdict": "REJET",
+  "reason": "'South Africa (Remote)' et remuneration en rands - remote limite a l'Afrique du Sud"
+ },
+ {
+  "id": 111,
+  "key": "3e4d59e36211",
+  "verdict": "REJET",
+  "reason": "Poste americain, travail etroit avec les equipes de fabrication et fournisseurs"
+ },
+ {
+  "id": 112,
+  "key": "3dffcb0f9672",
+  "verdict": "REJET",
+  "reason": "'Full Time Remote | EU-Based'"
+ },
+ {
+  "id": 113,
+  "key": "2bbbd051ba17",
+  "verdict": "REJET",
+  "reason": "Societe 'remote-first' presente dans 15 pays, mais l'annonce ne dit rien de l'eligibilite au poste et la publication est rattachee a la Lituanie"
+ },
+ {
+  "id": 114,
+  "key": "63940e452791",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Warrenville (USA) chez un groupe de 11 usines"
+ },
+ {
+  "id": 115,
+  "key": "f36d898b45ca",
+  "verdict": "REJET",
+  "reason": "'a 1-year contract that is fully remote across Canada, with preference given to candidates working EST hours'"
+ },
+ {
+  "id": 116,
+  "key": "c38c5a8ff0ef",
+  "verdict": "REJET",
+  "reason": "Poste rattache a l'Espagne, aucune mention d'ouverture hors UE"
+ },
+ {
+  "id": 117,
+  "key": "0d00b6f09b30",
+  "verdict": "REJET",
+  "reason": "'Location: Hamburg, Frankfurt, or Munich'"
+ },
+ {
+  "id": 118,
+  "key": "21c956c12b57",
+  "verdict": "REJET",
+  "reason": "'Ingenieur Qualite Terrain - France', 'au plus pres de nos clients et de nos produits' - interventions terrain en France"
+ },
+ {
+  "id": 119,
+  "key": "0d15af5cd3b3",
+  "verdict": "REJET",
+  "reason": "'based in Canada... working directly with plant teams' - presence sur les sites clients des Ameriques"
+ },
+ {
+  "id": 120,
+  "key": "196a94a12874",
+  "verdict": "REJET",
+  "reason": "'Locations: London / Birmingham / Manchester / Leeds' - poste de conseil rattache aux bureaux britanniques"
+ },
+ {
+  "id": 121,
+  "key": "54b3aa0c901f",
+  "verdict": "REJET",
+  "reason": "'THIS IS NOT A REMOTE POSITION - Position is on-site'"
+ },
+ {
+  "id": 122,
+  "key": "048ddced5e53",
+  "verdict": "REJET",
+  "reason": "'Location: Cranberry Township, US'"
+ },
+ {
+  "id": 123,
+  "key": "5635587ce227",
+  "verdict": "REJET",
+  "reason": "'Location: burlington, ON, CA' - poste au Canada"
+ },
+ {
+  "id": 124,
+  "key": "51e3d37d2282",
+  "verdict": "REJET",
+  "reason": "'Ability to obtain and maintain a Secret security clearance, which requires U.S. citizenship'"
+ },
+ {
+  "id": 125,
+  "key": "e7376be41653",
+  "verdict": "OK",
+  "reason": "'Location: Global+' et 'Freelance, Remote' - mission independante sans condition de pays ni de permis de travail"
+ },
+ {
+  "id": 126,
+  "key": "d1e7c8bf5f1b",
+  "verdict": "REJET",
+  "reason": "'effective partnerships with site-based stakeholders (General Contractor Teams, Vendor Teams... Infra-Data Center Teams)' - poste rattache aux sites, USA"
+ },
+ {
+  "id": 127,
+  "key": "8c16b32fd1dc",
+  "verdict": "REJET",
+  "reason": "Poste 'strategic and hands-on' rattache a une region europeenne, unites mobiles de traitement d'eau sur site"
+ },
+ {
+  "id": 128,
+  "key": "18d5ee4e4522",
+  "verdict": "REJET",
+  "reason": "'Location- Houston, TX / Atlanta, GA / Remote - United States. Remote with up to 75% travel'"
+ },
+ {
+  "id": 129,
+  "key": "05178ae6e680",
+  "verdict": "REJET",
+  "reason": "'Conduct inspections and surveys to ensure supplier compliance' - inspections sur site, poste rattache aux USA"
+ },
+ {
+  "id": 130,
+  "key": "60b63e572769",
+  "verdict": "REJET",
+  "reason": "'Preference will be given to candidates who are based in EMEA' et aucune mention du droit de travailler; poste publie au Royaume-Uni"
+ },
+ {
+  "id": 131,
+  "key": "c8927e3fd178",
+  "verdict": "REJET",
+  "reason": "Statut 'Werkstudent' - reserve aux etudiants inscrits en Allemagne, site de Cologne"
+ },
+ {
+  "id": 132,
+  "key": "1cc7cd460e92",
+  "verdict": "REJET",
+  "reason": "'Position is located in Dover Delaware and must be willing to relocate there'"
+ },
+ {
+  "id": 133,
+  "key": "be66ed00b892",
+  "verdict": "REJET",
+  "reason": "'deployment and implementation of industrial software across customer sites throughout the Americas. This is a highly customer-facing role'"
+ },
+ {
+  "id": 134,
+  "key": "ef81adb5c5a2",
+  "verdict": "REJET",
+  "reason": "'overseeing all day-to-day distribution center operations' - poste sur le centre de distribution de Chino (USA)"
+ },
+ {
+  "id": 135,
+  "key": "de41a835d728",
+  "verdict": "REJET",
+  "reason": "'hands-on Quality Engineer to support our growing manufacturing operations' - presence en production, USA"
+ },
+ {
+  "id": 136,
+  "key": "9725d7d9fc47",
+  "verdict": "REJET",
+  "reason": "'Remote Working, Ireland - 23 Month Contract' et rattachement au site de production irlandais"
+ },
+ {
+  "id": 137,
+  "key": "58a0708d8ec7",
+  "verdict": "REJET",
+  "reason": "'Location: California or New York (on-site/regional travel required)'"
+ },
+ {
+  "id": 138,
+  "key": "a6820c85c59c",
+  "verdict": "REJET",
+  "reason": "'(Remote/Hybrid) Multiple Locations all across United States'"
+ },
+ {
+  "id": 139,
+  "key": "434a32ea2dd4",
+  "verdict": "REJET",
+  "reason": "Poste americain chez un fabricant d'equipements medicaux, aucune mention de remote mondial"
+ },
+ {
+  "id": 140,
+  "key": "d73556212526",
+  "verdict": "REJET",
+  "reason": "Societe d'ingenierie allemande, accompagnement des clients jusqu'a l'industrialisation - presence sur site"
+ },
+ {
+  "id": 141,
+  "key": "ca37913a9f7b",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Aix-en-Provence, missions de conseil sur site client"
+ },
+ {
+  "id": 142,
+  "key": "d74c88597256",
+  "verdict": "REJET",
+  "reason": "'Location: Remote (U.S. - Midwest or Mountain Preferred)... 60-80% travel to manufacturing partners'"
+ },
+ {
+  "id": 143,
+  "key": "69c9406b45e1",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Berlin, annonce en allemand"
+ },
+ {
+  "id": 144,
+  "key": "1cbbdd3d3ce7",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Erlangen, suivi des fournisseurs europeens sur site"
+ },
+ {
+  "id": 145,
+  "key": "53e47af5278e",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Gdansk, qualification et audits d'equipements offshore sur site"
+ },
+ {
+  "id": 146,
+  "key": "d45ceb8af739",
+  "verdict": "REJET",
+  "reason": "'Location: Europe/Remote' et 'dedicated site transformation resource... at assigned manufacturing sites'"
+ },
+ {
+  "id": 147,
+  "key": "0acb41a7b85c",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Greensboro (USA), aucune mention d'ouverture hors USA"
+ },
+ {
+  "id": 148,
+  "key": "e0d87d0734d9",
+  "verdict": "REJET",
+  "reason": "'This is a remote position that can be based within Europe, ideally located close to Automotive OEMs'"
+ },
+ {
+  "id": 149,
+  "key": "4b0b71245251",
+  "verdict": "REJET",
+  "reason": "Meme poste que le precedent: remote limite a l'Europe, a proximite des constructeurs automobiles"
+ },
+ {
+  "id": 150,
+  "key": "85987dca6dcd",
+  "verdict": "REJET",
+  "reason": "'an unserem Standort in Herzebrock-Clarholz und teilweise remote' - poste hybride en Allemagne"
+ },
+ {
+  "id": 151,
+  "key": "526053257320",
+  "verdict": "REJET",
+  "reason": "Statut 'Working Student' rattache a Dusseldorf - reserve aux etudiants inscrits en Allemagne"
+ },
+ {
+  "id": 152,
+  "key": "737b7b3ae41a",
+  "verdict": "REJET",
+  "reason": "'Location: USA(Remote)' - remote limite aux Etats-Unis"
+ },
+ {
+  "id": 153,
+  "key": "3c5ea778ccec",
+  "verdict": "REJET",
+  "reason": "'Contract: W2' - statut d'emploi americain exigeant une autorisation de travail aux USA"
+ },
+ {
+  "id": 154,
+  "key": "e1b3aa7f3d82",
+  "verdict": "REJET",
+  "reason": "Poste rattache aux Etats-Unis, aucune mention d'eligibilite hors USA"
+ },
+ {
+  "id": 155,
+  "key": "870328f3fbc5",
+  "verdict": "REJET",
+  "reason": "Poste rattache au Royaume-Uni, approvisionnement des chantiers et proprietes du groupe"
+ },
+ {
+  "id": 156,
+  "key": "34e2995b7706",
+  "verdict": "REJET",
+  "reason": "Le titre l'indique: contrat temporaire 'Based anywhere in Europe' - remote limite a l'Europe"
+ },
+ {
+  "id": 157,
+  "key": "4935d96fc764",
+  "verdict": "REJET",
+  "reason": "Poste americain chez Westinghouse, qualite des produits externalises - aucune ouverture hors USA"
+ },
+ {
+  "id": 158,
+  "key": "d7adeb4d761d",
+  "verdict": "REJET",
+  "reason": "Poste rattache a Francfort-sur-le-Main, suivi de production et d'outillage"
+ },
+ {
+  "id": 159,
+  "key": "66d612304f9d",
+  "verdict": "REJET",
+  "reason": "'Location: Remote, UK-based, with attendance in person at design reviews, programme gates and partner sites'"
+ },
+ {
+  "key": "3e2a5fc3efcc",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'is a global leader in high-performance industrial solutions, serving demanding industries worldwide through innovation, engineering excellence, and customer commitment. With operations acro'. Le poste est ancre a un site precis: 'Lintgen, Luxembourg, Luxembourg'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "9dda1f1a8f00",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: '& Maintenance scopes of work within global manufacturing facilities. LotusWorks operates globally across EMEA and North America partnering with the world's leading manufacturers across th'. Le poste est ancre a un site precis: 'Sligo, Comté de Sligo, Irlande'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "41255605aadd",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'stry. Every day, more than 80 000 colleagues lead the way to greener and smarter mobility worldwide, connecting cities as we reduce carbon an Product Industrialisation Manager'. Le poste est ancre a un site precis: 'Stockholm, Comté de Stockholm, Suède'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "918838d580d0",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'evelop beauty and wellbeing solutions. There’s much to learn from our 79 production sites worldwide, known for their best-in-class processes and procedures. There’s many to learn from, Pro'. Le poste est ancre a un site precis: 'Baierbrunn, Bavière, Allemagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "1e10f160256e",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'sumer goods company. We are home to iconic, trusted brands that touch 5 billion consumers worldwide and make life a little bit easier in small but meaningful ways. Our people are our greate'. Le poste est ancre a un site precis: 'Kronberg im Taunus, Hesse, Allemagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "346e40e16c45",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'neering and turnkey solutions of DeNOx systems. With several hundred of systems installed globally our flue gas cleaning systems are Process Engineer (f/m/d)'. Le poste est ancre a un site precis: 'Vienne, Vienne, Autriche'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "63c620b94ba3",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'join our growing team based in our facility in Shannon, Co. Clare. This organisation has worldwide expertise but also a local presence within our specialized field. This will be a key role'. Le poste est ancre a un site precis: 'Shannon, Comté de Clare, Irlande'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "b185d5c5ca96",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'e digital energy and automation solutions to enable efficient use of energy and resources worldwide. This is only possible thanks to our people. We are looking for a Process Lean Design Lea'. Le poste est ancre a un site precis: 'Lahr/Schwarzwald, Bade-Wurtemberg, Allemagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "9bae29b4257c",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'n the industry. Every day, 80,000 colleagues lead the way to greener and smarter mobility worldwide, connecting cities as we reduce carbon and replace cars. Could yo Continuous Improvement'. Le poste est ancre a un site precis: 'Hornell, New York, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "c71e92e3e6e0",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'y engineering processes and extensive manufacturing capabilities, from five (5) locations worldwide. From the first spark of an idea, through the design of the mold to the actual manufactur'. Le poste est ancre a un site precis: 'Greer, Caroline du Sud, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "aef727c89c41",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'he forefront of innovation in fluid-flow technology, alongside more than 1,400 colleagues worldwide, contributing to a legacy of excellence spanning eight manufacturing facilities across fo'. Le poste est ancre a un site precis: 'Niagara Falls, New York, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "cda4925632e6",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'on, multi-industry company employing 35,000 talented makers, thinkers, creators and doers worldwide. We make things that fly, hover, zoom and launch. Things that move people. Protect soldie'. Le poste est ancre a un site precis: 'Slidell, Louisiane, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "f40244543c6a",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 've portfolio of innovative products and services that improve lives and optimize business worldwide each day. Intralox’s Quality Engineer'. Le poste est ancre a un site precis: 'La Nouvelle-Orléans, Louisiane, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "91ef40d593eb",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'employer? We connect around 6,000 people at our headquarter in Espelkamp and at locations worldwide. Here you’ll find great colleagues, as well as ever new opportunities and innovations rev'. Le poste est ancre a un site precis: 'Elgin, Illinois, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "3afc4c780bef",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'evices. Our 3D printing technology powers innovation at more than 50,000 industry leaders worldwide, including Apple, Google, Tesla, New Balance, and NASA. Together, we’re helping everyone'. Le poste est ancre a un site precis: 'Somerville, Massachusetts, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "740cec58eb35",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: ', cooling, and ventilation solutions. Through the hard work of more than 11,000 employees worldwide, our Climate Solutions and Performance Technologies segm Quality Engineer'. Le poste est ancre a un site precis: 'Grenada, Mississippi, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "5f2ceb4d0e70",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'No visa sponsorship available. Description The Quality Engineer is responsible for implementing t'. Le poste est ancre a un site precis: 'College Station, Texas, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "4585e7b111a5",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ith 125,000 square feet of production facility. The Toro Company (NYSE: TTC) is a leading worldwide provider of innov Lean Manager (Shakopee Plant) - The Toro Company'. Le poste est ancre a un site precis: 'Shakopee, Minnesota, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "12c87617e661",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Company Description To be the leading producer of glass bottles and jars worldwide you need passion, commitment and innovation baked into the very fabric of a business and'. Le poste est ancre a un site precis: 'Muskogee, Oklahoma, États-Unis'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "6019ee59da8b",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'collaborate to design and deliver next-generation solutions used in critical environments worldwide. In this role, the Site Lean Leader will play a key role in driving operational excellenc'. Le poste est ancre a un site precis: 'Crowborough, Angleterre, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "78821e1afafe",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Location: Glasgow, United Kingdom In fast changing markets, customers worldwide rely on Thales. Thales is a business where brilliant people from all over the world come'. Le poste est ancre a un site precis: 'Glasgow, Écosse, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "043db12876de",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'system. We're growing fast, and we’re on a mission to transform how surgery is delivered globally for the benefit of patients, clinicians, and healthcare systems. Our values— Ambitious, H'. Le poste est ancre a un site precis: 'Ely, Angleterre, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "c47d1bcd9116",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Safran Nacelles is a worldwide leader in aircraft engine nacelles. Our site in Burnley provides employment to almost 700'. Le poste est ancre a un site precis: 'Burnley, Angleterre, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "38ae9f5b60d6",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'to work for a business that design and manufacture precision technology which is exported globally. Duties: o Co-ordinating and controlling investigation of Cust Quality Engineer'. Le poste est ancre a un site precis: 'Kingston-upon-Hull, Angleterre, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "705993fe2f7f",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'innovation define who we are. Since our establishment in the UK in 1856, we have expanded globally, now operating across 70 sites in 18 countries. Our goal is to create a more sustainable'. Le poste est ancre a un site precis: 'Corby, Angleterre, Royaume-Uni'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "58c41d0d8131",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'e role is to drive the implementation of process improvement initiatives across PPS sites globally to enhance operational efficiency and to create a continuous improvement culture KEY STAK'. Le poste est ancre a un site precis: 'Dhar, Madhya Pradesh, Inde'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "cbce0cc56462",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Overview Supervisor – Continuous Improvement (Manufacturing Excellence) Function: Worldwide Manufacturing – Continuous Improvement Location: Pithampur, Indore, Madhya Pradesh Experi'. Le poste est ancre a un site precis: 'Indore, Madhya Pradesh, Inde'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "e58d776de6a0",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'valves, we have been driving innovation for more than 60 years. With over 3,200 employees worldwide, we operate from our headquarters in Haag, Switzerland, with manufacturing sites in Switz'. Le poste est ancre a un site precis: 'Saint-Gall, Saint-Gall, Suisse'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "c649573ecd46",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'panies and to the CNBC Disruptor 50, Armada’s solutions are deployed in over 60 countries globally for organizations ranging from energy to defense. With nearly $500 million in funding to'. Le poste est ancre a un site precis: 'Thiruvananthapuram, Kerala, Inde'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "c9c28a4779ce",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ering, project management, asset management and integrity services to the energy industry worldwide for over 70+ years. Originally founded in the UK in 1954 as Spencer & Partners, the compa'. Le poste est ancre a un site precis: 'Koweït'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "8dbbf9c453e7",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'About Anton. Anton Oilfield Services Group is a globally leading independent integrated oilfield technology services company, operating across maj'. Le poste est ancre a un site precis: 'Koweït et périphérie'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "6c5c5d862a2c",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'nt and manufacturing solutions across the drug life cycle. We serve our clients through a globally integrated network of facilities in North America, Europe and Asia. This enables us to of'. Le poste est ancre a un site precis: 'Ahmedabad, Gujarat, Inde'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "70716bfef51b",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'e than 90 years, PALFINGER has set benchmarks with innovative crane and lifting solutions worldwide. As a leading technology and mechanical engineering company, we transform customer needs'. Le poste est ancre a un site precis: 'Nis, Serbie Centrale, Serbie'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "a36863ad3588",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'factory and process automation. We owe this success to our approximately 2,800 employees worldwide, who are passionate, expert, and committed to finding the best solutions for our customer'. Le poste est ancre a un site precis: 'Ilinden, Skopski, Macédoine du Nord'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "253577d32ceb",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'nal service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. In these key roles, you’ll come in to help us exceed productivity goals and d'. Le poste est ancre a un site precis: 'Beauvais'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "3d3fa502a105",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'About the Company kp is a globally recognised leader in the packaging and specialty film industry, renowned for its unwaveri'. Le poste est ancre a un site precis: 'Pontivy'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "e5f20e9ee6db",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Snackruptors Inc. is a renowned leader in the cracker manufacturing industry, recognized globally for delivering exceptional quality products. Our diverse workforce reflects our commitmen'. Le poste est ancre a un site precis: 'Cambridge, Ontario, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "e8d3bee51b42",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'e and secure where they live, work and visit. With more than 40 brands, 14,000+ employees globally and products sold in 130 countries, we specialize in security around the doorway and beyo'. Le poste est ancre a un site precis: 'Longueuil, Québec, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "98215c4eb4e1",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'stry. Every day, more than 80 000 colleagues lead the way to greener and smarter mobility worldwide, connecting cities as we reduce carbon a Supplier Quality Project Engineer'. Le poste est ancre a un site precis: 'Saint-Bruno, Québec, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "768a04e20ed9",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ime pioneers delivering multi-mission solutions that protect and empower the naval forces worldwide. With our extensive portfolio of capabilities, our innovations are utilised on naval flee'. Le poste est ancre a un site precis: 'Dartmouth, Nouvelle-Écosse, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "5ca77892efa1",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'stry. Every day, more than 80 000 colleagues lead the way to greener and smarter mobility worldwide, connecting cities as we reduce carbon a Industrialization Engineer'. Le poste est ancre a un site precis: 'Kingston, Ontario, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "0ef45e94176a",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ime pioneers delivering multi-mission solutions that protect and empower the naval forces worldwide. With our extensive portfolio of capabilities, our innovations are utilised on naval flee'. Le poste est ancre a un site precis: 'Dartmouth, Nouvelle-Écosse, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "47eb5ad14432",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 's, nameplates, overlays, wide-format digital graphics and membrane switches for companies worldwide. AMPCO’s competiti Supplier Quality Engineer'. Le poste est ancre a un site precis: 'Coquitlam, Colombie-Britannique, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "2a29f677f833",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'lobal leader in the metal recycling industry, with over 125 locations and 4,000 employees worldwide. We have continued to thrive for the past eight decades thanks to the dedication of our e'. Le poste est ancre a un site precis: 'Montréal, Québec, Canada'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "50b944dc52e8",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'olutions power nearly every type of vehicle. 1 in 3 vehicles powered by a Clarios Battery worldwide. We are home to strong brands like VARTA® and OPTIMA® and we are driven by a common goal'. Le poste est ancre a un site precis: 'Hanovre, Basse-Saxe, Allemagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "a5a12d2b6610",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'With a history of more than 140 years, Tarkett is a worldwide leader in innovative and sustainable flooring and sports surface solutions, generating re'. Le poste est ancre a un site precis: 'Konz, Rhénanie-Palatinat, Allemagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "359bfdcb9cbe",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'logical advancement that has resulted in over 900 active patents. Our 14 production sites worldwide, together with our highly motivated and experienced team of nearly 2’700 employees prov I'. Le poste est ancre a un site precis: 'Valence, Valence, Espagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "43c87332a30b",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ly - rail transportation systems that can’t afford to fail. We’re more than 85 000 people worldwide creating the industry’s most diverse portfolio: high-speed trains, metros, trams, mainten'. Le poste est ancre a un site precis: 'Barcelone, Catalogne, Espagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "4fb22799ee56",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'Location: Barcelona, Spain Ready to make a real impact globally? Join a role at the heart of managing raw material risks, connecting the right people and'. Le poste est ancre a un site precis: 'Barcelone et périphérie'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "7e6851571719",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'specialized in the design, construction and management of execution of Industrial plants worldwide. We participate in projects related to hydrogen, biomass, biofuels, decarbonisation, arti'. Le poste est ancre a un site precis: 'Bilbao, Pays Basque, Espagne'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "7c72d6591023",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'and power. Its tailored electronic solutions, connectors and cable assemblies are trusted globally for their reliability in demanding environments. Fischer Connectors is part of Conextivit'. Le poste est ancre a un site precis: 'Amarante, Porto, Portugal'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "44d85bd47907",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ng the Future! Geomiq is revolutionizing traditional manufacturing by providing engineers worldwide with instant access to reliable production methods through our digital platform. As the U'. Le poste est ancre a un site precis: 'Maia, Porto, Portugal'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "eb7911f96cda",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'and power. Its tailored electronic solutions, connectors and cable assemblies are trusted globally for their reliability in demanding environments. Fischer Connectors is part of Conextivit'. Le poste est ancre a un site precis: 'Amarante, Porto, Portugal'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "b897cc2e8435",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'and power. Its tailored electronic solutions, connectors and cable assemblies are trusted globally for their reliability in demanding environments. Fischer Connectors is part of Conextivit'. Le poste est ancre a un site precis: 'Amarante, Porto, Portugal'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "b630b63e9718",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'laboration can thrive. We are present in 19 countries and have more than 28,000 employees worldwide. If you are looking for a dynamic, innovative, and technology-driven company, I Productio'. Le poste est ancre a un site precis: 'Lisbonne, Lisbonne, Portugal'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "bec472fc7c81",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'stry. Every day, more than 80 000 colleagues lead the way to greener and smarter mobility worldwide, connecting cities as we reduce carbon a Process Engineer (COMPO)'. Le poste est ancre a un site precis: 'Nigel, Gauteng, Afrique du Sud'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ },
+ {
+  "key": "2b14a00b06bb",
+  "verdict": "REJET",
+  "reason": "lue parce que l annonce contenait un mot 'monde entier'; c est du boilerplate d entreprise, pas une condition d eligibilite: 'ated on 4 continents, our French-based family-owned company has known a continuous growth worldwide over the last 50 years. Join Groupe Atlantic: - Annual turnover of 2,7 billion € net, Pr'. Le poste est ancre a un site precis: '10th of Ramadan, Est, Égypte'. Rien dans l annonce n ouvre le poste a une candidature depuis le Maroc sans permis de travail - et le silence sur l eligibilite vaut refus."
+ }
+]
