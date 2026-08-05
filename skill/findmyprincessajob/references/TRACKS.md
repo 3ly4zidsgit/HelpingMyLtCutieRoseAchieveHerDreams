@@ -65,9 +65,14 @@ achats et procurement au business.**
   la feuille** (`build.TRACK_OF_SHEET`), exactement comme `seniority_bucket` et
   `remote_verdict`. Un nom de feuille inconnu retombe sur `lean`, ce qui fait
   qu'un classeur ecrit avant les pistes se relit a l'identique.
-- `run.shipping()` filtre sur la piste. Sans ce filtre, `fulltext` et `enrich`
-  d'une seconde piste re-telechargent tout le classeur de la premiere et
-  presentent ses annonces au modele sous la mauvaise specialite.
+- `run.shipping()` filtre sur la piste **et sur la porte visa**. Sans le filtre de
+  piste, `fulltext` et `enrich` d'une seconde piste re-telechargent tout le
+  classeur de la premiere et presentent ses annonces au modele sous la mauvaise
+  specialite. Sans le filtre visa, c'est pire dans l'autre sens : `curated()`
+  compte comme gardee toute offre sans verdict de pertinence - ce qui est juste
+  pour cette porte-la - et `shipping()` remontait donc **2 799 offres pour une
+  piste qui en livre 288**. `run._remote_ok()` ne retient que les cles portant un
+  verdict `OK` : ici, l'absence de verdict vaut refus, pas accord.
 - `run.do_build` met les lignes des **autres** pistes de cote juste apres
   `read_existing`, avant les trois etapes propres au spec : le jeu de cles
   rejetees, `exclude_titles`, `apply_fields`. Elles ne repassent par aucune, et
@@ -95,9 +100,9 @@ $env:PYTHONIOENCODING="utf-8"
 
 # piste 1 - genie industriel
 python run.py scrape   "$root\spec.json"
-python run.py fulltext "$root\spec.json"
 python run.py curate   "$root\spec.json"   # puis LIRE et juger
-python run.py stage    "$root\spec.json"   # puis LIRE et juger
+python run.py stage    "$root\spec.json"   # puis LIRE et juger (visa_scan.py pour le gros du lot)
+python run.py fulltext "$root\spec.json"   # APRES les deux portes: elles reduisent la file
 python run.py enrich   "$root\spec.json"   # puis LIRE et remplir
 python run.py build    "$root\spec.json"
 
@@ -114,13 +119,26 @@ la porte visa, et surtout l'empeche d'ecrire un `remote_verdicts.json` que
 `do_build` relirait ensuite pour supprimer des lignes qui n'ont jamais eu besoin
 d'un arbitrage.
 
+L'ordre compte depuis que `shipping()` applique la porte visa : `fulltext` ne
+telecharge plus que ce qui peut atteindre une feuille. Lance avant `stage`, il
+telechargerait les milliers d'offres internationales encore sans verdict.
+
 **Apres avoir construit une piste, reconstruire l'autre et verifier** que ses
 feuilles sont intactes. C'est le test qui prouve que la partition tient :
 
 ```powershell
+Copy-Item "$root\Offres_Emploi_Genie_Industriel_Lean_2026.xlsx" `
+          "$root\backup\avant.xlsx"
 python run.py build "$root\spec.json"
-python "$root\research\verify.py"
+python "$root\research\verify.py" `
+       "$root\Offres_Emploi_Genie_Industriel_Lean_2026.xlsx" "$root\backup\avant.xlsx"
 ```
+
+Le 2e argument met `verify.py` en mode strict : **toute ligne sortie est un
+echec**, sauf si la ligne de reference portait sa propre fermeture (date limite
+depassee, marqueur de cloture). Une ligne ecartee volontairement sur la
+pertinence apparait donc en `sortie inexpliquee` - c'est voulu : elle doit etre
+annoncee dans le compte rendu, pas decouverte deux rounds plus tard.
 
 ## Ajouter une troisieme piste
 

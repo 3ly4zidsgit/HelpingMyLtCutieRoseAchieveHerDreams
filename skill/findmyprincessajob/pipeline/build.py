@@ -268,13 +268,62 @@ CLOSED_RE = re.compile(r"offre expiree|offre expire|candidatures? fermees?|annon
                        r"no longer accepting|position (has been )?filled|expired", re.I)
 
 
-def is_closed(row):
+# The same closure, but seen in the fetched ad BODY. It must be stricter than
+# CLOSED_RE: a date column holding "expiree" can only mean one thing, whereas a
+# 6 000-character body says "expired" about certifications, patents and passports.
+# Only a full sentence about the posting itself counts.
+CLOSED_BODY_RE = re.compile(
+    r"cette offre d.emploi a expire|cette offre a expire|offre d.emploi expiree"
+    r"|cette annonce a expire|l.offre n.est plus disponible|cette offre n.est plus"
+    r"|nous ne recrutons plus pour ce poste|ce poste (a ete|est) pourvu"
+    r"|this (job|position|posting|vacancy) (is |has )?(no longer available|expired|been filled"
+    r"|been closed)|no longer accepting applications|applications (are )?(now )?closed", re.I)
+
+
+DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b|\b(\d{1,2})[/.-](\d{1,2})[/.-](\d{4})\b")
+
+
+def deadline_passed(text, today=None):
+    """True when the ad's own deadline is behind us. "Postulez avant le 04/08/2026"
+    read on 2026-08-05 is a closure the source published itself.
+
+    Day/month order is ambiguous on a bare 05/08/2026, so both readings must be in
+    the past before the row is dropped. Dropping a live offer is the worse error:
+    she cannot apply to what she cannot see."""
+    import datetime
+    today = today or datetime.date.today()
+    for m in DATE_RE.finditer(str(text or "")):
+        if m[1]:
+            cands = [(int(m[1]), int(m[2]), int(m[3]))]
+        else:                                    # jj/mm/aaaa et mm/jj/aaaa
+            a, b, y = int(m[4]), int(m[5]), int(m[6])
+            cands = [(y, b, a), (y, a, b)]
+        seen = []
+        for y, mo, d in cands:
+            try:
+                seen.append(datetime.date(y, mo, d))
+            except ValueError:
+                pass
+        if seen and all(x < today for x in seen):
+            return True
+    return False
+
+
+def is_closed(row, body=""):
     """True when the ad itself was read as closed. Such a row must not ship:
-    the workbook is there to be applied from."""
+    the workbook is there to be applied from.
+
+    `body` is the full ad text when one was fetched. An Optioncarriere ad that has
+    expired answers 200 with its own "Cette offre d'emploi a expire" banner instead
+    of a 404, and none of the date columns ever mention it - so a row could pass
+    every date check and still be dead."""
     for f in ("deadline", "deadline_iso", "date_posted"):
         if CLOSED_RE.search(strip_accents(str(row.get(f) or ""))):
             return True
-    return False
+    for f in ("deadline", "deadline_iso"):       # NOT date_posted: an old ad can be open
+        if deadline_passed(row.get(f)):
+            return True
+    return bool(body) and bool(CLOSED_BODY_RE.search(strip_accents(body)))
 
 
 def finalize(rows):

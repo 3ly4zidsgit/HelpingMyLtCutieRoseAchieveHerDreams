@@ -4044,5 +4044,10 @@
   "key": "6db172bb9be2",
   "keep": false,
   "reason": "corps recupere via l API invitee LinkedIn: la logistique de ce poste est celle des moyens generaux de la banque - 'Bureau d ordre, messagerie, suivi du patrimoine mobilier, Parc auto, Standard telephonique, centre d archivage' et 'suivre la mise a jour du patrimoine physique de la banque ainsi que son rapprochement physique-comptable'. Ni supply chain industrielle ni amelioration de process de production"
+ },
+ {
+  "key": "ff5aacd8fe64",
+  "keep": true,
+  "reason": "corps recupere via l API invitee LinkedIn: supply chain industrielle a Casablanca - \"Coordonner les besoins des usines et les capacites fournisseurs pour etablir les plans d approvisionnement\", \"Mettre en place ou accelerer les flux pour eviter les ruptures\". Profil demande: \"Bac+5 en Supply Chain, Logistique, Genie Industriel ou equivalent\". Annonce publiee il y a 6 mois - verifier qu elle est toujours ouverte"
  }
 ]

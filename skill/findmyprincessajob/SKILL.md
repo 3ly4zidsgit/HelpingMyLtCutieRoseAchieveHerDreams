@@ -146,6 +146,26 @@ Expect very few to pass in field-based specialties: Lean, industrial and
 manufacturing work happens on a shop floor. A single-digit result is the honest
 answer, not a failure — say so plainly rather than loosening the bar.
 
+### At scale: split the batch before reading it
+
+Thousands of offers cannot each get a paragraph, and they do not need one. Split
+them by whether the ad says anything about eligibility at all:
+
+```bash
+python research/visa_scan.py            # the ones that speak - read every line
+python research/visa_scan.py --silent   # the ones that do not
+python research/visa_scan.py --write    # write both sets of verdicts
+```
+
+The script prints, for each speaking ad, the sentence plus 90 characters either
+side. **Read those.** The silent ones are rejected by the rule above, with that
+stated as the reason — a verdict, not a skipped step.
+
+Calibration from four rounds: of 2 320 offers, 139 said something and **none of
+them opened the door**. Nearly every "worldwide" is a company describing itself.
+So budget the reading for the speaking minority, and never write an `OK` on the
+strength of a marketing sentence.
+
 ## Step 5 — Rule on relevance (the second thing only you can do)
 
 ```bash
@@ -228,6 +248,39 @@ sheet — `build.exp_floor` derives the sheet from this string, and a bucket tha
 contradicts it loses. Set the bucket only when the ad states a level but no
 duration at all.
 
+**A wish is not a floor.** *souhaitée*, *appréciée*, *de préférence*, *est un
+atout*, *est un plus*, *idéalement*, *stage accepté* all leave the floor at zero —
+write `0 (experience similaire souhaitee)`, which keeps the nuance visible and
+still files the row as junior. An ad that demands experience without naming a
+duration is `Experience confirmee (duree non precisee)` or `Premiere experience
+exigee (duree non precisee)`: floor 0.5, so the row is experienced, and the user
+can see the ad never gave a number.
+
+Three traps that produce a wrong number:
+
+- *"Bachelor's degree (2 or 3 years)"* is the **degree's** length;
+- *"170 ans d'histoire"*, *"55-year heritage"*, *"depuis plus de 40 ans"* is the
+  **company's** age;
+- *"expérience client"*, *"in-vehicle experiences"*, *"une expérience de travail
+  motivante"* is not the candidate's experience at all. A form's dropdown
+  (*"Années d'Expérience 0 +1 +2 +3…"*) is not a requirement either.
+
+### Where the sources publish the other columns
+
+Three blocks are worth extracting before reading prose, because they are the
+source stating the field outright:
+
+| Block | Source | Caveat |
+|---|---|---|
+| `Niveau hiérarchique X - Type d'emploi Y - Fonction Z - Secteurs W` | LinkedIn ad footer | the sector is the **posting** company's; for a staffing firm it is wrong |
+| `Domaine : X Fonction : Y Contrat : Z Entreprise : W Ville : V` | MarocAnnonces | the advertiser miscategorises often — check against the title |
+| `Postulez avant le JJ/MM/AAAA` | Rekrute ad footer | the only deadline any Moroccan board publishes |
+
+`research/labels.py` and `research/deadlines.py` extract them. Extraction is not
+the verdict: `Contrat : A discuter`, `Domaine : Autre` and `Fonction Autre` are
+published non-answers, and an interim agency in `Entreprise` (Manpower, ARTUS,
+AFRICA STAFFING, BEST PROFIL) is not the employer. Those cells stay empty.
+
 When a source refuses its detail page, the ad is usually already in the list
 under its real source. Match on title + employer + city, then check that the
 aggregator card's vocabulary actually appears in the other ad's body before
@@ -271,12 +324,20 @@ timestamp before running build.
 Three rules `build` enforces on every run, on the fresh scrape *and* on the rows
 recovered from the workbook. They are code, not a one-off cleanup:
 
-- **A closed offer never ships.** `build.is_closed` drops any row whose date
-  columns carry a closure that was *read on the page* — "cette offre a expiré",
-  "candidatures fermées", a closing date the ad itself puts in the past. An ad
-  that is merely **old** is kept: nobody established that it is closed, and
-  "annonce publiée il y a 2 ans - vérifier qu'elle est toujours ouverte" is a
-  warning, not a closure.
+- **A closed offer never ships.** `build.is_closed` drops a row on three
+  independent readings, all of them things the source published:
+  a closure marker in a date column ("cette offre a expiré", "candidatures
+  fermées"); a **deadline that is now in the past** (`build.deadline_passed`); or
+  a closure sentence in the fetched ad **body** (`CLOSED_BODY_RE`) — an expired
+  Optioncarriere ad answers 200 with a banner, not a 404, so no date column ever
+  mentions it. An ad that is merely **old** is kept: nobody established that it is
+  closed, and "annonce publiée il y a 2 ans - vérifier qu'elle est toujours
+  ouverte" is a warning, not a closure.
+  Two deliberate asymmetries. Day/month order in a bare `05/08/2026` is ambiguous,
+  so **both readings must be in the past** before the row goes — dropping a live
+  offer is the worse error. And the body pattern is stricter than the date one: a
+  date cell saying "expirée" can only mean one thing, while a 6 000-character body
+  says "expired" about certificates and passports.
 - **The sheet is decided by the FLOOR, never by the ceiling.** `build.exp_floor`
   returns the minimum the ad demands, in years: `0` when it explicitly takes
   someone with none, `>0` when it demands some, `None` when it is silent.
@@ -321,3 +382,12 @@ rejection quote for each.
 - Never invent an offer, a company, an email or a contact name. Every row must
   trace to a URL that was actually fetched. An empty cell is correct when the
   source published nothing.
+- Run `python research/verify.py <workbook> <backup taken before this build>`.
+  With a second argument it is strict: **any row that left is a failure**, unless
+  the reference row carried its own closure. A row you dropped on purpose for
+  relevance still prints `sortie inexpliquee` — that is the design. It forces you
+  to state the drop and its reason in the report instead of letting a silent loss
+  go unnoticed for a round.
+- Report what you could **not** fill and why, column by column, before saying the
+  work is done. A number that is low because the sources publish nothing is an
+  answer; presenting a partial result as complete is not.

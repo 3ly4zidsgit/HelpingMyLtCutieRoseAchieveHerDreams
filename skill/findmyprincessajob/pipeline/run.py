@@ -157,6 +157,21 @@ def do_curate(run):
           '[{"id": 0, "keep": true, "reason": "..."}]')
 
 
+_REMOTE_OK = {}
+
+
+def _remote_ok(run):
+    """{key: True} for the international offers the visa gate has passed. An offer
+    that carries no verdict is absent, and absent means "cannot ship" - the gate's
+    own rule is that silence is a rejection."""
+    if run.track not in _REMOTE_OK:
+        p = os.path.join(run.datadir, "remote_verdicts.json")
+        v = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []
+        _REMOTE_OK[run.track] = {x["key"]: True for x in v
+                                 if x.get("key") and str(x.get("verdict", "")).upper().startswith("OK")}
+    return _REMOTE_OK[run.track]
+
+
 def shipping(run):
     """Every row of THIS track that will end up in the workbook: the curated
     scrape plus the rows recovered from the existing workbook. Those came back
@@ -165,8 +180,15 @@ def shipping(run):
 
     The track filter matters: without it, `fulltext` and `enrich` on a second spec
     would re-download and re-stage the other track's whole workbook, and put those
-    ads in front of the model under the wrong specialty."""
-    rows = curated(run)
+    ads in front of the model under the wrong specialty.
+
+    The visa gate matters just as much. `curated` treats an offer with no verdict
+    as kept, which is right for the relevance gate but wrong here: an international
+    row can only reach a sheet with an explicit remote verdict of OK. Without this
+    filter, `enrich` staged 2 799 offers for a track that ships 288, and `fulltext`
+    would have downloaded every one of them."""
+    rows = [r for r in curated(run) if r["country"] == "Maroc"
+            or _remote_ok(run).get(jid(r["url"]))]
     seen = {r["url"] for r in rows}
     for r in B.read_existing(run.spec["excel_path"]):
         if r.get("track", B.DEFAULT_TRACK) != run.track:
@@ -210,7 +232,11 @@ def do_enrich(run):
         out.append({
             "id": i, "key": jid(u), "url": u,
             "job_title": r["job_title"],
-            "current": {"company": r.get("company", ""),
+            # 'deadline' fait partie de l'etat courant: sans lui, un script
+            # d'enrichissement croit la colonne vide et re-extrait 113 dates deja
+            # presentes, ce qui ressemble a un gain et n'en est pas un.
+            "current": {"deadline": r.get("deadline", ""),
+                        "company": r.get("company", ""),
                         "experience_required": r.get("experience_required", ""),
                         "seniority_bucket": r.get("seniority_bucket", ""),
                         "contract_type": r.get("contract_type", ""),
@@ -229,7 +255,8 @@ def do_enrich(run):
           f"(sources murees - lancer fetch_fulltext)")
     print('Write data/field_verdicts.json as [{"key": "...", "company": "...", '
           '"experience_required": "...", "seniority_bucket": "Junior|Experimente|Non precise", '
-          '"contract_type": "...", "sector": "...", "function": "...", "city": "..."}]')
+          '"contract_type": "...", "sector": "...", "function": "...", "city": "...", '
+          '"deadline": "JJ/MM/AAAA"}]')
 
 
 def apply_fields(run, rows):
@@ -265,6 +292,21 @@ LI_CHROME = re.compile(
     r"|Utilisez l.IA pour|Personnaliser mon CV|Identifiez-vous pour|D[ée]couvrez qui .{0,60}a recrut"
     r"|Les recommandations augmentent|Voir qui vous connaissez|Signaler cette offre|Show more Show less"
     r"|Plus de \d+ candidats|Faites partie des \d+ premiers", re.I)
+
+
+def _bodies(run):
+    """{url: full ad text} for every body this track has fetched, both tracks'
+    files unioned - a closure read on one track's copy of an ad closes it on the
+    other too, and the two tracks do republish the same offer."""
+    out = {}
+    for d in {run.datadir, os.path.join(run.outdir, "data")}:
+        p = os.path.join(d, "fulltext.json")
+        if os.path.exists(p):
+            with open(p, encoding="utf-8") as f:
+                for u, v in json.load(f).items():
+                    if v.get("text"):
+                        out.setdefault(u, v["text"])
+    return out
 
 
 def fill_descriptions(run, rows):
@@ -411,11 +453,18 @@ def do_build(run):
         print(f"colonne Description completee depuis le corps deja telecharge: {nd} offres")
 
     # closure is not a matter of specialty: a closed offer must never ship,
-    # whichever track found it.
+    # whichever track found it. The check reads the date columns AND the fetched
+    # ad body, because a board that expires an ad does not always say so in a
+    # field - Optioncarriere answers 200 with a banner in the page itself.
+    bodies = _bodies(run)
+
+    def closed(r):
+        return B.is_closed(r, bodies.get((r.get("url") or "").strip(), ""))
+
     n, m, o = len(rows), len(previous), len(foreign)
-    rows = [r for r in rows if not B.is_closed(r)]
-    previous = [r for r in previous if not B.is_closed(r)]
-    foreign = [r for r in foreign if not B.is_closed(r)]
+    rows = [r for r in rows if not closed(r)]
+    previous = [r for r in previous if not closed(r)]
+    foreign = [r for r in foreign if not closed(r)]
     closed = (n - len(rows)) + (m - len(previous)) + (o - len(foreign))
     if closed:
         print(f"offres fermees ecartees (annonce lue comme expiree): {closed}")

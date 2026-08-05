@@ -64,8 +64,10 @@
  {
   "key": "782e64694135",
   "experience_required": "3 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: 'ochimie, immunologie, pharmacie…), vous justifiez d’une expérience de 3 à 5 ans dans la vente en cycle long de systèmes et dispositifs médicaux dédié' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce",
-  "contract_type": "Temps plein"
+  "reason": "lu dans le corps de l'annonce: 'ochimie, immunologie, pharmacie…), vous justifiez d’une expérience de 3 à 5 ans dans la vente en cycle long de systèmes et dispositifs médicaux dédié' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | lu dans le corps: \"vous assurez la promotion de nos equipements medicaux aupres du secteur prive de la sante\" et le pied LinkedIn \"Fonction Ventes et Developpement commercial\"",
+  "contract_type": "Temps plein",
+  "sector": "Santé / Industries de santé",
+  "function": "Ventes et Développement commercial"
  },
  {
   "key": "505a306fb5fa",
@@ -261,9 +263,10 @@
  {
   "key": "f185a266e36a",
   "experience_required": "0",
-  "reason": "lu dans le corps de l'annonce: 'n : Bac+5 de type Master en audit et contrôle de gestion Expérience : Débutant, une première expérience en audit est souhaitable || Auditeur Interne' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce",
+  "reason": "lu dans le corps de l'annonce: 'n : Bac+5 de type Master en audit et contrôle de gestion Expérience : Débutant, une première expérience en audit est souhaitable || Auditeur Interne' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | lu dans le corps: pied d'annonce LinkedIn: \"Secteurs Fabrication de vehicules automobiles et Fabrication de machines industrielles\"",
   "contract_type": "Temps plein",
-  "function": "Comptabilité/audit et Finance"
+  "function": "Comptabilité/audit et Finance",
+  "sector": "Fabrication de véhicules automobiles et de machines industrielles"
  },
  {
   "key": "892f30f16bee",
@@ -305,9 +308,10 @@
  {
   "key": "f3aaef21dc2e",
   "experience_required": "3 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: 'on Bac + 5 ingénieur industriel ou équivalent, avec une expérience de 3 ans à 5 ans dans un poste similaire || Acheteur Projet CDP Hutchinson Casablanca-' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce",
+  "reason": "lu dans le corps de l'annonce: 'on Bac + 5 ingénieur industriel ou équivalent, avec une expérience de 3 ans à 5 ans dans un poste similaire || Acheteur Projet CDP Hutchinson Casablanca-' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
   "contract_type": "Temps plein",
-  "function": "Achats"
+  "function": "Achats",
+  "sector": "Fabrication pour l'aérospatiale et la défense"
  },
  {
   "key": "9cb0c0aa2091",
@@ -373,8 +377,10 @@
  {
   "key": "afa997fc422d",
   "experience_required": "8 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'aux démonstrations sur les marchés prioritaires Ce qu'on recherche - 8 ans minimum d'expérience dans la conformité bancaire AML/KYC/LBC-FT - Une expérie' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce",
-  "contract_type": "Temps plein"
+  "reason": "lu dans le corps de l'annonce: 'aux démonstrations sur les marchés prioritaires Ce qu'on recherche - 8 ans minimum d'expérience dans la conformité bancaire AML/KYC/LBC-FT - Une expérie' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: pied d'annonce LinkedIn: \"Secteurs Technologies et services de l'information, Services bancaires\"",
+  "contract_type": "Temps plein",
+  "function": "Finance, Responsable produit et Technologies de l'information",
+  "sector": "Technologies de l'information et services bancaires"
  },
  {
   "key": "9b8f571654d2",
@@ -394,9 +400,10 @@
  {
   "key": "4fc01bf236e3",
   "experience_required": "5 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'in Electrical Engineering, Computer Science, or a related field, with at least 5 years of experience in technical roles || Product Manager Harmattan AI Maro' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce",
+  "reason": "lu dans le corps de l'annonce: 'in Electrical Engineering, Computer Science, or a related field, with at least 5 years of experience in technical roles || Product Manager Harmattan AI Maro' | contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
   "contract_type": "Temps plein",
-  "function": "Responsable produit et Marketing"
+  "function": "Responsable produit et Marketing",
+  "sector": "Fabrication pour l'aérospatiale et la défense"
  },
  {
   "key": "e8e56b43b821",
@@ -632,177 +639,294 @@
  {
   "key": "86325fd87c4e",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 're) : Formation Bac+5 d'école d'ingénieur ou de commerce Expérience d'au moins 3 ans dans un poste commercial terrain dans le domaine du BTP Excellentes q'"
+  "reason": "lu dans le corps de l'annonce: 're) : Formation Bac+5 d'école d'ingénieur ou de commerce Expérience d'au moins 3 ans dans un poste commercial terrain dans le domaine du BTP Excellentes q' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Construction / BTP",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "a0e9a2ef0f59",
   "experience_required": "3 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: '- Expérience : 3 à 5 ans dans un poste technico-commercial, idéalement dans la gestion des déc'"
+  "reason": "lu dans le corps de l'annonce: '- Expérience : 3 à 5 ans dans un poste technico-commercial, idéalement dans la gestion des déc' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Commercial/Technico-Commercial",
+  "city": "Casablanca"
  },
  {
   "key": "98fb374f1a74",
   "experience_required": "5 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'erché : Bac+5 (école d'ingénieur ou équivalent) Expérience confirmée (5 ans minimum) en avant-vente IT / workplace Bonne maîtrise des environnements post'"
+  "reason": "lu dans le corps de l'annonce: 'erché : Bac+5 (école d'ingénieur ou équivalent) Expérience confirmée (5 ans minimum) en avant-vente IT / workplace Bonne maîtrise des environnements post' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "06b74b558bb9",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'Profil recherché : Bac+5 (école d'ingénieur ou équivalent) Expérience confirmée en avant-vente ou ingénierie sécurité Maîtrise des systèmes : vidéosu'"
+  "reason": "lu dans le corps de l'annonce: 'Profil recherché : Bac+5 (école d'ingénieur ou équivalent) Expérience confirmée en avant-vente ou ingénierie sécurité Maîtrise des systèmes : vidéosu' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "d419cc35fb9f",
   "experience_required": "2 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: 'Expérience :Expérience de 2 à 5 ans dans des fonctions commerciales et/ou techniques || Ingénieur Technic'"
+  "reason": "lu dans le corps de l'annonce: 'Expérience :Expérience de 2 à 5 ans dans des fonctions commerciales et/ou techniques || Ingénieur Technic' | lu dans le corps: \"nous recrutons pour le compte de l'un de nos partenaires operant dans le secteur de l'agriculture et de la nutrition animale\"",
+  "sector": "Agriculture / Nutrition animale"
  },
  {
   "key": "4c139cb294fd",
   "experience_required": "3 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: 'mmerce, ingénierie, gestion ou droit avec orientation technologique • 3 à 5 ans d’expérience en vente B2B de solutions SaaS ou technologiques • Expér'"
+  "reason": "lu dans le corps de l'annonce: 'mmerce, ingénierie, gestion ou droit avec orientation technologique • 3 à 5 ans d’expérience en vente B2B de solutions SaaS ou technologiques • Expér' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "30f536ac2848",
   "experience_required": "5 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 't disposant d’une expérience dans le secteur médical / hospitalier || Minimum 5 ans d’expérience en tant que Sales Engineer || Expertise confirmée en Low'"
+  "reason": "lu dans le corps de l'annonce: 't disposant d’une expérience dans le secteur médical / hospitalier || Minimum 5 ans d’expérience en tant que Sales Engineer || Expertise confirmée en Low' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Biologie / Chimie / Pharmaceutique",
+  "function": "Commercial/Technico-Commercial",
+  "contract_type": "CDD",
+  "city": "Casablanca"
  },
  {
   "key": "35a975c431a6",
   "experience_required": "1 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: '- Expérience de 1 à 5 ans en tant que commercial terrain, idéalement dans les secteurs de la pl'"
+  "reason": "lu dans le corps de l'annonce: '- Expérience de 1 à 5 ans en tant que commercial terrain, idéalement dans les secteurs de la pl' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: \"les secteurs de la plomberie, du sanitaire, de la climatisation, de la robinetterie industrielle\"",
+  "function": "Commercial/Technico-Commercial",
+  "contract_type": "CDI",
+  "city": "Casablanca",
+  "sector": "Plomberie / Sanitaire / Climatisation"
  },
  {
   "key": "4bd90f43501f",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'Votre profil : • 3 ans d'expérience minimum sur un poste similaire || chargé d'affaires sénior Cas'"
+  "reason": "lu dans le corps de l'annonce: 'Votre profil : • 3 ans d'expérience minimum sur un poste similaire || chargé d'affaires sénior Cas' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Immobilier",
+  "function": "Négociation/Gestion immobilière",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "efa4d8e06e06",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'Profil recherché : - Formation Bac+4 ou plus - Expérience confirmée dans la gestion de comptes B2B - Une expérience dans la vente de solu'"
+  "reason": "lu dans le corps de l'annonce: 'Profil recherché : - Formation Bac+4 ou plus - Expérience confirmée dans la gestion de comptes B2B - Une expérience dans la vente de solu' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Grande Distribution",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "45eca627ca23",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'il recherché : Formation Bac+3/5 en commerce, technique ou équivalent Expérience confirmée en vente de solutions de sécurité électronique ou IT Bonne connaissan'"
+  "reason": "lu dans le corps de l'annonce: 'il recherché : Formation Bac+3/5 en commerce, technique ou équivalent Expérience confirmée en vente de solutions de sécurité électronique ou IT Bonne connaissan' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial/Technico-Commercial",
+  "contract_type": "CDI",
+  "city": "Tanger"
  },
  {
   "key": "a0bc2181b19a",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'ons à forte valeur ajoutée en vidéosurveillance. Profil recherché : - Expérience significative en développement commercial - Expertise dans les systèmes de vidéosur'"
+  "reason": "lu dans le corps de l'annonce: 'ons à forte valeur ajoutée en vidéosurveillance. Profil recherché : - Expérience significative en développement commercial - Expertise dans les systèmes de vidéosur' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Tanger"
  },
  {
   "key": "360a75cbfd6f",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'iale et à la croissance du business Profil recherché : - Expérience : Minimum 3 ans dans le domaine des Data Centers ou infrastructures similaires - Form'"
+  "reason": "lu dans le corps de l'annonce: 'iale et à la croissance du business Profil recherché : - Expérience : Minimum 3 ans dans le domaine des Data Centers ou infrastructures similaires - Form' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Télécommunications",
+  "function": "Commercial professionnels (B2B)",
+  "city": "Casablanca"
  },
  {
   "key": "d325eb39963d",
   "experience_required": "5 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'les Négocier les contrats Assurer le suivi des clients Profil : Bac+3 minimum 5 ans d'expérience minimum en commerce B2B Expérience en environnement indu'"
+  "reason": "lu dans le corps de l'annonce: 'les Négocier les contrats Assurer le suivi des clients Profil : Bac+3 minimum 5 ans d'expérience minimum en commerce B2B Expérience en environnement indu' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "cfa01a3d8d0a",
   "experience_required": "8 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'é) ; Profil : -Bac+5 Commerce, Marketing ou Commerce International ; -Minimum 8 ans d'expérience en gestion de Grands Comptes (agroalimentaire/FMCG appré'"
+  "reason": "lu dans le corps de l'annonce: 'é) ; Profil : -Bac+5 Commerce, Marketing ou Commerce International ; -Minimum 8 ans d'expérience en gestion de Grands Comptes (agroalimentaire/FMCG appré' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Agroalimentaire",
+  "contract_type": "CDI",
+  "city": "Agadir"
  },
  {
   "key": "2448af92d75a",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'ualité, délais) Profil recherché : • Bac+5 en achats / supply chain • Expérience confirmée en achats • Négociation, rigueur et anglais courant Conditions : • Co'"
+  "reason": "lu dans le corps de l'annonce: 'ualité, délais) Profil recherché : • Bac+5 en achats / supply chain • Expérience confirmée en achats • Négociation, rigueur et anglais courant Conditions : • Co' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Import / Export",
+  "contract_type": "CDI / CDD selon profil",
+  "company": "HOTIN",
+  "city": "Casablanca"
  },
  {
   "key": "d8879c0c1a9d",
   "experience_required": "02 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'cole d’ingénieurs en statistique, sciences de données, Big Data, avec plus de 02 ans d’expérience dans un poste similaire || Business Analyst Casablanca P'"
+  "reason": "lu dans le corps de l'annonce: 'cole d’ingénieurs en statistique, sciences de données, Big Data, avec plus de 02 ans d’expérience dans un poste similaire || Business Analyst Casablanca P' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "city": "Casablanca"
  },
  {
   "key": "47f416c50a1a",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'n garantissant les meilleures conditions de coût, qualité et délai. • Minimum 3 ans dans les achats techniques. • Une expérience dans les marchés, réseau'"
+  "reason": "lu dans le corps de l'annonce: 'n garantissant les meilleures conditions de coût, qualité et délai. • Minimum 3 ans dans les achats techniques. • Une expérience dans les marchés, réseau' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "contract_type": "CDI",
+  "city": "Casablanca"
  },
  {
   "key": "efdc4e58f483",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'assurer la gestion et l'optimisation des achats de l'établissement || Minimum 3 ans d'expérience dans une fonction similaire || Acheteur Expérimenté Casa'"
+  "reason": "lu dans le corps de l'annonce: 'assurer la gestion et l'optimisation des achats de l'établissement || Minimum 3 ans d'expérience dans une fonction similaire || Acheteur Expérimenté Casa' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: \"Contrat d'interim\", ecrit dans le corps de l'annonce",
+  "function": "Achat",
+  "city": "Casablanca",
+  "contract_type": "Intérim"
  },
  {
   "key": "7637bd1a1938",
   "experience_required": "3 à 4 ans",
-  "reason": "lu dans le corps de l'annonce: 'Expérience de 3 à 4 ans dans un poste similaire || Acheteur Import (H/F) Berrechid Publiée le'"
+  "reason": "lu dans le corps de l'annonce: 'Expérience de 3 à 4 ans dans un poste similaire || Acheteur Import (H/F) Berrechid Publiée le' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Agroalimentaire",
+  "contract_type": "CDI",
+  "city": "Berrechid"
  },
  {
   "key": "ed0002d61a75",
   "experience_required": "3 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: 'Achats, Supply Chain, Commerce, Logistique ou Gestion. Expérience de 3 à 5 ans minimum dans une fonction achats, idéalement dans les secteurs du tra'"
+  "reason": "lu dans le corps de l'annonce: 'Achats, Supply Chain, Commerce, Logistique ou Gestion. Expérience de 3 à 5 ans minimum dans une fonction achats, idéalement dans les secteurs du tra' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Transport / Logistique",
+  "city": "Casablanca"
  },
  {
   "key": "75e0d324f7c1",
   "experience_required": "3 à 7 ans",
-  "reason": "lu dans le corps de l'annonce: '* Expérience de 3 à 7 ans dans un poste similaire || Acheteur(se)-El Jadida El jadida Publiée l'"
+  "reason": "lu dans le corps de l'annonce: '* Expérience de 3 à 7 ans dans un poste similaire || Acheteur(se)-El Jadida El jadida Publiée l' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Import / Export",
+  "function": "Achat",
+  "contract_type": "CDI",
+  "city": "El Jadida"
  },
  {
   "key": "f6682ac89017",
   "experience_required": "0",
-  "reason": "lu dans le corps de l'annonce: 'un(e) Acheteur(se) débutante Mohammedia Publiée le: 15 Jun-12:11 Vue: 413 Annonce N°: 10398174 No'"
+  "reason": "lu dans le corps de l'annonce: 'un(e) Acheteur(se) débutante Mohammedia Publiée le: 15 Jun-12:11 Vue: 413 Annonce N°: 10398174 No' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Transport / Achat / Logistique",
+  "function": "Achat",
+  "city": "Mohammedia"
  },
  {
   "key": "780d2a80809a",
   "experience_required": "2 à 3 ans",
-  "reason": "lu dans le corps de l'annonce: 'Expérience de 2 à 3 ans dans les achats techniques ou industriels || • Expérience : 2 à 3 ans'"
+  "reason": "lu dans le corps de l'annonce: 'Expérience de 2 à 3 ans dans les achats techniques ou industriels || • Expérience : 2 à 3 ans' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "company": "HOTIN",
+  "city": "Casablanca"
  },
  {
   "key": "a1840b35faae",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'génieur, école de commerce ou spécialisation Achats / Supply Chain) • Minimum 3 ans d’expérience dans une fonction Achats similaire, idéalement en enviro'"
+  "reason": "lu dans le corps de l'annonce: 'génieur, école de commerce ou spécialisation Achats / Supply Chain) • Minimum 3 ans d’expérience dans une fonction Achats similaire, idéalement en enviro' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: \"Nous recrutons un(e) Acheteur Famille en CDI pour le compte de l'un de nos clients\"",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "city": "Mohammedia",
+  "contract_type": "CDI"
  },
  {
   "key": "b41ee1a60afb",
   "experience_required": "1 an minimum",
-  "reason": "lu dans le corps de l'annonce: 'ace avec les clients internes et les fournisseurs Profil recherché : -Minimum 1 an d’expérience en achats (idéalement logistique / automobile) -Solides'"
+  "reason": "lu dans le corps de l'annonce: 'ace avec les clients internes et les fournisseurs Profil recherché : -Minimum 1 an d’expérience en achats (idéalement logistique / automobile) -Solides' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Automobile",
+  "function": "Achat",
+  "contract_type": "CDI",
+  "city": "Tanger"
  },
  {
   "key": "9086995b25e6",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: '- Formation minimale Bac+3, avec une expérience confirmée d’au moins 3 ans dans une fonction similaire ; - Bonnes connaissances techniques, nota'"
+  "reason": "lu dans le corps de l'annonce: '- Formation minimale Bac+3, avec une expérience confirmée d’au moins 3 ans dans une fonction similaire ; - Bonnes connaissances techniques, nota' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Transport / Achat / Logistique",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Rabat"
  },
  {
   "key": "54b6ccbf6cd8",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'once N°: 10363010 Manpower recrute Un(e) Acheteur (se) H/F Rabat avec 3 ans minimum d'expérience pour une société opérant dans le secteur industriel basé'"
+  "reason": "lu dans le corps de l'annonce: 'once N°: 10363010 Manpower recrute Un(e) Acheteur (se) H/F Rabat avec 3 ans minimum d'expérience pour une société opérant dans le secteur industriel basé' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Rabat"
  },
  {
   "key": "986cf19054c4",
   "experience_required": "2 à 5 ans",
-  "reason": "lu dans le corps de l'annonce: '3 à Bac+5 en Achats, Logistique, Commerce ou équivalent Expérience de 2 à 5 ans dans un poste similaire, idéalement en industrie aéronautique Bonne m'"
+  "reason": "lu dans le corps de l'annonce: '3 à Bac+5 en Achats, Logistique, Commerce ou équivalent Expérience de 2 à 5 ans dans un poste similaire, idéalement en industrie aéronautique Bonne m' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Aéronautique",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Nouaceur"
  },
  {
   "key": "b094ce6a2577",
   "experience_required": "5 à 8 ans",
-  "reason": "lu dans le corps de l'annonce: 'e de reporting réguliers via power BI Profil recherché - Expérience : 5 à 8 ans minimum en achats industriels/ achats indirects et prestations, avec'"
+  "reason": "lu dans le corps de l'annonce: 'e de reporting réguliers via power BI Profil recherché - Expérience : 5 à 8 ans minimum en achats industriels/ achats indirects et prestations, avec' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Transport / Achat / Logistique",
+  "contract_type": "Intérim",
+  "city": "El Jadida"
  },
  {
   "key": "2c0159cc3e0c",
   "experience_required": "0 à 2 ans",
-  "reason": "lu dans le corps de l'annonce: 'litiques achats et procédures internes Profil recherché -Expérience : 0 à 2 ans en achats, logistique, ou supply chain (stages acceptés) -Formation :'"
+  "reason": "lu dans le corps de l'annonce: 'litiques achats et procédures internes Profil recherché -Expérience : 0 à 2 ans en achats, logistique, ou supply chain (stages acceptés) -Formation :' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Transport / Achat / Logistique",
+  "function": "Achat",
+  "city": "El Jadida"
  },
  {
   "key": "744598e9fc01",
   "experience_required": "8 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'erché : Bac+5 en Achats, Supply Chain, Génie Industriel ou équivalent Minimum 8 ans d’expérience en achats industriels Expérience dans le secteur aéronau'"
+  "reason": "lu dans le corps de l'annonce: 'erché : Bac+5 en Achats, Supply Chain, Génie Industriel ou équivalent Minimum 8 ans d’expérience en achats industriels Expérience dans le secteur aéronau' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Aéronautique",
+  "function": "Achat",
+  "city": "Tanger"
  },
  {
   "key": "2d470b5e3a23",
   "experience_required": "3 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'our rejoindre l’équipe commerciale Network Solution à Casablanca || - Minimum 3 ans d'expérience dans un rôle similaire - Bonne connaissance des domaines'"
+  "reason": "lu dans le corps de l'annonce: 'our rejoindre l’équipe commerciale Network Solution à Casablanca || - Minimum 3 ans d'expérience dans un rôle similaire - Bonne connaissance des domaines' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: \"Fonction : Commercial professionnels (B2B) Contrat : CDD\", et l'intitule dit deja \"en CDD\"",
+  "sector": "Télécommunications",
+  "city": "Casablanca",
+  "contract_type": "CDD"
  },
  {
   "key": "9874e14c0c3f",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'ormatique ou diplôme de l’enseignement supérieur capitalisant sur une expérience professionnelle. A PROPOS DE NEWREST : Humilité, simplicité, efficience, et sens des'"
+  "reason": "lu dans le corps de l'annonce: 'ormatique ou diplôme de l’enseignement supérieur capitalisant sur une expérience professionnelle. A PROPOS DE NEWREST : Humilité, simplicité, efficience, et sens des' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Tourisme / Hôtellerie / Restauration",
+  "function": "Informatique - Systèmes d'Information",
+  "company": "Newrest Maroc",
+  "city": "Casablanca"
  },
  {
   "key": "5f7e4e876c73",
   "experience_required": "Expérience confirmée (durée non précisée)",
-  "reason": "lu dans le corps de l'annonce: 'CA Casablanca Publiée le: 16 Mar-14:56 Vue: 605 Annonce N°: 10343150 -EXPERIENCE OBLIGATOIRE Domaine : Autre Fonction : Informatique - Développement Hardware Cont'"
+  "reason": "lu dans le corps de l'annonce: 'CA Casablanca Publiée le: 16 Mar-14:56 Vue: 605 Annonce N°: 10343150 -EXPERIENCE OBLIGATOIRE Domaine : Autre Fonction : Informatique - Développement Hardware Cont' | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "contract_type": "Intérim",
+  "city": "Casablanca"
  },
  {
   "key": "e89bedcb8e4c",
@@ -814,33 +938,40 @@
  {
   "key": "0912ba88f464",
   "experience_required": "2 ans minimum",
-  "reason": "lu dans le corps de l'annonce: 'Expérience obligatoire de 2 ans minimum dans le domaine de la sécurité incendie ou dans un secteur technique'"
+  "reason": "lu dans le corps de l'annonce: 'Expérience obligatoire de 2 ans minimum dans le domaine de la sécurité incendie ou dans un secteur technique' | lu dans le corps: \"Rejoignez Mondial Feu et participez a des projets d'envergure dans le domaine de la securite incendie\"",
+  "sector": "Sécurité incendie",
+  "company": "Mondial Feu"
  },
  {
   "key": "239e70705e16",
   "contract_type": "Temps plein",
   "function": "Développement commercial et Conseil",
   "sector": "Services et conseil en informatique",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"De formation BAC+5 en Ecole de Commerce ou d'Ingenieur, vous beneficiez d'une premiere experience sur ce metier et dans notre secteur\" - exigee, mais l'annonce ne la chiffre pas",
+  "experience_required": "Premiere experience exigee (duree non precisee)"
  },
  {
   "key": "872b08baa5ee",
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Fabrication de produits chimiques",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"A (7) years working experience (minimum) related to the Industrial Sector and/or the sales of Technical products\"",
+  "experience_required": "7 ans minimum"
  },
  {
   "key": "2095f182c100",
   "contract_type": "Temps plein",
   "sector": "Enquêtes et sécurité",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Experience averee en tant que technico-commercial dans les domaines du courant fort et du courant faible\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "4cc7722f7ac8",
   "contract_type": "Temps plein",
   "function": "Ventes",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: poste intitule \"Senior Enterprise Account Executive\" et \"Partner Ecosystem: Experience co-selling with channel partners, cloud providers, and GSIs\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "sector": "Sécurité informatique et des réseaux"
  },
  {
   "key": "701179441b75",
@@ -854,21 +985,24 @@
   "contract_type": "Temps plein",
   "function": "Développement commercial et Ventes",
   "sector": "Transport, logistique, chaîne logistique et stockage",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Are you an experienced Business Development professional\" et \"Experience in a customer facing commercial role, within the Contract logistics industry\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "0d3b3a08e00b",
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Experience en cablage automobile et faisceaux electriques est exigee\" - exigee sans duree",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "422e1487af71",
   "contract_type": "Temps plein",
   "function": "Éducation et Formation",
   "sector": "Construction",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"vous recherchez une premiere experience en CDI\" et \"Vous avez idealement une premiere experience (stage et/ou alternance) en cabinet ou en entreprise\" - idealement, donc non exigee",
+  "experience_required": "0 (stage ou alternance apprecie)"
  },
  {
   "key": "be07b784fbf7",
@@ -888,35 +1022,40 @@
   "contract_type": "Temps plein",
   "function": "Études/recherche, Analyste et Technologies de l’information",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Profil Recherche Experience averee en Business Analysis dans l'assurance\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "1e2a18685ca0",
   "contract_type": "Temps plein",
   "function": "Comptabilité/audit et Finance",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"beneficiez idealement d'une premiere experience en gestion des risques SI (notamment lors des stages)\" - idealement, et le stage compte",
+  "experience_required": "0 (stage apprecie)"
  },
  {
   "key": "267e1b71d50f",
   "contract_type": "Temps plein",
   "function": "Management de projet",
   "sector": "Services bancaires",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Experience dans un poste similaire dans le domaine bancaire, experience en gestion de projet IT\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "9c42d88be272",
   "contract_type": "Temps plein",
   "function": "Comptabilité/audit et Finance",
   "sector": "Services financiers",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Premiere experience (stage ou emploi) en audit, comptabilite ou services financiers constitue un atout\" - un atout, pas une exigence",
+  "experience_required": "0 (stage apprecie)"
  },
  {
   "key": "f34f358e6488",
   "contract_type": "Temps plein",
   "function": "Comptabilité/audit et Finance",
   "sector": "Services bancaires",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"justifiez d'une premiere experience reussie, acquise lors de stages significatifs ou au cours de 2 annees d'experience en banque ou en cabinet d'audit / conseil\" - les stages satisfont l'exigence, le plancher est zero",
+  "experience_required": "0 (stages significatifs acceptes)"
  },
  {
   "key": "88cb67682350",
@@ -930,14 +1069,16 @@
   "contract_type": "Temps plein",
   "function": "Achats et Chaîne logistique",
   "sector": "Transports routiers de fret et Construction de matériel ferroviaire",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Confirmed experience as a buyer in an industrial context\" - l'annonce dit par ailleurs \"We value passion and attitude over experience\", mais la ligne de profil exige une experience confirmee",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "c2cf7eea87b1",
   "contract_type": "Temps plein",
   "function": "Achats",
   "sector": "Services bancaires",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Niveau d'etudes : Bac+5 - Cursus universitaire achats ou experience dans le domaine achats\" - le cursus suffit, l'experience est une alternative",
+  "experience_required": "0 (cursus achats ou experience achats)"
  },
  {
   "key": "22524497cffa",
@@ -972,7 +1113,8 @@
   "contract_type": "Temps plein",
   "function": "Distribution",
   "sector": "Commerce de détail",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Premiere experience en grande distribution ou retail\"",
+  "experience_required": "Premiere experience exigee (duree non precisee)"
  },
  {
   "key": "a30022966838",
@@ -993,14 +1135,16 @@
   "contract_type": "Temps plein",
   "function": "Responsable produit et Marketing",
   "sector": "Services bancaires",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"De formation Bac+5, Ecole de commerce ou d'ingenierie avec une experience anterieure en tant que Product Owner ou dans un role similaire\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "8d9a22a372ea",
   "contract_type": "Temps plein",
   "function": "Responsable produit et Marketing",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Profil Recherche Experience dans un environnement Agile\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "8a6e097af5b7",
@@ -1014,28 +1158,32 @@
   "contract_type": "Temps plein",
   "function": "Études/recherche, Analyste et Technologies de l’information",
   "sector": "Transport aérien",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Proven experience as a Performance Reporting Analyst, Data Analyst, Power BI Developer or similar role\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "4a49e100665e",
   "contract_type": "Temps plein",
   "function": "Technologies de l’information",
   "sector": "Services et conseil en informatique",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Vous avez 3 ans ou plus d'experience en analyse de donnees et vous maitrisez les tableaux de bord\"",
+  "experience_required": "3 ans minimum"
  },
  {
   "key": "f65b100cc652",
   "contract_type": "Bénévolat",
   "function": "Technologies de l’information",
   "sector": "Services et conseil en informatique",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Ayant 5 ans minimum dans un environnement Data/BI - Expertise confirmee en analyse de donnees\"",
+  "experience_required": "5 ans minimum"
  },
  {
   "key": "35b5681baa7a",
   "contract_type": "Temps plein",
   "function": "Développement commercial et Ventes",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"5 ans ou plus d'experience en Business intelligence\"",
+  "experience_required": "5 ans minimum"
  },
  {
   "key": "a3b085f43590",
@@ -1049,42 +1197,48 @@
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Required Skills & Experience - Proven experience in outbound sales / SDR / inside sales in SaaS\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "d22de28f0dfb",
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Proven experience managing a customer portfolio in a phone-based or inside sales role\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "f2fcf5e98251",
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Services et conseil en informatique",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Minimum of 5 years in a Pre-Sales customer facing organization in the Data and Mobile industry\"",
+  "experience_required": "5 ans minimum"
  },
  {
   "key": "a8dfe50fe9f6",
   "contract_type": "Temps plein",
   "function": "Développement commercial et Ventes",
   "sector": "Services bancaires",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Une premiere experience dans un environnement de banque d'investissement est un plus (stage, missions)\" - un plus, pas une exigence",
+  "experience_required": "0 (stage apprecie)"
  },
  {
   "key": "6caa600150fd",
   "contract_type": "Temps plein",
   "function": "Études/recherche, Analyste et Technologies de l’information",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Profil Recherche Experience averee en Business Analysis dans le domaine Claims\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "8fc78009b825",
   "contract_type": "Temps plein",
   "function": "Études/recherche, Analyste et Technologies de l’information",
   "sector": "Services et conseil aux entreprises",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Profil Recherche Experience averee en Business Analysis dans l'assurance generale ou services financiers\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "b1783907556f",
@@ -1098,14 +1252,16 @@
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Proven experience managing a customer portfolio in a phone-based or inside sales role\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "3ace89c7064b",
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Freshly Graduated candidates accepted\" - l'annonce prend explicitement une jeune diplomee",
+  "experience_required": "0"
  },
  {
   "key": "96a7a41d7f74",
@@ -1119,21 +1275,24 @@
   "contract_type": "Temps plein",
   "function": "Ventes et Développement commercial",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Freshly Graduated candidates accepted\" - l'annonce prend explicitement une jeune diplomee",
+  "experience_required": "0"
  },
  {
   "key": "f8d2a9bff340",
   "contract_type": "Temps plein",
   "function": "Technologies de l’information",
   "sector": "Technologie, information et Internet",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Minimum of 5 years of experience in data analysis, business analysis, or a related role\"",
+  "experience_required": "5 ans minimum"
  },
  {
   "key": "e215b2c80fa5",
   "contract_type": "Temps plein",
   "function": "Achats et Chaîne logistique",
   "sector": "Fabrication de véhicules automobiles",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Experience significative dans les domaines des Achats et des pieces d'emboutissage Body in White\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "918f6d3c54ed",
@@ -1147,6 +1306,632 @@
   "contract_type": "Temps plein",
   "function": "Technologies de l’information",
   "sector": "Hôtellerie",
-  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce"
+  "reason": "contrat/fonction/secteur repris du bloc que la source publie en pied d'annonce | experience lue dans le corps: \"Qualifications - Experience anterieure exigee\"",
+  "experience_required": "Experience confirmee (duree non precisee)"
+ },
+ {
+  "key": "d65f8c289d4a",
+  "experience_required": "0 (stage, alternance ou premier poste accepte)",
+  "reason": "experience lue dans le corps: \"Une premiere experience reussie (stage, alternance, premier poste) dans un environnement tech\" - un stage suffit, le plancher est zero"
+ },
+ {
+  "key": "3cbecafe2baa",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Proven Sales/ Key Account/ Commercial experience in a multinational environment, ideally within IVD / laboratory diagnostics\" - aucune duree chiffree"
+ },
+ {
+  "key": "bd62f2515d55",
+  "experience_required": "5 ans minimum",
+  "reason": "experience lue dans le corps: \"Minimum of 5 years of Key accounts experience in Modern Trade/FMCG\""
+ },
+ {
+  "key": "c326c7694b3d",
+  "experience_required": "2 à 3 ans",
+  "reason": "experience lue dans le corps: \"Formation Technique ou Commerciale superieure Bac+2 a minima - 2 a 3 ans dans la vente technique en BtoB\""
+ },
+ {
+  "key": "f3f00bf0cf95",
+  "experience_required": "2 à 3 ans",
+  "reason": "experience lue dans le corps: \"Formation Technique ou Commerciale superieure Bac+2 a minima - 2 a 3 ans dans la vente technique en BtoB\""
+ },
+ {
+  "key": "d659736b0cd9",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Plutus21 Partners is seeking an experienced, entrepreneurial Account Manager\" et \"Experience developing complex growth strategies within an international organization\""
+ },
+ {
+  "key": "0268612ec791",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"PROFIL RECHERCHE : - Experience en gestion administrative, account management ou relation client\""
+ },
+ {
+  "key": "d12efc7983a5",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Formation Bac+3 a Bac+5 (commerce, gestion ou equivalent) - Premiere experience en business development / vente B2B\""
+ },
+ {
+  "key": "015f594468f5",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Experience en implementation de solutions, idealement dans le secteur de la sante\" et \"Experience sur des projets demarres from scratch\""
+ },
+ {
+  "key": "ac01eec0d8ac",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Vous justifiez d'une ou plusieurs experiences prealables reussies dans le domaine de la finance\""
+ },
+ {
+  "key": "9ad6a5928cd5",
+  "experience_required": "0 (stage ou alternance accepte)",
+  "reason": "experience lue dans le corps: \"Une ou plusieurs experiences (stage, alternance) en direction financiere, controle de gestion\" - un stage satisfait l'exigence"
+ },
+ {
+  "key": "b47e7dff59db",
+  "experience_required": "3 ans minimum",
+  "reason": "experience lue dans le corps: \"Experience Vous justifiez d'une experience de 3 ans dans un poste similaire\""
+ },
+ {
+  "key": "dffc91c43a63",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Titulaire d'un diplome de niveau Bac+3 a Bac+5 en achats, commerce, supply chain ou gestion, vous justifiez d'une premiere experience reussie sur un poste similaire idealement dans le BTP\""
+ },
+ {
+  "key": "b9ced0289cdb",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Titulaire d'un diplome de niveau Bac+3 a Bac+5 en achats, commerce, supply chain ou gestion, vous justifiez d'une premiere experience reussie sur un poste similaire idealement dans le BTP\""
+ },
+ {
+  "key": "2ce0c43d2e36",
+  "experience_required": "5 ans minimum",
+  "reason": "experience lue dans le corps: \"Votre profil : - Experience : >=5 ans en Product Owner / PO Tech ou equivalent, sur produits digitaux\""
+ },
+ {
+  "key": "951f88ba212f",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"De formation Bac+5, Ecole de commerce ou d'ingenierie avec une experience anterieure en tant que Product Owner ou dans un role similaire\""
+ },
+ {
+  "key": "915b7c38fc10",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Bac+5 en Data, Statistiques, Informatique ou equivalent - Experience en analyse de donnees ou gestion de produits DATA\""
+ },
+ {
+  "key": "c3620ed92d53",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Required Skills & Experience - Proven experience in outbound sales / SDR / inside sales in SaaS\""
+ },
+ {
+  "key": "7a63f73cf559",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"VOTRE PROFIL - Formation de base : Diplome Bac+4/5 - Experience : Une premiere experience en audit ou en controle\""
+ },
+ {
+  "key": "05e44f631ee6",
+  "experience_required": "0",
+  "reason": "experience lue dans le corps: \"Freshly Graduated candidates accepted\" - l'annonce prend explicitement une jeune diplomee"
+ },
+ {
+  "key": "93091bf1a267",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Profil recherche : Bac+5 (ecole d'ingenieur ou equivalent) Experience en avant-vente IT / audiovisuel / solutions digitales\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
+ },
+ {
+  "key": "65e54b9b8ec8",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Profil : Experience en vente B2B (idealement industrie / equipement)\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "function": "Commercial professionnels (B2B)",
+  "contract_type": "CDI",
+  "city": "Casablanca"
+ },
+ {
+  "key": "487504da85f2",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Profil recherche : Experience anterieure reussie dans la vente, de preference dans le secteur de la technologie ou de la securite\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Informatique / Multimédia / Internet",
+  "function": "Commercial/Technico-Commercial",
+  "contract_type": "CDI",
+  "city": "Tanger"
+ },
+ {
+  "key": "e21e8175c249",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Bac +5 (ecole d'ingenieurs, ecole de commerce ou universite) - Experience en tant que Business Analyst ou poste similaire\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Automobile",
+  "function": "Informatique - Systèmes d'Information",
+  "city": "Casablanca"
+ },
+ {
+  "key": "e55eed0d1976",
+  "experience_required": "Premiere experience exigee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Profil recherche : - Formation en achats / commerce - Premiere experience en achats - Negociation et maitrise d'Excel\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn) | lu dans le corps: \"Conditions : - Contrat : CDI / CDD selon profil - Lieu : Casablanca\"",
+  "sector": "Import / Export",
+  "function": "Achat",
+  "company": "HOTIN",
+  "city": "Casablanca",
+  "contract_type": "CDI / CDD selon profil"
+ },
+ {
+  "key": "afbe7501d7ed",
+  "experience_required": "3 ans minimum",
+  "reason": "experience lue dans le corps: \"Experience confirmee (3 ans minimum) en tant qu'acheteur industriel, idealement dans un environnement de production\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Édition / Imprimerie",
+  "function": "Achat",
+  "contract_type": "CDI",
+  "company": "Les Imprimeries du Matin",
+  "city": "Casablanca"
+ },
+ {
+  "key": "2ba7cf874b06",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Profil recherche : Profil ayant une experience en achats, approvisionnement et gestion des fournisseurs\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "contract_type": "Intérim (6 mois)",
+  "city": "Casablanca"
+ },
+ {
+  "key": "8bfcf07c5672",
+  "experience_required": "0 (experience souhaitee, non exigee)",
+  "reason": "experience lue dans le corps: \"Bac +3/5 en achats, commerce, logistique ou equivalent - Experience souhaitee dans un poste similaire\" - souhaitee, donc pas un plancher | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Sécurité / Surveillance / Gardiennage",
+  "function": "Achat",
+  "contract_type": "CDI",
+  "company": "G4S",
+  "city": "Casablanca"
+ },
+ {
+  "key": "f59503d1f285",
+  "experience_required": "3 ans minimum",
+  "reason": "experience lue dans le corps: \"nous recrutons pour le compte de notre client, acheteur - Bac+5 et 3 d'experience dans une fonction similaire\" | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Casablanca"
+ },
+ {
+  "key": "c7f55495da9e",
+  "experience_required": "Experience confirmee (duree non precisee)",
+  "reason": "experience lue dans le corps: \"Un de nos clients recherche un Acheteur Senior H/F\" - l'annonce pose le niveau senior sans chiffrer la duree | etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)",
+  "sector": "Industrie / Ingénierie / Energie",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Casablanca"
+ },
+ {
+  "key": "552a63ff3c3a",
+  "sector": "Industrie / Ingénierie / Energie",
+  "contract_type": "Intérim",
+  "city": "Casablanca",
+  "reason": "etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)"
+ },
+ {
+  "key": "422cff8f7418",
+  "sector": "Transport / Achat / Logistique",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Casablanca",
+  "reason": "etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)"
+ },
+ {
+  "key": "801288e84fd5",
+  "sector": "Transport / Achat / Logistique",
+  "function": "Achat",
+  "contract_type": "Intérim",
+  "city": "Salé",
+  "reason": "etiquette publiee par la source (bloc 'Domaine / Fonction / Contrat / Ville' de MarocAnnonces, pied d'annonce LinkedIn)"
+ },
+ {
+  "key": "33494a455f8c",
+  "deadline": "10/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/09/2026\""
+ },
+ {
+  "key": "7f20fad40f24",
+  "deadline": "12/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 12/08/2026\""
+ },
+ {
+  "key": "7521512fa224",
+  "deadline": "22/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 22/08/2026\""
+ },
+ {
+  "key": "f5ce5bcac0f5",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "778fb72b0146",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "93eed32c1a18",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "d898738970d5",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "9e9ea173ba61",
+  "deadline": "18/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 18/08/2026\""
+ },
+ {
+  "key": "604924bc8cc7",
+  "deadline": "09/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/08/2026\""
+ },
+ {
+  "key": "7ac2149c668c",
+  "deadline": "07/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 07/09/2026\""
+ },
+ {
+  "key": "68030e07468f",
+  "deadline": "28/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 28/09/2026\""
+ },
+ {
+  "key": "77376fd8b2f6",
+  "deadline": "28/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 28/09/2026\""
+ },
+ {
+  "key": "003ee5939bf7",
+  "deadline": "24/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/09/2026\""
+ },
+ {
+  "key": "683ef6910aa1",
+  "deadline": "30/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 30/08/2026\""
+ },
+ {
+  "key": "a8733c3c648e",
+  "deadline": "24/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/08/2026\""
+ },
+ {
+  "key": "214fa44c96dd",
+  "deadline": "24/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/08/2026\""
+ },
+ {
+  "key": "b20def1afd5d",
+  "deadline": "24/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/08/2026\""
+ },
+ {
+  "key": "fafdefe1f135",
+  "deadline": "16/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 16/09/2026\""
+ },
+ {
+  "key": "cf708261c23d",
+  "deadline": "14/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 14/09/2026\""
+ },
+ {
+  "key": "fe3d460d1974",
+  "deadline": "30/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 30/08/2026\""
+ },
+ {
+  "key": "89d728a7ee53",
+  "deadline": "27/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\""
+ },
+ {
+  "key": "476716dd3b51",
+  "deadline": "10/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\""
+ },
+ {
+  "key": "261aab7960bb",
+  "deadline": "10/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\""
+ },
+ {
+  "key": "9ce564fd2e8d",
+  "deadline": "10/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\""
+ },
+ {
+  "key": "05d6e4acf31a",
+  "deadline": "09/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/09/2026\""
+ },
+ {
+  "key": "6750f670f6f0",
+  "deadline": "24/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/09/2026\""
+ },
+ {
+  "key": "f346756851d3",
+  "deadline": "13/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 13/09/2026\""
+ },
+ {
+  "key": "fc067aef067d",
+  "deadline": "10/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/09/2026\""
+ },
+ {
+  "key": "47e2327fab98",
+  "deadline": "01/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 01/09/2026\""
+ },
+ {
+  "key": "1f35f74a3463",
+  "deadline": "06/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 06/09/2026\""
+ },
+ {
+  "key": "4b4908957142",
+  "deadline": "28/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 28/09/2026\""
+ },
+ {
+  "key": "6ed6359e1fd3",
+  "deadline": "08/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/09/2026\""
+ },
+ {
+  "key": "15f09cd97cbd",
+  "deadline": "03/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 03/09/2026\""
+ },
+ {
+  "key": "86731ea7bb18",
+  "deadline": "09/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/08/2026\""
+ },
+ {
+  "key": "59855bab292b",
+  "deadline": "24/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/09/2026\""
+ },
+ {
+  "key": "fd9f446bf9c7",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "5bac6d625ae2",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "21ef478b8bc0",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "268cb0d90a9a",
+  "deadline": "07/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 07/09/2026\""
+ },
+ {
+  "key": "2a565f3b7379",
+  "deadline": "16/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 16/09/2026\""
+ },
+ {
+  "key": "eb7ab8e2133a",
+  "deadline": "08/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/08/2026\""
+ },
+ {
+  "key": "32859d5d2404",
+  "deadline": "23/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/08/2026\""
+ },
+ {
+  "key": "a0e96cdf7d49",
+  "deadline": "15/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 15/08/2026\""
+ },
+ {
+  "key": "8eb0ac489388",
+  "deadline": "09/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/08/2026\""
+ },
+ {
+  "key": "d1e091bc35b7",
+  "deadline": "22/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 22/08/2026\""
+ },
+ {
+  "key": "63a5d8334e45",
+  "deadline": "09/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/09/2026\""
+ },
+ {
+  "key": "fd97db66d422",
+  "deadline": "08/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/09/2026\""
+ },
+ {
+  "key": "cb9dfd0425c0",
+  "deadline": "03/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 03/09/2026\""
+ },
+ {
+  "key": "52bb3558cc7f",
+  "deadline": "17/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/08/2026\""
+ },
+ {
+  "key": "4e583f8b6b72",
+  "deadline": "09/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/09/2026\""
+ },
+ {
+  "key": "8aba62009474",
+  "deadline": "07/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 07/09/2026\""
+ },
+ {
+  "key": "c287e2444577",
+  "deadline": "08/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/08/2026\""
+ },
+ {
+  "key": "3e9da340e256",
+  "deadline": "12/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 12/08/2026\""
+ },
+ {
+  "key": "3276c9510ad1",
+  "deadline": "09/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/08/2026\""
+ },
+ {
+  "key": "ced830ca2ecb",
+  "deadline": "24/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/09/2026\""
+ },
+ {
+  "key": "984b51c7a1c5",
+  "deadline": "23/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\""
+ },
+ {
+  "key": "7ff85896f5b1",
+  "deadline": "13/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 13/09/2026\""
+ },
+ {
+  "key": "b532653a9873",
+  "deadline": "10/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/09/2026\""
+ },
+ {
+  "key": "9b696499dd32",
+  "deadline": "06/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 06/09/2026\""
+ },
+ {
+  "key": "8ee2f6af220a",
+  "deadline": "29/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 29/08/2026\""
+ },
+ {
+  "key": "25912db15166",
+  "deadline": "12/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 12/08/2026\""
+ },
+ {
+  "key": "c5aa537faae1",
+  "deadline": "10/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\""
+ },
+ {
+  "key": "513554face46",
+  "deadline": "10/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\""
+ },
+ {
+  "key": "2a492cd5e765",
+  "deadline": "24/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 24/09/2026\""
+ },
+ {
+  "key": "6f5ba6a163c7",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "5eab84715cb8",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "c032b2b681c2",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "0b199bf1fa63",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "95630fe9f63a",
+  "deadline": "26/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 26/08/2026\""
+ },
+ {
+  "key": "f35c8d76968b",
+  "deadline": "19/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 19/08/2026\""
+ },
+ {
+  "key": "d6aa7a34b52c",
+  "deadline": "21/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\""
+ },
+ {
+  "key": "fb47c88ced91",
+  "deadline": "29/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 29/09/2026\""
+ },
+ {
+  "key": "07c0164a381e",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "ab2557fa3181",
+  "deadline": "03/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 03/09/2026\""
+ },
+ {
+  "key": "4ca39f4d73ef",
+  "deadline": "19/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 19/08/2026\""
+ },
+ {
+  "key": "7a8cec469ec4",
+  "deadline": "05/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 05/08/2026\""
+ },
+ {
+  "key": "deea3e5af5f8",
+  "deadline": "17/09/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\""
+ },
+ {
+  "key": "476274dabbe4",
+  "deadline": "04/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 04/08/2026\""
+ },
+ {
+  "key": "d820de6413bc",
+  "deadline": "04/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 04/08/2026\""
+ },
+ {
+  "key": "b3c826ddec48",
+  "deadline": "04/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 04/08/2026\""
+ },
+ {
+  "key": "61110790296a",
+  "deadline": "04/08/2026",
+  "reason": "date limite imprimee par la source en pied d'annonce: \"Postulez avant le 04/08/2026\""
+ },
+ {
+  "key": "36bb0c5b5df1",
+  "sector": "Automobile",
+  "company": "Carplug Maroc",
+  "reason": "lu dans le corps: \"Carplug Maroc est un acteur dynamique et incontournable du secteur automobile\" - l'employeur se nomme lui-meme"
  }
 ]

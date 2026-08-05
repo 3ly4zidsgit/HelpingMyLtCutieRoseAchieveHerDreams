@@ -203,3 +203,29 @@ Instagram has no job-search surface). Moroccan aggregators that republish them
   belongs; `build.clean_city` catches and re-routes it.
 - **403 ≠ dead link.** Bayt, Indeed, Jooble and Jobicy refuse scripted requests
   but open fine in a browser. Confirm under UC before calling a link broken.
+- **The "Dernières offres" sidebar.** Optioncarriere and Jooble ship a column of
+  unrelated ads inside the same page. Every city, employer and salary in it
+  belongs to another offer. A body fetched from those two must be read from the
+  ad block, never scanned whole for a value.
+- **An expired Optioncarriere ad answers 200,** with its own "Cette offre d'emploi
+  a expiré" banner, and the page then lists other companies' ads. Store that and
+  you have saved a page of Decathlon and Konecta as the offer's body.
+
+## Where each source publishes the structured fields
+
+Not prose — a labelled block the board prints verbatim. Worth extracting first,
+then reading (`research/labels.py`, `research/deadlines.py`).
+
+| Source | Block | What it is good for | Where it lies |
+|---|---|---|---|
+| LinkedIn | ad footer: `Niveau hiérarchique X - Type d'emploi Y - Fonction Z - Secteurs W` | contract type ("Temps plein"), function | **`Secteurs` is the posting company's sector**, so a staffing firm files an "Ingénieur méthodes" under *Technologie, information et Internet*. `Fonction Autre` and `Niveau hiérarchique Non pertinent` are non-answers |
+| MarocAnnonces | `Domaine : X Fonction : Y Contrat : Z Entreprise : W Ville : V` | city, contract, sector | the advertiser miscategorises freely — "Acheteur Import" under *RH/Personnel*, "Acheteur senior" under *Production - Opérateur*. `Contrat : A discuter` and `Domaine : Autre` are published non-answers. `Entreprise` is often the interim agency (BEST PROFIL, AVANTA, Manpower, ARTUS, DEKRA Services, JobPlus, RHS EMPLOI), not the employer |
+| Rekrute | ad footer: `Postulez avant le JJ/MM/AAAA` | **the only deadline any Moroccan board publishes** | absent from the listing card, so a scraper that only reads the card gets nothing |
+| Jooble | the aggregator card itself: employer, city, posting age | fills rows whose detail page is walled | nothing else on the card is the ad |
+
+Re-checked across all 640 fetched bodies on 2026-08-05: LinkedIn, Dreamjob,
+MarocAnnonces, Optioncarriere and Bayt publish **no** application deadline
+anywhere. Scanning for *date limite / avant le / jusqu'au / clôture / deadline /
+postulez avant / closing date* returns only mission vocabulary ("jusqu'au
+closing", "clôture des actions correctives"). The Date limite column sitting at
+18 % is the sources' ceiling, not an unfinished job.

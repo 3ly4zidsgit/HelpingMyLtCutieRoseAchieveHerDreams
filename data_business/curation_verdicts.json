@@ -951,8 +951,8 @@
  },
  {
   "key": "80bfb8a7d166",
-  "keep": true,
-  "reason": "'Business Analyst' - Sofitel : poste ouvert a un diplome d'ingenieur dans l'une des quatre familles visees"
+  "keep": false,
+  "reason": "intitule \"Business Analyst\" chez Sofitel Marrakech, mais le corps decrit un poste de reservation et d appui au revenue management: \"Epauler la Directrice RM dans ses missions\", \"Assurer la prise de reservation par telephone, fax ou internet\", \"contact pour leur reservation et supervision de leur experience client\". Ce n est pas un poste d analyse business ouvert a un diplome d ingenieur"
  },
  {
   "key": "e6c926225f97",

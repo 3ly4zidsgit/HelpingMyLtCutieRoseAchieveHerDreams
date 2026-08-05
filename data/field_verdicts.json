@@ -121,7 +121,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Process / Industrialisation",
-  "reason": "Corps: 'Experience de 2 a 5 ans en conception Process EE'; l employeur classe malgre tout l offre en 'Junior (1 a 3 ans)'"
+  "reason": "Corps: 'Experience de 2 a 5 ans en conception Process EE'; l employeur classe malgre tout l offre en 'Junior (1 a 3 ans)' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\"",
+  "deadline": "23/09/2026"
  },
  {
   "key": "0e04383d619b",
@@ -130,7 +131,8 @@
   "contract_type": "CDI",
   "sector": "Aéronautique / Spatial",
   "function": "Méthodes / Industrialisation",
-  "reason": "'Experience de 3 a 6 ans en industrialisation, methodes ou support production en environnement aeronautique'"
+  "reason": "'Experience de 3 a 6 ans en industrialisation, methodes ou support production en environnement aeronautique' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\"",
+  "deadline": "23/09/2026"
  },
  {
   "key": "f65270b8c708",
@@ -139,15 +141,16 @@
   "contract_type": "CDD",
   "sector": "Ameublement / Distribution",
   "function": "Supply Chain",
-  "reason": "'Une premiere experience de 1 a 3 ans dans une fonction similaire'; CDD"
+  "reason": "'Une premiere experience de 1 a 3 ans dans une fonction similaire'; CDD | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\"",
+  "deadline": "23/09/2026"
  },
  {
   "key": "74c60532a673",
-  "experience_required": "",
+  "experience_required": "0 (experience PC&L souhaitee)",
   "seniority_bucket": "Non precise",
   "contract_type": "Temps plein",
   "function": "Ordonnancement / Planification industrielle",
-  "reason": "L annonce exige un 'personnel forme et experimente dans les activites PC&L' sans chiffrer la duree"
+  "reason": "L annonce exige un 'personnel forme et experimente dans les activites PC&L' sans chiffrer la duree | experience lue dans le corps: \"Experience souhaitee dans : PC&L / Supply Chain industrielle, Ordonnancement de production, Gestion des OF et KPI\" - souhaitee, pas exigee"
  },
  {
   "key": "c1fc53d58dad",
@@ -184,7 +187,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Gestion de configuration",
-  "reason": "'Profil recherche - Experience : 6 mois - 1 an, sur le secteur automobile'"
+  "reason": "'Profil recherche - Experience : 6 mois - 1 an, sur le secteur automobile' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\"",
+  "deadline": "21/09/2026"
  },
  {
   "key": "23a26dcfb882",
@@ -378,13 +382,13 @@
  },
  {
   "key": "5c3744b06f36",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Non precise",
   "contract_type": "CDI",
   "deadline": "OFFRE EXPIREE - candidatures fermees",
   "sector": "Santé / Hôpital universitaire",
   "function": "Méthodes",
-  "reason": "'Type De Contrat CDI'; la page indique 'Les candidatures ne sont plus acceptees'"
+  "reason": "'Type De Contrat CDI'; la page indique 'Les candidatures ne sont plus acceptees' | experience lue dans le corps: \"Bac +5 en genie industriel, maintenance, electromecanique ou equivalent - Experience en methodes, maintenance ou exploitation technique\""
  },
  {
   "key": "68efafa4c8bf",
@@ -421,7 +425,8 @@
   "contract_type": "CDI",
   "sector": "Santé / Hôpital universitaire",
   "function": "Méthodes / Industrialisation",
-  "reason": "Fiche Rekrute: 'Junior (1 a 3 ans)', CDI"
+  "reason": "Fiche Rekrute: 'Junior (1 a 3 ans)', CDI | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 18/08/2026\"",
+  "deadline": "18/08/2026"
  },
  {
   "key": "2f0aec26f1b4",
@@ -430,7 +435,8 @@
   "contract_type": "CDI",
   "sector": "Automobile / Électronique",
   "function": "Qualité",
-  "reason": "'1-3 ans minimum dans un poste similaire'; anglais avance exige"
+  "reason": "'1-3 ans minimum dans un poste similaire'; anglais avance exige | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/08/2026\"",
+  "deadline": "17/08/2026"
  },
  {
   "key": "7d61251814a3",
@@ -439,7 +445,8 @@
   "contract_type": "CDI",
   "sector": "Aéronautique / Spatial",
   "function": "Matériaux et procédés",
-  "reason": "'Une experience professionnelle comprise entre 1 et 3 ans dans un role similaire est requise'"
+  "reason": "'Une experience professionnelle comprise entre 1 et 3 ans dans un role similaire est requise' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\"",
+  "deadline": "10/08/2026"
  },
  {
   "key": "fe7ced3214c4",
@@ -457,7 +464,8 @@
   "contract_type": "CDI",
   "sector": "Électricité",
   "function": "Méthodes / Industrialisation",
-  "reason": "'Ingenieur d Etat en genie industriel, production, logistique - Experience : 1 a 3 ans en methodes'"
+  "reason": "'Ingenieur d Etat en genie industriel, production, logistique - Experience : 1 a 3 ans en methodes' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 03/08/2026\"",
+  "deadline": "03/08/2026"
  },
  {
   "key": "3f49fde2c6f4",
@@ -576,7 +584,8 @@
   "contract_type": "CDI",
   "sector": "Aéronautique / Automobile",
   "function": "Qualité fournisseurs",
-  "reason": "'Experience 2 a 5 ans d experience en qualite fournisseur, qualite production ou ingenierie'"
+  "reason": "'Experience 2 a 5 ans d experience en qualite fournisseur, qualite production ou ingenierie' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 28/09/2026\"",
+  "deadline": "28/09/2026"
  },
  {
   "key": "267b7a5aae98",
@@ -585,7 +594,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Industrialisation",
-  "reason": "Fiche Rekrute: 'Confirme (5 a 10 ans)', CDI"
+  "reason": "Fiche Rekrute: 'Confirme (5 a 10 ans)', CDI | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\"",
+  "deadline": "27/09/2026"
  },
  {
   "key": "c32cd76c50e3",
@@ -608,23 +618,23 @@
  },
  {
   "key": "9c311543e035",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "sector": "Automobile",
   "function": "Industrialisation",
   "deadline": "OFFRE EXPIREE - candidatures fermees",
-  "reason": "La page indique 'Les candidatures ne sont plus acceptees'"
+  "reason": "La page indique 'Les candidatures ne sont plus acceptees' | experience lue dans le corps: \"Experience in automotive validation, embedded systems, software integration, or vehicle modernization activities\""
  },
  {
   "key": "1927575ad286",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "sector": "Automobile",
   "function": "Industrialisation",
   "deadline": "OFFRE EXPIREE - candidatures fermees",
-  "reason": "La page indique 'Les candidatures ne sont plus acceptees'"
+  "reason": "La page indique 'Les candidatures ne sont plus acceptees' | experience lue dans le corps: \"Previous experience in automotive testing, validation, embedded systems, industrialization, or vehicle modernization activities\""
  },
  {
   "key": "58cf36dbda52",
@@ -633,7 +643,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Qualité vie série",
-  "reason": "'Master s degree in Industrial Engineering ; 2 to 5 years of experience'"
+  "reason": "'Master s degree in Industrial Engineering ; 2 to 5 years of experience' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\"",
+  "deadline": "27/09/2026"
  },
  {
   "key": "3c36cbaa0b39",
@@ -642,7 +653,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Industrialisation",
-  "reason": "Fiche Rekrute: 'Confirme (5 a 10 ans)', CDI"
+  "reason": "Fiche Rekrute: 'Confirme (5 a 10 ans)', CDI | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\"",
+  "deadline": "27/09/2026"
  },
  {
   "key": "3b0048bc1d84",
@@ -651,7 +663,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Qualité projet",
-  "reason": "Le corps de l annonce demande '1 to 3 years of experience' alors que la fiche Rekrute affichait 'Intermediaire (3 a 5 ans)' - le corps prime"
+  "reason": "Le corps de l annonce demande '1 to 3 years of experience' alors que la fiche Rekrute affichait 'Intermediaire (3 a 5 ans)' - le corps prime | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\"",
+  "deadline": "27/09/2026"
  },
  {
   "key": "e27431420ac7",
@@ -660,7 +673,8 @@
   "contract_type": "CDI",
   "sector": "Électricité",
   "function": "Production",
-  "reason": "'Une experience professionnelle de 3 a 5 ans dans un poste similaire est indispensable'"
+  "reason": "'Une experience professionnelle de 3 a 5 ans dans un poste similaire est indispensable' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 27/09/2026\"",
+  "deadline": "27/09/2026"
  },
  {
   "key": "a0676ee48cb1",
@@ -715,7 +729,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Planification de capacité",
-  "reason": "Le corps demande 'Bac + 5 en genie industriel et logistique, 1 to 3 years of experience' alors que la fiche Rekrute affichait 'Confirme (5 a 10 ans)' - le corps prime"
+  "reason": "Le corps demande 'Bac + 5 en genie industriel et logistique, 1 to 3 years of experience' alors que la fiche Rekrute affichait 'Confirme (5 a 10 ans)' - le corps prime | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\"",
+  "deadline": "23/09/2026"
  },
  {
   "key": "9c32118d6a64",
@@ -724,7 +739,8 @@
   "contract_type": "CDI",
   "sector": "Agroalimentaire",
   "function": "Production (UAP)",
-  "reason": "'vous beneficiez d une experience concluante de minimum entre 3 et 5 annees'"
+  "reason": "'vous beneficiez d une experience concluante de minimum entre 3 et 5 annees' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 23/09/2026\"",
+  "deadline": "23/09/2026"
  },
  {
   "key": "8ef105b00cf6",
@@ -781,7 +797,8 @@
   "contract_type": "CDI",
   "sector": "Mines",
   "function": "QHSE",
-  "reason": "Fiche Rekrute 'Intermediaire (3 a 5 ans)'; 'Experience confirmee dans une fonction similaire, ideallement en environnement minier ou industriel'"
+  "reason": "Fiche Rekrute 'Intermediaire (3 a 5 ans)'; 'Experience confirmee dans une fonction similaire, ideallement en environnement minier ou industriel' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/09/2026\"",
+  "deadline": "21/09/2026"
  },
  {
   "key": "b33d337b0a12",
@@ -827,7 +844,8 @@
   "contract_type": "CDI",
   "sector": "Aéronautique / Spatial / Automobile",
   "function": "Méthodes / Industrialisation",
-  "reason": "'Experience : 3 a 8 ans d experience reussie en Methodes, Industrialisation ou R&D'"
+  "reason": "'Experience : 3 a 8 ans d experience reussie en Methodes, Industrialisation ou R&D' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 20/09/2026\"",
+  "deadline": "20/09/2026"
  },
  {
   "key": "fa91dda737e9",
@@ -854,7 +872,8 @@
   "contract_type": "CDI",
   "sector": "Automobile / Aéronautique / Ferroviaire",
   "function": "Qualité projet / PMO",
-  "reason": "Le corps ouvre le poste 'de la sortie d etudes a 6 ans' alors que la fiche Rekrute affichait 'Confirme (5 a 10 ans)' - le corps prime, l offre est accessible a une jeune diplomee"
+  "reason": "Le corps ouvre le poste 'de la sortie d etudes a 6 ans' alors que la fiche Rekrute affichait 'Confirme (5 a 10 ans)' - le corps prime, l offre est accessible a une jeune diplomee | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\"",
+  "deadline": "17/09/2026"
  },
  {
   "key": "ca75d1b1e6ca",
@@ -863,7 +882,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Automatisation",
-  "reason": "'Experience entre 3 a 4 ans' - la fiche affichait 'Confirme (5 a 10 ans)'"
+  "reason": "'Experience entre 3 a 4 ans' - la fiche affichait 'Confirme (5 a 10 ans)' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\"",
+  "deadline": "17/09/2026"
  },
  {
   "key": "6679393315d4",
@@ -872,7 +892,8 @@
   "contract_type": "CDI",
   "sector": "Automobile",
   "function": "Planification tactique",
-  "reason": "Le corps demande 'Bac + 5 en genie industriel et logistique, 1 to 3 years of experience' - la fiche affichait 'Confirme (5 a 10 ans)'"
+  "reason": "Le corps demande 'Bac + 5 en genie industriel et logistique, 1 to 3 years of experience' - la fiche affichait 'Confirme (5 a 10 ans)' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 17/09/2026\"",
+  "deadline": "17/09/2026"
  },
  {
   "key": "9589efe88315",
@@ -891,8 +912,9 @@
   "city": "Mohammedia",
   "sector": "Électricité / Comptage d'eau",
   "function": "Qualité / SMI",
-  "reason": "Page Rekrute: 'Entreprise : Confidentielle'",
-  "company": "Confidentiel (annonce anonyme)"
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 16/09/2026\"",
+  "company": "Confidentiel (annonce anonyme)",
+  "deadline": "16/09/2026"
  },
  {
   "key": "a593a2c21f53",
@@ -967,7 +989,8 @@
   "contract_type": "CDI",
   "sector": "Sidérurgie / Automobile",
   "function": "Direction de site",
-  "reason": "Fiche Rekrute 'Confirme (5 a 10 ans)', CDI. La fonction affichee 'Banque (metiers de la)' est une erreur de categorisation de la source: le groupe est industriel"
+  "reason": "Fiche Rekrute 'Confirme (5 a 10 ans)', CDI. La fonction affichee 'Banque (metiers de la)' est une erreur de categorisation de la source: le groupe est industriel | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/09/2026\"",
+  "deadline": "08/09/2026"
  },
  {
   "key": "114727c98545",
@@ -1006,7 +1029,8 @@
   "city": "Temara",
   "sector": "BTP / Construction industrialisée",
   "function": "Maintenance",
-  "reason": "'Experience : 5 a 10 ans minimum dans une fonction similaire, ideallement en environnement industriel ou BTP'"
+  "reason": "'Experience : 5 a 10 ans minimum dans une fonction similaire, ideallement en environnement industriel ou BTP' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 06/09/2026\"",
+  "deadline": "06/09/2026"
  },
  {
   "key": "aad84e5c9f35",
@@ -1039,13 +1063,13 @@
  },
  {
   "key": "457cc51f74df",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "city": "Sidi Bouknadel",
   "sector": "Câblage automobile",
   "function": "Production",
-  "reason": "Corps: 'SEBN Bouknadel is looking for an experienced Production Manager with strong expertise in automotive wiring'; 'Hirely_ai' n est que la plateforme de publication",
+  "reason": "Corps: 'SEBN Bouknadel is looking for an experienced Production Manager with strong expertise in automotive wiring'; 'Hirely_ai' n est que la plateforme de publication | experience lue dans le corps: \"SEBN Bouknadel is looking for an experienced Production Manager with strong expertise in automotive wiring\" | employeur nomme par l'annonce elle-meme: \"SEBN Bouknadel is looking for an experienced Production Manager\"",
   "company": "SEBN Bouknadel"
  },
  {
@@ -1056,7 +1080,8 @@
   "city": "El Jadida",
   "sector": "Métallurgie / Sidérurgie",
   "function": "Maintenance",
-  "reason": "Fiche Rekrute 'Confirme (5 a 10 ans)', CDI"
+  "reason": "Fiche Rekrute 'Confirme (5 a 10 ans)', CDI | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 26/08/2026\"",
+  "deadline": "26/08/2026"
  },
  {
   "key": "a5c008152ff3",
@@ -1065,7 +1090,8 @@
   "contract_type": "CDI (télétravail hybride)",
   "sector": "Services d'ingénierie",
   "function": "Supply Chain",
-  "reason": "'Vous disposez d une experience professionnelle de 3 a 5 ans dans des fonctions similaires'; 'Teletravail : Hybride'; 20 postes ouverts"
+  "reason": "'Vous disposez d une experience professionnelle de 3 a 5 ans dans des fonctions similaires'; 'Teletravail : Hybride'; 20 postes ouverts | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 22/08/2026\"",
+  "deadline": "22/08/2026"
  },
  {
   "key": "ec34a2e44ffe",
@@ -1074,7 +1100,8 @@
   "contract_type": "CDI (télétravail hybride)",
   "sector": "Services d'ingénierie",
   "function": "Supply Chain",
-  "reason": "Fiche Rekrute: 'Intermediaire (3 a 5 ans) - Confirme (5 a 10 ans)'; 'Teletravail : Hybride'; 30 postes ouverts"
+  "reason": "Fiche Rekrute: 'Intermediaire (3 a 5 ans) - Confirme (5 a 10 ans)'; 'Teletravail : Hybride'; 30 postes ouverts | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 22/08/2026\"",
+  "deadline": "22/08/2026"
  },
  {
   "key": "3c530e09ef92",
@@ -1103,7 +1130,8 @@
   "contract_type": "CDI",
   "sector": "Logistique automobile",
   "function": "Qualité / Logistique",
-  "reason": "'2 a 5 ans d experience minimum dans la logistique automobile ou la gestion des vehicules neufs'"
+  "reason": "'2 a 5 ans d experience minimum dans la logistique automobile ou la gestion des vehicules neufs' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/08/2026\"",
+  "deadline": "08/08/2026"
  },
  {
   "key": "b21fdf43a711",
@@ -1113,8 +1141,9 @@
   "city": "Casablanca",
   "sector": "Automobile",
   "function": "Planification de production",
-  "reason": "Page Rekrute: 'Entreprise : Confidentielle'",
-  "company": "Confidentiel (annonce anonyme)"
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 12/08/2026\"",
+  "company": "Confidentiel (annonce anonyme)",
+  "deadline": "12/08/2026"
  },
  {
   "key": "1150f22015a8",
@@ -1319,25 +1348,29 @@
  {
   "key": "a39e21c216fe",
   "company": "Confidentiel (annonce anonyme)",
-  "reason": "Page Rekrute: 'Entreprise : Confidentielle', URL 'recrutement-confidentiel'"
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle', URL 'recrutement-confidentiel' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 08/09/2026\"",
+  "deadline": "08/09/2026"
  },
  {
   "key": "7ceaaac83cbb",
   "company": "Confidentiel (annonce anonyme)",
-  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 26/08/2026\"",
+  "deadline": "26/08/2026"
  },
  {
   "key": "2b1f714274f0",
   "company": "Confidentiel (annonce anonyme)",
-  "reason": "Page Rekrute: 'Entreprise : Confidentielle'"
+  "reason": "Page Rekrute: 'Entreprise : Confidentielle' | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 21/08/2026\"",
+  "deadline": "21/08/2026"
  },
  {
   "key": "8599dd16058c",
   "company": "JTEKT Maroc",
-  "reason": "'JTEKT Maroc recrute 2 profils supply chain a Tanger, en CDI'; 'JTEKT est un groupe industriel international reconnu pour la fabrication de roulements'; l annonce ne chiffre aucune experience ('Profil recherche: Formation en Supply Chain ou Logistique')",
+  "reason": "'JTEKT Maroc recrute 2 profils supply chain a Tanger, en CDI'; 'JTEKT est un groupe industriel international reconnu pour la fabrication de roulements'; l annonce ne chiffre aucune experience ('Profil recherche: Formation en Supply Chain ou Logistique') | experience lue dans le corps: \"Experience en milieu automobile souhaitee\" - souhaitee, pas exigee",
   "city": "Tanger",
   "sector": "Automobile (roulements)",
-  "function": "Supply Chain"
+  "function": "Supply Chain",
+  "experience_required": "0 (experience automobile souhaitee)"
  },
  {
   "key": "beb85ac3f3eb",
@@ -1516,13 +1549,13 @@
  },
  {
   "key": "52bfe667e0b4",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Experimente",
   "contract_type": "Temps plein",
   "city": "Tanger",
   "sector": "Terminal portuaire / Logistique",
   "function": "Lean / Excellence opérationnelle",
-  "reason": "'Head of Lean - APM Terminals Tangier TM2', rattache au Managing Director et au COO; aucune duree chiffree"
+  "reason": "'Head of Lean - APM Terminals Tangier TM2', rattache au Managing Director et au COO; aucune duree chiffree | experience lue dans le corps: \"What We Are Looking For - Experience & Background: Strong experience in Lean, Operational Excellence, or Continuous Improvement\" et \"Experience in complex, large-scale industrial environments (ports, logistics, manufacturing)\""
  },
  {
   "key": "54d6f58353f0",
@@ -1546,13 +1579,13 @@
  {
   "key": "58cd877f1b98",
   "company": "CRIT Maroc",
-  "experience_required": "",
+  "experience_required": "0 (experience similaire souhaitee)",
   "seniority_bucket": "Non precise",
   "contract_type": "Intérim",
   "city": "Casablanca",
   "sector": "Industrie / Ingénierie",
   "function": "Production",
-  "reason": "'Contrat : Interim, Entreprise : CRIT MAROC'; recrute pour un client non nomme; 'de preference une experience dans un poste similaire' sans duree"
+  "reason": "'Contrat : Interim, Entreprise : CRIT MAROC'; recrute pour un client non nomme; 'de preference une experience dans un poste similaire' sans duree | experience lue dans le corps: \"De formation Bac scientifique ou Bac+ avec de preference une experience dans un poste similaire\" - de preference, donc pas un plancher"
  },
  {
   "key": "f9d1e381a418",
@@ -1975,11 +2008,11 @@
   "company": "HOTIN",
   "experience_required": "",
   "seniority_bucket": "Non precise",
-  "contract_type": "CDI ou CDD selon profil",
+  "contract_type": "CDI / CDD selon profil",
   "city": "Casablanca",
   "sector": "Logistique",
   "function": "Supply Chain",
-  "reason": "'Bac+3/5 en supply chain'; 'Contrat : CDI / CDD selon profil - Lieu : Casablanca'; aucune duree d experience citee"
+  "reason": "'Bac+3/5 en supply chain'; 'Contrat : CDI / CDD selon profil - Lieu : Casablanca'; aucune duree d experience citee | etiquettes publiees par MarocAnnonces: \"Contrat : CDI / CDD selon profil - Lieu : Casablanca\""
  },
  {
   "key": "b52a523da9f7",
@@ -2065,12 +2098,12 @@
  {
   "key": "a07fbf9303b8",
   "company": "Hôpital Universitaire International de Rabat (HUIR)",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Non precise",
   "city": "Rabat",
   "sector": "Santé / Hôpital universitaire",
   "function": "Méthodes",
-  "reason": "'L Hopital Universitaire International de Rabat (HUIR), affilie a l Universite Internationale de Rabat'; aucune duree d experience citee"
+  "reason": "'L Hopital Universitaire International de Rabat (HUIR), affilie a l Universite Internationale de Rabat'; aucune duree d experience citee | experience lue dans le corps: \"Bac +5 en genie industriel, maintenance, electromecanique ou equivalent - Experience en methodes, maintenance ou exploitation technique\""
  },
  {
   "key": "8a147c52157e",
@@ -2498,32 +2531,32 @@
  {
   "key": "e9d8e504feae",
   "company": "Menabiliat Sud",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Non precise",
   "city": "Marrakech",
   "sector": "Distribution de produits d'entretien",
   "function": "Qualité",
-  "reason": "'Distribution des produits et materiels de nettoyage destines aux professionnels'; 'Lieu de travail : Marrakech'; aucune duree d experience citee"
+  "reason": "'Distribution des produits et materiels de nettoyage destines aux professionnels'; 'Lieu de travail : Marrakech'; aucune duree d experience citee | experience lue dans le corps: \"Maitrise des normes ISO (ISO 9001, ISO 22716 ou equivalent) - Experience dans la mise en place et le suivi des systemes qualite\""
  },
  {
   "key": "2585e040546f",
   "company": "Menabiliat Sud",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Non precise",
   "city": "Marrakech",
   "sector": "Distribution de produits d'entretien",
   "function": "Qualité",
-  "reason": "Annonce identique a l autre 'Responsable qualite' Menabiliat Sud; aucune duree d experience citee"
+  "reason": "Annonce identique a l autre 'Responsable qualite' Menabiliat Sud; aucune duree d experience citee | experience lue dans le corps: \"Maitrise des normes ISO (ISO 9001, ISO 22716 ou equivalent) - Experience dans la mise en place et le suivi des systemes qualite\""
  },
  {
   "key": "53fd6c58f125",
   "company": "Menabiliat Sud",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "seniority_bucket": "Non precise",
   "city": "Marrakech",
   "sector": "Distribution de produits d'entretien",
   "function": "Qualité",
-  "reason": "Texte strictement identique aux deux autres annonces Menabiliat Sud. 'Service Achat' est un intitule de service, pas un nom d entreprise"
+  "reason": "Texte strictement identique aux deux autres annonces Menabiliat Sud. 'Service Achat' est un intitule de service, pas un nom d entreprise | experience lue dans le corps: \"Maitrise des normes ISO (ISO 9001, ISO 22716 ou equivalent) - Experience dans la mise en place et le suivi des systemes qualite\""
  },
  {
   "key": "7172fc8501be",
@@ -2841,7 +2874,8 @@
   "sector": "Ferroviaire",
   "function": "Contrôle qualité",
   "date_posted": "2026-07-22",
-  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/quality-engineer-at-alstom-4434884609 - meme intitule \"Quality Engineer\", meme employeur, meme ville, 100%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source."
+  "reason": "page detail bloquee par Cloudflare; la MEME annonce est dans le classeur sous sa source d origine https://ma.linkedin.com/jobs/view/quality-engineer-at-alstom-4434884609 - meme intitule \"Quality Engineer\", meme employeur, meme ville, 100%% du vocabulaire de la carte Jooble se retrouve dans le corps de cette annonce. Colonnes reprises de cette source. | experience lue dans le corps: \"Experience in managing Quality tools (Problem solving, Lean Six Sigma) in railway or automotive industries\" - exigence, l'annonce ne la chiffre pas",
+  "experience_required": "Experience confirmee (duree non precisee)"
  },
  {
   "key": "2d062dd1af25",
@@ -2870,7 +2904,8 @@
   "company": "SIMRA Maroc",
   "sector": "",
   "function": "Méthodes / Industrialisation",
-  "reason": "le corps nomme l employeur: 'SIMRA Maroc recrute un(e) Ingenieur Methodes & Industrialisation'. 'Qui Cherche Quoi' est la page de recrutement qui publie l annonce, pas l entreprise, et le secteur que LinkedIn affiche ('Technologie, information et Internet') est celui de cette page - il est efface plutot que conserve faux"
+  "reason": "le corps nomme l employeur: 'SIMRA Maroc recrute un(e) Ingenieur Methodes & Industrialisation'. 'Qui Cherche Quoi' est la page de recrutement qui publie l annonce, pas l entreprise, et le secteur que LinkedIn affiche ('Technologie, information et Internet') est celui de cette page - il est efface plutot que conserve faux | experience lue dans le corps: \"Diplome d'ingenieur - Experience souhaitee en environnement industriel\" - souhaitee, pas exigee",
+  "experience_required": "0 (experience industrielle souhaitee)"
  },
  {
   "key": "f19893d20a81",
@@ -2879,7 +2914,8 @@
   "contract_type": "Temps plein",
   "sector": "",
   "function": "Contrôle qualité",
-  "reason": "'SIMRA Maroc recrute un(e) Responsable Qualite'; LinkedIn: 'Nouaceur, Casablanca-Settat, Maroc', 'Type d emploi Temps plein', 'Fonction Controle qualite'. Le secteur affiche ('Technologie, information et Internet') est celui de la page qui publie, il est efface. L annonce ne chiffre aucune experience: 'Experience souhaitee dans une fonction similaire'"
+  "reason": "'SIMRA Maroc recrute un(e) Responsable Qualite'; LinkedIn: 'Nouaceur, Casablanca-Settat, Maroc', 'Type d emploi Temps plein', 'Fonction Controle qualite'. Le secteur affiche ('Technologie, information et Internet') est celui de la page qui publie, il est efface. L annonce ne chiffre aucune experience: 'Experience souhaitee dans une fonction similaire' | experience lue dans le corps: \"Formation en qualite ou genie industriel - Experience souhaitee dans une fonction similaire\" - souhaitee, pas exigee",
+  "experience_required": "0 (experience similaire souhaitee)"
  },
  {
   "key": "8333bbd2f44b",
@@ -2897,7 +2933,8 @@
   "city": "Khénifra",
   "sector": "Transport / Logistique",
   "function": "Logistique / Supply Chain",
-  "reason": "le corps dit 'Profil recherche : Experience confirmee' sans chiffrer; la fiche Rekrute publie 'Intermediaire (3 a 5 ans)' et 'Type de contrat : CDI', et rien dans le corps ne la contredit"
+  "reason": "le corps dit 'Profil recherche : Experience confirmee' sans chiffrer; la fiche Rekrute publie 'Intermediaire (3 a 5 ans)' et 'Type de contrat : CDI', et rien dans le corps ne la contredit | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 29/09/2026\"",
+  "deadline": "29/09/2026"
  },
  {
   "key": "a5f14958b1c4",
@@ -2906,7 +2943,8 @@
   "city": "Casablanca",
   "sector": "Agroalimentaire",
   "function": "Qualité",
-  "reason": "le corps dit 'Experience de 5 ans minimum dans une fonction similaire en industrie agroalimentaire' - la fiche Rekrute affichait 'Intermediaire (3 a 5 ans)', le corps la contredit et l emporte. Employeur publie comme 'Confidential': la cellule reste vide"
+  "reason": "le corps dit 'Experience de 5 ans minimum dans une fonction similaire en industrie agroalimentaire' - la fiche Rekrute affichait 'Intermediaire (3 a 5 ans)', le corps la contredit et l emporte. Employeur publie comme 'Confidential': la cellule reste vide | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 09/09/2026\"",
+  "deadline": "09/09/2026"
  },
  {
   "key": "e52ea8dcfb30",
@@ -2915,7 +2953,8 @@
   "city": "Meknes",
   "sector": "Métallurgie / Sidérurgie",
   "function": "Production",
-  "reason": "'Experience de 2 ans minimum en environnement industriel' - la fiche Rekrute affichait 'Junior (1 a 3 ans) - Intermediaire (3 a 5 ans)', le corps tranche. Employeur 'Confidential': cellule vide"
+  "reason": "'Experience de 2 ans minimum en environnement industriel' - la fiche Rekrute affichait 'Junior (1 a 3 ans) - Intermediaire (3 a 5 ans)', le corps tranche. Employeur 'Confidential': cellule vide | date limite imprimee par la source en pied d'annonce: \"Postulez avant le 10/08/2026\"",
+  "deadline": "10/08/2026"
  },
  {
   "key": "d458076ba49e",
@@ -2933,7 +2972,8 @@
   "city": "Sale",
   "sector": "Industrie",
   "function": "Qualité / QHSE",
-  "reason": "'Contrat : CDI', 'Ville : Sale', 'Fonction : Qualite/Hygiene/Securite/Environnement', 'Domaine : Industrie / Ingenierie / Energie'. L annonce ne chiffre pas l experience: 'Experience souhaitee dans un poste similaire'. 'Entreprise : MULTINATIONAL' n est pas un nom d entreprise, la cellule reste vide"
+  "reason": "'Contrat : CDI', 'Ville : Sale', 'Fonction : Qualite/Hygiene/Securite/Environnement', 'Domaine : Industrie / Ingenierie / Energie'. L annonce ne chiffre pas l experience: 'Experience souhaitee dans un poste similaire'. 'Entreprise : MULTINATIONAL' n est pas un nom d entreprise, la cellule reste vide | experience lue dans le corps: \"Bac+5 en Qualite, Genie Industriel ou equivalent - Experience souhaitee dans un poste similaire\" - souhaitee, pas exigee",
+  "experience_required": "0 (experience similaire souhaitee)"
  },
  {
   "key": "4d1ce3e68c05",
@@ -2946,12 +2986,12 @@
  },
  {
   "key": "f339a19b011e",
-  "experience_required": "",
+  "experience_required": "0 (experience hoteliere appreciee)",
   "contract_type": "Temps plein",
   "city": "Tetouan",
   "sector": "Hôtellerie",
   "function": "Excellence opérationnelle / RSE",
-  "reason": "'Le/La Responsable Excellence Operationnelle et RSE est la/le Garant(e) de l Excellence Operationnelle et du respect de la politique environnementale du groupe'; LinkedIn: 'Tetouan et peripherie', 'Type d emploi Temps plein'. Le niveau 'Cadre' affiche par LinkedIn n est pas une duree et le corps n en donne aucune: la cellule est videe plutot que gardee fausse"
+  "reason": "'Le/La Responsable Excellence Operationnelle et RSE est la/le Garant(e) de l Excellence Operationnelle et du respect de la politique environnementale du groupe'; LinkedIn: 'Tetouan et peripherie', 'Type d emploi Temps plein'. Le niveau 'Cadre' affiche par LinkedIn n est pas une duree et le corps n en donne aucune: la cellule est videe plutot que gardee fausse | experience lue dans le corps: \"Bac + 4/5 Master Qualite, Hotellerie - Une experience dans l'hotellerie sera appreciee\" - appreciee, pas exigee"
  },
  {
   "key": "dfe5d1b5e563",
@@ -2964,11 +3004,11 @@
  },
  {
   "key": "135d13d671b5",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "city": "Fes",
   "sector": "Ferroviaire",
   "function": "Méthodes",
-  "reason": "LinkedIn: 'Fes, Fes-Meknes, Maroc', secteur 'Construction de materiel ferroviaire', 'Type d emploi Temps plein'. La seule mention d experience du corps porte sur un outil - 'Strong experience working with CATIA V5 and AutoCAD software' - et ne chiffre aucune anciennete"
+  "reason": "LinkedIn: 'Fes, Fes-Meknes, Maroc', secteur 'Construction de materiel ferroviaire', 'Type d emploi Temps plein'. La seule mention d experience du corps porte sur un outil - 'Strong experience working with CATIA V5 and AutoCAD software' - et ne chiffre aucune anciennete | experience lue dans le corps: \"Experience in a similar position, ideally in the automotive or railway industries\" et \"Strong experience working with CATIA V5 and AutoCAD software\""
  },
  {
   "key": "ba2f2dcb0a0f",
@@ -2980,11 +3020,11 @@
  },
  {
   "key": "69e2555a3c25",
-  "experience_required": "",
+  "experience_required": "Experience confirmee (duree non precisee)",
   "contract_type": "Temps plein",
   "sector": "Fabrication d'appareils électriques",
   "function": "Supply Chain",
-  "reason": "'Supports and executes all supply chain activities ... Monitoring key performance indicators'. Aucune duree d experience dans le corps; le 'Confirme' affiche par LinkedIn est un niveau hierarchique, pas une anciennete - videe. L annonce ne publie aucune ville, seulement 'Maroc'"
+  "reason": "'Supports and executes all supply chain activities ... Monitoring key performance indicators'. Aucune duree d experience dans le corps; le 'Confirme' affiche par LinkedIn est un niveau hierarchique, pas une anciennete - videe. L annonce ne publie aucune ville, seulement 'Maroc' | experience lue dans le corps: \"Professional Experience: Considerable experience in inventory optimization, lot size optimization\" et \"Working experience with supply chain planning systems and ERP systems\""
  },
  {
   "key": "2058f1927209",
@@ -3014,7 +3054,7 @@
  },
  {
   "key": "ff5aacd8fe64",
-  "experience_required": "0",
+  "experience_required": "0 (stage/PFE accepte)",
   "contract_type": "Temps plein",
   "city": "Casablanca",
   "sector": "Services d'ingénierie",

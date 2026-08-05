@@ -5,8 +5,9 @@ Continue / Excellence Opérationnelle** (Morocco + genuinely visa-free remote).
 
 **Owner:** intern at DICE (DataLab, UM6P / EMI), Rabat. Windows 11, PowerShell,
 Python 3.13.5, Chrome 150.
-**Status as of 2026-08-03: round 3 COMPLETE. Full ad bodies fetched, columns
-filled by reading, workbook rebuilt and verified at 301 rows.**
+**Status as of 2026-08-05: round 5 COMPLETE. The visa gate is closed — every
+international offer collected now carries a verdict — and both tracks were
+re-read column by column. 640 rows over 6 sheets, verified.**
 
 ---
 
@@ -25,24 +26,31 @@ filled by reading, workbook rebuilt and verified at 301 rows.**
 
 ### Delivered and verified
 
-`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 4 sheets, 288 rows:
+`Offres_Emploi_Genie_Industriel_Lean_2026.xlsx` — 6 sheets, 640 rows:
 
 | Sheet | Rows |
 |---|---|
-| MAROC - JUNIOR | 61 |
-| MAROC - AVEC EXPERIENCE | 226 |
+| MAROC - JUNIOR | 59 |
+| MAROC - AVEC EXPERIENCE | 227 |
 | REMOTE - JUNIOR | 0 |
 | REMOTE - AVEC EXPERIENCE | 1 |
+| COMMERCIAL & CONSEIL - JUNIOR | 54 |
+| COMMERCIAL & CONSEIL - AVEC EXP | 299 |
 
 15 columns (16 on remote sheets — they carry the evidence quote), "Postulé"
 first. Offer links are clickable, filters on, header row and the tick column
-frozen. Verified by `research/verify.py` on 2026-08-03: 288/288 links clickable,
-288 distinct URLs, **0 offre fermée**, **0 ligne junior au plancher > 0**,
-Description 100 %, Fonction 99.7 %, Secteur 97.6 %, Ville 96.2 %, Entreprise
-94.4 %, `Expérience requise` 83.3 %, Type de contrat 74.7 %, Date limite 13.5 %.
+frozen. Verified by `research/verify.py` on 2026-08-05: 640/640 links clickable,
+640 distinct URLs, **0 offre fermée**, **0 ligne junior au plancher > 0** (sur
+113), 0 URL revendiquée par deux pistes, Description 100 %, Ville 98.3 %,
+Secteur 98.0 %, Fonction 97.0 %, `Expérience requise` 90.9 %, Entreprise 89.8 %,
+Type de contrat 86.9 %, Date limite 18.0 %.
 
-Run it after every build: it prints the before/after of every column against the
-last `backup/*avant_round4*.xlsx` and fails loudly on the two invariants.
+Run it after every build: `python research/verify.py <classeur> <reference>`. It
+prints the before/after of every column and fails loudly on the invariants. A row
+that leaves is only accepted when the reference row carried its own closure
+(deadline passed, closure marker); any other loss prints
+`sortie inexpliquee` and fails — including a legitimate relevance drop, which is
+the point: it forces the drop to be stated out loud rather than noticed later.
 
 A copy is republished to `G:\My Drive\Emploi Rose\` on every build — that is the
 link the workbook is shared through, since an e-mail attachment can never be
@@ -156,6 +164,99 @@ files under *"Assistant(e) / Secrétaire de direction"*.
   nothing in them demands experience — not because a zero floor was established.
   `Niveau d'expérience` shows "Non precise" for those.
 
+### Round 5 (2026-08-05) — close the visa gate, finish reading the columns
+
+**1. La porte visa est fermée.** Les 2 320 offres internationales qui n'avaient
+aucun verdict en portent un. Méthode (`research/visa_scan.py`) : chercher dans
+chaque annonce tout ce qui parle d'éligibilité — *worldwide, globally, anywhere,
+any country, regardless of location, 100 % remote, no visa, sponsorship,
+relocation, Maroc, Afrique, MENA, EMEA, fuseau horaire*. **139 annonces disent
+quelque chose, 2 181 sont muettes.** Les 139 ont été lues une par une : pas une
+seule n'ouvre la porte. Ce sont soit du texte de vitrine (*"a worldwide leader"*,
+*"80 000 colleagues worldwide"*, *"operations across EMEA"*) sur un poste ancré
+sur un site, soit une zone régionale, soit un refus explicite — US Modules
+*"No visa sponsorship available"*, Nestlé *"This position is not eligible for
+Visa Sponsorship"*, Brunswick et Mercury Marine *"Applicants must be currently
+authorized to work in the United States"*, Octagon *"visa sponsorship is not
+available for this position"*. Les 2 181 muettes sont rejetées par la règle du
+dépôt : **le silence vaut rejet**. Verdicts : `data/remote_verdicts.json`, 2 480
+lignes, chacune avec sa raison et, quand l'annonce parlait, sa citation.
+
+Contrôle fait au passage : **aucune des 2 320 n'est en réalité un poste au
+Maroc** (aucun hôte `ma.linkedin.com`, aucun intitulé nommant une ville
+marocaine). Les 3 annonces qui citent le Maroc listent les pays du groupe depuis
+un poste basé en France.
+
+**2. `shipping()` respecte enfin la porte visa.** `curated()` traite une offre
+sans verdict comme gardée — correct pour la pertinence, faux pour le visa.
+Résultat : `enrich` mettait en scène **2 799 offres pour une piste qui en livre
+288**, et `fulltext` les aurait toutes téléchargées. Corrigé par `_remote_ok()`.
+
+**3. Une date limite dépassée est une fermeture.** `build.deadline_passed`
+(nouveau) lit la colonne `Date limite candidature`, et `is_closed` écarte la
+ligne. **5 offres sont parties** : 1 Lean et 4 business, toutes Rekrute, dont
+quatre Product Manager Orange/Sothema au 04/08/2026. L'ordre jour/mois d'une date
+nue est ambigu, donc **les deux lectures doivent être passées** avant de jeter :
+supprimer une offre vivante est la pire des deux erreurs.
+
+**4. `is_closed` lit aussi le corps.** `CLOSED_BODY_RE` attrape
+*"Cette offre d'emploi a expiré"*, *"no longer accepting applications"*,
+*"ce poste est pourvu"*. Volontairement plus strict que `CLOSED_RE` : une colonne
+de date qui dit "expirée" ne peut vouloir dire qu'une chose, un corps de 6 000
+caractères dit "expired" de certificats et de passeports.
+
+**5. Colonnes remplies en lisant, sur les deux pistes.** 63 + 19 verdicts
+d'expérience, 167 + 14 cellules reprises des blocs d'étiquettes que les sources
+publient (`research/labels.py`), 113 dates limites relues. Résultat sur 640
+lignes : Secteur 90.1 -> **98.0 %**, Fonction 91.2 -> **97.0 %**, Expérience
+78.9 -> **90.9 %**, Type de contrat 84.1 -> **86.9 %**.
+
+Le déplacement de feuille qui en découle est voulu et il faut le dire : la
+feuille COMMERCIAL & CONSEIL - JUNIOR passe de **85 à 54**. 31 lignes y étaient
+faute d'exigence lue ; leur annonce demande bien une expérience
+(*"Proven experience in outbound sales"*, *"Experience anterieure exigee"*,
+*"Minimum of 5 years of Key accounts experience"*). Dans l'autre sens, 7 lignes
+Lean sont descendues en JUNIOR parce que l'annonce dit *souhaitée* /
+*appréciée* / *de préférence* — un souhait n'est pas un plancher.
+
+**6. Deux lignes écartées par relecture.** Sofitel Marrakech "Business Analyst",
+dont le corps décrit la réservation et l'appui au revenue management
+(*"Assurer la prise de reservation par telephone, fax ou internet"*) ; et le
+dernier candidat marocain non jugé, Capgemini "Supply Chain Crisis Management",
+lui **gardé** — Casablanca, Bac+5 Génie Industriel, *"Premiere experience
+(stage/PFE accepte) ou sortie d'ecole"*.
+
+### Ce que round 5 n'a PAS pu remplir, et pourquoi
+
+- **Date limite candidature : 525/640 vides (18.0 %).** Vérifié de façon
+  exhaustive cette fois : les 640 corps téléchargés ont été balayés pour
+  *date limite, avant le, jusqu'au, clôture, deadline, postulez avant, expire le,
+  closing date*. **Le seul motif qui produise une date est le pied Rekrute
+  "Postulez avant le JJ/MM/AAAA".** Tout le reste est du vocabulaire de mission
+  ("jusqu'au closing", "clôture des actions correctives"). LinkedIn, Dreamjob,
+  MarocAnnonces, Optioncarriere et Bayt n'en publient aucune. Ce plafond est celui
+  des sources, pas celui du travail.
+- **Expérience requise : 58 vides.** Les 26 passages restants sont tous du texte
+  d'entreprise (*"170 ans d'histoire"*, *"55-year heritage"*), de l'expérience
+  *client*, un menu déroulant de formulaire ("Années d'Expérience 0 +1 +2…") ou un
+  *nice to have*. Piège rencontré : *"Bachelor's degree (2 or 3 years)"* donne la
+  durée du **diplôme**, pas de l'expérience.
+- **Entreprise : 65 vides.** Les annonces disent "Confidential", "ANONYME",
+  "MULTINATIONAL", "notre client", "société". **Une agence n'est pas l'employeur**
+  non plus : AFRICA STAFFING, BEST PROFIL, Avanta, Manpower, ARTUS, JobPlus,
+  DEKRA Services publient pour le compte d'un tiers. Remplies quand l'annonce se
+  nomme : Les Imprimeries du Matin, G4S, Newrest Maroc, HOTIN, Carplug Maroc,
+  Mondial Feu, SEBN Bouknadel.
+- **Fonction : 19 vides.** La rubrique de l'annonceur se trompe assez souvent pour
+  qu'une reprise aveugle soit fausse : "Acheteur Import" classé en
+  *RH/Personnel/Formation*, "Acheteur senior" en *Production - Opérateur*,
+  "Responsable Grands Comptes" en *Qualité/Hygiène/Sécurité*. Ces cellules restent
+  vides plutôt que fausses.
+- **Ville 11 vides, Date de publication 7 vides.** Ce sont les lignes Jooble /
+  Bayt / Indeed / Optioncarriere dont la page détail n'a jamais répondu. Les
+  villes visibles dans ces pages viennent de la colonne "Dernières offres" du
+  site, pas de l'annonce — les reprendre serait inventer.
+
 ### What is left to do
 
 1. **14 Jooble + 1 Indeed detail pages** are still behind Cloudflare. Do not burn
@@ -165,13 +266,13 @@ files under *"Assistant(e) / Secrétaire de direction"*.
    it fills website/e-mail columns the deliverable no longer has.
 3. Re-run `scrape` when the list needs refreshing, then `fulltext`, then rule on
    offers whose `key` is not already in the verdict files. `research/newonly.py
-   curate|stage` stages only those — after four rounds the corpus is 3 000 offers
+   curate|stage` stages only those — after five rounds the corpus is 3 000 offers
    and re-reading all of them to find the 40 new ones is the slow way to the same
-   answer.
-4. **2 263 offres internationales collectées en round 4 restent non jugées** sur
-   la porte visa. They cannot ship without an `OK` verdict, so the deliverable is
-   safe; judging them is a next-round job. Read
-   `research/scan.py` / `research/scan_new.py` for the compact-evidence pattern.
+   answer. For the visa gate on a fresh batch, `research/visa_scan.py` splits it
+   into "says something" (read those) and "silent" (`--write` rejects them).
+4. The deadline rule means the workbook **ages out**: a build run months from now
+   will drop every Rekrute row whose date has passed. That is correct, and it is
+   also the reason to re-run `scrape` rather than only rebuild.
 
 ### Helper scripts written in round 4 (`research/`)
 
@@ -194,6 +295,10 @@ files under *"Assistant(e) / Secrétaire de direction"*.
 | Script | A quoi il sert |
 |---|---|
 | `harvest_track2.py` | relire le corpus deja telecharge avec les regex d'une autre piste, sans reseau - c'est la boucle de reglage gratuite d'un nouveau spec |
+| `visa_scan.py` | separe les offres internationales entre celles qui parlent d'eligibilite (a lire) et les muettes (`--write` ecrit leur rejet, avec la raison) |
+| `scan_business.py` | comme `scan.py`, mais pilote par colonne et par piste: `scan_business.py experience lean` |
+| `labels.py` | extrait les blocs d'etiquettes que MarocAnnonces et LinkedIn publient (Domaine / Fonction / Contrat / Ville, pied d'annonce) - a relire avant de reprendre |
+| `deadlines.py` | la date limite la ou Rekrute l'imprime ("Postulez avant le JJ/MM/AAAA"), et la liste de celles deja passees |
 | `curate_compact.py` | curation en deux passes: intitule + employeur + ville d'abord, description seulement pour les cas douteux |
 | `curate_business.py` | les regles de curation de la piste business, avec la liste des cas lus un par un |
 | `probe_careers.py` | lire l'hote du board d'un employeur dans l'URL qu'il publie, au lieu de deviner un tenant |
@@ -318,6 +423,42 @@ telecharge, sans reseau, via `research/harvest_track2.py`) :
 
 ## Hard-won facts (do not re-derive)
 
+- **"Worldwide" in a job ad is almost always the company describing itself.** Out
+  of 2 320 international offers, 139 carried an eligibility word and **zero** were
+  open: *"a worldwide leader"*, *"80 000 colleagues worldwide"*, *"operations
+  across EMEA"* all sit on a post anchored to one plant. The words that would
+  actually mean something — `Location: Global+`, "work from anywhere", "no visa
+  required" — appeared once in four rounds. Do not re-run this hoping for a
+  different answer; run `research/visa_scan.py` on the NEW rows only.
+- **`curated()` treats an offer with no verdict as kept.** That is right for the
+  relevance gate (nothing has judged it yet) and wrong for anything downstream:
+  `shipping()` staged 2 799 offers for a track that ships 288, and `fulltext`
+  would have downloaded all of them. Any step that means "will ship" must apply
+  the visa gate too, where absent means rejected.
+- **`current` in `field_candidates.json` is the RAW row, before `apply_fields`.**
+  Read it without overlaying `field_verdicts.json` and you will re-read 127 cells
+  that are already filled — and it looks like progress.
+- **LinkedIn's `Secteurs` block is the POSTING company's sector, not the job's.**
+  For a direct employer it is right; for a staffing firm it files an "Ingenieur
+  methodes" under *Technologie, information et Internet*. Same trap as the
+  employer-sector one below, one level up.
+- **MarocAnnonces publishes a label block** — `Domaine : X Fonction : Y Contrat :
+  Z Entreprise : W Ville : V` — and it is the source speaking, so it is usable.
+  But the advertiser fills it carelessly: "Acheteur Import" under
+  *RH/Personnel/Formation*, "Acheteur senior" under *Production - Operateur*.
+  Extract with `research/labels.py`, then read before writing. `Contrat : A
+  discuter` and `Domaine : Autre` are published non-answers: leave the cell empty.
+- **A recruitment or interim agency is not the employer.** AFRICA STAFFING, BEST
+  PROFIL, Avanta Maroc, Manpower, ARTUS, JobPlus, DEKRA Services, RHS EMPLOI all
+  appear in the `Entreprise` label while the body says "pour le compte de notre
+  client". Same rule as a job-board name: the cell stays empty.
+- **A ceiling word makes the floor zero, and boards use them constantly.**
+  *souhaitee*, *appreciee*, *de preference*, *est un atout*, *est un plus*,
+  *idealement* — none of these is a requirement. Seven Lean rows moved to JUNIOR
+  on that reading alone, which is exactly the point of the floor rule.
+- **Only Rekrute publishes a deadline, and it is in the ad footer, not the card.**
+  `Postulez avant le JJ/MM/AAAA`. Every other Moroccan board publishes none — this
+  was re-checked across all 640 fetched bodies in round 5, not assumed.
 - **Rekrute and the LinkedIn guest API return 403 to WebFetch but respond
   normally to `requests` with a Chrome UA.** LinkedIn's `jobs-guest` endpoints
   need no auth at all.
@@ -436,16 +577,21 @@ backup/                                         timestamped workbook snapshots
 $root = "c:\Users\El Yazid\Desktop\HelpingMyLtCutieRoseAchieveHerDreams"
 cd "$root\skill\findmyprincessajob\pipeline"
 $env:PYTHONIOENCODING="utf-8"
-python run.py fulltext "$root\spec.json"  # fetch the real ad bodies (opens Chrome)
 python run.py curate   "$root\spec.json"  # then read every offer + rule
 python run.py stage    "$root\spec.json"  # then read every offer + rule
+python run.py fulltext "$root\spec.json"  # fetch the real ad bodies (opens Chrome)
 python run.py enrich   "$root\spec.json"  # then read every offer + fill the columns
 python run.py build    "$root\spec.json"
+# same five for spec_business.json, then rebuild spec.json and verify
+python "$root\research\verify.py" `
+       "$root\Offres_Emploi_Genie_Industriel_Lean_2026.xlsx" "$root\backup\<avant>.xlsx"
 ```
 
 `fulltext` must run before `enrich` — `enrich` can only be as good as the text it
-is handed. Close the workbook in Excel before `build`, or the save raises
-`PermissionError`.
+is handed. It must also run **after** `curate` and `stage`: since round 5,
+`shipping()` applies both gates, so `fulltext` only downloads what can reach a
+sheet. Run it first and it fetches thousands of ads that will be rejected.
+Close the workbook in Excel before `build`, or the save raises `PermissionError`.
 
 Back up the workbook first. A Chrome window opens during `scrape` — leave it alone.
 `curate` and `stage` only write the candidate files; the rulings are yours to make

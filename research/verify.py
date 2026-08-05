@@ -10,7 +10,7 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="repla
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "skill", "findmyprincessajob", "pipeline"))
 from openpyxl import load_workbook
-from build import exp_floor, CLOSED_RE, TICK
+from build import exp_floor, deadline_passed, CLOSED_RE, TICK
 from core import strip_accents
 
 XL = sys.argv[1] if len(sys.argv) > 1 else os.path.join(
@@ -142,14 +142,24 @@ for t in tracks:
     ro = [r for r in old if track_of(r["_sheet"]) == t]
     un, uo = {r.get(LINK_COL) for r in rn}, {r.get(LINK_COL) for r in ro}
     lost = uo - un
+    # Une sortie s'explique quand la ligne de reference portait elle-meme sa
+    # fermeture: date limite depassee, ou marqueur de cloture. C'est une porte
+    # qui a fait son travail, pas une perte. Toute autre sortie reste un echec.
+    byurl_old = {r.get(LINK_COL): r for r in ro}
+    closed_out = {u for u in lost
+                  if deadline_passed(byurl_old[u].get("Date limite candidature"))
+                  or CLOSED_RE.search(strip_accents(str(
+                      byurl_old[u].get("Date limite candidature") or "")))}
+    bad = lost - closed_out
     ma = sum(1 for r in rn if "maroc" in strip_accents(r.get("Pays / Éligibilité", "")).lower())
     tick = sum(1 for r in rn if TICK in (r.get("Postulé") or ""))
-    verdict = ("OK" if not lost else "ECHEC") if STRICT else \
-              ("" if not lost else "(sorties a expliquer par une porte)")
+    verdict = ("OK" if not bad else "ECHEC") if STRICT else \
+              ("" if not bad else "(sorties a expliquer par une porte)")
     print(f"   piste {t:9s} {len(ro):5d} -> {len(rn):5d} lignes | Maroc {ma}/{len(rn)} | "
-          f"cochees {tick} | URL sorties: {len(lost)} {verdict}")
-    for u in list(lost)[:5]:
-        print("      sortie:", u)
+          f"cochees {tick} | URL sorties: {len(lost)} "
+          f"(dont {len(closed_out)} fermees, date limite depassee) {verdict}")
+    for u in list(bad)[:5]:
+        print("      sortie inexpliquee:", u)
 if not STRICT:
     print(f"   reference = {os.path.basename(OLD) if OLD else '-'} : des sorties y sont")
     print("   normales. Pour le test inter-pistes, passer en 2e argument le classeur")
