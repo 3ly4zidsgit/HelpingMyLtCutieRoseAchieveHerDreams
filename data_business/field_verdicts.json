@@ -807,7 +807,9 @@
  {
   "key": "e89bedcb8e4c",
   "experience_required": "5 à 8 ans",
-  "reason": "lu dans le corps de l'annonce: 'siness Developer , based in Casablanca , Morocco || With a minimum of 5 to 8 years of experience in B2B business development, including essential experi'"
+  "reason": "l'annonce ne nomme pas l'employeur - 'Join a dynamic company in the Energy sector as a Senior Business Developer, based in Casablanca' - donc la cellule Entreprise reste vide. 'Rekrute' etait le board qui republie l'annonce sur Bayt, pas le recruteur. Secteur pris dans la meme phrase",
+  "company": "",
+  "sector": "Énergie"
  },
  {
   "key": "0912ba88f464",
